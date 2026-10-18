@@ -1,0 +1,431 @@
+{
+  "status": "passed",
+  "pages": 921,
+  "errors": [],
+  "samples": [
+    {
+      "id": "01",
+      "page": 9,
+      "header": {
+        "unit": "01",
+        "book_title": "일반사항",
+        "current_title": "고전압 시스템 작업 시 주의사항",
+        "depth": 0,
+        "phase": "주의",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "복귀 1차 → 본절차",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      "link_kinds": [
+        "guide",
+        "enter_reference"
+      ],
+      "rails": [],
+      "call_strip": [
+        {
+          "rect": [
+            120.47627579787422,
+            677.1529968115742,
+            544.287762040002,
+            717.5997361624827
+          ],
+          "child_depth": 1,
+          "title": "고전압 차단 절차",
+          "target": 10,
+          "return_page": 16,
+          "heading": "다음 10쪽에서 1차 참조 시작  /  마친 뒤 16쪽으로 복귀"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "page": 138,
+      "header": {
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+        "depth": 2,
+        "phase": "탈거",
+        "breadcrumbs": [
+          "본절차",
+          "1차 가니쉬",
+          "2차 트림 탈거 (어퍼 → 사이드 → 로어)"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      "link_kinds": [
+        "guide",
+        "parent_return",
+        "ancestor_return",
+        "ancestor_return"
+      ],
+      "rails": [
+        {
+          "stage": 1,
+          "line": [
+            29.857932978107556,
+            277.6854001745662,
+            29.857932978107556,
+            749.6306193484043
+          ],
+          "color": "#B52D32",
+          "dash": []
+        }
+      ],
+      "call_strip": []
+    },
+    {
+      "id": "07-12",
+      "page": 19,
+      "header": {
+        "unit": "07-12",
+        "book_title": "프런트 도어 가니쉬",
+        "current_title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+        "depth": 4,
+        "phase": "탈거",
+        "breadcrumbs": [
+          "본절차",
+          "1차 글라스 런",
+          "2차 프레임 가니쉬",
+          "3차 윈도우 글라스",
+          "4차 벨트 아웃사이드/인사이드 웨더 스트립"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      "link_kinds": [
+        "guide",
+        "enter_reference",
+        "parent_return",
+        "ancestor_return",
+        "ancestor_return",
+        "ancestor_return",
+        "ancestor_return"
+      ],
+      "rails": [],
+      "call_strip": [
+        {
+          "rect": [
+            120.14536723479779,
+            101.5517679240166,
+            540.5451331046723,
+            141.6729074053739
+          ],
+          "child_depth": 5,
+          "title": "프런트 도어 트림 탈거",
+          "target": 20,
+          "return_page": 23,
+          "heading": "다음 20쪽에서 5차 참조 시작  /  마친 뒤 23쪽으로 복귀"
+        }
+      ]
+    },
+    {
+      "id": "07-12",
+      "page": 20,
+      "header": {
+        "unit": "07-12",
+        "book_title": "프런트 도어 가니쉬",
+        "current_title": "프런트 도어 트림 탈거",
+        "depth": 5,
+        "phase": "탈거",
+        "breadcrumbs": [
+          "본절차",
+          "1차 글라스 런",
+          "2차 프레임 가니쉬",
+          "3차 윈도우 글라스",
+          "4차 벨트 아웃사이드/인사이드 웨더 스트립",
+          "5차 트림"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      "link_kinds": [
+        "guide",
+        "parent_return",
+        "ancestor_return",
+        "ancestor_return",
+        "ancestor_return",
+        "ancestor_return",
+        "ancestor_return"
+      ],
+      "rails": [
+        {
+          "stage": 4,
+          "line": [
+            29.857932978107556,
+            95.70029356964278,
+            29.857932978107556,
+            749.6306193484043
+          ],
+          "color": "#008476",
+          "dash": [
+            9,
+            3.5
+          ]
+        }
+      ],
+      "call_strip": []
+    }
+  ],
+  "link_count": 2381,
+  "geometry": {
+    "header_top_pt": 813,
+    "header_bottom_pt": 760,
+    "footer_top_pt": 82,
+    "footer_bottom_pt": 43,
+    "provenance_baseline_pt": 34.5,
+    "source_clip_max_top_pt": 752.0411169772885,
+    "source_border_max_top_pt": 753.1617103351373,
+    "source_border_min_bottom_pt": 92.2061706715549,
+    "call_strip_min_bottom_pt": 91.3097187178054
+  },
+  "visual_review": {
+    "pages": [
+      "main 01 p3",
+      "entry 01 p5",
+      "ref1 01 p6",
+      "return 01 p9",
+      "notice 03 p5",
+      "ref2 05 p138",
+      "ref3 07-05 p7",
+      "ref4 07-07 p7",
+      "ref5 07-12 p20"
+    ],
+    "all_viewed": true
+  },
+  "notes": [
+    "Original XObject and clip/transform must remain exactly unchanged.",
+    "Only vector overlays are replaced; raw source browser header/footer is part of Original and remains.",
+    "Ancestry clickable chips contain every active reference_id and exact return page.",
+    "Current phase derived from active reference title rather than root work-summary phase."
+  ],
+  "pilot_visual_qa": {
+    "status": "passed",
+    "temporary_pdf": "work/education_body_review/overlay_pilot.pdf",
+    "pages": 8,
+    "all_rendered_and_viewed": true,
+    "roles": [
+      "main",
+      "entry",
+      "return",
+      "ref1",
+      "ref2",
+      "ref3",
+      "ref4",
+      "ref5"
+    ],
+    "findings": [
+      "No header/source overlap; source /Original geometry remains unchanged.",
+      "Main action headers now 15pt book title and 10.6pt current procedure.",
+      "Ref3 red outer, blue middle, purple inner remains correct.",
+      "Ref4 only teal long dash; Ref5 teal outer plus gray short dash.",
+      "Inline entry boxes and bottom parent/ancestor returns are clear and within safe areas.",
+      "Fixed outer folios remain at original physical positions."
+    ]
+  },
+  "helper_module": "work/education_body_layout.py",
+  "component_title_qa": {
+    "status": "passed",
+    "pages": 921,
+    "errors": [],
+    "min_current_title_font": 10.6,
+    "samples": [
+      {
+        "id": "05",
+        "page": 3,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "개요 및 작동원리",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "개요",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 4,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "개요 및 작동원리",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "개요",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 5,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "개요 및 작동원리",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "개요",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 6,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "개요 및 작동원리",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "개요",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 7,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "개요 및 작동원리",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "개요",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 8,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "개요 및 작동원리",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "개요",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 9,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "개요 및 작동원리",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "개요",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 10,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "개요 및 작동원리",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "개요",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 11,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "구성부품 및 부품위치",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "구성",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      },
+      {
+        "id": "05",
+        "page": 12,
+        "unit": "05",
+        "book_title": "테일게이트",
+        "current_title": "구성부품 및 부품위치",
+        "current_component": "테일게이트",
+        "depth": 0,
+        "phase": "구성",
+        "breadcrumbs": [
+          "본절차"
+        ],
+        "transition": "",
+        "book_title_size": 15,
+        "current_title_size": 10.6
+      }
+    ]
+  },
+  "overlay_inset_qa": {
+    "status": "passed",
+    "pages": 921,
+    "errors": [],
+    "bounds": {
+      "odd": {
+        "safe_bounds": [
+          80.12007874015748,
+          566.1791338582677
+        ],
+        "exact_bounds": [
+          79.37007874015748,
+          566.9291338582677
+        ],
+        "overlay_horizontal_inset_pt": 0.75
+      },
+      "even": {
+        "safe_bounds": [
+          29.09645669291339,
+          515.1555118110236
+        ],
+        "exact_bounds": [
+          28.34645669291339,
+          515.9055118110236
+        ],
+        "overlay_horizontal_inset_pt": 0.75
+      }
+    }
+  }
+}

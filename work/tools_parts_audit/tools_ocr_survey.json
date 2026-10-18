@@ -1,0 +1,931 @@
+{
+  "source_pages_surveyed": 383,
+  "matches": {
+    "렌치": [],
+    "드라이버": [
+      {
+        "source_ocr": "38-2__01.json",
+        "matched_lines": [
+          "• 스크류 드라이버 또는 리무버를 사용하여 탈거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+        ]
+      },
+      {
+        "source_ocr": "41-2__01.json",
+        "matched_lines": [
+          "• 스크류 드라이버 또는 리무버를 사용하여 달거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+        ]
+      }
+    ],
+    "리무버": [
+      {
+        "source_ocr": "24-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "25-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "26-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "29-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "30-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "31-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "32-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "33-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "34-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "38-2__01.json",
+        "matched_lines": [
+          "• 스크류 드라이버 또는 리무버를 사용하여 탈거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+        ]
+      },
+      {
+        "source_ocr": "39-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "41-2__01.json",
+        "matched_lines": [
+          "• 스크류 드라이버 또는 리무버를 사용하여 달거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+        ]
+      },
+      {
+        "source_ocr": "42-4__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "43-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "44-2__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "45-3__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "45-5__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "45-7__01.json",
+        "matched_lines": [
+          "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "46-4__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "46-7__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "47-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "48-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "49-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "50-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "51-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "52-4__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "53-3__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "54-3__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "55-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "57-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "58-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "59-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "60-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "61-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "62-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "63-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "64-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "65-3__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      },
+      {
+        "source_ocr": "66-3__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+        ]
+      },
+      {
+        "source_ocr": "67-2__01.json",
+        "matched_lines": [
+          "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+        ]
+      }
+    ],
+    "플라이어": [],
+    "해머": [],
+    "망치": [
+      {
+        "source_ocr": "8__02.json",
+        "matched_lines": [
+          "배터리에 케이블을 연결 할 때 망치와 같은 공구를 사용하는 것은 매우 위험합니다"
+        ]
+      }
+    ],
+    "스패너": [],
+    "테스터": [
+      {
+        "source_ocr": "13__11.json",
+        "matched_lines": [
+          "1 회로 테스터로 커넥터 단자의 통전 또는 전압 점검을 할 때에는 탐침을 하니스쪽에서 밀어 넣는다. 만약 커넥터가 밀페형이"
+        ]
+      },
+      {
+        "source_ocr": "16__01.json",
+        "matched_lines": [
+          "• 메가옴 테스터(고전압 절연저항 확인용)"
+        ]
+      },
+      {
+        "source_ocr": "3__01.json",
+        "matched_lines": [
+          "• 메가옴 테스터(고전압 절연저항 확인용)"
+        ]
+      }
+    ],
+    "측정기": [
+      {
+        "source_ocr": "22__01.json",
+        "matched_lines": [
+          "수직 측정기"
+        ]
+      }
+    ],
+    "진단기": [
+      {
+        "source_ocr": "35-4__02.json",
+        "matched_lines": [
+          "진단기기 센서 데이터 확인"
+        ]
+      },
+      {
+        "source_ocr": "42-6__02.json",
+        "matched_lines": [
+          "( 자기 진단 커넥터에 진단 기기를 연결하여, IG ON 후 진단기를 켠다",
+          "( 진단기 차종 선택 화면에서 \"차종\"과 \"파워 테일게이트\"을 선택한다"
+        ]
+      },
+      {
+        "source_ocr": "52-3__01.json",
+        "matched_lines": [
+          "진단기기를 이용한 고장진단 방법",
+          "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+          "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+          "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+          "• 진단기기 사용시 배터리 방전에 유의한다."
+        ]
+      },
+      {
+        "source_ocr": "52-3__02.json",
+        "matched_lines": [
+          "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "52-3__03.json",
+        "matched_lines": [
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "53-2__01.json",
+        "matched_lines": [
+          "진단기기를 이용한 고장진단 방법",
+          "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+          "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+          "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+          "• 진단기기 사용시 배터리 방전에 유의한다."
+        ]
+      },
+      {
+        "source_ocr": "53-2__02.json",
+        "matched_lines": [
+          "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "53-2__03.json",
+        "matched_lines": [
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "54-2__01.json",
+        "matched_lines": [
+          "진단기기를 이용한 고장진단 방법",
+          "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+          "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+          "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+          "• 진단기기 사용시 배터리 방전에 유의한다."
+        ]
+      },
+      {
+        "source_ocr": "54-2__02.json",
+        "matched_lines": [
+          "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "54-2__03.json",
+        "matched_lines": [
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "65-2__01.json",
+        "matched_lines": [
+          "진단기기를 이용한 고장진단 방법",
+          "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+          "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+          "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+          "• 진단기기 사용시 배터리 방전에 유의한다."
+        ]
+      },
+      {
+        "source_ocr": "65-2__02.json",
+        "matched_lines": [
+          "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "65-2__03.json",
+        "matched_lines": [
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "66-2__01.json",
+        "matched_lines": [
+          "진단기기를 이용한 고장진단 방법",
+          "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+          "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+          "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+          "• 진단기기 사용시 배터리 방전에 유의한다."
+        ]
+      },
+      {
+        "source_ocr": "66-2__02.json",
+        "matched_lines": [
+          "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      },
+      {
+        "source_ocr": "66-2__03.json",
+        "matched_lines": [
+          "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+        ]
+      }
+    ],
+    "KDS": [],
+    "GDS": [],
+    "테이프": [
+      {
+        "source_ocr": "13__01.json",
+        "matched_lines": [
+          "1 차량의 보호도장면 및 내장 부품들이 오손, 손상되지 않도록 작업 커버(시트 커버) 및 테이프(공구등에 의해 손상되는 경우)"
+        ]
+      },
+      {
+        "source_ocr": "13__07.json",
+        "matched_lines": [
+          "3 와이어링이 부품의 모서리 또는 끝단부와 간섭이 되면 손상될 수 있으므로 간섭 부위에 테이프 등으로 감아 보호한다."
+        ]
+      },
+      {
+        "source_ocr": "14__01.json",
+        "matched_lines": [
+          "• 고전압 케이블을 분리 할 경우, 분리 직후 절연 테이프 등을 사용하여 절연 조치한다"
+        ]
+      },
+      {
+        "source_ocr": "15__02.json",
+        "matched_lines": [
+          "경고 테이프"
+        ]
+      },
+      {
+        "source_ocr": "16__01.json",
+        "matched_lines": [
+          "• 비닐 테이프(터미널 절연용)"
+        ]
+      },
+      {
+        "source_ocr": "1__01.json",
+        "matched_lines": [
+          "• 고전압 케이블을 분리 할 경우, 분리 직후 절연 테이프 등을 사용하여 절연 조치한다"
+        ]
+      },
+      {
+        "source_ocr": "2__02.json",
+        "matched_lines": [
+          "경고 테이프"
+        ]
+      },
+      {
+        "source_ocr": "38-2__01.json",
+        "matched_lines": [
+          "• 스크류 드라이버 또는 리무버를 사용하여 탈거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+        ]
+      },
+      {
+        "source_ocr": "3__01.json",
+        "matched_lines": [
+          "• 비닐 테이프(터미널 절연용)"
+        ]
+      },
+      {
+        "source_ocr": "41-2__01.json",
+        "matched_lines": [
+          "• 스크류 드라이버 또는 리무버를 사용하여 달거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+        ]
+      }
+    ],
+    "비눗": [],
+    "윤활": [],
+    "그리스": [
+      {
+        "source_ocr": "12__01.json",
+        "matched_lines": [
+          "그리스 도포 부위"
+        ]
+      },
+      {
+        "source_ocr": "19__01.json",
+        "matched_lines": [
+          "도어 현지 및 체커에 그리스 부족",
+          "그리스 주유"
+        ]
+      }
+    ],
+    "실런트": [
+      {
+        "source_ocr": "12__02.json",
+        "matched_lines": [
+          "실런트 도포 부위"
+        ]
+      },
+      {
+        "source_ocr": "39-2__01.json",
+        "matched_lines": [
+          "• 실런트가 바디면에 오염되지 않도록 조심한다."
+        ]
+      }
+    ],
+    "접착": [],
+    "육각": [
+      {
+        "source_ocr": "11__01.json",
+        "matched_lines": [
+          "육각 폴트(직경)",
+          "육각 몰트/너트 보통나사",
+          "육각 몰트/너트 가는나사",
+          "육각 너트(직경)"
+        ]
+      }
+    ],
+    "소켓": [],
+    "SST": [
+      {
+        "source_ocr": "24-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "25-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "26-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "29-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "30-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "31-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "32-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "33-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "34-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "37-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "38-1__01.json",
+        "matched_lines": [
+          "SST/장비",
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "38-1__02.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "39-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "40-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "41-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "42-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "43-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "44-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "44-1__02.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "44-1__04.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "44-1__05.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "45-2__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "45-4__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "45-6__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "46-3__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "46-6__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "46-6__02.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "47-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "48-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "49-1__01.json",
+        "matched_lines": [
+          "SST/장비",
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "49-1__02.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "49-1__03.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "50-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "51-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "52-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "53-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "54-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "55-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "55-1__03.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "57-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "58-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "58-1__02.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "59-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "60-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "61-1__01.json",
+        "matched_lines": [
+          "SST/장비",
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "61-1__02.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "61-1__03.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "62-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "63-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "64-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "65-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "66-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "67-1__01.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      },
+      {
+        "source_ocr": "67-1__03.json",
+        "matched_lines": [
+          "SST/장비"
+        ]
+      }
+    ],
+    "공구": [
+      {
+        "source_ocr": "13__01.json",
+        "matched_lines": [
+          "1 차량의 보호도장면 및 내장 부품들이 오손, 손상되지 않도록 작업 커버(시트 커버) 및 테이프(공구등에 의해 손상되는 경우)",
+          "• 후드를 닫기 전에 엔진룸에 공구 및 부품들이 남아 있는지 확인한다."
+        ]
+      },
+      {
+        "source_ocr": "13__02.json",
+        "matched_lines": [
+          "3 특수공구가 아닌 다른 공구로 대제하여 작업하면 부품이 파손, 손상 될 수 있으므로 특수공구의 사용을 지시하는 작업에는",
+          "필히 특수공구를 사용한다"
+        ]
+      },
+      {
+        "source_ocr": "14__01.json",
+        "matched_lines": [
+          "• 고전압 시스템 관련 작업 시, 절연 공구를 사용한다"
+        ]
+      },
+      {
+        "source_ocr": "19__02.json",
+        "matched_lines": [
+          "공구를 이용하여 브레이드 좌우측을 누"
+        ]
+      },
+      {
+        "source_ocr": "1__01.json",
+        "matched_lines": [
+          "• 고전압 시스템 관련 작업 시, 절연 공구를 사용한다"
+        ]
+      },
+      {
+        "source_ocr": "22__01.json",
+        "matched_lines": [
+          "특수 공구",
+          "바디 (내장 / 외장 / 전장) 〉 특수공구",
+          "공구 (품번 및 품명)"
+        ]
+      },
+      {
+        "source_ocr": "45-3__01.json",
+        "matched_lines": [
+          "2 얇은 공구(시를 이용하여 연료 주입 도어 커버의 잠금핀(B)을 해제 한다"
+        ]
+      },
+      {
+        "source_ocr": "8__02.json",
+        "matched_lines": [
+          "배터리에 케이블을 연결 할 때 망치와 같은 공구를 사용하는 것은 매우 위험합니다"
+        ]
+      }
+    ],
+    "[0-9]{5}[- ][A-Z0-9]{5}": [
+      {
+        "source_ocr": "22__01.json",
+        "matched_lines": [
+          "09880-4F000",
+          "09890-3V100"
+        ]
+      }
+    ]
+  }
+}

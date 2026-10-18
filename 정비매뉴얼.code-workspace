@@ -1,0 +1,7 @@
+{
+  "folders": [{"name": "정비교육 책자 제작", "path": "."}],
+  "settings": {
+    "files.encoding": "utf8",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
+  }
+}

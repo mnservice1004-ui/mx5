@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "정비책자: 프로젝트 상태 확인",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "doctor"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "problemMatcher": []
+    },
+    {
+      "label": "정비책자: 기존 교육판 전체 검증",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "verify"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "group": {"kind": "test", "isDefault": true},
+      "problemMatcher": []
+    },
+    {
+      "label": "정비책자: 프런트 도어 트림 시안 제작",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "pilot", "--books", "07-02"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "problemMatcher": []
+    },
+    {
+      "label": "정비책자: 시안 검증",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "verify", "--edition", "pilot"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "problemMatcher": []
+    },
+    {
+      "label": "정비책자: 전체 작업본 PDF·ZIP 제작",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "build"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": []
+    },
+    {
+      "label": "정비책자: 전체 작업본 검증",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "verify", "--edition", "draft"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "problemMatcher": []
+    },
+    {
+      "label": "정비책자: 작업 길잡이 미리보기",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "preview", "--book", "07-02", "--page", "2"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "problemMatcher": []
+    }
+  ]
+}

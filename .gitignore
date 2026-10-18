@@ -1,0 +1,28 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.env
+.env.*
+
+# Source media and generated files remain local, not in Git history.
+inputs/
+outputs/
+reports/
+work/source/
+work/ocr_text/
+work/ocr_bounds/
+work/ocr_images/
+work/cover_assets/
+work/book_headers/
+work/education_pilot/
+work/education_final_visual_qa/
+work/*pilot*manifest.json
+work/draft_education_manifest.json
+work/*qa_report.json
+work/education_visual_qa.json
+
+# Machine paths in the migration receipt
+.project-location.json

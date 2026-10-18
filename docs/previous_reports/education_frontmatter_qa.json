@@ -1,0 +1,2957 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "label": "01",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\01_일반사항.pdf",
+      "initial_sha256": "bac63e52a354dcdad7d6153a6c3db5bd041c0395fc694963b84abf545e6629fe",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "02",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\02_바디_공통사항.pdf",
+      "initial_sha256": "725119e29cfff9ab730fc58eedc9e74d0104da6d01306b3095f0d8e27fcb9a38",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "03",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\03_펜더.pdf",
+      "initial_sha256": "7826470d486e746b092533368b58192de4cc3861cc6803083ff1f8d29f61028c",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "04",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\04_후드.pdf",
+      "initial_sha256": "a5dfe027c47ddbc88ae0116f2dc15bf9779e30921eebeae34277be7242c88ab4",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "05",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\05_테일게이트.pdf",
+      "initial_sha256": "a58c2f73795e907bca34bbcd8c1076a47de83f89e1faf36981920f69c74f1b3c",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "06",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\06_연료_주입_도어.pdf",
+      "initial_sha256": "b008e3d618d690d14c208bbb626234d5b4b7908bae7edcd58c7fd0a29786f374",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-01",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-01_프런트_도어_기본_조정.pdf",
+      "initial_sha256": "769c033ff8ba2a3b114da7e7712cd514c7111fbb1d11270cb8235fa27f1f5c0d",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-02",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-02_프런트_도어_트림.pdf",
+      "initial_sha256": "c444fb4d2f9019bdcaebcf8d87e94efbf38e19ca4781ce902cb0a5152234434c",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-03",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-03_프런트_도어_핸들.pdf",
+      "initial_sha256": "eb51776eaad7b901d2991ea55a48189c8537ea1a7b749251b881b4fc351be1cd",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-04",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-04_프런트_도어_윈도우_글라스.pdf",
+      "initial_sha256": "e329c8e77088aed01f130504f742af34e5279bbefa4a3587955db2e9b489d608",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-05",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-05_프런트_도어_모듈.pdf",
+      "initial_sha256": "7e0ffc2bf62a1110ac641e10847349cfda7e1d4ea48664955aebe9c41cc4416f",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-06",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-06_프런트_도어_웨더_스트립.pdf",
+      "initial_sha256": "1bddfa1e41115f488baa6f9f932793de9d9bf9932b5b7427514dcb56af9ee74d",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-07",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-07_프런트_도어_글라스_런.pdf",
+      "initial_sha256": "4ad00efbed99d83ce4e2c91c6a91205b6aa04ea9cbb25af1c6ed56718a10c1c7",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-08",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-08_프런트_도어_랫치.pdf",
+      "initial_sha256": "983fa733f50b601f4d0eda1b3f4daeb276af2d27460938a19d258dd2090fc3b8",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-09",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-09_프런트_도어_파워_윈도우_모터.pdf",
+      "initial_sha256": "930fd0bb25dca8612f17fd3afff8abfe07a50f3f69296322763a9a1963053ef9",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-10",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-10_프런트_도어_파워_윈도우_스위치.pdf",
+      "initial_sha256": "dde31dea9f21c2668ed0e492a8ec50531cfbda43a952a67fe66df9c5ce5cf190",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-11",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-11_프런트_도어_파워_도어_잠금_스위치.pdf",
+      "initial_sha256": "99234a7d76f8c18e1b0c3ed62c1aa3824e2f316c5405a7ac0a34b1da5b430007",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "07-12",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-12_프런트_도어_가니쉬.pdf",
+      "initial_sha256": "aa3b0379a42cc101d18a5c69fdb384a40a9d4069e05d5856fe0720924e217635",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-01",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-01_리어_도어_기본_조정.pdf",
+      "initial_sha256": "1b9608e807c01462f51742e19a5c642f4bf69efb6fe6a646274708fb1eb4ddaa",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-02",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-02_리어_도어_트림.pdf",
+      "initial_sha256": "720238a805453c3cdae01dd51f3e534ca0c90b7e2f19b19449df89a92d2769e8",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-03",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-03_리어_도어_핸들.pdf",
+      "initial_sha256": "2892b7e5801bdedf7b52af17a11d061ba890204c91aa8a44fcddee19fb589d69",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-04",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-04_리어_도어_윈도우_글라스.pdf",
+      "initial_sha256": "26121c2004067e93fceef0801f4b797a4556d7f1270f6ad40c24a426c095aa9a",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-05",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-05_리어_도어_모듈.pdf",
+      "initial_sha256": "6158bf51ad077d13e5764cdd21d7f12b9538bdfb25af72f84a530dc17b93a958",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-06",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-06_리어_도어_웨더_스트립.pdf",
+      "initial_sha256": "01ae281e1504314438d6bd96fc69ae76ceb2e9d23ccd212ce9242cc6151d4098",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-07",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-07_리어_도어_글라스_런.pdf",
+      "initial_sha256": "6fe8daaec80acfa784559d89c2cc4424ea2170f34a763d7bce3a735c98211b5d",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-08",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-08_리어_도어_랫치.pdf",
+      "initial_sha256": "1175baeec6012c6e5aa767271d081138d9ce3cb886182c637fc05716cd34a7db",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-09",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-09_리어_도어_커튼_어셈블리.pdf",
+      "initial_sha256": "bae4ce61c5abeface70e4f8f68d81ddf0bf3d5ba0d00ddba2f48acd9ac20fca4",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-10",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-10_리어_도어_파워_윈도우_모터.pdf",
+      "initial_sha256": "3c4e99c4323bc53b7c874ecc2d6d6e7c1f7d1641e915e9d8dc6819d766c631ea",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-11",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-11_리어_도어_파워_윈도우_스위치.pdf",
+      "initial_sha256": "79636a0f51f430c9bb1878f0ee390b521773e4d8a689b111f76b1a1117dad3d7",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "08-12",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-12_리어_도어_가니쉬.pdf",
+      "initial_sha256": "af2a7926915ea0220b2d6b28062e05daa6197fead3aba4a84182aafd25c9ab4c",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\00_전체_정비항목_파일색인.pdf",
+      "initial_sha256": "39475ad39052d3281b7d5324345cfd77e7bec20b06b41902dd6a1d05416ac185",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어_종합색인.pdf",
+      "initial_sha256": "553c3bb23877cfeafe44a460017555cde58d3b1c4cbfa74eb1fbf40a49c31642",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어_종합색인.pdf",
+      "initial_sha256": "bd2232332a01abf08c882f9a781ade162194a37682d2940ec3197bece1aba0e2",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": "01",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\01_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "01",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\01_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "02",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\02_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "02",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\02_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "03",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\03_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "03",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\03_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "04",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\04_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "04",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\04_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "05",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\05_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "05",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\05_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "06",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\06_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "06",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\06_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-01",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-01_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-01",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-01_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-02",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-02_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-02",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-02_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-03",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-03_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-03",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-03_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-04",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-04_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-04",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-04_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-05",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-05_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-05",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-05_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-06",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-06_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-06",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-06_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-07",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-07_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-07",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-07_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-08",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-08_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-08",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-08_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-09",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-09_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-09",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-09_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-10",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-10_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-10",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-10_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-11",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-11_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-11",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-11_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-12",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-12_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07-12",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\07-12_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-01",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-01_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-01",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-01_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-02",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-02_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-02",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-02_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-03",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-03_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-03",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-03_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-04",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-04_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-04",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-04_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-05",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-05_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-05",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-05_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-06",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-06_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-06",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-06_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-07",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-07_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-07",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-07_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-08",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-08_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-08",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-08_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-09",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-09_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-09",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-09_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-10",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-10_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-10",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-10_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-11",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-11_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-11",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-11_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-12",
+      "page": 1,
+      "kind": "cover",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-12_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 10.071942161440115,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08-12",
+      "page": 2,
+      "kind": "guide",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\08-12_p002.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.01575,
+          "y": 22.67717,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 1,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 2,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p002.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 3,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p003.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "3",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 4,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p004.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "4",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 5,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p005.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "5",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 6,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p006.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "6",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 7,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p007.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "7",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 8,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p008.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "8",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 9,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p009.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "9",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 10,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p010.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "10",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 11,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p011.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "11",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 12,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p012.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "12",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 13,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p013.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "13",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 14,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p014.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "14",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 15,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p015.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "15",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 16,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p016.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "16",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 17,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p017.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "17",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 18,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p018.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "18",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 19,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p019.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "19",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 20,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p020.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "20",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 21,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p021.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "21",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 22,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p022.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "22",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 23,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p023.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "23",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 24,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p024.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "24",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 25,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p025.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "25",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 26,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p026.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "26",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 27,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p027.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "27",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 28,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p028.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "28",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 29,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p029.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "29",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 30,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p030.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "30",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 31,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p031.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "31",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 32,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p032.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "32",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 33,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p033.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "33",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 34,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p034.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "34",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 35,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p035.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "35",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 36,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p036.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "36",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 37,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p037.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "37",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 38,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p038.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "38",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 39,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p039.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "39",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 40,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p040.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "40",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 41,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p041.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "41",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 42,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p042.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "42",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 43,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p043.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "43",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 44,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p044.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "44",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 45,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p045.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "45",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 46,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p046.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "46",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 47,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p047.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "47",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 48,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p048.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "48",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 49,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p049.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "49",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "page": 50,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\all_index_p050.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "50",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 1,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 2,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p002.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 3,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p003.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "3",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 4,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p004.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "4",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 5,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p005.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "5",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 6,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p006.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "6",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 7,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p007.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "7",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 8,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p008.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "8",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 9,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p009.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "9",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 10,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p010.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "10",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 11,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p011.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "11",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 12,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p012.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "12",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 13,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p013.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "13",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 14,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p014.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "14",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 15,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p015.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "15",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 16,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p016.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "16",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 17,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p017.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "17",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "page": 18,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\front_index_p018.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "18",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 1,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p001.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "1",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 2,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p002.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "2",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 3,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p003.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "3",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 4,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p004.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "4",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 5,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p005.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "5",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 6,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p006.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "6",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 7,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p007.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "7",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 8,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p008.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "8",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 9,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p009.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "9",
+          "x": 555.1438519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 10,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p010.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "10",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 11,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p011.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "11",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 12,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p012.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "12",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 13,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p013.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "13",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 14,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p014.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "14",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 15,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p015.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "15",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 16,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p016.png",
+      "inner_mm": 27.94963949799634,
+      "outer_mm": 9.820143607404114,
+      "folio": [
+        {
+          "text": "16",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 17,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p017.png",
+      "inner_mm": 27.949639497996326,
+      "outer_mm": 9.82014360740411,
+      "folio": [
+        {
+          "text": "17",
+          "x": 549.0278519685,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "page": 18,
+      "kind": "master",
+      "image": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\work\\education_frontmatter_final_review\\rear_index_p018.png",
+      "inner_mm": 28.201438052032344,
+      "outer_mm": 10.071942161440118,
+      "folio": [
+        {
+          "text": "18",
+          "x": 34.0157480315,
+          "y": 22.6771653543,
+          "size": 11.0
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "total_front_pages": 60,
+  "total_master_pages": 86,
+  "total_rendered_pages": 146,
+  "total_section_starts": 149,
+  "original_cover_summaries_preserved": true,
+  "minimum_inner_mm": 27.949639497996326,
+  "minimum_outer_mm": 9.82014360740411,
+  "measurement_note": "Pixelbounds use actual PDF width divided by actual bitmap width; tolerance0.05mm for pixel-cell coverage, not naive nominal render scale.",
+  "source_specific_questions_evidence": [
+    "46-5.pdf:1",
+    "55-3.pdf:1",
+    "42-5.pdf:1"
+  ],
+  "final_documents": [
+    {
+      "label": "01",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\01_일반사항.pdf",
+      "sha256": "bac63e52a354dcdad7d6153a6c3db5bd041c0395fc694963b84abf545e6629fe",
+      "pages": 72
+    },
+    {
+      "label": "02",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\02_바디_공통사항.pdf",
+      "sha256": "725119e29cfff9ab730fc58eedc9e74d0104da6d01306b3095f0d8e27fcb9a38",
+      "pages": 48
+    },
+    {
+      "label": "03",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\03_펜더.pdf",
+      "sha256": "7826470d486e746b092533368b58192de4cc3861cc6803083ff1f8d29f61028c",
+      "pages": 26
+    },
+    {
+      "label": "04",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\04_후드.pdf",
+      "sha256": "a5dfe027c47ddbc88ae0116f2dc15bf9779e30921eebeae34277be7242c88ab4",
+      "pages": 32
+    },
+    {
+      "label": "05",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\05_테일게이트.pdf",
+      "sha256": "a58c2f73795e907bca34bbcd8c1076a47de83f89e1faf36981920f69c74f1b3c",
+      "pages": 182
+    },
+    {
+      "label": "06",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\01-06_기존파트\\06_연료_주입_도어.pdf",
+      "sha256": "b008e3d618d690d14c208bbb626234d5b4b7908bae7edcd58c7fd0a29786f374",
+      "pages": 24
+    },
+    {
+      "label": "07-01",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-01_프런트_도어_기본_조정.pdf",
+      "sha256": "769c033ff8ba2a3b114da7e7712cd514c7111fbb1d11270cb8235fa27f1f5c0d",
+      "pages": 12
+    },
+    {
+      "label": "07-02",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-02_프런트_도어_트림.pdf",
+      "sha256": "c444fb4d2f9019bdcaebcf8d87e94efbf38e19ca4781ce902cb0a5152234434c",
+      "pages": 8
+    },
+    {
+      "label": "07-03",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-03_프런트_도어_핸들.pdf",
+      "sha256": "eb51776eaad7b901d2991ea55a48189c8537ea1a7b749251b881b4fc351be1cd",
+      "pages": 18
+    },
+    {
+      "label": "07-04",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-04_프런트_도어_윈도우_글라스.pdf",
+      "sha256": "e329c8e77088aed01f130504f742af34e5279bbefa4a3587955db2e9b489d608",
+      "pages": 20
+    },
+    {
+      "label": "07-05",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-05_프런트_도어_모듈.pdf",
+      "sha256": "7e0ffc2bf62a1110ac641e10847349cfda7e1d4ea48664955aebe9c41cc4416f",
+      "pages": 40
+    },
+    {
+      "label": "07-06",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-06_프런트_도어_웨더_스트립.pdf",
+      "sha256": "1bddfa1e41115f488baa6f9f932793de9d9bf9932b5b7427514dcb56af9ee74d",
+      "pages": 18
+    },
+    {
+      "label": "07-07",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-07_프런트_도어_글라스_런.pdf",
+      "sha256": "4ad00efbed99d83ce4e2c91c6a91205b6aa04ea9cbb25af1c6ed56718a10c1c7",
+      "pages": 30
+    },
+    {
+      "label": "07-08",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-08_프런트_도어_랫치.pdf",
+      "sha256": "983fa733f50b601f4d0eda1b3f4daeb276af2d27460938a19d258dd2090fc3b8",
+      "pages": 52
+    },
+    {
+      "label": "07-09",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-09_프런트_도어_파워_윈도우_모터.pdf",
+      "sha256": "930fd0bb25dca8612f17fd3afff8abfe07a50f3f69296322763a9a1963053ef9",
+      "pages": 20
+    },
+    {
+      "label": "07-10",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-10_프런트_도어_파워_윈도우_스위치.pdf",
+      "sha256": "dde31dea9f21c2668ed0e492a8ec50531cfbda43a952a67fe66df9c5ce5cf190",
+      "pages": 16
+    },
+    {
+      "label": "07-11",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-11_프런트_도어_파워_도어_잠금_스위치.pdf",
+      "sha256": "99234a7d76f8c18e1b0c3ed62c1aa3824e2f316c5405a7ac0a34b1da5b430007",
+      "pages": 16
+    },
+    {
+      "label": "07-12",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어\\07-12_프런트_도어_가니쉬.pdf",
+      "sha256": "aa3b0379a42cc101d18a5c69fdb384a40a9d4069e05d5856fe0720924e217635",
+      "pages": 62
+    },
+    {
+      "label": "08-01",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-01_리어_도어_기본_조정.pdf",
+      "sha256": "1b9608e807c01462f51742e19a5c642f4bf69efb6fe6a646274708fb1eb4ddaa",
+      "pages": 12
+    },
+    {
+      "label": "08-02",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-02_리어_도어_트림.pdf",
+      "sha256": "720238a805453c3cdae01dd51f3e534ca0c90b7e2f19b19449df89a92d2769e8",
+      "pages": 8
+    },
+    {
+      "label": "08-03",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-03_리어_도어_핸들.pdf",
+      "sha256": "2892b7e5801bdedf7b52af17a11d061ba890204c91aa8a44fcddee19fb589d69",
+      "pages": 20
+    },
+    {
+      "label": "08-04",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-04_리어_도어_윈도우_글라스.pdf",
+      "sha256": "26121c2004067e93fceef0801f4b797a4556d7f1270f6ad40c24a426c095aa9a",
+      "pages": 22
+    },
+    {
+      "label": "08-05",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-05_리어_도어_모듈.pdf",
+      "sha256": "6158bf51ad077d13e5764cdd21d7f12b9538bdfb25af72f84a530dc17b93a958",
+      "pages": 40
+    },
+    {
+      "label": "08-06",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-06_리어_도어_웨더_스트립.pdf",
+      "sha256": "01ae281e1504314438d6bd96fc69ae76ceb2e9d23ccd212ce9242cc6151d4098",
+      "pages": 18
+    },
+    {
+      "label": "08-07",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-07_리어_도어_글라스_런.pdf",
+      "sha256": "6fe8daaec80acfa784559d89c2cc4424ea2170f34a763d7bce3a735c98211b5d",
+      "pages": 64
+    },
+    {
+      "label": "08-08",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-08_리어_도어_랫치.pdf",
+      "sha256": "1175baeec6012c6e5aa767271d081138d9ce3cb886182c637fc05716cd34a7db",
+      "pages": 50
+    },
+    {
+      "label": "08-09",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-09_리어_도어_커튼_어셈블리.pdf",
+      "sha256": "bae4ce61c5abeface70e4f8f68d81ddf0bf3d5ba0d00ddba2f48acd9ac20fca4",
+      "pages": 12
+    },
+    {
+      "label": "08-10",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-10_리어_도어_파워_윈도우_모터.pdf",
+      "sha256": "3c4e99c4323bc53b7c874ecc2d6d6e7c1f7d1641e915e9d8dc6819d766c631ea",
+      "pages": 16
+    },
+    {
+      "label": "08-11",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-11_리어_도어_파워_윈도우_스위치.pdf",
+      "sha256": "79636a0f51f430c9bb1878f0ee390b521773e4d8a689b111f76b1a1117dad3d7",
+      "pages": 16
+    },
+    {
+      "label": "08-12",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어\\08-12_리어_도어_가니쉬.pdf",
+      "sha256": "af2a7926915ea0220b2d6b28062e05daa6197fead3aba4a84182aafd25c9ab4c",
+      "pages": 32
+    },
+    {
+      "label": "00_전체_정비항목_파일색인",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\00_전체_정비항목_파일색인.pdf",
+      "sha256": "39475ad39052d3281b7d5324345cfd77e7bec20b06b41902dd6a1d05416ac185",
+      "pages": 50
+    },
+    {
+      "label": "07_프런트_도어_종합색인",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\07_프런트_도어_종합색인.pdf",
+      "sha256": "553c3bb23877cfeafe44a460017555cde58d3b1c4cbfa74eb1fbf40a49c31642",
+      "pages": 18
+    },
+    {
+      "label": "08_리어_도어_종합색인",
+      "path": "C:\\Users\\corle\\Documents\\Codex\\2026-10-12\\cor\\outputs\\정비매뉴얼_교육교재_개선본\\08_리어_도어_종합색인.pdf",
+      "sha256": "bd2232332a01abf08c882f9a781ade162194a37682d2940ec3197bece1aba0e2",
+      "pages": 18
+    }
+  ],
+  "final_hashes_refreshed": true,
+  "final_cover_hero_pixel_matches": 30,
+  "final_actual_guide_link_targets": 149,
+  "final_front_pixels_identical_after_rebuild": 60,
+  "masters_byte_identical_after_rebuild": 3,
+  "actual_visual_review": {
+    "front60": "All30covers+all30guides actually viewed in contact01–10.",
+    "master86": "All50+18+18 masterpages actually viewed in contact11–25.",
+    "large_reviews": [
+      "actual07-02guide",
+      "actualall_index1",
+      "actualall_index23",
+      "actualall_index25",
+      "actual04coverPDFium+Poppler independent"
+    ],
+    "root_large_reviews": [
+      "actual05guide2 complete30starts+6refs",
+      "actual07-11cover1 longesttitle complete"
+    ]
+  },
+  "raster_boundary_note": "At1.4x, one pixel spans0.252mm. Conservative cell edges atmastertopband are27.9496mm inner and9.8201mm outer while exact vector fill is28mm inner/10mm outer. Allfilledcelltoucheswithinonepixel ofexactboundary;25mm bindingstrip iscompletelyblank. No truevectorintrusion or layout defect.",
+  "binding25mm_strip_clear_all146": true,
+  "margin28mm_buffer_and10mm_outer": "PASS within single-pixel footprint uncertainty, exact vector boundaries inspected."
+}

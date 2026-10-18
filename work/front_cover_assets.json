@@ -1,0 +1,725 @@
+[
+  {
+    "id": "07-01",
+    "source_file": "46-1.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      70,
+      232,
+      1389,
+      1324
+    ],
+    "image_kind": "도면",
+    "caption": "프런트 도어의 구성부품과 위치를 보여주는 원문 도해",
+    "intro": "프런트 도어의 구성부품과 위치를 확인하고, 글라스·스트라이커·도어의 조정 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "구성부품 확인",
+        "description": "도어 안팎의 주요 부품과 위치를 확인합니다."
+      },
+      {
+        "title": "글라스 조정",
+        "description": "트림 탈거 참조절차를 거쳐 글라스의 간격과 작동을 확인합니다."
+      },
+      {
+        "title": "스트라이커 조정",
+        "description": "스트라이커의 위치를 조정하고 도어의 개폐 상태를 확인합니다."
+      },
+      {
+        "title": "도어 조정",
+        "description": "힌지와 도어 위치를 조정하고 바디와의 간격을 확인합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "46-1.pdf",
+        "page": 1,
+        "text": "구성부품 및 부품위치: 아웃사이드 핸들, 트림, 인사이드 핸들, 모듈, 윈도우 모터"
+      },
+      {
+        "file": "46-2.pdf",
+        "page": 1,
+        "text": "글라스 조정; 프런트 도어 트림 참조"
+      },
+      {
+        "file": "46-2.pdf",
+        "page": 2,
+        "text": "글라스 간격 조정 및 정상 작동 확인; 스트라이커 조정 및 도어 개폐 확인"
+      },
+      {
+        "file": "46-2.pdf",
+        "page": 3,
+        "text": "도어 조정; 도어와 바디의 간격 확인"
+      }
+    ],
+    "title": "프런트 도어 기본·조정",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-01.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\46-1__01.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-02",
+    "source_file": "46-4.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      100,
+      708,
+      943,
+      1343
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "원문에서 A로 표시한 프런트 도어 트림",
+    "intro": "프런트 도어 트림을 분리하고 다시 장착하며, 클립 교환과 글라스·도어 작동 확인 사항을 소개합니다.",
+    "workflow": [
+      {
+        "title": "작업 준비",
+        "description": "원문의 주의사항과 배터리 분리 절차를 확인합니다."
+      },
+      {
+        "title": "트림 탈거",
+        "description": "고정 스크류를 풀고 핸들 케이지와 트림 커넥터를 분리합니다."
+      },
+      {
+        "title": "장착·작동 확인",
+        "description": "역순으로 장착하며 클립 교환과 글라스·도어 작동 확인 사항을 따릅니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "46-4.pdf",
+        "page": 1,
+        "text": "스크류를 풀어 프런트 도어 트림(A)을 아랫부분부터 탈거"
+      },
+      {
+        "file": "46-4.pdf",
+        "page": 2,
+        "text": "인사이드 핸들 케이지 분리"
+      },
+      {
+        "file": "46-4.pdf",
+        "page": 3,
+        "text": "트림 커넥터 분리"
+      },
+      {
+        "file": "46-5.pdf",
+        "page": 1,
+        "text": "탈거의 역순 장착; 재장착 시 클립 교환; 글라스와 도어 작동 및 커넥터 조립 확인"
+      }
+    ],
+    "title": "프런트 도어 트림",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-02.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\46-4__01.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-03",
+    "source_file": "46-7.pdf",
+    "source_page": 5,
+    "crop_bbox": [
+      100,
+      132,
+      943,
+      766
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "아웃사이드 핸들(A) 대표 이미지 · 인사이드 핸들 절차도 수록",
+    "intro": "인사이드·아웃사이드 핸들의 탈거와 역순 장착, 조립 상태 및 도어 개폐 확인 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "인사이드 핸들 탈거",
+        "description": "인사이드 핸들 절차에서 트림 탈거를 참조하고 핸들을 분리합니다."
+      },
+      {
+        "title": "아웃사이드 핸들 탈거",
+        "description": "아웃사이드 핸들 절차에서 고정부와 락 어셈블리, 커넥터를 분리합니다."
+      },
+      {
+        "title": "장착·개폐 확인",
+        "description": "해당 핸들을 역순으로 장착하고 패드 위치와 조립·개폐 상태를 확인합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "46-7.pdf",
+        "page": 1,
+        "text": "인사이드 핸들: 배터리 분리 및 트림 탈거 참조"
+      },
+      {
+        "file": "46-7.pdf",
+        "page": 2,
+        "text": "스크류를 풀어 인사이드 핸들 탈거; 아웃사이드 핸들 절차 시작"
+      },
+      {
+        "file": "46-7.pdf",
+        "page": 4,
+        "text": "락 어셈블리 탈거"
+      },
+      {
+        "file": "46-7.pdf",
+        "page": 5,
+        "text": "아웃사이드 핸들(A)을 화살표 방향으로 밀어 탈거; 커넥터 분리"
+      },
+      {
+        "file": "46-8.pdf",
+        "page": 1,
+        "text": "인사이드 및 아웃사이드 핸들 역순 장착; 패드 위치, 들뜸, 도어 개폐 확인"
+      }
+    ],
+    "title": "프런트 도어 핸들",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-03.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\46-7__05.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-04",
+    "source_file": "47-2.pdf",
+    "source_page": 2,
+    "crop_bbox": [
+      100,
+      399,
+      943,
+      1032
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "원문에서 A로 표시한 프런트 도어 윈도우 글라스",
+    "intro": "벨트 웨더 스트립 분리부터 윈도우 글라스의 탈거·장착, 작동 확인과 필요 시 조정까지 소개합니다.",
+    "workflow": [
+      {
+        "title": "선행 절차 참조",
+        "description": "벨트 인사이드·아웃사이드 웨더 스트립 탈거절차를 펼쳐 확인합니다."
+      },
+      {
+        "title": "글라스 탈거",
+        "description": "플러그 홀과 고정 볼트를 분리하고 글라스를 기울여 위로 빼냅니다."
+      },
+      {
+        "title": "장착·작동 확인",
+        "description": "역순 장착 후 글라스 작동을 확인하고 필요 시 조정합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "47-2.pdf",
+        "page": 1,
+        "text": "벨트 인사이드·아웃사이드 웨더 스트립 탈거 참조; 플러그 홀 탈거"
+      },
+      {
+        "file": "47-2.pdf",
+        "page": 2,
+        "text": "볼트를 풀어 윈도우 글라스(A)를 기울여 위로 빼냄"
+      },
+      {
+        "file": "47-3.pdf",
+        "page": 1,
+        "text": "탈거 역순 장착; 글라스 작동 확인; 필요 시 조정"
+      }
+    ],
+    "title": "프런트 도어 윈도우 글라스",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-04.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\47-2__02.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-05",
+    "source_file": "48-2.pdf",
+    "source_page": 5,
+    "crop_bbox": [
+      100,
+      1065,
+      943,
+      1700
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "원문에서 A로 표시한 프런트 도어 모듈과 고정부",
+    "intro": "글라스와 핸들 등 선행 부품을 분리하고, 도어 모듈의 탈거·장착 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "선행 부품 분리",
+        "description": "윈도우 글라스와 아웃사이드 핸들 탈거 참조절차를 확인합니다."
+      },
+      {
+        "title": "배선·체결부 분리",
+        "description": "핸들·랫치의 체결부와 메인·미러 커넥터 및 와이어링을 분리합니다."
+      },
+      {
+        "title": "모듈 탈거",
+        "description": "채널과 모듈의 고정 볼트를 분리하여 모듈을 탈거합니다."
+      },
+      {
+        "title": "역순 장착",
+        "description": "원문에 따라 탈거의 역순으로 장착합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "48-2.pdf",
+        "page": 1,
+        "text": "윈도우 글라스 및 아웃사이드 핸들 탈거 참조"
+      },
+      {
+        "file": "48-2.pdf",
+        "page": 2,
+        "text": "핸들 베이스와 랫치 스크류 탈거"
+      },
+      {
+        "file": "48-2.pdf",
+        "page": 3,
+        "text": "메인 커넥터 및 메인 와이어링 플러그 홀 분리"
+      },
+      {
+        "file": "48-2.pdf",
+        "page": 4,
+        "text": "리어 뷰 미러 커넥터와 와이어링 분리"
+      },
+      {
+        "file": "48-2.pdf",
+        "page": 5,
+        "text": "채널 볼트 및 모듈(A) 탈거; 장착은 탈거 역순"
+      }
+    ],
+    "title": "프런트 도어 모듈",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-05.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\48-2__05.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-06",
+    "source_file": "49-2.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      100,
+      790,
+      943,
+      1388
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "벨트 아웃사이드 웨더 스트립 대표 이미지 · 다른 위치 절차도 수록",
+    "intro": "벨트 안팎·도어 사이드·바디 사이드 웨더 스트립의 위치별 탈거와 장착 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "위치별 절차 확인",
+        "description": "벨트 안팎, 도어 사이드, 바디 사이드 중 해당 부품의 절차를 찾습니다."
+      },
+      {
+        "title": "위치별 탈거",
+        "description": "해당 부품에 필요한 글라스 하강, 트림 참조 또는 고정부 분리 절차를 확인합니다."
+      },
+      {
+        "title": "위치별 장착",
+        "description": "탈거의 역순으로 장착하며 벨트 인사이드의 조립 기준점을 확인합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "49-2.pdf",
+        "page": 1,
+        "text": "벨트 아웃사이드: 글라스 최대 하강 및 웨더 스트립 탈거; 벨트 인사이드: 트림 탈거 참조"
+      },
+      {
+        "file": "49-2.pdf",
+        "page": 2,
+        "text": "벨트 인사이드 및 도어 사이드 웨더 스트립 탈거"
+      },
+      {
+        "file": "49-2.pdf",
+        "page": 3,
+        "text": "바디 사이드 웨더 스트립 탈거"
+      },
+      {
+        "file": "49-3.pdf",
+        "page": 1,
+        "text": "각 위치별 역순 장착; 벨트 인사이드 전방부 기준 장착"
+      }
+    ],
+    "title": "프런트 도어 웨더 스트립",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-06.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\49-2__01.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-07",
+    "source_file": "50-2.pdf",
+    "source_page": 3,
+    "crop_bbox": [
+      100,
+      132,
+      943,
+      766
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "원문에서 A로 표시한 프런트 도어 글라스 런",
+    "intro": "프레임 가니쉬 분리를 참조한 뒤 클립과 볼트를 해제해 글라스 런을 탈거·장착하는 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "선행 절차 참조",
+        "description": "프레임 가니쉬 탈거 참조절차를 펼쳐 확인합니다."
+      },
+      {
+        "title": "고정부 분리",
+        "description": "글라스 런의 클립과 볼트를 분리합니다."
+      },
+      {
+        "title": "탈거·장착",
+        "description": "글라스 런을 탈거한 뒤 원문에 따라 역순으로 장착합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "50-2.pdf",
+        "page": 1,
+        "text": "프레임 가니쉬 탈거 참조; 글라스 런 클립 탈거"
+      },
+      {
+        "file": "50-2.pdf",
+        "page": 2,
+        "text": "글라스 런 볼트 탈거"
+      },
+      {
+        "file": "50-2.pdf",
+        "page": 3,
+        "text": "글라스 런(A) 탈거; 역순 장착"
+      }
+    ],
+    "title": "프런트 도어 글라스 런",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-07.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\50-2__03.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-08",
+    "source_file": "51-2.pdf",
+    "source_page": 6,
+    "crop_bbox": [
+      100,
+      132,
+      943,
+      766
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "모듈에서 분리하는 프런트 도어 랫치(A)의 원문 표시",
+    "intro": "도어 모듈 분리를 참조한 뒤 연결 로드·배선·고정부를 분리하여 랫치를 탈거·장착하는 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "모듈 분리 참조",
+        "description": "프런트 도어 모듈 탈거 참조절차를 확인합니다."
+      },
+      {
+        "title": "연결부 분리",
+        "description": "연결 로드, 핸들 베이스, 커넥터와 와이어링 등 연결부를 분리합니다."
+      },
+      {
+        "title": "랫치 탈거·장착",
+        "description": "모듈 플러그 홀과 랫치를 분리한 뒤 원문에 따라 역순으로 장착합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "51-2.pdf",
+        "page": 1,
+        "text": "모듈 탈거 참조; 잠금핀 해제 및 연결 로드 분리"
+      },
+      {
+        "file": "51-2.pdf",
+        "page": 2,
+        "text": "아웃사이드 핸들 커넥터와 와이어링 분리"
+      },
+      {
+        "file": "51-2.pdf",
+        "page": 3,
+        "text": "아웃사이드 핸들 베이스 탈거"
+      },
+      {
+        "file": "51-2.pdf",
+        "page": 4,
+        "text": "랫치 커넥터 분리"
+      },
+      {
+        "file": "51-2.pdf",
+        "page": 5,
+        "text": "모듈 플러그 홀 탈거"
+      },
+      {
+        "file": "51-2.pdf",
+        "page": 6,
+        "text": "프런트 도어 랫치(A) 탈거; 역순 장착"
+      }
+    ],
+    "title": "프런트 도어 랫치",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-08.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\51-2__06.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-09",
+    "source_file": "52-4.pdf",
+    "source_page": 2,
+    "crop_bbox": [
+      100,
+      132,
+      943,
+      766
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "원문에서 A로 표시한 프런트 도어 파워 윈도우 모터",
+    "intro": "세이프티 윈도우의 작동원리와 초기화, 기본점검·진단, 모터 탈거와 장착 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "작동원리·초기화",
+        "description": "세이프티 기능의 조건과 초기화·해제에 관한 원문 설명을 확인합니다."
+      },
+      {
+        "title": "기본점검·진단",
+        "description": "전원·퓨즈·커넥터·배선 및 진단기기의 점검 설명을 확인합니다."
+      },
+      {
+        "title": "모터 탈거",
+        "description": "트림 탈거를 참조하고 모터 커넥터와 고정 스크류를 분리합니다."
+      },
+      {
+        "title": "역순 장착",
+        "description": "원문에 따라 탈거의 역순으로 모터를 장착합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "52-2.pdf",
+        "page": 1,
+        "text": "세이프티 파워 윈도우 기능과 작동 조건"
+      },
+      {
+        "file": "52-2.pdf",
+        "page": 3,
+        "text": "초기화 방법 및 초기화 해제"
+      },
+      {
+        "file": "52-3.pdf",
+        "page": 1,
+        "text": "기본점검 및 진단기기를 이용한 고장진단"
+      },
+      {
+        "file": "52-4.pdf",
+        "page": 1,
+        "text": "트림 탈거 참조; 모터 커넥터 분리"
+      },
+      {
+        "file": "52-4.pdf",
+        "page": 2,
+        "text": "스크류를 풀어 모터(A) 탈거; 역순 장착"
+      }
+    ],
+    "title": "프런트 도어 파워 윈도우 모터",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-09.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\52-4__02.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-10",
+    "source_file": "53-3.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      100,
+      840,
+      943,
+      1473
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "트림 뒷면에서 본 메인 파워 윈도우 스위치(A)",
+    "intro": "파워 윈도우 스위치의 기본점검과 진단, 트림 분리 후 스위치의 탈거·장착 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "기본점검·진단",
+        "description": "전원·퓨즈·커넥터·배선 및 진단기기의 점검 설명을 확인합니다."
+      },
+      {
+        "title": "트림 분리 참조",
+        "description": "배터리 분리와 프런트 도어 트림 탈거 참조절차를 확인합니다."
+      },
+      {
+        "title": "스위치 탈거",
+        "description": "트림 뒷면에서 후크를 분리하여 메인 파워 윈도우 스위치를 탈거합니다."
+      },
+      {
+        "title": "역순 장착",
+        "description": "원문에 따라 탈거의 역순으로 장착합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "53-2.pdf",
+        "page": 1,
+        "text": "기본점검과 진단기기를 이용한 고장진단 방법"
+      },
+      {
+        "file": "53-3.pdf",
+        "page": 1,
+        "text": "메인 파워 윈도우 스위치: 트림 탈거 참조; 후크 분리 후 스위치(A) 탈거; 역순 장착"
+      }
+    ],
+    "title": "프런트 도어 파워 윈도우 스위치",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-10.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\53-3__01.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-11",
+    "source_file": "54-3.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      100,
+      840,
+      943,
+      1473
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "트림 뒷면에서 본 파워 도어 잠금 스위치(A)",
+    "intro": "파워 도어 잠금 스위치의 기본점검과 진단, 트림 분리 후 스위치의 탈거·장착 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "기본점검·진단",
+        "description": "전원·퓨즈·커넥터·배선 및 진단기기의 점검 설명을 확인합니다."
+      },
+      {
+        "title": "트림 분리 참조",
+        "description": "배터리 분리와 프런트 도어 트림 탈거 참조절차를 확인합니다."
+      },
+      {
+        "title": "스위치 탈거",
+        "description": "트림 뒷면에서 후크를 분리하여 파워 도어 잠금 스위치를 탈거합니다."
+      },
+      {
+        "title": "역순 장착",
+        "description": "원문에 따라 탈거의 역순으로 장착합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "54-2.pdf",
+        "page": 1,
+        "text": "기본점검과 진단기기를 이용한 고장진단 방법"
+      },
+      {
+        "file": "54-3.pdf",
+        "page": 1,
+        "text": "파워 도어 잠금 스위치: 트림 탈거 참조; 후크 분리 후 스위치(A) 탈거; 역순 장착"
+      }
+    ],
+    "title": "프런트 도어 파워 도어 잠금 스위치",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-11.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\54-3__01.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  },
+  {
+    "id": "07-12",
+    "source_file": "55-2.pdf",
+    "source_page": 2,
+    "crop_bbox": [
+      100,
+      132,
+      943,
+      766
+    ],
+    "image_kind": "원문 부품 이미지",
+    "caption": "프런트 도어 프레임 가니쉬(A) 대표 이미지 · 프레임 몰딩 절차도 수록",
+    "intro": "글라스·글라스 런 분리를 참조하여 프레임 가니쉬와 몰딩을 탈거하고 다시 장착하는 과정을 소개합니다.",
+    "workflow": [
+      {
+        "title": "선행 절차 참조",
+        "description": "해당 부품에 필요한 윈도우 글라스 또는 글라스 런 탈거절차를 확인합니다."
+      },
+      {
+        "title": "가니쉬·몰딩 탈거",
+        "description": "해당 부품의 스크류를 풀고 원문 방향에 따라 탈거합니다."
+      },
+      {
+        "title": "역순 장착",
+        "description": "역순으로 장착하며 부품 손상이 있을 때의 신품 교환 사항을 확인합니다."
+      }
+    ],
+    "source_evidence": [
+      {
+        "file": "55-2.pdf",
+        "page": 1,
+        "text": "프레임 가니쉬: 윈도우 글라스 탈거 참조; 글라스 런 이격"
+      },
+      {
+        "file": "55-2.pdf",
+        "page": 2,
+        "text": "가니쉬(A) 탈거; 프레임 몰딩: 글라스 런 탈거 참조 및 스크류 탈거"
+      },
+      {
+        "file": "55-2.pdf",
+        "page": 3,
+        "text": "화살표 방향으로 프레임 몰딩(A) 탈거"
+      },
+      {
+        "file": "55-3.pdf",
+        "page": 1,
+        "text": "가니쉬와 몰딩 역순 장착; 손상이 있을 경우 신품 교환"
+      }
+    ],
+    "title": "프런트 도어 가니쉬",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-12.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\55-2__02.png",
+    "source_image_dimensions": [
+      1488,
+      2103
+    ],
+    "visually_reviewed": true,
+    "workflow_role": "이 책자에서 다루는 내용 안내이며, 실제 작업은 본문의 원문 절차를 따른다."
+  }
+]

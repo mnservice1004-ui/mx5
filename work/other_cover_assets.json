@@ -1,0 +1,264 @@
+[
+  {
+    "id": "01",
+    "title": "일반사항",
+    "source_file": "9.pdf",
+    "source_page": 2,
+    "crop_bbox": [
+      98,
+      130,
+      1410,
+      1330
+    ],
+    "image_kind": "대표도면",
+    "caption": "일반 정비 준비의 예시 — 리프트 지지점 안내",
+    "intro": "작업 전 안전·차량 식별과 표시를 확인하고, 리프트·견인·기본 정비 기준을 찾는 일반 안내입니다.",
+    "workflow": [
+      {
+        "title": "안전·준비",
+        "description": "고전압 관련 주의사항, 보호 장비와 안전 절차 확인"
+      },
+      {
+        "title": "차량 정보",
+        "description": "식별번호와 경고·주의 라벨 확인"
+      },
+      {
+        "title": "차량 취급",
+        "description": "리프트 포인트와 견인 안내 확인"
+      },
+      {
+        "title": "공통 정비 기준",
+        "description": "일반 조임 토크, 정비심볼과 주의사항 확인"
+      }
+    ],
+    "source_evidence": [
+      "9.pdf 2쪽: 2주식 리프트 지지점의 앞·뒤 위치 그림",
+      "주요 절차: 1~6.pdf 안전·준비, 7~8.pdf 차량 표시, 9~10.pdf 취급, 11~13.pdf 정비 기준"
+    ],
+    "workflow_kind": "확인 항목",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\01_representative.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\9__02.png",
+    "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
+    "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
+    "source_attribution": "원문 9.pdf · 2쪽"
+  },
+  {
+    "id": "02",
+    "title": "바디 공통사항",
+    "source_file": "22.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      480,
+      300,
+      965,
+      620
+    ],
+    "image_kind": "대표도면",
+    "caption": "바디 공통 정비의 공구 예시 — 호그 링 클립 인스톨러",
+    "intro": "바디 정비의 공통 안전사항, 증상별 고장진단, 서비스 정보와 체결토크·특수 공구를 확인하는 안내입니다.",
+    "workflow": [
+      {
+        "title": "안전사항",
+        "description": "공통 주의사항과 보호 장비·안전 절차 확인"
+      },
+      {
+        "title": "고장진단",
+        "description": "증상, 가능한 원인과 조치의 관계 확인"
+      },
+      {
+        "title": "서비스 기준",
+        "description": "바디 서비스 정보와 체결토크 확인"
+      },
+      {
+        "title": "특수 공구",
+        "description": "수록 공구의 형상과 용도 확인"
+      }
+    ],
+    "source_evidence": [
+      "22.pdf 1쪽: 호그 링 클립 인스톨러 도안 및 용도 표",
+      "주요 절차: 14~18.pdf 안전, 19.pdf 고장진단, 20.pdf 서비스 정보, 21.pdf 체결토크, 22.pdf 특수 공구"
+    ],
+    "workflow_kind": "확인 항목",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\02_representative.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\22__01.png",
+    "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
+    "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
+    "source_attribution": "원문 22.pdf · 1쪽"
+  },
+  {
+    "id": "03",
+    "title": "펜더",
+    "source_file": "23.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      69,
+      232,
+      1300,
+      1520
+    ],
+    "image_kind": "대표 부품 위치 그림",
+    "caption": "펜더 어셈블리·인슐레이터 패드·에이프런 어퍼 커버 위치",
+    "intro": "펜더 주변의 부품 위치를 확인하고, 인슐레이터·어셈블리·에이프런 어퍼 커버의 탈거와 장착을 다룹니다.",
+    "workflow": [
+      {
+        "title": "부품 위치",
+        "description": "펜더와 주변 구성부품 위치 확인"
+      },
+      {
+        "title": "인슐레이터",
+        "description": "작업요약표와 탈거·장착 절차"
+      },
+      {
+        "title": "펜더 어셈블리",
+        "description": "작업요약표와 탈거·장착 절차"
+      },
+      {
+        "title": "에이프런 어퍼 커버",
+        "description": "작업요약표와 탈거·장착 절차"
+      }
+    ],
+    "source_evidence": [
+      "23.pdf 1쪽: 부품 위치 그림 및 1~4번 부품 명칭",
+      "24-1~24-2.pdf 인슐레이터, 25-1~25-2.pdf 어셈블리, 26-1~26-2.pdf 커버"
+    ],
+    "workflow_kind": "수록 흐름",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\03_representative.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\23__01.png",
+    "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
+    "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
+    "source_attribution": "원문 23.pdf · 1쪽"
+  },
+  {
+    "id": "04",
+    "title": "후드",
+    "source_file": "27.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      69,
+      232,
+      1300,
+      1520
+    ],
+    "image_kind": "대표 부품 위치 그림",
+    "caption": "후드 어셈블리·랫치·리프터·웨더 스트립 위치",
+    "intro": "후드와 관련 부품의 위치·조정 방법을 확인하고, 어셈블리·패드·리프터·랫치 등의 탈거와 장착을 다룹니다.",
+    "workflow": [
+      {
+        "title": "부품 위치·조정",
+        "description": "구성부품 위치와 후드 조정 안내"
+      },
+      {
+        "title": "후드 어셈블리",
+        "description": "작업요약표와 탈거·장착 절차"
+      },
+      {
+        "title": "패드·리프터",
+        "description": "인슐레이터 패드와 리프터 탈거·장착"
+      },
+      {
+        "title": "랫치·핸들·스트립",
+        "description": "랫치, 릴리스 핸들과 웨더 스트립 정비"
+      }
+    ],
+    "source_evidence": [
+      "27.pdf 1쪽: 후드 부품 위치 그림",
+      "28.pdf 조정, 29그룹 어셈블리, 30그룹 패드, 31그룹 리프터, 32그룹 랫치, 33그룹 핸들, 34그룹 웨더 스트립"
+    ],
+    "workflow_kind": "수록 흐름",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\04_representative.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\27__01.png",
+    "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
+    "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
+    "source_attribution": "원문 27.pdf · 1쪽"
+  },
+  {
+    "id": "05",
+    "title": "테일게이트",
+    "source_file": "35-2.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      69,
+      232,
+      1300,
+      1520
+    ],
+    "image_kind": "대표 부품 위치 그림",
+    "caption": "테일게이트와 인너 스위치·드라이브 유닛·파워 유닛·랫치 위치",
+    "intro": "테일게이트의 작동·진단·조정과 각 부품의 탈거·장착을 다루며, 파워 유닛 점검·조정·코딩을 포함합니다.",
+    "workflow": [
+      {
+        "title": "작동·진단·점검",
+        "description": "작동원리, 부품 위치, 고장진단과 점검"
+      },
+      {
+        "title": "테일게이트 조정",
+        "description": "수록된 테일게이트 조정 안내"
+      },
+      {
+        "title": "어셈블리·주변 부품",
+        "description": "어셈블리, 트림, 스트립, 가니쉬와 랫치 정비"
+      },
+      {
+        "title": "파워 유닛",
+        "description": "점검·조정·탈거·장착과 배리언트 코딩"
+      },
+      {
+        "title": "드라이브 유닛·스위치",
+        "description": "드라이브 유닛과 스위치 탈거·장착"
+      }
+    ],
+    "source_evidence": [
+      "35-2.pdf 1쪽: 테일게이트 및 파워 구성부품 위치 그림",
+      "35그룹 작동·진단·점검, 36.pdf 조정, 37~41그룹 어셈블리·주변 부품, 42그룹 파워 유닛, 43그룹 드라이브 유닛, 44그룹 스위치"
+    ],
+    "workflow_kind": "수록 흐름",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\05_representative.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\35-2__01.png",
+    "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
+    "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
+    "source_attribution": "원문 35-2.pdf · 1쪽"
+  },
+  {
+    "id": "06",
+    "title": "연료 주입 도어",
+    "source_file": "45-1.pdf",
+    "source_page": 1,
+    "crop_bbox": [
+      69,
+      232,
+      1400,
+      1520
+    ],
+    "image_kind": "대표 부품 위치 그림",
+    "caption": "연료 주입 도어 어셈블리와 해제 액추에이터 위치",
+    "intro": "연료 주입 도어의 부품 위치를 확인하고, 커버·어셈블리와 도어 해제 액추에이터의 탈거·장착을 다룹니다.",
+    "workflow": [
+      {
+        "title": "부품 위치",
+        "description": "어셈블리와 해제 액추에이터 위치 확인"
+      },
+      {
+        "title": "도어 커버",
+        "description": "작업요약표와 탈거·장착 절차"
+      },
+      {
+        "title": "도어 어셈블리",
+        "description": "작업요약표와 탈거·장착 절차"
+      },
+      {
+        "title": "해제 액추에이터",
+        "description": "작업요약표와 탈거·장착 절차"
+      }
+    ],
+    "source_evidence": [
+      "45-1.pdf 1쪽: 어셈블리 및 해제 액추에이터 위치 그림",
+      "45-2~45-3.pdf 커버, 45-4~45-5.pdf 어셈블리, 45-6~45-8.pdf 해제 액추에이터"
+    ],
+    "workflow_kind": "수록 흐름",
+    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\06_representative.png",
+    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\45-1__01.png",
+    "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
+    "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
+    "source_attribution": "원문 45-1.pdf · 1쪽"
+  }
+]

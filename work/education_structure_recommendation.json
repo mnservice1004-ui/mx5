@@ -1,0 +1,4990 @@
+{
+  "schema_version": 1,
+  "source_manifest": "work/folio_booklets_manifest.json",
+  "scope": "All30 existing manuals; source-preserving educational layout guidance",
+  "metadata": {
+    "model_year": "2025",
+    "engine": "G 1.6 T-GDI HEV",
+    "vehicle_model_name": null,
+    "vehicle_model_note": "Do not infer vehicle model; source structure explicitly records no vehicle model name."
+  },
+  "invariants": [
+    "Preserve all30 item IDs, relative filenames and directory hierarchy.",
+    "Preserve technical body page order, actual source Forms, all original clips and all inline reference entry/parent/ancestor return destinations.",
+    "Keep cover on physical page1 and one-page work guide on physical page2; body starts3; preserve total even page count.",
+    "Keep normal left spine: odd innerleft, even innerright; existing25mm blank+3mm buffer.",
+    "Keep outer bottom folio11pt, outer12mm, baseline8mm, matching physical PDF page.",
+    "Keep stage1–3 counted solid lines, stage4 only teal long dash, stage5 stage4 long+gray short dash; do not mix decorative palette with reference colors.",
+    "Preserve full detailed alphabetical/flow/missing reference index in three master PDFs."
+  ],
+  "layout_recommendations": [
+    {
+      "page": 1,
+      "priority": "high",
+      "action": "Retain reviewed component illustration as largest visual; align clear part code/title, existing intro and3–5 scope blocks. Use white space and left aligned hierarchy; no decorative photo generation."
+    },
+    {
+      "page": 2,
+      "priority": "high",
+      "action": "Unify section start pages into a legible route map. Add brief before-reading prompt and maximum2 review questions only when they fit; dense13–30-section books keep section rows first, move additional prompts to cover small panel or master index without extra pages."
+    },
+    {
+      "page": "body",
+      "priority": "medium",
+      "action": "Add a restrained running header with part ID, current main section, current phase and main/reference status in existing safe top band; do not overlay original procedure content. Existing reference breadcrumbs/returns remain the authoritative route."
+    },
+    {
+      "page": "all",
+      "priority": "high",
+      "action": "Use one main ink/navy hierarchy and reserved reference colors. Distinguish education navigation labels from source warnings; retain source warning labels and text exactly."
+    },
+    {
+      "page": "guides",
+      "priority": "high",
+      "action": "Treat mixed parts as a menu of independent operations. Avoid suggesting that all tailgate components, all general safety chapters or multiple electrical systems must be executed as one mechanical sequence."
+    }
+  ],
+  "schema_dependencies": [
+    {
+      "field": "asset",
+      "use": "Authoritative reviewed illustration/introduction/workflow summaries; no new images required."
+    },
+    {
+      "field": "sections + page_map",
+      "use": "section labels and one-based physical start/end; section.original_start is old GLOBAL, never use directly as local folio."
+    },
+    {
+      "field": "local_reference_events",
+      "use": "one-based physical origin/start/return and nesting_depth; duplicate reference_id occurs at different origins and is expected."
+    },
+    {
+      "field": "reference_events",
+      "use": "old global page numbers and source identity; preserve alongside local events."
+    },
+    {
+      "field": "page_meta",
+      "use": "exact source_file/page/clip, active_reference_ids and root_copy. Full source page may be split around inline reference and cannot be recomposed or deduplicated."
+    },
+    {
+      "field": "navigation_links + guide_descriptor",
+      "use": "rect annotations are zero-based origin/target; physical visible numbers are one-based."
+    },
+    {
+      "field": "master_hint",
+      "use": "remote master link paths and physical detailed-index pages; maintain relative paths and bookmark targets."
+    },
+    {
+      "field": "folio_pages + binding_pages",
+      "use": "fixed outer folios and margin constraints; do not transform existing folio again when drawing new body decoration."
+    }
+  ],
+  "content_confidence": {
+    "verified": "Part/procedure labels, original page mappings, reference nesting and existing cover assets.",
+    "source_specific_summaries": "Only four sample-specific learning targets/review questions; three installation original images visually read in this task.",
+    "generic_all30": "Reading/recognition prompts derived from existing asset.workflow; not independent work instructions.",
+    "do_not_invent": [
+      "Vehicle model",
+      "Required labor time",
+      "Difficulty rating",
+      "Tools or replacement part lists",
+      "Torque values",
+      "Battery wait times or high-voltage safety steps",
+      "Universal completion checklist beyond what each source states"
+    ]
+  },
+  "items": [
+    {
+      "id": "01",
+      "title": "일반사항",
+      "total_pages": 72,
+      "intro": "작업 전 안전·차량 식별과 표시를 확인하고, 리프트·견인·기본 정비 기준을 찾는 일반 안내입니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\01_representative.png",
+        "caption": "일반 정비 준비의 예시  /  리프트 지지점 안내",
+        "source_file": "9.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "안전·준비",
+          "description": "고전압 관련 주의사항, 보호 장비와 안전 절차 확인"
+        },
+        {
+          "title": "차량 정보",
+          "description": "식별번호와 경고·주의 라벨 확인"
+        },
+        {
+          "title": "차량 취급",
+          "description": "리프트 포인트와 견인 안내 확인"
+        },
+        {
+          "title": "공통 정비 기준",
+          "description": "일반 조임 토크, 정비심볼과 주의사항 확인"
+        }
+      ],
+      "learning_scope_label": "확인할 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "실제 정비에 들어가기 전, 해당 작업에 필요한 안전·준비 항목을 본문에서 찾아 확인하세요.",
+      "review_prompts": [
+        "고전압 작업 주의사항 3쪽, 개인 보호 장비 16쪽, 고전압 차단 절차 35쪽을 각각 찾을 수 있나요?",
+        "이번 작업의 차량 정보·취급·조임 토크 기준은 어느 항목에서 확인하나요?"
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "1.pdf",
+          "component": "고전압 시스템 작업 시 주의사항",
+          "procedure": "고전압 시스템 작업 시 주의사항",
+          "start_page": 3,
+          "end_page": 15
+        },
+        {
+          "ordinal": 2,
+          "source_file": "2.pdf",
+          "component": "개인 보호 장비 (PPE)",
+          "procedure": "개인 보호 장비 (PPE)",
+          "start_page": 16,
+          "end_page": 18
+        },
+        {
+          "ordinal": 3,
+          "source_file": "3.pdf",
+          "component": "사고 차량 작업 및 취급 주의사항",
+          "procedure": "사고 차량 작업 및 취급 주의사항",
+          "start_page": 19,
+          "end_page": 33
+        },
+        {
+          "ordinal": 4,
+          "source_file": "4.pdf",
+          "component": "차량 장기 방치 및 냉매 주의사항",
+          "procedure": "차량 장기 방치 및 냉매 주의사항",
+          "start_page": 34,
+          "end_page": 34
+        },
+        {
+          "ordinal": 5,
+          "source_file": "5.pdf",
+          "component": "고전압 차단 절차",
+          "procedure": "고전압 차단 절차",
+          "start_page": 35,
+          "end_page": 40
+        },
+        {
+          "ordinal": 6,
+          "source_file": "6.pdf",
+          "component": "중요 안전 사항",
+          "procedure": "중요 안전 사항",
+          "start_page": 41,
+          "end_page": 41
+        },
+        {
+          "ordinal": 7,
+          "source_file": "7.pdf",
+          "component": "식별번호",
+          "procedure": "식별번호",
+          "start_page": 42,
+          "end_page": 45
+        },
+        {
+          "ordinal": 8,
+          "source_file": "8.pdf",
+          "component": "경고/주의 라벨",
+          "procedure": "경고/주의 라벨",
+          "start_page": 46,
+          "end_page": 47
+        },
+        {
+          "ordinal": 9,
+          "source_file": "9.pdf",
+          "component": "리프트 포인트",
+          "procedure": "리프트 포인트",
+          "start_page": 48,
+          "end_page": 52
+        },
+        {
+          "ordinal": 10,
+          "source_file": "10.pdf",
+          "component": "견인",
+          "procedure": "견인",
+          "start_page": 53,
+          "end_page": 54
+        },
+        {
+          "ordinal": 11,
+          "source_file": "11.pdf",
+          "component": "일반 조임 토크",
+          "procedure": "일반 조임 토크",
+          "start_page": 55,
+          "end_page": 57
+        },
+        {
+          "ordinal": 12,
+          "source_file": "12.pdf",
+          "component": "기본 정비심볼",
+          "procedure": "기본 정비심볼",
+          "start_page": 58,
+          "end_page": 59
+        },
+        {
+          "ordinal": 13,
+          "source_file": "13.pdf",
+          "component": "일반 주의 사항",
+          "procedure": "일반 주의 사항",
+          "start_page": 60,
+          "end_page": 71
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 4,
+        "unique_titles": 2,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R001",
+          "status": "available",
+          "title": "개인 보호 장비(PPE)",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 9,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R002",
+          "status": "available",
+          "title": "고전압 차단 절차",
+          "origin_page": 9,
+          "first_inserted_page": 10,
+          "return_page": 16,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R003",
+          "status": "available",
+          "title": "개인 보호 장비(PPE)",
+          "origin_page": 19,
+          "first_inserted_page": 20,
+          "return_page": 23,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R004",
+          "status": "available",
+          "title": "고전압 차단 절차",
+          "origin_page": 23,
+          "first_inserted_page": 24,
+          "return_page": 30,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 23,
+        "section_pages": [
+          23
+        ],
+        "reference_pages": [
+          23
+        ],
+        "flow_pages": [
+          24
+        ],
+        "missing_pages": [
+          24
+        ],
+        "relative_path": "00_전체_정비항목_파일색인.pdf",
+        "title": "전체 정비 항목 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "9.pdf 2쪽: 2주식 리프트 지지점의 앞·뒤 위치 그림",
+          "주요 절차: 1~6.pdf 안전·준비, 7~8.pdf 차량 표시, 9~10.pdf 취급, 11~13.pdf 정비 기준"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      },
+      "learning_objectives": [
+        "고전압 관련 주의사항·보호 장비·차단 절차의 위치를 구분해 찾습니다.",
+        "식별번호·라벨, 리프트·견인, 일반 정비 기준을 해당 목적에 맞게 찾습니다."
+      ],
+      "detailed_sample": {
+        "content_role": "lookup learning aid; no independent procedure",
+        "objective_source_files": [
+          "1.pdf",
+          "2.pdf",
+          "5.pdf",
+          "7.pdf",
+          "8.pdf",
+          "9.pdf",
+          "10.pdf",
+          "11.pdf",
+          "12.pdf",
+          "13.pdf"
+        ],
+        "route_note": "13개 항목은 필요한 기준을 찾는 분류입니다. 모든 항목을 하나의 연속 작업으로 실행하는 순서도가 아닙니다."
+      }
+    },
+    {
+      "id": "02",
+      "title": "바디 공통사항",
+      "total_pages": 48,
+      "intro": "바디 정비의 공통 안전사항, 증상별 고장진단, 서비스 정보와 체결토크·특수 공구를 확인하는 안내입니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\02_representative.png",
+        "caption": "바디 공통 정비의 공구 예시  /  호그 링 클립 인스톨러",
+        "source_file": "22.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "안전사항",
+          "description": "공통 주의사항과 보호 장비·안전 절차 확인"
+        },
+        {
+          "title": "고장진단",
+          "description": "증상, 가능한 원인과 조치의 관계 확인"
+        },
+        {
+          "title": "서비스 기준",
+          "description": "바디 서비스 정보와 체결토크 확인"
+        },
+        {
+          "title": "특수 공구",
+          "description": "수록 공구의 형상과 용도 확인"
+        }
+      ],
+      "learning_scope_label": "확인할 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "이번 작업에 필요한 안전·준비·정비 기준의 위치를 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "14.pdf",
+          "component": "고전압 시스템 작업 시 주의사항",
+          "procedure": "고전압 시스템 작업 시 주의사항",
+          "start_page": 3,
+          "end_page": 15
+        },
+        {
+          "ordinal": 2,
+          "source_file": "15.pdf",
+          "component": "개인 보호 장비 (PPE)",
+          "procedure": "개인 보호 장비 (PPE)",
+          "start_page": 16,
+          "end_page": 18
+        },
+        {
+          "ordinal": 3,
+          "source_file": "16.pdf",
+          "component": "사고 차량 작업 및 취급 주의사항",
+          "procedure": "사고 차량 작업 및 취급 주의사항",
+          "start_page": 19,
+          "end_page": 33
+        },
+        {
+          "ordinal": 4,
+          "source_file": "17.pdf",
+          "component": "차량 장기 방치 및 냉매 주의사항",
+          "procedure": "차량 장기 방치 및 냉매 주의사항",
+          "start_page": 34,
+          "end_page": 34
+        },
+        {
+          "ordinal": 5,
+          "source_file": "18.pdf",
+          "component": "고전압 차단 절차",
+          "procedure": "고전압 차단 절차",
+          "start_page": 35,
+          "end_page": 40
+        },
+        {
+          "ordinal": 6,
+          "source_file": "19.pdf",
+          "component": "고장진단",
+          "procedure": "고장진단",
+          "start_page": 41,
+          "end_page": 42
+        },
+        {
+          "ordinal": 7,
+          "source_file": "20.pdf",
+          "component": "서비스 정보",
+          "procedure": "서비스 정보",
+          "start_page": 43,
+          "end_page": 43
+        },
+        {
+          "ordinal": 8,
+          "source_file": "21.pdf",
+          "component": "체결토크",
+          "procedure": "체결토크",
+          "start_page": 44,
+          "end_page": 46
+        },
+        {
+          "ordinal": 9,
+          "source_file": "22.pdf",
+          "component": "특수 공구",
+          "procedure": "특수 공구",
+          "start_page": 47,
+          "end_page": 47
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 4,
+        "unique_titles": 2,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R007",
+          "status": "available",
+          "title": "개인 보호 장비(PPE)",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 9,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R008",
+          "status": "available",
+          "title": "고전압 차단 절차",
+          "origin_page": 9,
+          "first_inserted_page": 10,
+          "return_page": 16,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R009",
+          "status": "available",
+          "title": "개인 보호 장비(PPE)",
+          "origin_page": 19,
+          "first_inserted_page": 20,
+          "return_page": 23,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R010",
+          "status": "available",
+          "title": "고전압 차단 절차",
+          "origin_page": 23,
+          "first_inserted_page": 24,
+          "return_page": 30,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 20,
+        "section_pages": [
+          20
+        ],
+        "reference_pages": [
+          20
+        ],
+        "flow_pages": [
+          20,
+          21
+        ],
+        "missing_pages": [
+          21
+        ],
+        "relative_path": "00_전체_정비항목_파일색인.pdf",
+        "title": "전체 정비 항목 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "22.pdf 1쪽: 호그 링 클립 인스톨러 도안 및 용도 표",
+          "주요 절차: 14~18.pdf 안전, 19.pdf 고장진단, 20.pdf 서비스 정보, 21.pdf 체결토크, 22.pdf 특수 공구"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "03",
+      "title": "펜더",
+      "total_pages": 26,
+      "intro": "펜더 주변의 부품 위치를 확인하고, 인슐레이터·어셈블리·에이프런 어퍼 커버의 탈거와 장착을 다룹니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\03_representative.png",
+        "caption": "펜더 어셈블리·인슐레이터 패드·에이프런 어퍼 커버 위치",
+        "source_file": "23.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "부품 위치",
+          "description": "펜더와 주변 구성부품 위치 확인"
+        },
+        {
+          "title": "인슐레이터",
+          "description": "작업요약표와 탈거·장착 절차"
+        },
+        {
+          "title": "펜더 어셈블리",
+          "description": "작업요약표와 탈거·장착 절차"
+        },
+        {
+          "title": "에이프런 어퍼 커버",
+          "description": "작업요약표와 탈거·장착 절차"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "23.pdf",
+          "component": "펜더",
+          "procedure": "구성부품 및 부품위치",
+          "start_page": 3,
+          "end_page": 3
+        },
+        {
+          "ordinal": 2,
+          "source_file": "24-1.pdf",
+          "component": "펜더 인슐레이터",
+          "procedure": "작업요약표",
+          "start_page": 4,
+          "end_page": 6
+        },
+        {
+          "ordinal": 3,
+          "source_file": "24-2.pdf",
+          "component": "펜더 인슐레이터",
+          "procedure": "탈거 및 장착",
+          "start_page": 7,
+          "end_page": 8
+        },
+        {
+          "ordinal": 4,
+          "source_file": "25-1.pdf",
+          "component": "펜더 어셈블리",
+          "procedure": "작업요약표",
+          "start_page": 9,
+          "end_page": 16
+        },
+        {
+          "ordinal": 5,
+          "source_file": "25-2.pdf",
+          "component": "펜더 어셈블리",
+          "procedure": "탈거 및 장착",
+          "start_page": 17,
+          "end_page": 23
+        },
+        {
+          "ordinal": 6,
+          "source_file": "26-1.pdf",
+          "component": "펜더 에이프런 어퍼 커버",
+          "procedure": "작업요약표",
+          "start_page": 24,
+          "end_page": 24
+        },
+        {
+          "ordinal": 7,
+          "source_file": "26-2.pdf",
+          "component": "펜더 에이프런 어퍼 커버",
+          "procedure": "탈거 및 장착",
+          "start_page": 25,
+          "end_page": 25
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 4,
+        "unique_titles": 2,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R017",
+          "status": "available",
+          "title": "펜더 에이프런 어퍼 커버 탈거",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 13,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R018",
+          "status": "available",
+          "title": "펜더 인슐레이터 탈거",
+          "origin_page": 13,
+          "first_inserted_page": 14,
+          "return_page": 16,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R021",
+          "status": "available",
+          "title": "펜더 에이프런 어퍼 커버 탈거",
+          "origin_page": 17,
+          "first_inserted_page": 18,
+          "return_page": 19,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R022",
+          "status": "available",
+          "title": "펜더 인슐레이터 탈거",
+          "origin_page": 19,
+          "first_inserted_page": 20,
+          "return_page": 22,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 30,
+        "section_pages": [
+          30
+        ],
+        "reference_pages": [
+          30
+        ],
+        "flow_pages": [
+          30
+        ],
+        "missing_pages": [
+          31
+        ],
+        "relative_path": "00_전체_정비항목_파일색인.pdf",
+        "title": "전체 정비 항목 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "23.pdf 1쪽: 부품 위치 그림 및 1~4번 부품 명칭",
+          "24-1~24-2.pdf 인슐레이터, 25-1~25-2.pdf 어셈블리, 26-1~26-2.pdf 커버"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "04",
+      "title": "후드",
+      "total_pages": 32,
+      "intro": "후드와 관련 부품의 위치·조정 방법을 확인하고, 어셈블리·패드·리프터·랫치 등의 탈거와 장착을 다룹니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\04_representative.png",
+        "caption": "후드 어셈블리·랫치·리프터·웨더 스트립 위치",
+        "source_file": "27.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "부품 위치·조정",
+          "description": "구성부품 위치와 후드 조정 안내"
+        },
+        {
+          "title": "후드 어셈블리",
+          "description": "작업요약표와 탈거·장착 절차"
+        },
+        {
+          "title": "패드·리프터",
+          "description": "인슐레이터 패드와 리프터 탈거·장착"
+        },
+        {
+          "title": "랫치·핸들·스트립",
+          "description": "랫치, 릴리스 핸들과 웨더 스트립 정비"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "27.pdf",
+          "component": "후드",
+          "procedure": "구성부품 및 부품위치",
+          "start_page": 3,
+          "end_page": 3
+        },
+        {
+          "ordinal": 2,
+          "source_file": "28.pdf",
+          "component": "후드",
+          "procedure": "조정",
+          "start_page": 4,
+          "end_page": 4
+        },
+        {
+          "ordinal": 3,
+          "source_file": "29-1.pdf",
+          "component": "후드 어셈블리",
+          "procedure": "작업요약표",
+          "start_page": 5,
+          "end_page": 7
+        },
+        {
+          "ordinal": 4,
+          "source_file": "29-2.pdf",
+          "component": "후드 어셈블리",
+          "procedure": "탈거",
+          "start_page": 8,
+          "end_page": 10
+        },
+        {
+          "ordinal": 5,
+          "source_file": "29-3.pdf",
+          "component": "후드 어셈블리",
+          "procedure": "장착",
+          "start_page": 11,
+          "end_page": 12
+        },
+        {
+          "ordinal": 6,
+          "source_file": "30-1.pdf",
+          "component": "후드 인슐레이터 패드",
+          "procedure": "작업요약표",
+          "start_page": 13,
+          "end_page": 13
+        },
+        {
+          "ordinal": 7,
+          "source_file": "30-2.pdf",
+          "component": "후드 인슐레이터 패드",
+          "procedure": "탈거 및 장착",
+          "start_page": 14,
+          "end_page": 14
+        },
+        {
+          "ordinal": 8,
+          "source_file": "31-1.pdf",
+          "component": "후드 리프터",
+          "procedure": "작업요약표",
+          "start_page": 15,
+          "end_page": 15
+        },
+        {
+          "ordinal": 9,
+          "source_file": "31-2.pdf",
+          "component": "후드 리프터",
+          "procedure": "탈거",
+          "start_page": 16,
+          "end_page": 16
+        },
+        {
+          "ordinal": 10,
+          "source_file": "31-3.pdf",
+          "component": "후드 리프터",
+          "procedure": "장착",
+          "start_page": 17,
+          "end_page": 18
+        },
+        {
+          "ordinal": 11,
+          "source_file": "32-1.pdf",
+          "component": "후드 랫치",
+          "procedure": "작업요약표",
+          "start_page": 19,
+          "end_page": 22
+        },
+        {
+          "ordinal": 12,
+          "source_file": "32-2.pdf",
+          "component": "후드 랫치",
+          "procedure": "탈거",
+          "start_page": 23,
+          "end_page": 24
+        },
+        {
+          "ordinal": 13,
+          "source_file": "32-3.pdf",
+          "component": "후드 랫치",
+          "procedure": "장착",
+          "start_page": 25,
+          "end_page": 26
+        },
+        {
+          "ordinal": 14,
+          "source_file": "33-1.pdf",
+          "component": "후드 랫치 릴리스 핸들",
+          "procedure": "작업요약표",
+          "start_page": 27,
+          "end_page": 27
+        },
+        {
+          "ordinal": 15,
+          "source_file": "33-2.pdf",
+          "component": "후드 랫치 릴리스 핸들",
+          "procedure": "탈거",
+          "start_page": 28,
+          "end_page": 28
+        },
+        {
+          "ordinal": 16,
+          "source_file": "33-3.pdf",
+          "component": "후드 랫치 릴리스 핸들",
+          "procedure": "장착",
+          "start_page": 29,
+          "end_page": 29
+        },
+        {
+          "ordinal": 17,
+          "source_file": "34-1.pdf",
+          "component": "후드 웨더 스트립",
+          "procedure": "작업요약표",
+          "start_page": 30,
+          "end_page": 30
+        },
+        {
+          "ordinal": 18,
+          "source_file": "34-2.pdf",
+          "component": "후드 웨더 스트립",
+          "procedure": "탈거 및 장착",
+          "start_page": 31,
+          "end_page": 31
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 5,
+        "unique_titles": 2,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R023",
+          "status": "available",
+          "title": "후드 리프터 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 7,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R024",
+          "status": "available",
+          "title": "후드 리프터 탈거",
+          "origin_page": 8,
+          "first_inserted_page": 9,
+          "return_page": 10,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R025",
+          "status": "available",
+          "title": "후드 조정",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 13,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R026",
+          "status": "available",
+          "title": "후드 조정",
+          "origin_page": 17,
+          "first_inserted_page": 18,
+          "return_page": 19,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R029",
+          "status": "available",
+          "title": "후드 조정",
+          "origin_page": 25,
+          "first_inserted_page": 26,
+          "return_page": 27,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 48,
+        "section_pages": [
+          48
+        ],
+        "reference_pages": [
+          49
+        ],
+        "flow_pages": [
+          49
+        ],
+        "missing_pages": [
+          49
+        ],
+        "relative_path": "00_전체_정비항목_파일색인.pdf",
+        "title": "전체 정비 항목 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "27.pdf 1쪽: 후드 부품 위치 그림",
+          "28.pdf 조정, 29그룹 어셈블리, 30그룹 패드, 31그룹 리프터, 32그룹 랫치, 33그룹 핸들, 34그룹 웨더 스트립"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "05",
+      "title": "테일게이트",
+      "total_pages": 182,
+      "intro": "테일게이트의 작동·진단·조정과 각 부품의 탈거·장착을 다루며, 파워 유닛 점검·조정·코딩을 포함합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\05_representative.png",
+        "caption": "테일게이트와 인너 스위치·드라이브 유닛·파워 유닛·랫치 위치",
+        "source_file": "35-2.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "작동·진단·점검",
+          "description": "작동원리, 부품 위치, 고장진단과 점검"
+        },
+        {
+          "title": "테일게이트 조정",
+          "description": "수록된 테일게이트 조정 안내"
+        },
+        {
+          "title": "어셈블리·주변 부품",
+          "description": "어셈블리, 트림, 스트립, 가니쉬와 랫치 정비"
+        },
+        {
+          "title": "파워 유닛",
+          "description": "점검·조정·탈거·장착과 배리언트 코딩"
+        },
+        {
+          "title": "드라이브 유닛·스위치",
+          "description": "드라이브 유닛과 스위치 탈거·장착"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "테일게이트 전체를 연속으로 분해하는 순서가 아닙니다. 작업 대상 부품과 진단·점검·탈거·장착 중 필요한 항목을 먼저 고르세요.",
+      "review_prompts": [
+        "파워 유닛 장착 중 모드 변경·코딩·초기화 참조가 연결되는 위치와 복귀 쪽을 짚어 보세요.",
+        "111쪽 원문의 신품 유닛 교환 시 확인 사항과 인도 전 확인 사항을 찾아 설명할 수 있나요?"
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "35-1.pdf",
+          "component": "테일게이트",
+          "procedure": "개요 및 작동원리",
+          "start_page": 3,
+          "end_page": 10
+        },
+        {
+          "ordinal": 2,
+          "source_file": "35-2.pdf",
+          "component": "테일게이트",
+          "procedure": "구성부품 및 부품위치",
+          "start_page": 11,
+          "end_page": 12
+        },
+        {
+          "ordinal": 3,
+          "source_file": "35-3.pdf",
+          "component": "테일게이트",
+          "procedure": "고장진단",
+          "start_page": 13,
+          "end_page": 18
+        },
+        {
+          "ordinal": 4,
+          "source_file": "35-4.pdf",
+          "component": "테일게이트",
+          "procedure": "점검",
+          "start_page": 19,
+          "end_page": 29
+        },
+        {
+          "ordinal": 5,
+          "source_file": "36.pdf",
+          "component": "테일게이트",
+          "procedure": "조정",
+          "start_page": 30,
+          "end_page": 32
+        },
+        {
+          "ordinal": 6,
+          "source_file": "37-1.pdf",
+          "component": "테일게이트 어셈블리",
+          "procedure": "작업요약표",
+          "start_page": 33,
+          "end_page": 40
+        },
+        {
+          "ordinal": 7,
+          "source_file": "37-2.pdf",
+          "component": "테일게이트 어셈블리",
+          "procedure": "탈거",
+          "start_page": 41,
+          "end_page": 50
+        },
+        {
+          "ordinal": 8,
+          "source_file": "37-3.pdf",
+          "component": "테일게이트 어셈블리",
+          "procedure": "장착",
+          "start_page": 51,
+          "end_page": 51
+        },
+        {
+          "ordinal": 9,
+          "source_file": "38-1.pdf",
+          "component": "테일게이트 트림",
+          "procedure": "작업요약표",
+          "start_page": 52,
+          "end_page": 54
+        },
+        {
+          "ordinal": 10,
+          "source_file": "38-2.pdf",
+          "component": "테일게이트 트림",
+          "procedure": "탈거 및 장착",
+          "start_page": 55,
+          "end_page": 58
+        },
+        {
+          "ordinal": 11,
+          "source_file": "39-1.pdf",
+          "component": "테일게이트 웨더 스트립",
+          "procedure": "작업요약표",
+          "start_page": 59,
+          "end_page": 59
+        },
+        {
+          "ordinal": 12,
+          "source_file": "39-2.pdf",
+          "component": "테일게이트 웨더 스트립",
+          "procedure": "탈거",
+          "start_page": 60,
+          "end_page": 60
+        },
+        {
+          "ordinal": 13,
+          "source_file": "39-3.pdf",
+          "component": "테일게이트 웨더 스트립",
+          "procedure": "장착",
+          "start_page": 61,
+          "end_page": 61
+        },
+        {
+          "ordinal": 14,
+          "source_file": "40-1.pdf",
+          "component": "테일게이트 가니쉬",
+          "procedure": "작업요약표",
+          "start_page": 62,
+          "end_page": 71
+        },
+        {
+          "ordinal": 15,
+          "source_file": "40-2.pdf",
+          "component": "테일게이트 가니쉬",
+          "procedure": "탈거",
+          "start_page": 72,
+          "end_page": 80
+        },
+        {
+          "ordinal": 16,
+          "source_file": "40-3.pdf",
+          "component": "테일게이트 가니쉬",
+          "procedure": "장착",
+          "start_page": 81,
+          "end_page": 81
+        },
+        {
+          "ordinal": 17,
+          "source_file": "41-1.pdf",
+          "component": "테일게이트 랫치",
+          "procedure": "작업요약표",
+          "start_page": 82,
+          "end_page": 89
+        },
+        {
+          "ordinal": 18,
+          "source_file": "41-2.pdf",
+          "component": "테일게이트 랫치",
+          "procedure": "탈거",
+          "start_page": 90,
+          "end_page": 98
+        },
+        {
+          "ordinal": 19,
+          "source_file": "41-3.pdf",
+          "component": "테일게이트 랫치",
+          "procedure": "장착",
+          "start_page": 99,
+          "end_page": 99
+        },
+        {
+          "ordinal": 20,
+          "source_file": "42-1.pdf",
+          "component": "파워 테일게이트 유닛",
+          "procedure": "작업요약표",
+          "start_page": 100,
+          "end_page": 102
+        },
+        {
+          "ordinal": 21,
+          "source_file": "42-2.pdf",
+          "component": "파워 테일게이트 유닛",
+          "procedure": "점검",
+          "start_page": 103,
+          "end_page": 105
+        },
+        {
+          "ordinal": 22,
+          "source_file": "42-3.pdf",
+          "component": "파워 테일게이트 유닛",
+          "procedure": "조정",
+          "start_page": 106,
+          "end_page": 108
+        },
+        {
+          "ordinal": 23,
+          "source_file": "42-4.pdf",
+          "component": "파워 테일게이트 유닛",
+          "procedure": "탈거",
+          "start_page": 109,
+          "end_page": 110
+        },
+        {
+          "ordinal": 24,
+          "source_file": "42-5.pdf",
+          "component": "파워 테일게이트 유닛",
+          "procedure": "장착",
+          "start_page": 111,
+          "end_page": 120
+        },
+        {
+          "ordinal": 25,
+          "source_file": "42-6.pdf",
+          "component": "파워 테일게이트 유닛",
+          "procedure": "배리언트 코딩",
+          "start_page": 121,
+          "end_page": 122
+        },
+        {
+          "ordinal": 26,
+          "source_file": "43-1.pdf",
+          "component": "파워 테일게이트 드라이브 유닛",
+          "procedure": "작업요약표",
+          "start_page": 123,
+          "end_page": 126
+        },
+        {
+          "ordinal": 27,
+          "source_file": "43-2.pdf",
+          "component": "파워 테일게이트 드라이브 유닛",
+          "procedure": "탈거",
+          "start_page": 127,
+          "end_page": 130
+        },
+        {
+          "ordinal": 28,
+          "source_file": "43-3.pdf",
+          "component": "파워 테일게이트 드라이브 유닛",
+          "procedure": "장착",
+          "start_page": 131,
+          "end_page": 134
+        },
+        {
+          "ordinal": 29,
+          "source_file": "44-1.pdf",
+          "component": "파워 테일게이트 스위치",
+          "procedure": "작업요약표",
+          "start_page": 135,
+          "end_page": 159
+        },
+        {
+          "ordinal": 30,
+          "source_file": "44-2.pdf",
+          "component": "파워 테일게이트 스위치",
+          "procedure": "탈거 및 장착",
+          "start_page": 160,
+          "end_page": 181
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 17,
+        "unique_titles": 6,
+        "maximum_depth": 2
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R039",
+          "status": "available",
+          "title": "파워 테일게이트 시스템 초기화",
+          "origin_page": 20,
+          "first_inserted_page": 21,
+          "return_page": 23,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R041",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 33,
+          "first_inserted_page": 34,
+          "return_page": 40,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R042",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 41,
+          "first_inserted_page": 42,
+          "return_page": 48,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R043",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 62,
+          "first_inserted_page": 63,
+          "return_page": 69,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R045",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 72,
+          "first_inserted_page": 73,
+          "return_page": 79,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R047",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 82,
+          "first_inserted_page": 83,
+          "return_page": 89,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R048",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 90,
+          "first_inserted_page": 91,
+          "return_page": 97,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R051",
+          "status": "available",
+          "title": "파워 테일게이트 모드 변경",
+          "origin_page": 111,
+          "first_inserted_page": 112,
+          "return_page": 114,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R052",
+          "status": "available",
+          "title": "파워 테일게이트 유닛 배리언트 코딩",
+          "origin_page": 114,
+          "first_inserted_page": 115,
+          "return_page": 117,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R053",
+          "status": "available",
+          "title": "파워 테일게이트 시스템 초기화",
+          "origin_page": 117,
+          "first_inserted_page": 118,
+          "return_page": 120,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R057",
+          "status": "available",
+          "title": "테일게이트 조정",
+          "origin_page": 131,
+          "first_inserted_page": 132,
+          "return_page": 135,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R058",
+          "status": "available",
+          "title": "테일게이트 가니쉬 탈거",
+          "origin_page": 136,
+          "first_inserted_page": 137,
+          "return_page": 146,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R045",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 137,
+          "first_inserted_page": 138,
+          "return_page": 144,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R061",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 151,
+          "first_inserted_page": 152,
+          "return_page": 158,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R062",
+          "status": "available",
+          "title": "테일게이트 가니쉬 탈거",
+          "origin_page": 161,
+          "first_inserted_page": 162,
+          "return_page": 171,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R045",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 162,
+          "first_inserted_page": 163,
+          "return_page": 169,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R065",
+          "status": "available",
+          "title": "테일게이트 트림 탈거 (어퍼 → 사이드 → 로어)",
+          "origin_page": 174,
+          "first_inserted_page": 175,
+          "return_page": 181,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 25,
+        "section_pages": [
+          25,
+          26
+        ],
+        "reference_pages": [
+          26,
+          27
+        ],
+        "flow_pages": [
+          27,
+          28
+        ],
+        "missing_pages": [
+          28,
+          29
+        ],
+        "relative_path": "00_전체_정비항목_파일색인.pdf",
+        "title": "전체 정비 항목 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "35-2.pdf 1쪽: 테일게이트 및 파워 구성부품 위치 그림",
+          "35그룹 작동·진단·점검, 36.pdf 조정, 37~41그룹 어셈블리·주변 부품, 42그룹 파워 유닛, 43그룹 드라이브 유닛, 44그룹 스위치"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      },
+      "learning_objectives": [
+        "작동원리·진단·점검·조정과 부품별 탈거·장착 항목을 구분해 찾습니다.",
+        "파워 유닛 장착에서 모드 변경·코딩·초기화 참조를 마친 뒤 복귀하는 흐름을 짚습니다."
+      ],
+      "detailed_sample": {
+        "source_visually_read": [
+          "42-5.pdf:1"
+        ],
+        "source_page_local": 111,
+        "source_notes": [
+          "원문은 장착 역순, 정상 개폐 점검, 신품 유닛 교환 시 고장코드 확인, 조건부 모드 변경, 코딩, 초기화, 인도 전 경보음 및 OTA 대상 제어기 교환 시 업데이트를 구분함.",
+          "교육용 요약에서 조건을 삭제하거나 이들을 모든 작업의 공통 필수 절차로 바꾸지 말 것.",
+          "원문 미수록 참조는 기존 안내를 그대로 유지."
+        ],
+        "flow_example": [
+          {
+            "label": "장착 본문",
+            "page": 111
+          },
+          {
+            "label": "모드 변경 참조",
+            "page": 112
+          },
+          {
+            "label": "장착 복귀",
+            "page": 114
+          },
+          {
+            "label": "배리언트 코딩 참조",
+            "page": 115
+          },
+          {
+            "label": "장착 복귀",
+            "page": 117
+          },
+          {
+            "label": "초기화 참조",
+            "page": 118
+          },
+          {
+            "label": "장착 복귀",
+            "page": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "title": "연료 주입 도어",
+      "total_pages": 24,
+      "intro": "연료 주입 도어의 부품 위치를 확인하고, 커버·어셈블리와 도어 해제 액추에이터의 탈거·장착을 다룹니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\06_representative.png",
+        "caption": "연료 주입 도어 어셈블리와 해제 액추에이터 위치",
+        "source_file": "45-1.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "부품 위치",
+          "description": "어셈블리와 해제 액추에이터 위치 확인"
+        },
+        {
+          "title": "도어 커버",
+          "description": "작업요약표와 탈거·장착 절차"
+        },
+        {
+          "title": "도어 어셈블리",
+          "description": "작업요약표와 탈거·장착 절차"
+        },
+        {
+          "title": "해제 액추에이터",
+          "description": "작업요약표와 탈거·장착 절차"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "45-1.pdf",
+          "component": "연료 주입 도어",
+          "procedure": "구성부품 및 부품위치",
+          "start_page": 3,
+          "end_page": 3
+        },
+        {
+          "ordinal": 2,
+          "source_file": "45-2.pdf",
+          "component": "연료 주입 도어 커버",
+          "procedure": "작업요약표",
+          "start_page": 4,
+          "end_page": 4
+        },
+        {
+          "ordinal": 3,
+          "source_file": "45-3.pdf",
+          "component": "연료 주입 도어 커버",
+          "procedure": "탈거 및 장착",
+          "start_page": 5,
+          "end_page": 5
+        },
+        {
+          "ordinal": 4,
+          "source_file": "45-4.pdf",
+          "component": "연료 주입 도어 어셈블리",
+          "procedure": "작업요약표",
+          "start_page": 6,
+          "end_page": 7
+        },
+        {
+          "ordinal": 5,
+          "source_file": "45-5.pdf",
+          "component": "연료 주입 도어 어셈블리",
+          "procedure": "탈거 및 장착",
+          "start_page": 8,
+          "end_page": 10
+        },
+        {
+          "ordinal": 6,
+          "source_file": "45-6.pdf",
+          "component": "연료 주입 도어 해제 액추에이터",
+          "procedure": "작업요약표",
+          "start_page": 11,
+          "end_page": 17
+        },
+        {
+          "ordinal": 7,
+          "source_file": "45-7.pdf",
+          "component": "연료 주입 도어 해제 액추에이터",
+          "procedure": "탈거",
+          "start_page": 18,
+          "end_page": 22
+        },
+        {
+          "ordinal": 8,
+          "source_file": "45-8.pdf",
+          "component": "연료 주입 도어 해제 액추에이터",
+          "procedure": "장착",
+          "start_page": 23,
+          "end_page": 23
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R066",
+          "status": "available",
+          "title": "연료 주입 도어 어셈블리 탈거",
+          "origin_page": 12,
+          "first_inserted_page": 13,
+          "return_page": 16,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R067",
+          "status": "available",
+          "title": "연료 주입 도어 어셈블리 탈거",
+          "origin_page": 18,
+          "first_inserted_page": 19,
+          "return_page": 22,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 22,
+        "section_pages": [
+          22
+        ],
+        "reference_pages": [
+          22
+        ],
+        "flow_pages": [
+          22
+        ],
+        "missing_pages": [],
+        "relative_path": "00_전체_정비항목_파일색인.pdf",
+        "title": "전체 정비 항목 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "45-1.pdf 1쪽: 어셈블리 및 해제 액추에이터 위치 그림",
+          "45-2~45-3.pdf 커버, 45-4~45-5.pdf 어셈블리, 45-6~45-8.pdf 해제 액추에이터"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-01",
+      "title": "프런트 도어 기본·조정",
+      "total_pages": 12,
+      "intro": "프런트 도어의 구성부품과 위치를 확인하고, 글라스·스트라이커·도어의 조정 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-01.png",
+        "caption": "프런트 도어의 구성부품과 위치를 보여주는 원문 도해",
+        "source_file": "46-1.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "구성부품 확인",
+          "description": "도어 안팎의 주요 부품과 위치를 확인합니다."
+        },
+        {
+          "title": "글라스 조정",
+          "description": "트림 탈거 참조절차를 거쳐 글라스의 간격과 작동을 확인합니다."
+        },
+        {
+          "title": "스트라이커 조정",
+          "description": "스트라이커의 위치를 조정하고 도어의 개폐 상태를 확인합니다."
+        },
+        {
+          "title": "도어 조정",
+          "description": "힌지와 도어 위치를 조정하고 바디와의 간격을 확인합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "46-1.pdf",
+          "component": "프런트 도어",
+          "procedure": "구성부품 및 부품위치",
+          "start_page": 3,
+          "end_page": 4
+        },
+        {
+          "ordinal": 2,
+          "source_file": "46-2.pdf",
+          "component": "프런트 도어",
+          "procedure": "조정",
+          "start_page": 5,
+          "end_page": 12
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 1,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R068",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 9,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 7,
+        "section_pages": [
+          7
+        ],
+        "reference_pages": [
+          7
+        ],
+        "flow_pages": [
+          7
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "46-1.pdf",
+            "page": 1,
+            "text": "구성부품 및 부품위치: 아웃사이드 핸들, 트림, 인사이드 핸들, 모듈, 윈도우 모터"
+          },
+          {
+            "file": "46-2.pdf",
+            "page": 1,
+            "text": "글라스 조정; 프런트 도어 트림 참조"
+          },
+          {
+            "file": "46-2.pdf",
+            "page": 2,
+            "text": "글라스 간격 조정 및 정상 작동 확인; 스트라이커 조정 및 도어 개폐 확인"
+          },
+          {
+            "file": "46-2.pdf",
+            "page": 3,
+            "text": "도어 조정; 도어와 바디의 간격 확인"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-02",
+      "title": "프런트 도어 트림",
+      "total_pages": 8,
+      "intro": "프런트 도어 트림을 분리하고 다시 장착하며, 클립 교환과 글라스·도어 작동 확인 사항을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-02.png",
+        "caption": "원문에서 A로 표시한 프런트 도어 트림",
+        "source_file": "46-4.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "작업 준비",
+          "description": "원문의 주의사항과 배터리 분리 절차를 확인합니다."
+        },
+        {
+          "title": "트림 탈거",
+          "description": "고정 스크류를 풀고 핸들 케이지와 트림 커넥터를 분리합니다."
+        },
+        {
+          "title": "장착·작동 확인",
+          "description": "역순으로 장착하며 클립 교환과 글라스·도어 작동 확인 사항을 따릅니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업요약표 3쪽에서 범위를 확인한 뒤 탈거 5쪽의 원문 주의사항을 읽으세요.",
+      "review_prompts": [
+        "재장착할 때 클립(파스너)에 관한 원문 지시는 무엇인가요? — 8쪽",
+        "장착 후 글라스·도어·커넥터에 관해 확인할 내용은 무엇인가요? — 8쪽"
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "46-3.pdf",
+          "component": "프런트 도어 트림",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 4
+        },
+        {
+          "ordinal": 2,
+          "source_file": "46-4.pdf",
+          "component": "프런트 도어 트림",
+          "procedure": "탈거",
+          "start_page": 5,
+          "end_page": 7
+        },
+        {
+          "ordinal": 3,
+          "source_file": "46-5.pdf",
+          "component": "프런트 도어 트림",
+          "procedure": "장착",
+          "start_page": 8,
+          "end_page": 8
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 0,
+        "unique_titles": 0,
+        "maximum_depth": 0
+      },
+      "reference_flow_events": [],
+      "master_hint": {
+        "first_page": 14,
+        "section_pages": [
+          14
+        ],
+        "reference_pages": [],
+        "flow_pages": [],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "46-4.pdf",
+            "page": 1,
+            "text": "스크류를 풀어 프런트 도어 트림(A)을 아랫부분부터 탈거"
+          },
+          {
+            "file": "46-4.pdf",
+            "page": 2,
+            "text": "인사이드 핸들 케이지 분리"
+          },
+          {
+            "file": "46-4.pdf",
+            "page": 3,
+            "text": "트림 커넥터 분리"
+          },
+          {
+            "file": "46-5.pdf",
+            "page": 1,
+            "text": "탈거의 역순 장착; 재장착 시 클립 교환; 글라스와 도어 작동 및 커넥터 조립 확인"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      },
+      "learning_objectives": [
+        "트림 이미지와 실제 탈거·장착 항목의 위치를 연결합니다.",
+        "재장착 시 클립 교환 및 글라스·도어·커넥터 확인 사항을 원문에서 찾습니다."
+      ],
+      "detailed_sample": {
+        "source_visually_read": [
+          "46-5.pdf:1"
+        ],
+        "source_page_local": 8,
+        "source_notes": [
+          "원문에서 트림 재장착 시 클립 반드시 교환, 글라스 정상 작동, 도어 열고 닫힘, 커넥터 확실 조립 확인.",
+          "질문형 복습은 원문을 다시 찾게 하는 용도로만 사용."
+        ]
+      }
+    },
+    {
+      "id": "07-03",
+      "title": "프런트 도어 핸들",
+      "total_pages": 18,
+      "intro": "인사이드·아웃사이드 핸들의 탈거와 역순 장착, 조립 상태 및 도어 개폐 확인 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-03.png",
+        "caption": "아웃사이드 핸들(A) 대표 이미지 · 인사이드 핸들 절차도 수록",
+        "source_file": "46-7.pdf",
+        "source_page": 5
+      },
+      "learning_scope": [
+        {
+          "title": "인사이드 핸들 탈거",
+          "description": "인사이드 핸들 절차에서 트림 탈거를 참조하고 핸들을 분리합니다."
+        },
+        {
+          "title": "아웃사이드 핸들 탈거",
+          "description": "아웃사이드 핸들 절차에서 고정부와 락 어셈블리, 커넥터를 분리합니다."
+        },
+        {
+          "title": "장착·개폐 확인",
+          "description": "해당 핸들을 역순으로 장착하고 패드 위치와 조립·개폐 상태를 확인합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "46-6.pdf",
+          "component": "프런트 도어 핸들",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 9
+        },
+        {
+          "ordinal": 2,
+          "source_file": "46-7.pdf",
+          "component": "프런트 도어 핸들",
+          "procedure": "탈거",
+          "start_page": 10,
+          "end_page": 17
+        },
+        {
+          "ordinal": 3,
+          "source_file": "46-8.pdf",
+          "component": "프런트 도어 핸들",
+          "procedure": "장착",
+          "start_page": 18,
+          "end_page": 18
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R069",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 7,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R070",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 10,
+          "first_inserted_page": 11,
+          "return_page": 14,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 18,
+        "section_pages": [
+          18
+        ],
+        "reference_pages": [
+          18
+        ],
+        "flow_pages": [
+          18
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "46-7.pdf",
+            "page": 1,
+            "text": "인사이드 핸들: 배터리 분리 및 트림 탈거 참조"
+          },
+          {
+            "file": "46-7.pdf",
+            "page": 2,
+            "text": "스크류를 풀어 인사이드 핸들 탈거; 아웃사이드 핸들 절차 시작"
+          },
+          {
+            "file": "46-7.pdf",
+            "page": 4,
+            "text": "락 어셈블리 탈거"
+          },
+          {
+            "file": "46-7.pdf",
+            "page": 5,
+            "text": "아웃사이드 핸들(A)을 화살표 방향으로 밀어 탈거; 커넥터 분리"
+          },
+          {
+            "file": "46-8.pdf",
+            "page": 1,
+            "text": "인사이드 및 아웃사이드 핸들 역순 장착; 패드 위치, 들뜸, 도어 개폐 확인"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-04",
+      "title": "프런트 도어 윈도우 글라스",
+      "total_pages": 20,
+      "intro": "벨트 웨더 스트립 분리부터 윈도우 글라스의 탈거·장착, 작동 확인과 필요 시 조정까지 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-04.png",
+        "caption": "원문에서 A로 표시한 프런트 도어 윈도우 글라스",
+        "source_file": "47-2.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "선행 절차 참조",
+          "description": "벨트 인사이드·아웃사이드 웨더 스트립 탈거절차를 펼쳐 확인합니다."
+        },
+        {
+          "title": "글라스 탈거",
+          "description": "플러그 홀과 고정 볼트를 분리하고 글라스를 기울여 위로 빼냅니다."
+        },
+        {
+          "title": "장착·작동 확인",
+          "description": "역순 장착 후 글라스 작동을 확인하고 필요 시 조정합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "47-1.pdf",
+          "component": "프런트 도어 윈도우 글라스",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 11
+        },
+        {
+          "ordinal": 2,
+          "source_file": "47-2.pdf",
+          "component": "프런트 도어 윈도우 글라스",
+          "procedure": "탈거",
+          "start_page": 12,
+          "end_page": 19
+        },
+        {
+          "ordinal": 3,
+          "source_file": "47-3.pdf",
+          "component": "프런트 도어 윈도우 글라스",
+          "procedure": "장착",
+          "start_page": 20,
+          "end_page": 20
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 4,
+        "unique_titles": 2,
+        "maximum_depth": 2
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R071",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 10,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 9,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 12,
+          "first_inserted_page": 13,
+          "return_page": 18,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 13,
+          "first_inserted_page": 14,
+          "return_page": 17,
+          "nesting_depth": 2
+        }
+      ],
+      "master_hint": {
+        "first_page": 13,
+        "section_pages": [
+          13
+        ],
+        "reference_pages": [
+          13
+        ],
+        "flow_pages": [
+          13
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "47-2.pdf",
+            "page": 1,
+            "text": "벨트 인사이드·아웃사이드 웨더 스트립 탈거 참조; 플러그 홀 탈거"
+          },
+          {
+            "file": "47-2.pdf",
+            "page": 2,
+            "text": "볼트를 풀어 윈도우 글라스(A)를 기울여 위로 빼냄"
+          },
+          {
+            "file": "47-3.pdf",
+            "page": 1,
+            "text": "탈거 역순 장착; 글라스 작동 확인; 필요 시 조정"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-05",
+      "title": "프런트 도어 모듈",
+      "total_pages": 40,
+      "intro": "글라스와 핸들 등 선행 부품을 분리하고, 도어 모듈의 탈거·장착 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-05.png",
+        "caption": "원문에서 A로 표시한 프런트 도어 모듈과 고정부",
+        "source_file": "48-2.pdf",
+        "source_page": 5
+      },
+      "learning_scope": [
+        {
+          "title": "선행 부품 분리",
+          "description": "윈도우 글라스와 아웃사이드 핸들 탈거 참조절차를 확인합니다."
+        },
+        {
+          "title": "배선·체결부 분리",
+          "description": "핸들·랫치의 체결부와 메인·미러 커넥터 및 와이어링을 분리합니다."
+        },
+        {
+          "title": "모듈 탈거",
+          "description": "채널과 모듈의 고정 볼트를 분리하여 모듈을 탈거합니다."
+        },
+        {
+          "title": "역순 장착",
+          "description": "원문에 따라 탈거의 역순으로 장착합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "48-1.pdf",
+          "component": "프런트 도어 모듈",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 21
+        },
+        {
+          "ordinal": 2,
+          "source_file": "48-2.pdf",
+          "component": "프런트 도어 모듈",
+          "procedure": "탈거 및 장착",
+          "start_page": 22,
+          "end_page": 40
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 8,
+        "unique_titles": 4,
+        "maximum_depth": 3
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R073",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 13,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 11,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 6,
+          "first_inserted_page": 7,
+          "return_page": 10,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R074",
+          "status": "available",
+          "title": "프런트 도어 아웃사이드 핸들 탈거",
+          "origin_page": 13,
+          "first_inserted_page": 14,
+          "return_page": 18,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R075",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 22,
+          "first_inserted_page": 23,
+          "return_page": 31,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 23,
+          "first_inserted_page": 24,
+          "return_page": 29,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 24,
+          "first_inserted_page": 25,
+          "return_page": 28,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R076",
+          "status": "available",
+          "title": "프런트 도어 아웃사이드 핸들 탈거",
+          "origin_page": 31,
+          "first_inserted_page": 32,
+          "return_page": 36,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 10,
+        "section_pages": [
+          10
+        ],
+        "reference_pages": [
+          10
+        ],
+        "flow_pages": [
+          10,
+          11
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "48-2.pdf",
+            "page": 1,
+            "text": "윈도우 글라스 및 아웃사이드 핸들 탈거 참조"
+          },
+          {
+            "file": "48-2.pdf",
+            "page": 2,
+            "text": "핸들 베이스와 랫치 스크류 탈거"
+          },
+          {
+            "file": "48-2.pdf",
+            "page": 3,
+            "text": "메인 커넥터 및 메인 와이어링 플러그 홀 분리"
+          },
+          {
+            "file": "48-2.pdf",
+            "page": 4,
+            "text": "리어 뷰 미러 커넥터와 와이어링 분리"
+          },
+          {
+            "file": "48-2.pdf",
+            "page": 5,
+            "text": "채널 볼트 및 모듈(A) 탈거; 장착은 탈거 역순"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-06",
+      "title": "프런트 도어 웨더 스트립",
+      "total_pages": 18,
+      "intro": "벨트 안팎·도어 사이드·바디 사이드 웨더 스트립의 위치별 탈거와 장착 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-06.png",
+        "caption": "벨트 아웃사이드 웨더 스트립 대표 이미지 · 다른 위치 절차도 수록",
+        "source_file": "49-2.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "위치별 절차 확인",
+          "description": "벨트 안팎, 도어 사이드, 바디 사이드 중 해당 부품의 절차를 찾습니다."
+        },
+        {
+          "title": "위치별 탈거",
+          "description": "해당 부품에 필요한 글라스 하강, 트림 참조 또는 고정부 분리 절차를 확인합니다."
+        },
+        {
+          "title": "위치별 장착",
+          "description": "탈거의 역순으로 장착하며 벨트 인사이드의 조립 기준점을 확인합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "49-1.pdf",
+          "component": "프런트 도어 웨더 스트립",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 10
+        },
+        {
+          "ordinal": 2,
+          "source_file": "49-2.pdf",
+          "component": "프런트 도어 웨더 스트립",
+          "procedure": "탈거",
+          "start_page": 11,
+          "end_page": 16
+        },
+        {
+          "ordinal": 3,
+          "source_file": "49-3.pdf",
+          "component": "프런트 도어 웨더 스트립",
+          "procedure": "장착",
+          "start_page": 17,
+          "end_page": 17
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R077",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 8,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 15,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 12,
+        "section_pages": [
+          12
+        ],
+        "reference_pages": [
+          12
+        ],
+        "flow_pages": [
+          12
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "49-2.pdf",
+            "page": 1,
+            "text": "벨트 아웃사이드: 글라스 최대 하강 및 웨더 스트립 탈거; 벨트 인사이드: 트림 탈거 참조"
+          },
+          {
+            "file": "49-2.pdf",
+            "page": 2,
+            "text": "벨트 인사이드 및 도어 사이드 웨더 스트립 탈거"
+          },
+          {
+            "file": "49-2.pdf",
+            "page": 3,
+            "text": "바디 사이드 웨더 스트립 탈거"
+          },
+          {
+            "file": "49-3.pdf",
+            "page": 1,
+            "text": "각 위치별 역순 장착; 벨트 인사이드 전방부 기준 장착"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-07",
+      "title": "프런트 도어 글라스 런",
+      "total_pages": 30,
+      "intro": "프레임 가니쉬 분리를 참조한 뒤 클립과 볼트를 해제해 글라스 런을 탈거·장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-07.png",
+        "caption": "원문에서 A로 표시한 프런트 도어 글라스 런",
+        "source_file": "50-2.pdf",
+        "source_page": 3
+      },
+      "learning_scope": [
+        {
+          "title": "선행 절차 참조",
+          "description": "프레임 가니쉬 탈거 참조절차를 펼쳐 확인합니다."
+        },
+        {
+          "title": "고정부 분리",
+          "description": "글라스 런의 클립과 볼트를 분리합니다."
+        },
+        {
+          "title": "탈거·장착",
+          "description": "글라스 런을 탈거한 뒤 원문에 따라 역순으로 장착합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "50-1.pdf",
+          "component": "프런트 도어 글라스 런",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 15
+        },
+        {
+          "ordinal": 2,
+          "source_file": "50-2.pdf",
+          "component": "프런트 도어 글라스 런",
+          "procedure": "탈거 및 장착",
+          "start_page": 16,
+          "end_page": 30
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 8,
+        "unique_titles": 4,
+        "maximum_depth": 4
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R079",
+          "status": "available",
+          "title": "프런트 도어 프레임 가니쉬 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 15,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 13,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 11,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 6,
+          "first_inserted_page": 7,
+          "return_page": 10,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R080",
+          "status": "available",
+          "title": "프런트 도어 프레임 가니쉬 탈거",
+          "origin_page": 16,
+          "first_inserted_page": 17,
+          "return_page": 28,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 17,
+          "first_inserted_page": 18,
+          "return_page": 26,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 18,
+          "first_inserted_page": 19,
+          "return_page": 24,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 19,
+          "first_inserted_page": 20,
+          "return_page": 23,
+          "nesting_depth": 4
+        }
+      ],
+      "master_hint": {
+        "first_page": 5,
+        "section_pages": [
+          5
+        ],
+        "reference_pages": [
+          5
+        ],
+        "flow_pages": [
+          5,
+          6
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "50-2.pdf",
+            "page": 1,
+            "text": "프레임 가니쉬 탈거 참조; 글라스 런 클립 탈거"
+          },
+          {
+            "file": "50-2.pdf",
+            "page": 2,
+            "text": "글라스 런 볼트 탈거"
+          },
+          {
+            "file": "50-2.pdf",
+            "page": 3,
+            "text": "글라스 런(A) 탈거; 역순 장착"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-08",
+      "title": "프런트 도어 랫치",
+      "total_pages": 52,
+      "intro": "도어 모듈 분리를 참조한 뒤 연결 로드·배선·고정부를 분리하여 랫치를 탈거·장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-08.png",
+        "caption": "모듈에서 분리하는 프런트 도어 랫치(A)의 원문 표시",
+        "source_file": "51-2.pdf",
+        "source_page": 6
+      },
+      "learning_scope": [
+        {
+          "title": "모듈 분리 참조",
+          "description": "프런트 도어 모듈 탈거 참조절차를 확인합니다."
+        },
+        {
+          "title": "연결부 분리",
+          "description": "연결 로드, 핸들 베이스, 커넥터와 와이어링 등 연결부를 분리합니다."
+        },
+        {
+          "title": "랫치 탈거·장착",
+          "description": "모듈 플러그 홀과 랫치를 분리한 뒤 원문에 따라 역순으로 장착합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "51-1.pdf",
+          "component": "프런트 도어 랫치",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 25
+        },
+        {
+          "ordinal": 2,
+          "source_file": "51-2.pdf",
+          "component": "프런트 도어 랫치",
+          "procedure": "탈거 및 장착",
+          "start_page": 26,
+          "end_page": 51
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 10,
+        "unique_titles": 5,
+        "maximum_depth": 4
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R081",
+          "status": "available",
+          "title": "프런트 도어 모듈 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 23,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R075",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 13,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 11,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 6,
+          "first_inserted_page": 7,
+          "return_page": 10,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R076",
+          "status": "available",
+          "title": "프런트 도어 아웃사이드 핸들 탈거",
+          "origin_page": 13,
+          "first_inserted_page": 14,
+          "return_page": 18,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R082",
+          "status": "available",
+          "title": "프런트 도어 모듈 탈거",
+          "origin_page": 26,
+          "first_inserted_page": 27,
+          "return_page": 46,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R075",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 27,
+          "first_inserted_page": 28,
+          "return_page": 36,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 28,
+          "first_inserted_page": 29,
+          "return_page": 34,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 29,
+          "first_inserted_page": 30,
+          "return_page": 33,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R076",
+          "status": "available",
+          "title": "프런트 도어 아웃사이드 핸들 탈거",
+          "origin_page": 36,
+          "first_inserted_page": 37,
+          "return_page": 41,
+          "nesting_depth": 2
+        }
+      ],
+      "master_hint": {
+        "first_page": 8,
+        "section_pages": [
+          8
+        ],
+        "reference_pages": [
+          8
+        ],
+        "flow_pages": [
+          8,
+          9
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "51-2.pdf",
+            "page": 1,
+            "text": "모듈 탈거 참조; 잠금핀 해제 및 연결 로드 분리"
+          },
+          {
+            "file": "51-2.pdf",
+            "page": 2,
+            "text": "아웃사이드 핸들 커넥터와 와이어링 분리"
+          },
+          {
+            "file": "51-2.pdf",
+            "page": 3,
+            "text": "아웃사이드 핸들 베이스 탈거"
+          },
+          {
+            "file": "51-2.pdf",
+            "page": 4,
+            "text": "랫치 커넥터 분리"
+          },
+          {
+            "file": "51-2.pdf",
+            "page": 5,
+            "text": "모듈 플러그 홀 탈거"
+          },
+          {
+            "file": "51-2.pdf",
+            "page": 6,
+            "text": "프런트 도어 랫치(A) 탈거; 역순 장착"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-09",
+      "title": "프런트 도어 파워 윈도우 모터",
+      "total_pages": 20,
+      "intro": "세이프티 윈도우의 작동원리와 초기화, 기본점검·진단, 모터 탈거와 장착 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-09.png",
+        "caption": "원문에서 A로 표시한 프런트 도어 파워 윈도우 모터",
+        "source_file": "52-4.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "작동원리·초기화",
+          "description": "세이프티 기능의 조건과 초기화·해제에 관한 원문 설명을 확인합니다."
+        },
+        {
+          "title": "기본점검·진단",
+          "description": "전원·퓨즈·커넥터·배선 및 진단기기의 점검 설명을 확인합니다."
+        },
+        {
+          "title": "모터 탈거",
+          "description": "트림 탈거를 참조하고 모터 커넥터와 고정 스크류를 분리합니다."
+        },
+        {
+          "title": "역순 장착",
+          "description": "원문에 따라 탈거의 역순으로 모터를 장착합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "52-1.pdf",
+          "component": "파워 윈도우 모터",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 7
+        },
+        {
+          "ordinal": 2,
+          "source_file": "52-2.pdf",
+          "component": "파워 윈도우 모터",
+          "procedure": "개요 및 작동원리",
+          "start_page": 8,
+          "end_page": 11
+        },
+        {
+          "ordinal": 3,
+          "source_file": "52-3.pdf",
+          "component": "파워 윈도우 모터",
+          "procedure": "점검",
+          "start_page": 12,
+          "end_page": 14
+        },
+        {
+          "ordinal": 4,
+          "source_file": "52-4.pdf",
+          "component": "파워 윈도우 모터",
+          "procedure": "탈거 및 장착",
+          "start_page": 15,
+          "end_page": 20
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R083",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 7,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R084",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 15,
+          "first_inserted_page": 16,
+          "return_page": 19,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 16,
+        "section_pages": [
+          16
+        ],
+        "reference_pages": [
+          16
+        ],
+        "flow_pages": [
+          16
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "52-2.pdf",
+            "page": 1,
+            "text": "세이프티 파워 윈도우 기능과 작동 조건"
+          },
+          {
+            "file": "52-2.pdf",
+            "page": 3,
+            "text": "초기화 방법 및 초기화 해제"
+          },
+          {
+            "file": "52-3.pdf",
+            "page": 1,
+            "text": "기본점검 및 진단기기를 이용한 고장진단"
+          },
+          {
+            "file": "52-4.pdf",
+            "page": 1,
+            "text": "트림 탈거 참조; 모터 커넥터 분리"
+          },
+          {
+            "file": "52-4.pdf",
+            "page": 2,
+            "text": "스크류를 풀어 모터(A) 탈거; 역순 장착"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-10",
+      "title": "프런트 도어 파워 윈도우 스위치",
+      "total_pages": 16,
+      "intro": "파워 윈도우 스위치의 기본점검과 진단, 트림 분리 후 스위치의 탈거·장착 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-10.png",
+        "caption": "트림 뒷면에서 본 메인 파워 윈도우 스위치(A)",
+        "source_file": "53-3.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "기본점검·진단",
+          "description": "전원·퓨즈·커넥터·배선 및 진단기기의 점검 설명을 확인합니다."
+        },
+        {
+          "title": "트림 분리 참조",
+          "description": "배터리 분리와 프런트 도어 트림 탈거 참조절차를 확인합니다."
+        },
+        {
+          "title": "스위치 탈거",
+          "description": "트림 뒷면에서 후크를 분리하여 메인 파워 윈도우 스위치를 탈거합니다."
+        },
+        {
+          "title": "역순 장착",
+          "description": "원문에 따라 탈거의 역순으로 장착합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "53-1.pdf",
+          "component": "파워 윈도우 스위치",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 7
+        },
+        {
+          "ordinal": 2,
+          "source_file": "53-2.pdf",
+          "component": "파워 윈도우 스위치",
+          "procedure": "점검",
+          "start_page": 8,
+          "end_page": 10
+        },
+        {
+          "ordinal": 3,
+          "source_file": "53-3.pdf",
+          "component": "파워 윈도우 스위치",
+          "procedure": "탈거 및 장착",
+          "start_page": 11,
+          "end_page": 15
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R085",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 7,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R086",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 15,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 17,
+        "section_pages": [
+          17
+        ],
+        "reference_pages": [
+          17
+        ],
+        "flow_pages": [
+          17
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "53-2.pdf",
+            "page": 1,
+            "text": "기본점검과 진단기기를 이용한 고장진단 방법"
+          },
+          {
+            "file": "53-3.pdf",
+            "page": 1,
+            "text": "메인 파워 윈도우 스위치: 트림 탈거 참조; 후크 분리 후 스위치(A) 탈거; 역순 장착"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-11",
+      "title": "프런트 도어 파워 도어 잠금 스위치",
+      "total_pages": 16,
+      "intro": "파워 도어 잠금 스위치의 기본점검과 진단, 트림 분리 후 스위치의 탈거·장착 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-11.png",
+        "caption": "트림 뒷면에서 본 파워 도어 잠금 스위치(A)",
+        "source_file": "54-3.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "기본점검·진단",
+          "description": "전원·퓨즈·커넥터·배선 및 진단기기의 점검 설명을 확인합니다."
+        },
+        {
+          "title": "트림 분리 참조",
+          "description": "배터리 분리와 프런트 도어 트림 탈거 참조절차를 확인합니다."
+        },
+        {
+          "title": "스위치 탈거",
+          "description": "트림 뒷면에서 후크를 분리하여 파워 도어 잠금 스위치를 탈거합니다."
+        },
+        {
+          "title": "역순 장착",
+          "description": "원문에 따라 탈거의 역순으로 장착합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "54-1.pdf",
+          "component": "파워 도어 잠금 스위치",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 7
+        },
+        {
+          "ordinal": 2,
+          "source_file": "54-2.pdf",
+          "component": "파워 도어 잠금 스위치",
+          "procedure": "점검",
+          "start_page": 8,
+          "end_page": 10
+        },
+        {
+          "ordinal": 3,
+          "source_file": "54-3.pdf",
+          "component": "파워 도어 잠금 스위치",
+          "procedure": "탈거 및 장착",
+          "start_page": 11,
+          "end_page": 15
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R087",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 7,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R088",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 15,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 15,
+        "section_pages": [
+          15
+        ],
+        "reference_pages": [
+          15
+        ],
+        "flow_pages": [
+          15
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "54-2.pdf",
+            "page": 1,
+            "text": "기본점검과 진단기기를 이용한 고장진단 방법"
+          },
+          {
+            "file": "54-3.pdf",
+            "page": 1,
+            "text": "파워 도어 잠금 스위치: 트림 탈거 참조; 후크 분리 후 스위치(A) 탈거; 역순 장착"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "07-12",
+      "title": "프런트 도어 가니쉬",
+      "total_pages": 62,
+      "intro": "글라스·글라스 런 분리를 참조하여 프레임 가니쉬와 몰딩을 탈거하고 다시 장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-12.png",
+        "caption": "프런트 도어 프레임 가니쉬(A) 대표 이미지 · 프레임 몰딩 절차도 수록",
+        "source_file": "55-2.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "선행 절차 참조",
+          "description": "해당 부품에 필요한 윈도우 글라스 또는 글라스 런 탈거절차를 확인합니다."
+        },
+        {
+          "title": "가니쉬·몰딩 탈거",
+          "description": "해당 부품의 스크류를 풀고 원문 방향에 따라 탈거합니다."
+        },
+        {
+          "title": "역순 장착",
+          "description": "역순으로 장착하며 부품 손상이 있을 때의 신품 교환 사항을 확인합니다."
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업 대상이 프레임 가니쉬인지 몰딩인지 확인하고, 본문에서 시작되는 참조선과 복귀 쪽번호를 함께 읽으세요.",
+      "review_prompts": [
+        "5차 트림 참조 20쪽을 마치면 어느 쪽으로 복귀하나요? — 23쪽",
+        "장착 61쪽에서 가니쉬·몰딩 손상 시의 원문 지시를 각각 찾아보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "55-1.pdf",
+          "component": "프런트 도어 가니쉬",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 32
+        },
+        {
+          "ordinal": 2,
+          "source_file": "55-2.pdf",
+          "component": "프런트 도어 가니쉬",
+          "procedure": "탈거",
+          "start_page": 33,
+          "end_page": 60
+        },
+        {
+          "ordinal": 3,
+          "source_file": "55-3.pdf",
+          "component": "프런트 도어 가니쉬",
+          "procedure": "장착",
+          "start_page": 61,
+          "end_page": 61
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 16,
+        "unique_titles": 5,
+        "maximum_depth": 5
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R089",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 13,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 11,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 6,
+          "first_inserted_page": 7,
+          "return_page": 10,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R090",
+          "status": "available",
+          "title": "프런트 도어 글라스 런 탈거",
+          "origin_page": 15,
+          "first_inserted_page": 16,
+          "return_page": 31,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R080",
+          "status": "available",
+          "title": "프런트 도어 프레임 가니쉬 탈거",
+          "origin_page": 16,
+          "first_inserted_page": 17,
+          "return_page": 28,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 17,
+          "first_inserted_page": 18,
+          "return_page": 26,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 18,
+          "first_inserted_page": 19,
+          "return_page": 24,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 19,
+          "first_inserted_page": 20,
+          "return_page": 23,
+          "nesting_depth": 5
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 33,
+          "first_inserted_page": 34,
+          "return_page": 42,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 34,
+          "first_inserted_page": 35,
+          "return_page": 40,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 35,
+          "first_inserted_page": 36,
+          "return_page": 39,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R092",
+          "status": "available",
+          "title": "프런트 도어 글라스 런 탈거",
+          "origin_page": 43,
+          "first_inserted_page": 44,
+          "return_page": 59,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R080",
+          "status": "available",
+          "title": "프런트 도어 프레임 가니쉬 탈거",
+          "origin_page": 44,
+          "first_inserted_page": 45,
+          "return_page": 56,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 45,
+          "first_inserted_page": 46,
+          "return_page": 54,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 46,
+          "first_inserted_page": 47,
+          "return_page": 52,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 47,
+          "first_inserted_page": 48,
+          "return_page": 51,
+          "nesting_depth": 5
+        }
+      ],
+      "master_hint": {
+        "first_page": 3,
+        "section_pages": [
+          3
+        ],
+        "reference_pages": [
+          3
+        ],
+        "flow_pages": [
+          3,
+          4
+        ],
+        "missing_pages": [],
+        "relative_path": "07_프런트_도어_종합색인.pdf",
+        "title": "프런트 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          {
+            "file": "55-2.pdf",
+            "page": 1,
+            "text": "프레임 가니쉬: 윈도우 글라스 탈거 참조; 글라스 런 이격"
+          },
+          {
+            "file": "55-2.pdf",
+            "page": 2,
+            "text": "가니쉬(A) 탈거; 프레임 몰딩: 글라스 런 탈거 참조 및 스크류 탈거"
+          },
+          {
+            "file": "55-2.pdf",
+            "page": 3,
+            "text": "화살표 방향으로 프레임 몰딩(A) 탈거"
+          },
+          {
+            "file": "55-3.pdf",
+            "page": 1,
+            "text": "가니쉬와 몰딩 역순 장착; 손상이 있을 경우 신품 교환"
+          }
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      },
+      "learning_objectives": [
+        "프레임 가니쉬와 프레임 몰딩의 원문 절차를 구분합니다.",
+        "최대 5차 참조에서 현재 참조와 바로 상위 절차로의 복귀를 구분해 따라갑니다."
+      ],
+      "detailed_sample": {
+        "source_visually_read": [
+          "55-3.pdf:1"
+        ],
+        "source_page_local": 61,
+        "source_notes": [
+          "원문은 가니쉬와 몰딩 각각 탈거 역순 장착, 손상 시 신품 교환을 명시.",
+          "3쪽 작업요약표도 참조를 포함하므로 3–32쪽을 읽은 뒤 33쪽 상세 탈거가 이어지는 현행 구조를 삭제하거나 중복으로 오인하지 말 것."
+        ],
+        "flow_example": [
+          {
+            "label": "1차 글라스 런 참조",
+            "page": 16,
+            "return_page": 31
+          },
+          {
+            "label": "2차 프레임 가니쉬 참조",
+            "page": 17,
+            "return_page": 28
+          },
+          {
+            "label": "3차 글라스 참조",
+            "page": 18,
+            "return_page": 26
+          },
+          {
+            "label": "4차 웨더 스트립 참조",
+            "page": 19,
+            "return_page": 24
+          },
+          {
+            "label": "5차 트림 참조",
+            "page": 20,
+            "return_page": 23
+          }
+        ]
+      }
+    },
+    {
+      "id": "08-01",
+      "title": "리어 도어 기본·조정",
+      "total_pages": 12,
+      "intro": "리어 도어의 구성과 부품 위치를 확인하고, 글라스·스트라이커·도어 간격을 조정하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-01_대표부품.png",
+        "caption": "리어 도어와 바디의 간격 확인 위치 / 원문 표시 보존",
+        "source_file": "56-2.pdf",
+        "source_page": 3
+      },
+      "learning_scope": [
+        {
+          "title": "구성 확인",
+          "description": "도어 구성부품과 차량 내 위치 확인"
+        },
+        {
+          "title": "글라스 조정",
+          "description": "참조 트림 절차 후 글라스 간격과 작동 확인"
+        },
+        {
+          "title": "스트라이커 조정",
+          "description": "스트라이커 위치와 도어 개폐 확인"
+        },
+        {
+          "title": "도어 조정",
+          "description": "도어와 바디의 간격 확인 및 힌지 조정"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "56-1.pdf",
+          "component": "리어 도어",
+          "procedure": "구성부품 및 부품위치",
+          "start_page": 3,
+          "end_page": 4
+        },
+        {
+          "ordinal": 2,
+          "source_file": "56-2.pdf",
+          "component": "리어 도어",
+          "procedure": "조정",
+          "start_page": 5,
+          "end_page": 12
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 1,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R093",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 9,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 6,
+        "section_pages": [
+          6
+        ],
+        "reference_pages": [
+          6
+        ],
+        "flow_pages": [
+          6
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "56-1.pdf 1–2쪽: 구성부품 및 부품위치",
+          "56-2.pdf 1–3쪽: 글라스 조정, 스트라이커 조정, 도어 조정"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-02",
+      "title": "리어 도어 트림",
+      "total_pages": 8,
+      "intro": "리어 도어 트림과 연결부의 탈거·장착, 글라스 작동과 도어 개폐 확인 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-02_대표부품.png",
+        "caption": "청색 표시: 리어 도어 트림 / 원문 A 표기와 체결 위치 보존",
+        "source_file": "57-2.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "준비·커버 탈거",
+          "description": "배터리 터미널 분리와 델타 인너 커버 탈거"
+        },
+        {
+          "title": "트림 탈거",
+          "description": "스크류와 클립을 풀어 트림 분리"
+        },
+        {
+          "title": "연결부 분리",
+          "description": "인사이드 핸들 케이지와 트림 커넥터 분리"
+        },
+        {
+          "title": "장착·확인",
+          "description": "원문 장착 주의사항과 글라스·개폐 확인"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "작업요약표와 상세 절차가 어떻게 연결되는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "57-1.pdf",
+          "component": "리어 도어 트림",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 4
+        },
+        {
+          "ordinal": 2,
+          "source_file": "57-2.pdf",
+          "component": "리어 도어 트림",
+          "procedure": "탈거",
+          "start_page": 5,
+          "end_page": 7
+        },
+        {
+          "ordinal": 3,
+          "source_file": "57-3.pdf",
+          "component": "리어 도어 트림",
+          "procedure": "장착",
+          "start_page": 8,
+          "end_page": 8
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 0,
+        "unique_titles": 0,
+        "maximum_depth": 0
+      },
+      "reference_flow_events": [],
+      "master_hint": {
+        "first_page": 14,
+        "section_pages": [
+          14
+        ],
+        "reference_pages": [],
+        "flow_pages": [],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "57-2.pdf 1–3쪽: 델타 인너 커버, 트림, 핸들 케이지, 커넥터 분리",
+          "57-3.pdf 1쪽: 장착, 클립 교환, 글라스 작동·개폐 확인"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-03",
+      "title": "리어 도어 핸들",
+      "total_pages": 20,
+      "intro": "인사이드·아웃사이드 핸들을 각각 탈거하고, 다시 장착하여 도어 개폐를 확인하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-03_대표부품.png",
+        "caption": "청색 표시: 리어 도어 아웃사이드 핸들(대표 도해)",
+        "source_file": "58-2.pdf",
+        "source_page": 4
+      },
+      "learning_scope": [
+        {
+          "title": "인사이드 핸들",
+          "description": "커튼 어셈블리 참조 절차 후 핸들 분리"
+        },
+        {
+          "title": "아웃사이드 핸들",
+          "description": "플러그 홀과 고정 볼트 해제 후 핸들 분리"
+        },
+        {
+          "title": "장착",
+          "description": "원문 역순 장착과 아웃사이드 핸들 패드 확인"
+        },
+        {
+          "title": "개폐 확인",
+          "description": "조립 상태와 도어의 열고 닫힘 확인"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "58-1.pdf",
+          "component": "리어 도어 핸들",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 10
+        },
+        {
+          "ordinal": 2,
+          "source_file": "58-2.pdf",
+          "component": "리어 도어 핸들",
+          "procedure": "탈거",
+          "start_page": 11,
+          "end_page": 19
+        },
+        {
+          "ordinal": 3,
+          "source_file": "58-3.pdf",
+          "component": "리어 도어 핸들",
+          "procedure": "장착",
+          "start_page": 20,
+          "end_page": 20
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 4,
+        "unique_titles": 2,
+        "maximum_depth": 2
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R094",
+          "status": "available",
+          "title": "리어 도어 커튼 어셈블리 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 9,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R113",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 8,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R095",
+          "status": "available",
+          "title": "리어 도어 커튼 어셈블리 탈거",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 17,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R113",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 12,
+          "first_inserted_page": 13,
+          "return_page": 16,
+          "nesting_depth": 2
+        }
+      ],
+      "master_hint": {
+        "first_page": 17,
+        "section_pages": [
+          17
+        ],
+        "reference_pages": [
+          17
+        ],
+        "flow_pages": [
+          17
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "58-2.pdf 1–4쪽: 인사이드·아웃사이드 핸들 탈거",
+          "58-3.pdf 1쪽: 장착, 핸들 패드 제위치 장착, 도어 개폐 확인"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-04",
+      "title": "리어 도어 윈도우 글라스",
+      "total_pages": 22,
+      "intro": "선행 부품을 분리한 뒤 윈도우 글라스를 탈거·장착하고, 정상 작동을 확인하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-04_대표부품.png",
+        "caption": "청색 표시: 리어 도어 윈도우 글라스 / 원문 A·방향 표기 보존",
+        "source_file": "59-2.pdf",
+        "source_page": 4
+      },
+      "learning_scope": [
+        {
+          "title": "선행 부품 탈거",
+          "description": "벨트 웨더 스트립의 참조 절차 진행"
+        },
+        {
+          "title": "글라스 분리",
+          "description": "채널과 글라스 고정부를 분리하여 글라스 탈거"
+        },
+        {
+          "title": "장착",
+          "description": "원문 탈거의 역순으로 장착"
+        },
+        {
+          "title": "작동 확인",
+          "description": "글라스 작동 확인 및 필요 시 조정"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "59-1.pdf",
+          "component": "리어 도어 윈도우 글라스",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 11
+        },
+        {
+          "ordinal": 2,
+          "source_file": "59-2.pdf",
+          "component": "리어 도어 윈도우 글라스",
+          "procedure": "탈거",
+          "start_page": 12,
+          "end_page": 21
+        },
+        {
+          "ordinal": 3,
+          "source_file": "59-3.pdf",
+          "component": "리어 도어 윈도우 글라스",
+          "procedure": "장착",
+          "start_page": 22,
+          "end_page": 22
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 4,
+        "unique_titles": 2,
+        "maximum_depth": 2
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R096",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 10,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 9,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 12,
+          "first_inserted_page": 13,
+          "return_page": 18,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 13,
+          "first_inserted_page": 14,
+          "return_page": 17,
+          "nesting_depth": 2
+        }
+      ],
+      "master_hint": {
+        "first_page": 12,
+        "section_pages": [
+          12
+        ],
+        "reference_pages": [
+          12
+        ],
+        "flow_pages": [
+          12
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "59-2.pdf 1–4쪽: 웨더 스트립 참조, 채널 분리, 글라스 탈거",
+          "59-3.pdf 1쪽: 장착, 글라스 작동 확인 및 필요 시 조정"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-05",
+      "title": "리어 도어 모듈",
+      "total_pages": 40,
+      "intro": "윈도우 글라스와 핸들 등의 선행 절차를 거쳐 리어 도어 모듈과 연결부를 탈거·장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-05_대표부품.png",
+        "caption": "청색 표시: 리어 도어 모듈 / 원문 A·체결 위치 표기 보존",
+        "source_file": "60-2.pdf",
+        "source_page": 3
+      },
+      "learning_scope": [
+        {
+          "title": "선행 부품 탈거",
+          "description": "글라스·아웃사이드 핸들 참조 절차 진행"
+        },
+        {
+          "title": "체결·연결 해제",
+          "description": "핸들 베이스·랫치 체결부와 메인 커넥터 분리"
+        },
+        {
+          "title": "모듈 탈거",
+          "description": "모듈 고정 볼트와 메인 와이어링 클립 분리"
+        },
+        {
+          "title": "장착",
+          "description": "원문 탈거의 역순으로 장착"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "60-1.pdf",
+          "component": "리어 도어 모듈",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 20
+        },
+        {
+          "ordinal": 2,
+          "source_file": "60-2.pdf",
+          "component": "리어 도어 모듈",
+          "procedure": "탈거 및 장착",
+          "start_page": 21,
+          "end_page": 39
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 8,
+        "unique_titles": 4,
+        "maximum_depth": 3
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R098",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 14,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 10,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 9,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R099",
+          "status": "available",
+          "title": "리어 도어 아웃사이드 핸들 탈거",
+          "origin_page": 14,
+          "first_inserted_page": 15,
+          "return_page": 18,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R100",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 21,
+          "first_inserted_page": 22,
+          "return_page": 32,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 22,
+          "first_inserted_page": 23,
+          "return_page": 28,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 23,
+          "first_inserted_page": 24,
+          "return_page": 27,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R101",
+          "status": "available",
+          "title": "리어 도어 아웃사이드 핸들 탈거",
+          "origin_page": 32,
+          "first_inserted_page": 33,
+          "return_page": 36,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 9,
+        "section_pages": [
+          9
+        ],
+        "reference_pages": [
+          9
+        ],
+        "flow_pages": [
+          9,
+          10
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "60-2.pdf 1–4쪽: 글라스·핸들 참조, 모듈 탈거, 메인 와이어링 클립 분리 및 장착"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-06",
+      "title": "리어 도어 웨더 스트립",
+      "total_pages": 18,
+      "intro": "벨트 안팎과 도어·바디 사이드의 웨더 스트립을 위치별로 구분하여 탈거·장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-06_대표부품.png",
+        "caption": "청색 표시: 리어 도어 사이드 웨더 스트립(대표 도해)",
+        "source_file": "61-2.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "벨트 아웃사이드",
+          "description": "글라스를 내린 뒤 외측 벨트 스트립 탈거"
+        },
+        {
+          "title": "벨트 인사이드",
+          "description": "트림 참조 절차 후 내측 벨트 스트립 탈거"
+        },
+        {
+          "title": "사이드·바디 사이드",
+          "description": "해당 위치의 웨더 스트립 탈거 절차 확인"
+        },
+        {
+          "title": "장착",
+          "description": "위치별 역순 장착과 원문 조립 기준 확인"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "61-1.pdf",
+          "component": "리어 도어 웨더 스트립",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 10
+        },
+        {
+          "ordinal": 2,
+          "source_file": "61-2.pdf",
+          "component": "리어 도어 웨더 스트립",
+          "procedure": "탈거",
+          "start_page": 11,
+          "end_page": 16
+        },
+        {
+          "ordinal": 3,
+          "source_file": "61-3.pdf",
+          "component": "리어 도어 웨더 스트립",
+          "procedure": "장착",
+          "start_page": 17,
+          "end_page": 17
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R102",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 8,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 15,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 11,
+        "section_pages": [
+          11
+        ],
+        "reference_pages": [
+          11
+        ],
+        "flow_pages": [
+          11
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "61-2.pdf 1–3쪽: 벨트 아웃사이드·인사이드, 사이드, 바디 사이드 웨더 스트립 탈거",
+          "61-3.pdf 1쪽: 위치별 장착과 인사이드 조립 기준"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-07",
+      "title": "리어 도어 글라스 런",
+      "total_pages": 64,
+      "intro": "윈도우 글라스와 가니쉬 등의 참조 절차를 거친 뒤 글라스 런을 탈거하고 다시 장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-07_대표부품.png",
+        "caption": "리어 도어 글라스 런의 형상을 보여주는 원문 도해",
+        "source_file": "62-2.pdf",
+        "source_page": 3
+      },
+      "learning_scope": [
+        {
+          "title": "선행 부품 탈거",
+          "description": "글라스·프레임 가니쉬·몰딩의 참조 절차 진행"
+        },
+        {
+          "title": "웨더 스트립 분리",
+          "description": "파팅 웨더 스트립의 클립 해제"
+        },
+        {
+          "title": "글라스 런 탈거",
+          "description": "고정 볼트와 스크류 해제 후 글라스 런 분리"
+        },
+        {
+          "title": "장착",
+          "description": "원문 탈거의 역순으로 장착"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "62-1.pdf",
+          "component": "리어 도어 글라스 런",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 32
+        },
+        {
+          "ordinal": 2,
+          "source_file": "62-2.pdf",
+          "component": "리어 도어 글라스 런",
+          "procedure": "탈거 및 장착",
+          "start_page": 33,
+          "end_page": 63
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 16,
+        "unique_titles": 5,
+        "maximum_depth": 4
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R104",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 14,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 10,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 9,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R105",
+          "status": "available",
+          "title": "리어 도어 프레임 가니쉬 탈거",
+          "origin_page": 14,
+          "first_inserted_page": 15,
+          "return_page": 28,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R119",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 15,
+          "first_inserted_page": 16,
+          "return_page": 26,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 16,
+          "first_inserted_page": 17,
+          "return_page": 22,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 17,
+          "first_inserted_page": 18,
+          "return_page": 21,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R106",
+          "status": "available",
+          "title": "리어 도어 프레임 몰딩 탈거",
+          "origin_page": 28,
+          "first_inserted_page": 29,
+          "return_page": 31,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R107",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 33,
+          "first_inserted_page": 34,
+          "return_page": 44,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 34,
+          "first_inserted_page": 35,
+          "return_page": 40,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 35,
+          "first_inserted_page": 36,
+          "return_page": 39,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R108",
+          "status": "available",
+          "title": "리어 도어 프레임 가니쉬 탈거",
+          "origin_page": 44,
+          "first_inserted_page": 45,
+          "return_page": 58,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R119",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 45,
+          "first_inserted_page": 46,
+          "return_page": 56,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 46,
+          "first_inserted_page": 47,
+          "return_page": 52,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 47,
+          "first_inserted_page": 48,
+          "return_page": 51,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R109",
+          "status": "available",
+          "title": "리어 도어 프레임 몰딩 탈거",
+          "origin_page": 58,
+          "first_inserted_page": 59,
+          "return_page": 61,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 4,
+        "section_pages": [
+          4
+        ],
+        "reference_pages": [
+          4
+        ],
+        "flow_pages": [
+          4,
+          5
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "62-2.pdf 1–3쪽: 글라스·가니쉬·몰딩 참조, 파팅 웨더 스트립, 글라스 런 탈거 및 장착"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-08",
+      "title": "리어 도어 랫치",
+      "total_pages": 50,
+      "intro": "도어 모듈의 참조 절차를 거쳐 연결 로드·커넥터·후크를 분리하고, 랫치를 탈거·장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-08_대표부품.png",
+        "caption": "리어 도어 랫치와 연결 케이블을 보여주는 원문 도해",
+        "source_file": "63-2.pdf",
+        "source_page": 5
+      },
+      "learning_scope": [
+        {
+          "title": "모듈 탈거",
+          "description": "리어 도어 모듈의 참조 절차 진행"
+        },
+        {
+          "title": "연결부 분리",
+          "description": "로드·핸들 베이스·커넥터·후크 분리"
+        },
+        {
+          "title": "랫치 탈거",
+          "description": "모듈 플러그 홀을 열어 랫치 분리"
+        },
+        {
+          "title": "장착",
+          "description": "원문 탈거의 역순으로 장착"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "63-1.pdf",
+          "component": "리어 도어 랫치",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 25
+        },
+        {
+          "ordinal": 2,
+          "source_file": "63-2.pdf",
+          "component": "리어 도어 랫치",
+          "procedure": "탈거 및 장착",
+          "start_page": 26,
+          "end_page": 50
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 10,
+        "unique_titles": 5,
+        "maximum_depth": 4
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R110",
+          "status": "available",
+          "title": "리어 도어 모듈 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 23,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R100",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 15,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 11,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 6,
+          "first_inserted_page": 7,
+          "return_page": 10,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R101",
+          "status": "available",
+          "title": "리어 도어 아웃사이드 핸들 탈거",
+          "origin_page": 15,
+          "first_inserted_page": 16,
+          "return_page": 19,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R111",
+          "status": "available",
+          "title": "리어 도어 모듈 탈거",
+          "origin_page": 26,
+          "first_inserted_page": 27,
+          "return_page": 46,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R100",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 27,
+          "first_inserted_page": 28,
+          "return_page": 38,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 28,
+          "first_inserted_page": 29,
+          "return_page": 34,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 29,
+          "first_inserted_page": 30,
+          "return_page": 33,
+          "nesting_depth": 4
+        },
+        {
+          "reference_id": "R101",
+          "status": "available",
+          "title": "리어 도어 아웃사이드 핸들 탈거",
+          "origin_page": 38,
+          "first_inserted_page": 39,
+          "return_page": 42,
+          "nesting_depth": 2
+        }
+      ],
+      "master_hint": {
+        "first_page": 7,
+        "section_pages": [
+          7
+        ],
+        "reference_pages": [
+          7
+        ],
+        "flow_pages": [
+          7,
+          8
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "63-2.pdf 1–5쪽: 모듈 참조, 로드·핸들 베이스·커넥터·후크 분리, 랫치 탈거 및 장착"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-09",
+      "title": "리어 도어 커튼 어셈블리",
+      "total_pages": 12,
+      "intro": "리어 도어 트림의 참조 절차를 거쳐 커튼 어셈블리의 고정 스크류를 풀고 탈거·장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-09_대표부품.png",
+        "caption": "리어 도어 커튼 어셈블리 / 원문 A 표기 보존",
+        "source_file": "64-2.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "트림 탈거",
+          "description": "리어 도어 트림의 참조 절차 진행"
+        },
+        {
+          "title": "어셈블리 탈거",
+          "description": "스크류를 풀어 커튼 어셈블리 분리"
+        },
+        {
+          "title": "장착",
+          "description": "원문 탈거의 역순으로 장착"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "64-1.pdf",
+          "component": "리어 도어 커튼 어셈블리",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 7
+        },
+        {
+          "ordinal": 2,
+          "source_file": "64-2.pdf",
+          "component": "리어 도어 커튼 어셈블리",
+          "procedure": "탈거 및 장착",
+          "start_page": 8,
+          "end_page": 12
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R112",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 7,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R113",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 8,
+          "first_inserted_page": 9,
+          "return_page": 12,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 13,
+        "section_pages": [
+          13
+        ],
+        "reference_pages": [
+          13
+        ],
+        "flow_pages": [
+          13
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "64-2.pdf 1–2쪽: 트림 참조, 스크류 해제, 커튼 어셈블리 탈거 및 장착"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-10",
+      "title": "리어 도어 파워 윈도우 모터",
+      "total_pages": 16,
+      "intro": "파워 윈도우 모터의 기본·진단기 점검과 트림 참조 절차 후 모터를 탈거·장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-10_대표부품.png",
+        "caption": "청색 표시: 리어 도어 파워 윈도우 모터 / 원문 A 표기 보존",
+        "source_file": "65-3.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "기본점검",
+          "description": "배터리·퓨즈·릴레이·커넥터·배선 상태 확인"
+        },
+        {
+          "title": "진단기 점검",
+          "description": "원문 고장코드 및 센서데이터 진단 방법 확인"
+        },
+        {
+          "title": "모터 탈거",
+          "description": "트림 참조 절차 후 커넥터와 고정 스크류 분리"
+        },
+        {
+          "title": "장착",
+          "description": "원문 탈거의 역순으로 장착"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "65-1.pdf",
+          "component": "파워 윈도우 모터",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 7
+        },
+        {
+          "ordinal": 2,
+          "source_file": "65-2.pdf",
+          "component": "파워 윈도우 모터",
+          "procedure": "점검",
+          "start_page": 8,
+          "end_page": 10
+        },
+        {
+          "ordinal": 3,
+          "source_file": "65-3.pdf",
+          "component": "파워 윈도우 모터",
+          "procedure": "탈거 및 장착",
+          "start_page": 11,
+          "end_page": 16
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R114",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 7,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R115",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 15,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 15,
+        "section_pages": [
+          15
+        ],
+        "reference_pages": [
+          15
+        ],
+        "flow_pages": [
+          15
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "65-2.pdf 1–3쪽: 기본점검과 진단기기를 이용한 고장진단",
+          "65-3.pdf 1–2쪽: 트림 참조, 모터 커넥터 분리, 모터 탈거 및 장착"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-11",
+      "title": "리어 도어 파워 윈도우 스위치",
+      "total_pages": 16,
+      "intro": "파워 윈도우 스위치의 기본·진단기 점검과 트림 참조 후 스위치를 탈거·장착하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-11_대표부품.png",
+        "caption": "청색 표시: 리어 도어 파워 윈도우 스위치 / 원문 A·후크 방향 보존",
+        "source_file": "66-3.pdf",
+        "source_page": 1
+      },
+      "learning_scope": [
+        {
+          "title": "기본점검",
+          "description": "배터리·퓨즈·릴레이·커넥터·배선 상태 확인"
+        },
+        {
+          "title": "진단기 점검",
+          "description": "원문 고장코드 및 센서데이터 진단 방법 확인"
+        },
+        {
+          "title": "스위치 탈거",
+          "description": "트림 참조 절차 후 후크를 해제하여 스위치 분리"
+        },
+        {
+          "title": "장착",
+          "description": "원문 탈거의 역순으로 장착"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "66-1.pdf",
+          "component": "파워 윈도우 스위치",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 7
+        },
+        {
+          "ordinal": 2,
+          "source_file": "66-2.pdf",
+          "component": "파워 윈도우 스위치",
+          "procedure": "점검",
+          "start_page": 8,
+          "end_page": 10
+        },
+        {
+          "ordinal": 3,
+          "source_file": "66-3.pdf",
+          "component": "파워 윈도우 스위치",
+          "procedure": "탈거 및 장착",
+          "start_page": 11,
+          "end_page": 15
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 2,
+        "unique_titles": 1,
+        "maximum_depth": 1
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R116",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 3,
+          "first_inserted_page": 4,
+          "return_page": 7,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R117",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 11,
+          "first_inserted_page": 12,
+          "return_page": 15,
+          "nesting_depth": 1
+        }
+      ],
+      "master_hint": {
+        "first_page": 16,
+        "section_pages": [
+          16
+        ],
+        "reference_pages": [
+          16
+        ],
+        "flow_pages": [
+          16
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "66-2.pdf 1–3쪽: 기본점검과 진단기기를 이용한 고장진단",
+          "66-3.pdf 1쪽: 트림 참조, 후크 분리, 스위치 탈거 및 장착"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    },
+    {
+      "id": "08-12",
+      "title": "리어 도어 가니쉬",
+      "total_pages": 32,
+      "intro": "프레임 가니쉬와 몰딩을 구분하여 탈거·장착하고, 손상 시 교환 사항을 확인하는 과정을 소개합니다.",
+      "image": {
+        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-12_대표부품.png",
+        "caption": "청색 표시: 리어 도어 프레임 가니쉬(대표 도해)",
+        "source_file": "67-2.pdf",
+        "source_page": 2
+      },
+      "learning_scope": [
+        {
+          "title": "선행 절차",
+          "description": "프레임 가니쉬 작업에 필요한 글라스 참조 절차 진행"
+        },
+        {
+          "title": "프레임 가니쉬",
+          "description": "글라스 런을 이격하고 스크류를 풀어 가니쉬 분리"
+        },
+        {
+          "title": "프레임 몰딩",
+          "description": "별도 소절의 프레임 몰딩 탈거 절차 확인"
+        },
+        {
+          "title": "장착·손상 확인",
+          "description": "각 부품을 역순 장착하고 원문 교환 기준 확인"
+        }
+      ],
+      "learning_scope_label": "이 장에서 다루는 내용",
+      "scope_is_ordered_procedure": false,
+      "preparation_prompt": "작업할 본문 항목을 고르고, 해당 항목의 주의사항과 참조 시작 지점을 확인하세요.",
+      "review_prompts": [
+        "선택한 작업의 본문 항목과 마지막 확인 사항을 다시 찾을 수 있나요?",
+        "참조절차를 마친 뒤 어느 쪽에서 원래 작업을 이어가는지 짚어 보세요."
+      ],
+      "section_rows": [
+        {
+          "ordinal": 1,
+          "source_file": "67-1.pdf",
+          "component": "리어 도어 가니쉬",
+          "procedure": "작업요약표",
+          "start_page": 3,
+          "end_page": 16
+        },
+        {
+          "ordinal": 2,
+          "source_file": "67-2.pdf",
+          "component": "리어 도어 가니쉬",
+          "procedure": "탈거",
+          "start_page": 17,
+          "end_page": 30
+        },
+        {
+          "ordinal": 3,
+          "source_file": "67-3.pdf",
+          "component": "리어 도어 가니쉬",
+          "procedure": "장착",
+          "start_page": 31,
+          "end_page": 31
+        }
+      ],
+      "reference_summary": {
+        "occurrences": 6,
+        "unique_titles": 3,
+        "maximum_depth": 3
+      },
+      "reference_flow_events": [
+        {
+          "reference_id": "R118",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 4,
+          "first_inserted_page": 5,
+          "return_page": 15,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 5,
+          "first_inserted_page": 6,
+          "return_page": 11,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 6,
+          "first_inserted_page": 7,
+          "return_page": 10,
+          "nesting_depth": 3
+        },
+        {
+          "reference_id": "R119",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 17,
+          "first_inserted_page": 18,
+          "return_page": 28,
+          "nesting_depth": 1
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 18,
+          "first_inserted_page": 19,
+          "return_page": 24,
+          "nesting_depth": 2
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 19,
+          "first_inserted_page": 20,
+          "return_page": 23,
+          "nesting_depth": 3
+        }
+      ],
+      "master_hint": {
+        "first_page": 3,
+        "section_pages": [
+          3
+        ],
+        "reference_pages": [
+          3
+        ],
+        "flow_pages": [
+          3
+        ],
+        "missing_pages": [],
+        "relative_path": "08_리어_도어_종합색인.pdf",
+        "title": "리어 도어 종합색인"
+      },
+      "evidence": {
+        "cover_asset": [
+          "67-2.pdf 1–3쪽: 프레임 가니쉬와 프레임 몰딩 탈거",
+          "67-3.pdf 1쪽: 각 부품 장착, 손상 시 신품 교환"
+        ],
+        "confidence": "Existing reviewed cover summaries and verified section/page metadata; pedagogic prompts are authored reading aids, not new service instructions."
+      }
+    }
+  ]
+}

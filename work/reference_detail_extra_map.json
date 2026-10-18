@@ -1,0 +1,68 @@
+[
+  {
+    "reference_type": "detail",
+    "source_file": "48-2.pdf",
+    "source_page": 1,
+    "exact_text": "(프런트 도어 - \"프런트 도어 윈도우 글라스\"참조)",
+    "target_title": "프런트 도어 윈도우 글라스 탈거",
+    "target_hint": "프런트 도어 윈도우 글라스",
+    "preceding_step": "2 프런트 도어 윈도우 글라스를 탈거한다.",
+    "y_start": 693,
+    "y_end": 718,
+    "break_after_y": 733,
+    "coordinate_system": "PNG pixels at 1488x2103",
+    "comments": "OCR 본문 후보에서 누락된 파란 링크 문장 사이 분할 가능.",
+    "status": "available",
+    "target_files": [
+      "47-2.pdf"
+    ],
+    "target_scope": [
+      {
+        "file": "47-2.pdf",
+        "first_page": 1,
+        "last_page": 2,
+        "start_anchor": null,
+        "end_before_anchor": null,
+        "note": ""
+      }
+    ],
+    "note": "",
+    "reference_id": "RX001",
+    "line": "(프런트 도어 - \"프런트 도어 윈도우 글라스\"참조)",
+    "occurrence_on_page": 1
+  },
+  {
+    "reference_type": "detail",
+    "source_file": "62-2.pdf",
+    "source_page": 1,
+    "exact_text": "(리어 도어 - \"리어 도어 가니쉬\"참조)",
+    "target_title": "리어 도어 프레임 가니쉬 탈거",
+    "target_hint": "리어 도어 가니쉬",
+    "preceding_step": "3 리어 도어 프레임 가니쉬를 탈거한다.",
+    "y_start": 779,
+    "y_end": 803,
+    "break_after_y": 818,
+    "coordinate_system": "PNG pixels at 1488x2103",
+    "comments": "OCR 본문 후보에서 누락된 파란 링크. 같은 페이지 단계4 프레임 몰딩 참조와 별개 발생이다. 문장 사이 분할 가능.",
+    "status": "available",
+    "target_files": [
+      "67-2.pdf"
+    ],
+    "target_scope": [
+      {
+        "file": "67-2.pdf",
+        "first_page": 1,
+        "last_page": 2,
+        "start_anchor": null,
+        "end_before_anchor": "리어 도어 프레임 몰딩",
+        "note": "",
+        "end_before_anchor_ocr": "리어 도어 프레임 몰딩",
+        "end_before_anchor_match_score": 1.0
+      }
+    ],
+    "note": "",
+    "reference_id": "RX002",
+    "line": "(리어 도어 - \"리어 도어 가니쉬\"참조)",
+    "occurrence_on_page": 1
+  }
+]

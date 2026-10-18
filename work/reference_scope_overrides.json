@@ -1,0 +1,29 @@
+[
+  {
+    "reference_id": "R069",
+    "source_file": "62-2.pdf",
+    "source_page": 1,
+    "line": "(리어 도어 - \"리어 도어 가니쉬•• 참조)",
+    "replacement": {
+      "status": "available",
+      "target_title": "리어 도어 프레임 몰딩 탈거",
+      "target_files": [
+        "67-2.pdf"
+      ],
+      "target_scope": [
+        {
+          "file": "67-2.pdf",
+          "first_page": 2,
+          "last_page": 3,
+          "start_anchor": "리어 도어 프레임 몰딩",
+          "end_before_anchor": null,
+          "note": "",
+          "start_anchor_ocr": "리어 도어 프레임 몰딩",
+          "start_anchor_match_score": 1.0
+        }
+      ],
+      "note": ""
+    },
+    "note": "시각감사로 직전 단계3의 프레임 가니쉬 참조가 따로 존재함을 확인. 이 기존항목은 단계4 프레임 몰딩 구간에만 연결하도록 범위를 보완함."
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "audit": "replacement part number evidence",
+  "read_only_source_audit": true,
+  "source_files": 149,
+  "source_pages": 383,
+  "ocr_pages_searched": 383,
+  "scope": "All work/ocr_text JSON texts searched for part-number labels, five-digit-hyphen-five-character codes, long numeric identifiers and alphanumeric hyphen codes; strong candidates and replacement statements were visually checked against source page images.",
+  "confirmed_orderable_vehicle_replacement_part_numbers": [],
+  "conclusion": "No actual orderable vehicle replacement part number was confirmed in the supplied maintenance-manual material. Three matching Hyundai-like identifiers are explicitly special-tool numbers. This is an evidence-bounded finding, not proof of absence in every image because OCR can miss text.",
+  "special_tool_numbers": [
+    {"number":"09880-4F000","name":"호그 링 클립 인스톨러","purpose":"호그 링 클립 장착시 사용","source_pdf":"work/source/22.pdf","physical_page":1,"visually_verified":true},
+    {"number":"09964-C1200","name":"수직 측정기","purpose":"빌트인 캠 전방 카메라 보정시 타겟 각도 측정에 사용","source_pdf":"work/source/22.pdf","physical_page":1,"visually_verified":true,"ocr_correction":"OCR returned 09964-CI 200; source image shows 09964-C1200."},
+    {"number":"09890-3V100","name":"전방 카메라 보정용 지그","purpose":"빌트인 캠 전방 카메라 보정용","source_pdf":"work/source/22.pdf","physical_page":1,"visually_verified":true}
+  ],
+  "confirmed_replacement_conditions": [
+    {"part":"프런트 도어 트림 클립(파스너)","condition":"도어트림 탈거 후 재장착시 반드시 교환","reason":"미교환 시 수밀/이탈 문제 발생할 수 있음","source_pdf":"work/source/46-5.pdf","physical_page":1,"visually_verified":true,"part_number_status":"not stated on this page"},
+    {"part":"리어 도어 트림 클립(파스너)","condition":"도어트림 탈거 후 재장착시 반드시 교환","reason":"미교환 시 수밀/이탈 문제 발생할 수 있음","source_pdf":"work/source/57-3.pdf","physical_page":1,"visually_verified":true,"part_number_status":"not stated on this page"},
+    {"part":"프런트 도어 프레임 가니쉬와 프레임 몰딩","condition":"탈거 후 부품 손상이 있을 경우 신품 교환","source_pdf":"work/source/55-3.pdf","physical_page":1,"visually_verified":true,"part_number_status":"not stated on this page"},
+    {"part":"리어 도어 프레임 가니쉬와 프레임 몰딩","condition":"탈거 후 부품 손상이 있을 경우 신품 교환","source_pdf":"work/source/67-3.pdf","physical_page":1,"visually_verified":true,"part_number_status":"not stated on this page"},
+    {"part":"오일 씰, 가스켓트, 패킹, O-링, 록크 와셔, 분할 핀","condition":"탈거했을 때 필히 신품 교환한다는 일반 주의사항","source_pdf":"work/source/13.pdf","physical_page":2,"visually_verified":true,"application_note":"General rule; do not imply all six items occur in every door procedure.","part_number_status":"not stated on this page"}
+  ],
+  "source_catalog_instruction": {"source_pdf":"work/source/13.pdf","physical_page":3,"visually_verified":true,"meaning":"보수용으로 공급되는 부품이 통일화 등으로 실제 조립된 부품과 다를 수 있으므로 부품 카다로그를 확인하며 정비 작업을 진행하도록 원문이 명시한다."},
+  "excluded_identifier_classes": [
+    {"source_pdf":"work/source/7.pdf","physical_pages":[1,2,3],"visually_verified":true,"class":"VIN, engine and transmission identification and serial-number range 000001-999999; not replacement part numbers"},
+    {"class":"gstiModelManageNo=9814 and engineTypeVal=30388 in URL query strings; not parts identifiers"},
+    {"class":"DTC diagnostic trouble codes, connector/part callouts A/B, torque/voltage/standard values; not orderable replacement part numbers"}
+  ],
+  "vehicle_identity_boundary": {"model_year":"2025","engine":"G 1.6 T-GDI HEV","vehicle_model_name":"Not established by source header; do not infer a complete vehicle identity or VIN from images/example identification charts."},
+  "visually_checked_images": ["work/ocr_images/22__01.png","work/ocr_images/46-5__01.png","work/ocr_images/57-3__01.png","work/ocr_images/55-3__01.png","work/ocr_images/67-3__01.png","work/ocr_images/13__03.png","work/ocr_images/13__02.png","work/ocr_images/7__01.png","work/ocr_images/7__02.png","work/ocr_images/7__03.png"],
+  "booklets_modified": false
+}

@@ -1,0 +1,124 @@
+{
+  "status": "verified_source_examples",
+  "scope": {
+    "source_files": 149,
+    "source_pages": 383,
+    "ocr_pages_surveyed": 383,
+    "source_structure": "work/book_structure.json",
+    "source_ocr_survey": "work/tools_parts_audit/tools_ocr_survey.json",
+    "technical_edits_performed": false,
+    "method": "All OCR pages searched for tools, equipment, consumables and code patterns; strong findings manually verified by actually viewing the original source render images listed below. OCR findings alone are not treated as exact verified specifications."
+  },
+  "confirmed_examples": [
+    {
+      "source_file": "22.pdf",
+      "physical_page": 1,
+      "source_image": "work/ocr_images/22__01.png",
+      "component": "바디 공통 / 특수 공구",
+      "columns": ["공구 (품번 및 품명)", "도안", "용도"],
+      "tool_entries": [
+        {"tool_code": "09880-4F000", "tool_name": "호그 링 클립 인스톨러", "source_use": "호그 링 클립 장착시 사용"},
+        {"tool_code": "09964-C1200", "tool_name": "수직 측정기", "source_use": "빌트인 캠 전방 카메라 보정시 타겟 각도 측정에 사용"},
+        {"tool_code": "09890-3V100", "tool_name": "전방 카메라 보정용 지그", "source_use": "빌트인 캠 전방 카메라 보정용"}
+      ],
+      "interpretation_limit": "These are special-tool catalog identifiers, not replacement vehicle-part numbers. Their presence in the body common chapter does not establish that every door or tailgate procedure needs them. The middle code is visually confirmed as C1200, correcting OCR CI 200."
+    },
+    {
+      "source_file": "46-4.pdf",
+      "physical_page": 1,
+      "source_image": "work/ocr_images/46-4__01.png",
+      "component": "프런트 도어 트림",
+      "procedure": "탈거",
+      "tools": ["리무버"],
+      "protective_items": ["장갑"],
+      "source_instruction": "리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다.",
+      "tool_size_status": "No exact remover specification or screwdriver/bit/socket size stated on this source page.",
+      "replacement_vehicle_part_number_status": "Not shown on this page; clip photograph and label A are not orderable part identifiers."
+    },
+    {
+      "source_file": "38-2.pdf",
+      "physical_page": 1,
+      "source_image": "work/ocr_images/38-2__01.png",
+      "component": "테일게이트 트림",
+      "procedure": "탈거 및 장착",
+      "tools": ["스크류 드라이버 또는 리무버"],
+      "protective_items": ["보호 테이프", "장갑"],
+      "source_instruction": "스크류 드라이버 또는 리무버를 사용하여 탈거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다.",
+      "tool_size_status": "No exact driver tip/size or remover specification stated on this source page.",
+      "replacement_vehicle_part_number_status": "Not shown on this page; clip photograph is not an orderable identifier."
+    },
+    {
+      "source_file": "52-3.pdf",
+      "physical_page": 1,
+      "source_image": "work/ocr_images/52-3__01.png",
+      "component": "프런트 도어 / 파워 윈도우 모터",
+      "procedure": "점검",
+      "tools": ["차량용 진단 장비(진단기기)"],
+      "source_use": "고장코드(DTC), 센서데이터, 강제구동, 부가기능을 통한 점검",
+      "equipment_model_status": "Exact equipment model or tool catalog code is not stated on this page."
+    },
+    {
+      "source_file": "42-6.pdf",
+      "physical_page": 2,
+      "source_image": "work/ocr_images/42-6__02.png",
+      "component": "파워 테일게이트 유닛",
+      "procedure": "배리언트 코딩",
+      "tools": ["진단 기기"],
+      "source_instruction": "파워 테일게이트 유닛 교체 시 진단 기기를 사용해 배리언트 코딩을 실시한다.",
+      "equipment_model_status": "Exact equipment model or tool catalog code is not stated on this page.",
+      "replacement_vehicle_part_number_status": "Replacement of the unit is mentioned but the orderable replacement number is not stated here."
+    },
+    {
+      "source_file": "16.pdf",
+      "physical_page": 1,
+      "source_image": "work/ocr_images/16__01.png",
+      "component": "사고 차량 작업 및 취급 주의사항",
+      "tools": ["메가옴 테스터(고전압 절연저항 확인용)"],
+      "protective_items": ["개인 보호 장비(PPE)", "비닐 테이프(터미널 절연용)"],
+      "interpretation_limit": "This list is scoped to accident-vehicle work/high voltage, not a universal list for all door or body tasks. This audit confirms the tool wording; it does not add safety procedures."
+    }
+  ],
+  "negative_and_ambiguous_evidence": [
+    {
+      "source_file": "46-3.pdf",
+      "physical_page": 1,
+      "source_image": "work/ocr_images/46-3__01.png",
+      "component": "프런트 도어 트림 / 1 Page Guide Manual",
+      "finding": "SST/장비 column exists but the shown rows contain dashes. H/W lists 파스너/스크류 for trim removal, which is hardware, not a complete list of tools or vehicle-part numbers.",
+      "interpretation_limit": "A dash in the SST/equipment column must not be interpreted as no tools required because the matching detailed procedure 46-4.pdf explicitly specifies a remover."
+    },
+    {
+      "source_file": "11.pdf",
+      "physical_page": 1,
+      "source_image": "work/ocr_images/11__01.png",
+      "finding": "General bolt tightening table lists thread diameter M5 to M30, pitch mm and strength class-dependent tightening torques in kgf.m.",
+      "interpretation_limit": "Thread diameters/pitches and torque values are neither socket/spanner sizes nor replacement vehicle-part numbers. No specific socket size was verified by this tool survey."
+    },
+    {
+      "source_file": "61-2.pdf",
+      "physical_page": 1,
+      "source_image": "work/ocr_images/61-2__01.png",
+      "component": "리어 도어 웨더 스트립",
+      "finding": "Source includes a removable clip illustration but no orderable number beside it. General caution specifies remover and gloves.",
+      "interpretation_limit": "Do not infer clip part number from picture, component letter A or the source filename."
+    },
+    {
+      "source_file": "work/book_structure.json",
+      "finding": "The metadata field part_number is a numeric source-file subindex such as 6 for 42-6.pdf, not an OEM replacement part number."
+    }
+  ],
+  "survey_counts_not_global_absence_claims": {
+    "pages_with_remover_term": 40,
+    "pages_with_screwdriver_term": 2,
+    "pages_with_diagnostic_tool_term": 17,
+    "pages_with_SST_equipment_heading": 54,
+    "pages_with_wrench_socket_spanner_terms": 0,
+    "meaning": "Counts refer to OCR matches. Lack of a match is not proof that image-only labeling or unrecognized text never contains the information. Confirmed exact entries are the manually verified examples above."
+  },
+  "recommended_fact_boundaries_for_booklet": [
+    "Publish confirmed general tool names and protective consumables together with their exact source procedure and location.",
+    "Show special tool catalog numbers as tool numbers and only assign them to the stated use.",
+    "Separate source-stated tools from inferred practical tool suggestions, sizes, and replacement part numbers still requiring confirmation.",
+    "Do not manufacture missing socket sizes, bit types, equipment models, replacement numbers, or all-task tool requirements."
+  ]
+}

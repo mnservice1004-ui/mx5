@@ -1,0 +1,245 @@
+{
+  "source_path": "D:\\다운로드\\1a112fd9eda7e3ffbec1.pdf",
+  "source_size_bytes": 292633047,
+  "source_sha256": "aaf619674bd48c406b16f0cbba472b5e945a0638e98acb7e2a2a5b27d8db81d8",
+  "page_count": 668,
+  "metadata": {
+    "creator": "Samsung Electronics",
+    "has_outlines": false,
+    "text_layer": "OCR-like selectable text, minor recognition noise"
+  },
+  "review_scope": "All book sampling, not a claim of reading every paragraph",
+  "contact_sheet_physical_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    34,
+    52,
+    70,
+    88,
+    106,
+    124,
+    142,
+    160,
+    178,
+    196,
+    214,
+    232,
+    250,
+    268,
+    286,
+    304,
+    322,
+    340,
+    358,
+    376,
+    394,
+    412,
+    430,
+    448,
+    466,
+    484,
+    502,
+    520,
+    538,
+    556,
+    574,
+    592,
+    610,
+    628,
+    646,
+    663,
+    664,
+    665,
+    666,
+    667,
+    668
+  ],
+  "full_resolution_physically_viewed_pages": [
+    16,
+    31,
+    32,
+    196,
+    214,
+    232,
+    430,
+    466,
+    662
+  ],
+  "support_render_not_yet_viewed": [
+    10
+  ],
+  "observations": [
+    {
+      "feature": "Learning map before content",
+      "physical_pages": [
+        10,
+        11,
+        16,
+        31,
+        32,
+        196,
+        250,
+        412
+      ],
+      "observation": "Large numbered chapter and section hierarchy, short goal sentence and keyword tags precede main material. TOC repeats the same chapter and section numbering."
+    },
+    {
+      "feature": "Text and visual cooperation",
+      "physical_pages": [
+        32,
+        142,
+        232,
+        286,
+        304,
+        358,
+        610
+      ],
+      "observation": "Diagrams, arrows and nearby explanation reduce the need to alternate between separated passages; recursive flow uses successive boxes and return arrows."
+    },
+    {
+      "feature": "Supplemental information with a consistent shape",
+      "physical_pages": [
+        88,
+        106,
+        214,
+        376,
+        484
+      ],
+      "observation": "Small bordered local notes and larger supplemental panels remain adjacent to the related passage; the main reading stream retains priority."
+    },
+    {
+      "feature": "Chapter wrap up and checks",
+      "physical_pages": [
+        52,
+        178,
+        322,
+        430,
+        466,
+        502,
+        520,
+        538
+      ],
+      "observation": "Summary bullets and comparison tables precede practice checks; a repeated frame and header make wrap up pages immediately identifiable."
+    },
+    {
+      "feature": "Reference navigation",
+      "physical_pages": [
+        662,
+        663,
+        664,
+        665,
+        666
+      ],
+      "observation": "Grouped alphabetic headings, regular columns and bold page numbers make searching fast; dense front contents is separated from rear alphabetical index."
+    },
+    {
+      "feature": "Visual rhythm",
+      "physical_pages": [
+        16,
+        32,
+        196,
+        214,
+        430,
+        466,
+        662
+      ],
+      "observation": "Strong dark heading accent and very light panels contrast with mostly white pages. Typeface size, line rules and position carry hierarchy as well as color."
+    }
+  ],
+  "adaptations": [
+    {
+      "id": 1,
+      "name": "Task first opening",
+      "implementation": "Keep every current component photo and task introduction, strengthen booklet number and component title, add a short source backed statement of the included operation scope, and show a concise visual route. Use an original navy, slate and amber identity rather than the reference textbook green character style.",
+      "preserve": [
+        "Source component image",
+        "Existing task introduction",
+        "No new mechanical instruction"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "One page operational guide",
+      "implementation": "Keep page two as one guide. Use clearly labelled rows or a compact numbered table: task names, starting pages, reference marker key, return path. Give task names more width than metadata. Avoid adding separate reading guide pages.",
+      "preserve": [
+        "Exactly one consolidated guide page",
+        "All 149 main procedure guide targets",
+        "Current booklet count and duplex parity"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Unambiguous location band on body pages",
+      "implementation": "Use consistent current booklet and component header, prominent main procedure versus reference depth label, and concise current route. Keep current source figures and text unobstructed. In reference pages show parent procedure and exact return page nearby.",
+      "preserve": [
+        "Source instruction order",
+        "Inline reference insertion",
+        "Every parent return target"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Nested reference route with shape plus color",
+      "implementation": "Maintain requested red first reference frame, two and three ancestor lines for depths two and three. Keep depth four free of depth one through three rails, with long dashes; distinguish depth five by the established second dash style. Add clearly typeset depth numeral and text so grayscale printing also conveys nesting.",
+      "preserve": [
+        "Existing depth 1 to 5 visual grammar",
+        "Current breadcrumb order",
+        "Normal parent resume order"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fast decision panels grounded in original material",
+      "implementation": "Make general reading and navigation guidance short and tabular, and arrange existing technical notes without paraphrasing values or inventing procedures. Any completion panel should point back to checks already present in the source; avoid unsupported safety or inspection claims.",
+      "preserve": [
+        "Every source technical value",
+        "Original mechanical drawings",
+        "Original warnings and checks"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Consistent detailed index",
+      "implementation": "Use larger grouped alphabetic headings, aligned page columns and compact main or reference badges in the three master indexes. Preserve current remote file targets and exact page links.",
+      "preserve": [
+        "All detailed index entries",
+        "Three separate master indexes",
+        "Booklet folder structure"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Print driven restrained typography",
+      "implementation": "Reserve dark filled areas for small headings; use light panel tint and ample white space. Keep all body and overlays outside 25 mm plus 3 mm binding space and all folios at fixed 11 pt, 12 mm outer inset and 8 mm bottom baseline. Use text, line patterns and depth counts along with color.",
+      "preserve": [
+        "A4 actual size duplex long edge",
+        "Mirrored outer folios",
+        "Odd left inner and even right inner gutter"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Maintain fidelity while reducing visual clutter",
+      "implementation": "Consolidate repeated page furniture into a strong top hierarchy and a quiet bottom source line, keep the scanned source region intact and legible, and use consistent spacing rather than many competing filled boxes.",
+      "preserve": [
+        "Every original source form and image",
+        "No repeated new instructional front matter",
+        "Main procedure and return navigation"
+      ]
+    }
+  ],
+  "source_handling": "Reference only; no prose, examples, illustrations, character, logo or distinctive page artwork copied; embedded instructions not acted upon.",
+  "sampling_assets": "work/textbook_reference_review/",
+  "total_distinct_visually_reviewed_pages": 57
+}

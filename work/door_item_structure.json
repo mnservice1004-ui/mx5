@@ -1,0 +1,3503 @@
+{
+  "schema_version": 1,
+  "source": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_참조절차_즉시펼침_책자.pdf",
+  "source_sha256": "b00390166af270990840650f09364b8f4eb022bd065005afbb5fc01dc5227405",
+  "source_pages": 938,
+  "original_body_start": 372,
+  "original_body_end": 935,
+  "body_coverage": 564,
+  "item_count": 24,
+  "chapter_counts": {
+    "front_door": 12,
+    "rear_door": 12
+  },
+  "procedure_display_override": {
+    "1 Page Guide Manual": "작업요약표"
+  },
+  "all_links_internal": true,
+  "all_events_internal": true,
+  "unresolved_links": 0,
+  "items": [
+    {
+      "id": "07-01",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 1,
+      "source_group": 46,
+      "label": "기본·조정",
+      "title": "프런트 도어 기본·조정",
+      "original_start": 372,
+      "original_end": 381,
+      "body_pages": 10,
+      "files": [
+        "46-1.pdf",
+        "46-2.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "46-1.pdf",
+          "procedure": "구성부품 및 부품위치",
+          "procedure_display": "구성부품 및 부품위치",
+          "source_title": "구성부품 및 부품위치",
+          "original_start": 372,
+          "original_end": 373,
+          "body_pages": 2,
+          "root_fragments": 2,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 2,
+          "file": "46-2.pdf",
+          "procedure": "조정",
+          "procedure_display": "조정",
+          "source_title": "조정",
+          "original_start": 374,
+          "original_end": 381,
+          "body_pages": 8,
+          "root_fragments": 5,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R068",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 374,
+              "first_inserted_page": 375,
+              "return_page": 378
+            }
+          ]
+        }
+      ],
+      "root_fragments": 7,
+      "inserted_fragments": 3,
+      "event_count": 1,
+      "reference_events": [
+        {
+          "reference_id": "R068",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 374,
+          "first_inserted_page": 375,
+          "return_page": 378
+        }
+      ],
+      "navigation_links": 4,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-02",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 2,
+      "source_group": 46,
+      "label": "트림",
+      "title": "프런트 도어 트림",
+      "original_start": 382,
+      "original_end": 387,
+      "body_pages": 6,
+      "files": [
+        "46-3.pdf",
+        "46-4.pdf",
+        "46-5.pdf"
+      ],
+      "inserted_files": [],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "46-3.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "프런트 도어 트림 탈장착",
+          "original_start": 382,
+          "original_end": 383,
+          "body_pages": 2,
+          "root_fragments": 2,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 2,
+          "file": "46-4.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 384,
+          "original_end": 386,
+          "body_pages": 3,
+          "root_fragments": 3,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 3,
+          "file": "46-5.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 387,
+          "original_end": 387,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 6,
+      "inserted_fragments": 0,
+      "event_count": 0,
+      "reference_events": [],
+      "navigation_links": 0,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-03",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 3,
+      "source_group": 46,
+      "label": "핸들",
+      "title": "프런트 도어 핸들",
+      "original_start": 388,
+      "original_end": 403,
+      "body_pages": 16,
+      "files": [
+        "46-6.pdf",
+        "46-7.pdf",
+        "46-8.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "46-6.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "프런트 도어 핸들 탈장착",
+          "original_start": 388,
+          "original_end": 394,
+          "body_pages": 7,
+          "root_fragments": 4,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R069",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 388,
+              "first_inserted_page": 389,
+              "return_page": 392
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "46-7.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 395,
+          "original_end": 402,
+          "body_pages": 8,
+          "root_fragments": 5,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R070",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 395,
+              "first_inserted_page": 396,
+              "return_page": 399
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "file": "46-8.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 403,
+          "original_end": 403,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 10,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R069",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 388,
+          "first_inserted_page": 389,
+          "return_page": 392
+        },
+        {
+          "reference_id": "R070",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 395,
+          "first_inserted_page": 396,
+          "return_page": 399
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-04",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 4,
+      "source_group": 47,
+      "label": "윈도우 글라스",
+      "title": "프런트 도어 윈도우 글라스",
+      "original_start": 404,
+      "original_end": 421,
+      "body_pages": 18,
+      "files": [
+        "47-1.pdf",
+        "47-2.pdf",
+        "47-3.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf",
+        "49-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "47-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "프런트 도어 윈도우 글라스 탈장착",
+          "original_start": 404,
+          "original_end": 412,
+          "body_pages": 9,
+          "root_fragments": 4,
+          "inserted_fragments": 5,
+          "events": [
+            {
+              "reference_id": "R071",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 405,
+              "first_inserted_page": 406,
+              "return_page": 411
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 406,
+              "first_inserted_page": 407,
+              "return_page": 410
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "47-2.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 413,
+          "original_end": 420,
+          "body_pages": 8,
+          "root_fragments": 3,
+          "inserted_fragments": 5,
+          "events": [
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 413,
+              "first_inserted_page": 414,
+              "return_page": 419
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 414,
+              "first_inserted_page": 415,
+              "return_page": 418
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "file": "47-3.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 421,
+          "original_end": 421,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 8,
+      "inserted_fragments": 10,
+      "event_count": 4,
+      "reference_events": [
+        {
+          "reference_id": "R071",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 405,
+          "first_inserted_page": 406,
+          "return_page": 411
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 406,
+          "first_inserted_page": 407,
+          "return_page": 410
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 413,
+          "first_inserted_page": 414,
+          "return_page": 419
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 414,
+          "first_inserted_page": 415,
+          "return_page": 418
+        }
+      ],
+      "navigation_links": 14,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-05",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 5,
+      "source_group": 48,
+      "label": "모듈",
+      "title": "프런트 도어 모듈",
+      "original_start": 422,
+      "original_end": 459,
+      "body_pages": 38,
+      "files": [
+        "48-1.pdf",
+        "48-2.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf",
+        "46-7.pdf",
+        "47-2.pdf",
+        "49-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "48-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "프런트 도어 모듈 탈장착",
+          "original_start": 422,
+          "original_end": 440,
+          "body_pages": 19,
+          "root_fragments": 7,
+          "inserted_fragments": 12,
+          "events": [
+            {
+              "reference_id": "R073",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 423,
+              "first_inserted_page": 424,
+              "return_page": 432
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 424,
+              "first_inserted_page": 425,
+              "return_page": 430
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 425,
+              "first_inserted_page": 426,
+              "return_page": 429
+            },
+            {
+              "reference_id": "R074",
+              "status": "available",
+              "title": "프런트 도어 아웃사이드 핸들 탈거",
+              "origin_page": 432,
+              "first_inserted_page": 433,
+              "return_page": 437
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "48-2.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 441,
+          "original_end": 459,
+          "body_pages": 19,
+          "root_fragments": 7,
+          "inserted_fragments": 12,
+          "events": [
+            {
+              "reference_id": "R075",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 441,
+              "first_inserted_page": 442,
+              "return_page": 450
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 442,
+              "first_inserted_page": 443,
+              "return_page": 448
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 443,
+              "first_inserted_page": 444,
+              "return_page": 447
+            },
+            {
+              "reference_id": "R076",
+              "status": "available",
+              "title": "프런트 도어 아웃사이드 핸들 탈거",
+              "origin_page": 450,
+              "first_inserted_page": 451,
+              "return_page": 455
+            }
+          ]
+        }
+      ],
+      "root_fragments": 14,
+      "inserted_fragments": 24,
+      "event_count": 8,
+      "reference_events": [
+        {
+          "reference_id": "R073",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 423,
+          "first_inserted_page": 424,
+          "return_page": 432
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 424,
+          "first_inserted_page": 425,
+          "return_page": 430
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 425,
+          "first_inserted_page": 426,
+          "return_page": 429
+        },
+        {
+          "reference_id": "R074",
+          "status": "available",
+          "title": "프런트 도어 아웃사이드 핸들 탈거",
+          "origin_page": 432,
+          "first_inserted_page": 433,
+          "return_page": 437
+        },
+        {
+          "reference_id": "R075",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 441,
+          "first_inserted_page": 442,
+          "return_page": 450
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 442,
+          "first_inserted_page": 443,
+          "return_page": 448
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 443,
+          "first_inserted_page": 444,
+          "return_page": 447
+        },
+        {
+          "reference_id": "R076",
+          "status": "available",
+          "title": "프런트 도어 아웃사이드 핸들 탈거",
+          "origin_page": 450,
+          "first_inserted_page": 451,
+          "return_page": 455
+        }
+      ],
+      "navigation_links": 32,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-06",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 6,
+      "source_group": 49,
+      "label": "웨더 스트립",
+      "title": "프런트 도어 웨더 스트립",
+      "original_start": 460,
+      "original_end": 474,
+      "body_pages": 15,
+      "files": [
+        "49-1.pdf",
+        "49-2.pdf",
+        "49-3.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "49-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "프런트 도어 웨더 스트립 탈장착",
+          "original_start": 460,
+          "original_end": 467,
+          "body_pages": 8,
+          "root_fragments": 5,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R077",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 461,
+              "first_inserted_page": 462,
+              "return_page": 465
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "49-2.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 468,
+          "original_end": 473,
+          "body_pages": 6,
+          "root_fragments": 3,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 468,
+              "first_inserted_page": 469,
+              "return_page": 472
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "file": "49-3.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 474,
+          "original_end": 474,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 9,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R077",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 461,
+          "first_inserted_page": 462,
+          "return_page": 465
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 468,
+          "first_inserted_page": 469,
+          "return_page": 472
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-07",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 7,
+      "source_group": 50,
+      "label": "글라스 런",
+      "title": "프런트 도어 글라스 런",
+      "original_start": 475,
+      "original_end": 502,
+      "body_pages": 28,
+      "files": [
+        "50-1.pdf",
+        "50-2.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf",
+        "47-2.pdf",
+        "49-2.pdf",
+        "55-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "50-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "프런트 도어 글라스 런 탈장착",
+          "original_start": 475,
+          "original_end": 487,
+          "body_pages": 13,
+          "root_fragments": 2,
+          "inserted_fragments": 11,
+          "events": [
+            {
+              "reference_id": "R079",
+              "status": "available",
+              "title": "프런트 도어 프레임 가니쉬 탈거",
+              "origin_page": 475,
+              "first_inserted_page": 476,
+              "return_page": 487
+            },
+            {
+              "reference_id": "R091",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 476,
+              "first_inserted_page": 477,
+              "return_page": 485
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 477,
+              "first_inserted_page": 478,
+              "return_page": 483
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 478,
+              "first_inserted_page": 479,
+              "return_page": 482
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "50-2.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 488,
+          "original_end": 502,
+          "body_pages": 15,
+          "root_fragments": 4,
+          "inserted_fragments": 11,
+          "events": [
+            {
+              "reference_id": "R080",
+              "status": "available",
+              "title": "프런트 도어 프레임 가니쉬 탈거",
+              "origin_page": 488,
+              "first_inserted_page": 489,
+              "return_page": 500
+            },
+            {
+              "reference_id": "R091",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 489,
+              "first_inserted_page": 490,
+              "return_page": 498
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 490,
+              "first_inserted_page": 491,
+              "return_page": 496
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 491,
+              "first_inserted_page": 492,
+              "return_page": 495
+            }
+          ]
+        }
+      ],
+      "root_fragments": 6,
+      "inserted_fragments": 22,
+      "event_count": 8,
+      "reference_events": [
+        {
+          "reference_id": "R079",
+          "status": "available",
+          "title": "프런트 도어 프레임 가니쉬 탈거",
+          "origin_page": 475,
+          "first_inserted_page": 476,
+          "return_page": 487
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 476,
+          "first_inserted_page": 477,
+          "return_page": 485
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 477,
+          "first_inserted_page": 478,
+          "return_page": 483
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 478,
+          "first_inserted_page": 479,
+          "return_page": 482
+        },
+        {
+          "reference_id": "R080",
+          "status": "available",
+          "title": "프런트 도어 프레임 가니쉬 탈거",
+          "origin_page": 488,
+          "first_inserted_page": 489,
+          "return_page": 500
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 489,
+          "first_inserted_page": 490,
+          "return_page": 498
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 490,
+          "first_inserted_page": 491,
+          "return_page": 496
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 491,
+          "first_inserted_page": 492,
+          "return_page": 495
+        }
+      ],
+      "navigation_links": 30,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-08",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 8,
+      "source_group": 51,
+      "label": "랫치",
+      "title": "프런트 도어 랫치",
+      "original_start": 503,
+      "original_end": 551,
+      "body_pages": 49,
+      "files": [
+        "51-1.pdf",
+        "51-2.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf",
+        "46-7.pdf",
+        "47-2.pdf",
+        "48-2.pdf",
+        "49-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "51-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "프런트 도어 랫치 탈장착",
+          "original_start": 503,
+          "original_end": 525,
+          "body_pages": 23,
+          "root_fragments": 4,
+          "inserted_fragments": 19,
+          "events": [
+            {
+              "reference_id": "R081",
+              "status": "available",
+              "title": "프런트 도어 모듈 탈거",
+              "origin_page": 503,
+              "first_inserted_page": 504,
+              "return_page": 523
+            },
+            {
+              "reference_id": "R075",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 504,
+              "first_inserted_page": 505,
+              "return_page": 513
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 505,
+              "first_inserted_page": 506,
+              "return_page": 511
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 506,
+              "first_inserted_page": 507,
+              "return_page": 510
+            },
+            {
+              "reference_id": "R076",
+              "status": "available",
+              "title": "프런트 도어 아웃사이드 핸들 탈거",
+              "origin_page": 513,
+              "first_inserted_page": 514,
+              "return_page": 518
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "51-2.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 526,
+          "original_end": 551,
+          "body_pages": 26,
+          "root_fragments": 7,
+          "inserted_fragments": 19,
+          "events": [
+            {
+              "reference_id": "R082",
+              "status": "available",
+              "title": "프런트 도어 모듈 탈거",
+              "origin_page": 526,
+              "first_inserted_page": 527,
+              "return_page": 546
+            },
+            {
+              "reference_id": "R075",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 527,
+              "first_inserted_page": 528,
+              "return_page": 536
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 528,
+              "first_inserted_page": 529,
+              "return_page": 534
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 529,
+              "first_inserted_page": 530,
+              "return_page": 533
+            },
+            {
+              "reference_id": "R076",
+              "status": "available",
+              "title": "프런트 도어 아웃사이드 핸들 탈거",
+              "origin_page": 536,
+              "first_inserted_page": 537,
+              "return_page": 541
+            }
+          ]
+        }
+      ],
+      "root_fragments": 11,
+      "inserted_fragments": 38,
+      "event_count": 10,
+      "reference_events": [
+        {
+          "reference_id": "R081",
+          "status": "available",
+          "title": "프런트 도어 모듈 탈거",
+          "origin_page": 503,
+          "first_inserted_page": 504,
+          "return_page": 523
+        },
+        {
+          "reference_id": "R075",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 504,
+          "first_inserted_page": 505,
+          "return_page": 513
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 505,
+          "first_inserted_page": 506,
+          "return_page": 511
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 506,
+          "first_inserted_page": 507,
+          "return_page": 510
+        },
+        {
+          "reference_id": "R076",
+          "status": "available",
+          "title": "프런트 도어 아웃사이드 핸들 탈거",
+          "origin_page": 513,
+          "first_inserted_page": 514,
+          "return_page": 518
+        },
+        {
+          "reference_id": "R082",
+          "status": "available",
+          "title": "프런트 도어 모듈 탈거",
+          "origin_page": 526,
+          "first_inserted_page": 527,
+          "return_page": 546
+        },
+        {
+          "reference_id": "R075",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 527,
+          "first_inserted_page": 528,
+          "return_page": 536
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 528,
+          "first_inserted_page": 529,
+          "return_page": 534
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 529,
+          "first_inserted_page": 530,
+          "return_page": 533
+        },
+        {
+          "reference_id": "R076",
+          "status": "available",
+          "title": "프런트 도어 아웃사이드 핸들 탈거",
+          "origin_page": 536,
+          "first_inserted_page": 537,
+          "return_page": 541
+        }
+      ],
+      "navigation_links": 48,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-09",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 9,
+      "source_group": 52,
+      "label": "파워 윈도우 모터",
+      "title": "프런트 도어 파워 윈도우 모터",
+      "original_start": 552,
+      "original_end": 569,
+      "body_pages": 18,
+      "files": [
+        "52-1.pdf",
+        "52-2.pdf",
+        "52-3.pdf",
+        "52-4.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "52-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "파워 윈도우 모터 탈장착",
+          "original_start": 552,
+          "original_end": 556,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R083",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 552,
+              "first_inserted_page": 553,
+              "return_page": 556
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "52-2.pdf",
+          "procedure": "개요 및 작동원리",
+          "procedure_display": "개요 및 작동원리",
+          "source_title": "개요 및 작동원리",
+          "original_start": 557,
+          "original_end": 560,
+          "body_pages": 4,
+          "root_fragments": 4,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 3,
+          "file": "52-3.pdf",
+          "procedure": "점검",
+          "procedure_display": "점검",
+          "source_title": "점검",
+          "original_start": 561,
+          "original_end": 563,
+          "body_pages": 3,
+          "root_fragments": 3,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 4,
+          "file": "52-4.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 564,
+          "original_end": 569,
+          "body_pages": 6,
+          "root_fragments": 3,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R084",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 564,
+              "first_inserted_page": 565,
+              "return_page": 568
+            }
+          ]
+        }
+      ],
+      "root_fragments": 12,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R083",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 552,
+          "first_inserted_page": 553,
+          "return_page": 556
+        },
+        {
+          "reference_id": "R084",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 564,
+          "first_inserted_page": 565,
+          "return_page": 568
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-10",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 10,
+      "source_group": 53,
+      "label": "파워 윈도우 스위치",
+      "title": "프런트 도어 파워 윈도우 스위치",
+      "original_start": 570,
+      "original_end": 582,
+      "body_pages": 13,
+      "files": [
+        "53-1.pdf",
+        "53-2.pdf",
+        "53-3.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "53-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "파워 윈도우 스위치 탈장착",
+          "original_start": 570,
+          "original_end": 574,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R085",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 570,
+              "first_inserted_page": 571,
+              "return_page": 574
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "53-2.pdf",
+          "procedure": "점검",
+          "procedure_display": "점검",
+          "source_title": "점검",
+          "original_start": 575,
+          "original_end": 577,
+          "body_pages": 3,
+          "root_fragments": 3,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 3,
+          "file": "53-3.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 578,
+          "original_end": 582,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R086",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 578,
+              "first_inserted_page": 579,
+              "return_page": 582
+            }
+          ]
+        }
+      ],
+      "root_fragments": 7,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R085",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 570,
+          "first_inserted_page": 571,
+          "return_page": 574
+        },
+        {
+          "reference_id": "R086",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 578,
+          "first_inserted_page": 579,
+          "return_page": 582
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-11",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 11,
+      "source_group": 54,
+      "label": "파워 도어 잠금 스위치",
+      "title": "프런트 도어 파워 도어 잠금 스위치",
+      "original_start": 583,
+      "original_end": 595,
+      "body_pages": 13,
+      "files": [
+        "54-1.pdf",
+        "54-2.pdf",
+        "54-3.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "54-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "파워 도어 잠금 스위치 탈장착",
+          "original_start": 583,
+          "original_end": 587,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R087",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 583,
+              "first_inserted_page": 584,
+              "return_page": 587
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "54-2.pdf",
+          "procedure": "점검",
+          "procedure_display": "점검",
+          "source_title": "점검",
+          "original_start": 588,
+          "original_end": 590,
+          "body_pages": 3,
+          "root_fragments": 3,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 3,
+          "file": "54-3.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 591,
+          "original_end": 595,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R088",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 591,
+              "first_inserted_page": 592,
+              "return_page": 595
+            }
+          ]
+        }
+      ],
+      "root_fragments": 7,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R087",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 583,
+          "first_inserted_page": 584,
+          "return_page": 587
+        },
+        {
+          "reference_id": "R088",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 591,
+          "first_inserted_page": 592,
+          "return_page": 595
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "07-12",
+      "chapter_id": "front_door",
+      "chapter_title": "프런트 도어",
+      "part": 7,
+      "item_number": 12,
+      "source_group": 55,
+      "label": "가니쉬",
+      "title": "프런트 도어 가니쉬",
+      "original_start": 596,
+      "original_end": 654,
+      "body_pages": 59,
+      "files": [
+        "55-1.pdf",
+        "55-2.pdf",
+        "55-3.pdf"
+      ],
+      "inserted_files": [
+        "46-4.pdf",
+        "47-2.pdf",
+        "49-2.pdf",
+        "50-2.pdf",
+        "55-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "55-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "프런트 도어 가니쉬 탈장착",
+          "original_start": 596,
+          "original_end": 625,
+          "body_pages": 30,
+          "root_fragments": 7,
+          "inserted_fragments": 23,
+          "events": [
+            {
+              "reference_id": "R089",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 597,
+              "first_inserted_page": 598,
+              "return_page": 606
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 598,
+              "first_inserted_page": 599,
+              "return_page": 604
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 599,
+              "first_inserted_page": 600,
+              "return_page": 603
+            },
+            {
+              "reference_id": "R090",
+              "status": "available",
+              "title": "프런트 도어 글라스 런 탈거",
+              "origin_page": 608,
+              "first_inserted_page": 609,
+              "return_page": 624
+            },
+            {
+              "reference_id": "R080",
+              "status": "available",
+              "title": "프런트 도어 프레임 가니쉬 탈거",
+              "origin_page": 609,
+              "first_inserted_page": 610,
+              "return_page": 621
+            },
+            {
+              "reference_id": "R091",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 610,
+              "first_inserted_page": 611,
+              "return_page": 619
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 611,
+              "first_inserted_page": 612,
+              "return_page": 617
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 612,
+              "first_inserted_page": 613,
+              "return_page": 616
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "55-2.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 626,
+          "original_end": 653,
+          "body_pages": 28,
+          "root_fragments": 5,
+          "inserted_fragments": 23,
+          "events": [
+            {
+              "reference_id": "R091",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 626,
+              "first_inserted_page": 627,
+              "return_page": 635
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 627,
+              "first_inserted_page": 628,
+              "return_page": 633
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 628,
+              "first_inserted_page": 629,
+              "return_page": 632
+            },
+            {
+              "reference_id": "R092",
+              "status": "available",
+              "title": "프런트 도어 글라스 런 탈거",
+              "origin_page": 636,
+              "first_inserted_page": 637,
+              "return_page": 652
+            },
+            {
+              "reference_id": "R080",
+              "status": "available",
+              "title": "프런트 도어 프레임 가니쉬 탈거",
+              "origin_page": 637,
+              "first_inserted_page": 638,
+              "return_page": 649
+            },
+            {
+              "reference_id": "R091",
+              "status": "available",
+              "title": "프런트 도어 윈도우 글라스 탈거",
+              "origin_page": 638,
+              "first_inserted_page": 639,
+              "return_page": 647
+            },
+            {
+              "reference_id": "R072",
+              "status": "available",
+              "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 639,
+              "first_inserted_page": 640,
+              "return_page": 645
+            },
+            {
+              "reference_id": "R078",
+              "status": "available",
+              "title": "프런트 도어 트림 탈거",
+              "origin_page": 640,
+              "first_inserted_page": 641,
+              "return_page": 644
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "file": "55-3.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 654,
+          "original_end": 654,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 13,
+      "inserted_fragments": 46,
+      "event_count": 16,
+      "reference_events": [
+        {
+          "reference_id": "R089",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 597,
+          "first_inserted_page": 598,
+          "return_page": 606
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 598,
+          "first_inserted_page": 599,
+          "return_page": 604
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 599,
+          "first_inserted_page": 600,
+          "return_page": 603
+        },
+        {
+          "reference_id": "R090",
+          "status": "available",
+          "title": "프런트 도어 글라스 런 탈거",
+          "origin_page": 608,
+          "first_inserted_page": 609,
+          "return_page": 624
+        },
+        {
+          "reference_id": "R080",
+          "status": "available",
+          "title": "프런트 도어 프레임 가니쉬 탈거",
+          "origin_page": 609,
+          "first_inserted_page": 610,
+          "return_page": 621
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 610,
+          "first_inserted_page": 611,
+          "return_page": 619
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 611,
+          "first_inserted_page": 612,
+          "return_page": 617
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 612,
+          "first_inserted_page": 613,
+          "return_page": 616
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 626,
+          "first_inserted_page": 627,
+          "return_page": 635
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 627,
+          "first_inserted_page": 628,
+          "return_page": 633
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 628,
+          "first_inserted_page": 629,
+          "return_page": 632
+        },
+        {
+          "reference_id": "R092",
+          "status": "available",
+          "title": "프런트 도어 글라스 런 탈거",
+          "origin_page": 636,
+          "first_inserted_page": 637,
+          "return_page": 652
+        },
+        {
+          "reference_id": "R080",
+          "status": "available",
+          "title": "프런트 도어 프레임 가니쉬 탈거",
+          "origin_page": 637,
+          "first_inserted_page": 638,
+          "return_page": 649
+        },
+        {
+          "reference_id": "R091",
+          "status": "available",
+          "title": "프런트 도어 윈도우 글라스 탈거",
+          "origin_page": 638,
+          "first_inserted_page": 639,
+          "return_page": 647
+        },
+        {
+          "reference_id": "R072",
+          "status": "available",
+          "title": "프런트 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 639,
+          "first_inserted_page": 640,
+          "return_page": 645
+        },
+        {
+          "reference_id": "R078",
+          "status": "available",
+          "title": "프런트 도어 트림 탈거",
+          "origin_page": 640,
+          "first_inserted_page": 641,
+          "return_page": 644
+        }
+      ],
+      "navigation_links": 62,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-01",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 1,
+      "source_group": 56,
+      "label": "기본·조정",
+      "title": "리어 도어 기본·조정",
+      "original_start": 655,
+      "original_end": 664,
+      "body_pages": 10,
+      "files": [
+        "56-1.pdf",
+        "56-2.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "56-1.pdf",
+          "procedure": "구성부품 및 부품위치",
+          "procedure_display": "구성부품 및 부품위치",
+          "source_title": "구성부품 및 부품위치",
+          "original_start": 655,
+          "original_end": 656,
+          "body_pages": 2,
+          "root_fragments": 2,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 2,
+          "file": "56-2.pdf",
+          "procedure": "조정",
+          "procedure_display": "조정",
+          "source_title": "조정",
+          "original_start": 657,
+          "original_end": 664,
+          "body_pages": 8,
+          "root_fragments": 5,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R093",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 657,
+              "first_inserted_page": 658,
+              "return_page": 661
+            }
+          ]
+        }
+      ],
+      "root_fragments": 7,
+      "inserted_fragments": 3,
+      "event_count": 1,
+      "reference_events": [
+        {
+          "reference_id": "R093",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 657,
+          "first_inserted_page": 658,
+          "return_page": 661
+        }
+      ],
+      "navigation_links": 4,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-02",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 2,
+      "source_group": 57,
+      "label": "트림",
+      "title": "리어 도어 트림",
+      "original_start": 665,
+      "original_end": 670,
+      "body_pages": 6,
+      "files": [
+        "57-1.pdf",
+        "57-2.pdf",
+        "57-3.pdf"
+      ],
+      "inserted_files": [],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "57-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 트림 탈장착",
+          "original_start": 665,
+          "original_end": 666,
+          "body_pages": 2,
+          "root_fragments": 2,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 2,
+          "file": "57-2.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 667,
+          "original_end": 669,
+          "body_pages": 3,
+          "root_fragments": 3,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 3,
+          "file": "57-3.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 670,
+          "original_end": 670,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 6,
+      "inserted_fragments": 0,
+      "event_count": 0,
+      "reference_events": [],
+      "navigation_links": 0,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-03",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 3,
+      "source_group": 58,
+      "label": "핸들",
+      "title": "리어 도어 핸들",
+      "original_start": 671,
+      "original_end": 688,
+      "body_pages": 18,
+      "files": [
+        "58-1.pdf",
+        "58-2.pdf",
+        "58-3.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf",
+        "64-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "58-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 핸들 탈장착",
+          "original_start": 671,
+          "original_end": 678,
+          "body_pages": 8,
+          "root_fragments": 3,
+          "inserted_fragments": 5,
+          "events": [
+            {
+              "reference_id": "R094",
+              "status": "available",
+              "title": "리어 도어 커튼 어셈블리 탈거",
+              "origin_page": 671,
+              "first_inserted_page": 672,
+              "return_page": 677
+            },
+            {
+              "reference_id": "R113",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 672,
+              "first_inserted_page": 673,
+              "return_page": 676
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "58-2.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 679,
+          "original_end": 687,
+          "body_pages": 9,
+          "root_fragments": 4,
+          "inserted_fragments": 5,
+          "events": [
+            {
+              "reference_id": "R095",
+              "status": "available",
+              "title": "리어 도어 커튼 어셈블리 탈거",
+              "origin_page": 679,
+              "first_inserted_page": 680,
+              "return_page": 685
+            },
+            {
+              "reference_id": "R113",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 680,
+              "first_inserted_page": 681,
+              "return_page": 684
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "file": "58-3.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 688,
+          "original_end": 688,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 8,
+      "inserted_fragments": 10,
+      "event_count": 4,
+      "reference_events": [
+        {
+          "reference_id": "R094",
+          "status": "available",
+          "title": "리어 도어 커튼 어셈블리 탈거",
+          "origin_page": 671,
+          "first_inserted_page": 672,
+          "return_page": 677
+        },
+        {
+          "reference_id": "R113",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 672,
+          "first_inserted_page": 673,
+          "return_page": 676
+        },
+        {
+          "reference_id": "R095",
+          "status": "available",
+          "title": "리어 도어 커튼 어셈블리 탈거",
+          "origin_page": 679,
+          "first_inserted_page": 680,
+          "return_page": 685
+        },
+        {
+          "reference_id": "R113",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 680,
+          "first_inserted_page": 681,
+          "return_page": 684
+        }
+      ],
+      "navigation_links": 14,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-04",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 4,
+      "source_group": 59,
+      "label": "윈도우 글라스",
+      "title": "리어 도어 윈도우 글라스",
+      "original_start": 689,
+      "original_end": 708,
+      "body_pages": 20,
+      "files": [
+        "59-1.pdf",
+        "59-2.pdf",
+        "59-3.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf",
+        "61-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "59-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 윈도우 글라스 탈장착",
+          "original_start": 689,
+          "original_end": 697,
+          "body_pages": 9,
+          "root_fragments": 4,
+          "inserted_fragments": 5,
+          "events": [
+            {
+              "reference_id": "R096",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 690,
+              "first_inserted_page": 691,
+              "return_page": 696
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 691,
+              "first_inserted_page": 692,
+              "return_page": 695
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "59-2.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 698,
+          "original_end": 707,
+          "body_pages": 10,
+          "root_fragments": 5,
+          "inserted_fragments": 5,
+          "events": [
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 698,
+              "first_inserted_page": 699,
+              "return_page": 704
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 699,
+              "first_inserted_page": 700,
+              "return_page": 703
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "file": "59-3.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 708,
+          "original_end": 708,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 10,
+      "inserted_fragments": 10,
+      "event_count": 4,
+      "reference_events": [
+        {
+          "reference_id": "R096",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 690,
+          "first_inserted_page": 691,
+          "return_page": 696
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 691,
+          "first_inserted_page": 692,
+          "return_page": 695
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 698,
+          "first_inserted_page": 699,
+          "return_page": 704
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 699,
+          "first_inserted_page": 700,
+          "return_page": 703
+        }
+      ],
+      "navigation_links": 14,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-05",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 5,
+      "source_group": 60,
+      "label": "모듈",
+      "title": "리어 도어 모듈",
+      "original_start": 709,
+      "original_end": 745,
+      "body_pages": 37,
+      "files": [
+        "60-1.pdf",
+        "60-2.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf",
+        "58-2.pdf",
+        "59-2.pdf",
+        "61-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "60-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 모듈 탈장착",
+          "original_start": 709,
+          "original_end": 726,
+          "body_pages": 18,
+          "root_fragments": 5,
+          "inserted_fragments": 13,
+          "events": [
+            {
+              "reference_id": "R098",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 709,
+              "first_inserted_page": 710,
+              "return_page": 720
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 710,
+              "first_inserted_page": 711,
+              "return_page": 716
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 711,
+              "first_inserted_page": 712,
+              "return_page": 715
+            },
+            {
+              "reference_id": "R099",
+              "status": "available",
+              "title": "리어 도어 아웃사이드 핸들 탈거",
+              "origin_page": 720,
+              "first_inserted_page": 721,
+              "return_page": 724
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "60-2.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 727,
+          "original_end": 745,
+          "body_pages": 19,
+          "root_fragments": 6,
+          "inserted_fragments": 13,
+          "events": [
+            {
+              "reference_id": "R100",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 727,
+              "first_inserted_page": 728,
+              "return_page": 738
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 728,
+              "first_inserted_page": 729,
+              "return_page": 734
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 729,
+              "first_inserted_page": 730,
+              "return_page": 733
+            },
+            {
+              "reference_id": "R101",
+              "status": "available",
+              "title": "리어 도어 아웃사이드 핸들 탈거",
+              "origin_page": 738,
+              "first_inserted_page": 739,
+              "return_page": 742
+            }
+          ]
+        }
+      ],
+      "root_fragments": 11,
+      "inserted_fragments": 26,
+      "event_count": 8,
+      "reference_events": [
+        {
+          "reference_id": "R098",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 709,
+          "first_inserted_page": 710,
+          "return_page": 720
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 710,
+          "first_inserted_page": 711,
+          "return_page": 716
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 711,
+          "first_inserted_page": 712,
+          "return_page": 715
+        },
+        {
+          "reference_id": "R099",
+          "status": "available",
+          "title": "리어 도어 아웃사이드 핸들 탈거",
+          "origin_page": 720,
+          "first_inserted_page": 721,
+          "return_page": 724
+        },
+        {
+          "reference_id": "R100",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 727,
+          "first_inserted_page": 728,
+          "return_page": 738
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 728,
+          "first_inserted_page": 729,
+          "return_page": 734
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 729,
+          "first_inserted_page": 730,
+          "return_page": 733
+        },
+        {
+          "reference_id": "R101",
+          "status": "available",
+          "title": "리어 도어 아웃사이드 핸들 탈거",
+          "origin_page": 738,
+          "first_inserted_page": 739,
+          "return_page": 742
+        }
+      ],
+      "navigation_links": 34,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-06",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 6,
+      "source_group": 61,
+      "label": "웨더 스트립",
+      "title": "리어 도어 웨더 스트립",
+      "original_start": 746,
+      "original_end": 760,
+      "body_pages": 15,
+      "files": [
+        "61-1.pdf",
+        "61-2.pdf",
+        "61-3.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "61-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 웨더 스트립 탈장착",
+          "original_start": 746,
+          "original_end": 753,
+          "body_pages": 8,
+          "root_fragments": 5,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R102",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 747,
+              "first_inserted_page": 748,
+              "return_page": 751
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "61-2.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 754,
+          "original_end": 759,
+          "body_pages": 6,
+          "root_fragments": 3,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 754,
+              "first_inserted_page": 755,
+              "return_page": 758
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "file": "61-3.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 760,
+          "original_end": 760,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 9,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R102",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 747,
+          "first_inserted_page": 748,
+          "return_page": 751
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 754,
+          "first_inserted_page": 755,
+          "return_page": 758
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-07",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 7,
+      "source_group": 62,
+      "label": "글라스 런",
+      "title": "리어 도어 글라스 런",
+      "original_start": 761,
+      "original_end": 821,
+      "body_pages": 61,
+      "files": [
+        "62-1.pdf",
+        "62-2.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf",
+        "59-2.pdf",
+        "61-2.pdf",
+        "67-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "62-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 글라스 런 탈장착",
+          "original_start": 761,
+          "original_end": 790,
+          "body_pages": 30,
+          "root_fragments": 5,
+          "inserted_fragments": 25,
+          "events": [
+            {
+              "reference_id": "R104",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 761,
+              "first_inserted_page": 762,
+              "return_page": 772
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 762,
+              "first_inserted_page": 763,
+              "return_page": 768
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 763,
+              "first_inserted_page": 764,
+              "return_page": 767
+            },
+            {
+              "reference_id": "R105",
+              "status": "available",
+              "title": "리어 도어 프레임 가니쉬 탈거",
+              "origin_page": 772,
+              "first_inserted_page": 773,
+              "return_page": 786
+            },
+            {
+              "reference_id": "R119",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 773,
+              "first_inserted_page": 774,
+              "return_page": 784
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 774,
+              "first_inserted_page": 775,
+              "return_page": 780
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 775,
+              "first_inserted_page": 776,
+              "return_page": 779
+            },
+            {
+              "reference_id": "R106",
+              "status": "available",
+              "title": "리어 도어 프레임 몰딩 탈거",
+              "origin_page": 786,
+              "first_inserted_page": 787,
+              "return_page": 789
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "62-2.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 791,
+          "original_end": 821,
+          "body_pages": 31,
+          "root_fragments": 6,
+          "inserted_fragments": 25,
+          "events": [
+            {
+              "reference_id": "R107",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 791,
+              "first_inserted_page": 792,
+              "return_page": 802
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 792,
+              "first_inserted_page": 793,
+              "return_page": 798
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 793,
+              "first_inserted_page": 794,
+              "return_page": 797
+            },
+            {
+              "reference_id": "R108",
+              "status": "available",
+              "title": "리어 도어 프레임 가니쉬 탈거",
+              "origin_page": 802,
+              "first_inserted_page": 803,
+              "return_page": 816
+            },
+            {
+              "reference_id": "R119",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 803,
+              "first_inserted_page": 804,
+              "return_page": 814
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 804,
+              "first_inserted_page": 805,
+              "return_page": 810
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 805,
+              "first_inserted_page": 806,
+              "return_page": 809
+            },
+            {
+              "reference_id": "R109",
+              "status": "available",
+              "title": "리어 도어 프레임 몰딩 탈거",
+              "origin_page": 816,
+              "first_inserted_page": 817,
+              "return_page": 819
+            }
+          ]
+        }
+      ],
+      "root_fragments": 11,
+      "inserted_fragments": 50,
+      "event_count": 16,
+      "reference_events": [
+        {
+          "reference_id": "R104",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 761,
+          "first_inserted_page": 762,
+          "return_page": 772
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 762,
+          "first_inserted_page": 763,
+          "return_page": 768
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 763,
+          "first_inserted_page": 764,
+          "return_page": 767
+        },
+        {
+          "reference_id": "R105",
+          "status": "available",
+          "title": "리어 도어 프레임 가니쉬 탈거",
+          "origin_page": 772,
+          "first_inserted_page": 773,
+          "return_page": 786
+        },
+        {
+          "reference_id": "R119",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 773,
+          "first_inserted_page": 774,
+          "return_page": 784
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 774,
+          "first_inserted_page": 775,
+          "return_page": 780
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 775,
+          "first_inserted_page": 776,
+          "return_page": 779
+        },
+        {
+          "reference_id": "R106",
+          "status": "available",
+          "title": "리어 도어 프레임 몰딩 탈거",
+          "origin_page": 786,
+          "first_inserted_page": 787,
+          "return_page": 789
+        },
+        {
+          "reference_id": "R107",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 791,
+          "first_inserted_page": 792,
+          "return_page": 802
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 792,
+          "first_inserted_page": 793,
+          "return_page": 798
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 793,
+          "first_inserted_page": 794,
+          "return_page": 797
+        },
+        {
+          "reference_id": "R108",
+          "status": "available",
+          "title": "리어 도어 프레임 가니쉬 탈거",
+          "origin_page": 802,
+          "first_inserted_page": 803,
+          "return_page": 816
+        },
+        {
+          "reference_id": "R119",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 803,
+          "first_inserted_page": 804,
+          "return_page": 814
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 804,
+          "first_inserted_page": 805,
+          "return_page": 810
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 805,
+          "first_inserted_page": 806,
+          "return_page": 809
+        },
+        {
+          "reference_id": "R109",
+          "status": "available",
+          "title": "리어 도어 프레임 몰딩 탈거",
+          "origin_page": 816,
+          "first_inserted_page": 817,
+          "return_page": 819
+        }
+      ],
+      "navigation_links": 66,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-08",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 8,
+      "source_group": 63,
+      "label": "랫치",
+      "title": "리어 도어 랫치",
+      "original_start": 822,
+      "original_end": 869,
+      "body_pages": 48,
+      "files": [
+        "63-1.pdf",
+        "63-2.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf",
+        "58-2.pdf",
+        "59-2.pdf",
+        "60-2.pdf",
+        "61-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "63-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 랫치 탈장착",
+          "original_start": 822,
+          "original_end": 844,
+          "body_pages": 23,
+          "root_fragments": 4,
+          "inserted_fragments": 19,
+          "events": [
+            {
+              "reference_id": "R110",
+              "status": "available",
+              "title": "리어 도어 모듈 탈거",
+              "origin_page": 822,
+              "first_inserted_page": 823,
+              "return_page": 842
+            },
+            {
+              "reference_id": "R100",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 823,
+              "first_inserted_page": 824,
+              "return_page": 834
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 824,
+              "first_inserted_page": 825,
+              "return_page": 830
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 825,
+              "first_inserted_page": 826,
+              "return_page": 829
+            },
+            {
+              "reference_id": "R101",
+              "status": "available",
+              "title": "리어 도어 아웃사이드 핸들 탈거",
+              "origin_page": 834,
+              "first_inserted_page": 835,
+              "return_page": 838
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "63-2.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 845,
+          "original_end": 869,
+          "body_pages": 25,
+          "root_fragments": 6,
+          "inserted_fragments": 19,
+          "events": [
+            {
+              "reference_id": "R111",
+              "status": "available",
+              "title": "리어 도어 모듈 탈거",
+              "origin_page": 845,
+              "first_inserted_page": 846,
+              "return_page": 865
+            },
+            {
+              "reference_id": "R100",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 846,
+              "first_inserted_page": 847,
+              "return_page": 857
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 847,
+              "first_inserted_page": 848,
+              "return_page": 853
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 848,
+              "first_inserted_page": 849,
+              "return_page": 852
+            },
+            {
+              "reference_id": "R101",
+              "status": "available",
+              "title": "리어 도어 아웃사이드 핸들 탈거",
+              "origin_page": 857,
+              "first_inserted_page": 858,
+              "return_page": 861
+            }
+          ]
+        }
+      ],
+      "root_fragments": 10,
+      "inserted_fragments": 38,
+      "event_count": 10,
+      "reference_events": [
+        {
+          "reference_id": "R110",
+          "status": "available",
+          "title": "리어 도어 모듈 탈거",
+          "origin_page": 822,
+          "first_inserted_page": 823,
+          "return_page": 842
+        },
+        {
+          "reference_id": "R100",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 823,
+          "first_inserted_page": 824,
+          "return_page": 834
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 824,
+          "first_inserted_page": 825,
+          "return_page": 830
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 825,
+          "first_inserted_page": 826,
+          "return_page": 829
+        },
+        {
+          "reference_id": "R101",
+          "status": "available",
+          "title": "리어 도어 아웃사이드 핸들 탈거",
+          "origin_page": 834,
+          "first_inserted_page": 835,
+          "return_page": 838
+        },
+        {
+          "reference_id": "R111",
+          "status": "available",
+          "title": "리어 도어 모듈 탈거",
+          "origin_page": 845,
+          "first_inserted_page": 846,
+          "return_page": 865
+        },
+        {
+          "reference_id": "R100",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 846,
+          "first_inserted_page": 847,
+          "return_page": 857
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 847,
+          "first_inserted_page": 848,
+          "return_page": 853
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 848,
+          "first_inserted_page": 849,
+          "return_page": 852
+        },
+        {
+          "reference_id": "R101",
+          "status": "available",
+          "title": "리어 도어 아웃사이드 핸들 탈거",
+          "origin_page": 857,
+          "first_inserted_page": 858,
+          "return_page": 861
+        }
+      ],
+      "navigation_links": 48,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-09",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 9,
+      "source_group": 64,
+      "label": "커튼 어셈블리",
+      "title": "리어 도어 커튼 어셈블리",
+      "original_start": 870,
+      "original_end": 879,
+      "body_pages": 10,
+      "files": [
+        "64-1.pdf",
+        "64-2.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "64-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 커튼 유닛 탈장착",
+          "original_start": 870,
+          "original_end": 874,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R112",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 870,
+              "first_inserted_page": 871,
+              "return_page": 874
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "64-2.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 875,
+          "original_end": 879,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R113",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 875,
+              "first_inserted_page": 876,
+              "return_page": 879
+            }
+          ]
+        }
+      ],
+      "root_fragments": 4,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R112",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 870,
+          "first_inserted_page": 871,
+          "return_page": 874
+        },
+        {
+          "reference_id": "R113",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 875,
+          "first_inserted_page": 876,
+          "return_page": 879
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-10",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 10,
+      "source_group": 65,
+      "label": "파워 윈도우 모터",
+      "title": "리어 도어 파워 윈도우 모터",
+      "original_start": 880,
+      "original_end": 893,
+      "body_pages": 14,
+      "files": [
+        "65-1.pdf",
+        "65-2.pdf",
+        "65-3.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "65-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "파워 윈도우 모터 탈장착",
+          "original_start": 880,
+          "original_end": 884,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R114",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 880,
+              "first_inserted_page": 881,
+              "return_page": 884
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "65-2.pdf",
+          "procedure": "점검",
+          "procedure_display": "점검",
+          "source_title": "점검",
+          "original_start": 885,
+          "original_end": 887,
+          "body_pages": 3,
+          "root_fragments": 3,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 3,
+          "file": "65-3.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 888,
+          "original_end": 893,
+          "body_pages": 6,
+          "root_fragments": 3,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R115",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 888,
+              "first_inserted_page": 889,
+              "return_page": 892
+            }
+          ]
+        }
+      ],
+      "root_fragments": 8,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R114",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 880,
+          "first_inserted_page": 881,
+          "return_page": 884
+        },
+        {
+          "reference_id": "R115",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 888,
+          "first_inserted_page": 889,
+          "return_page": 892
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-11",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 11,
+      "source_group": 66,
+      "label": "파워 윈도우 스위치",
+      "title": "리어 도어 파워 윈도우 스위치",
+      "original_start": 894,
+      "original_end": 906,
+      "body_pages": 13,
+      "files": [
+        "66-1.pdf",
+        "66-2.pdf",
+        "66-3.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "66-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "파워 윈도우 스위치 탈장착",
+          "original_start": 894,
+          "original_end": 898,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R116",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 894,
+              "first_inserted_page": 895,
+              "return_page": 898
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "66-2.pdf",
+          "procedure": "점검",
+          "procedure_display": "점검",
+          "source_title": "점검",
+          "original_start": 899,
+          "original_end": 901,
+          "body_pages": 3,
+          "root_fragments": 3,
+          "inserted_fragments": 0,
+          "events": []
+        },
+        {
+          "ordinal": 3,
+          "file": "66-3.pdf",
+          "procedure": "탈거 및 장착",
+          "procedure_display": "탈거 및 장착",
+          "source_title": "탈거 및 장착",
+          "original_start": 902,
+          "original_end": 906,
+          "body_pages": 5,
+          "root_fragments": 2,
+          "inserted_fragments": 3,
+          "events": [
+            {
+              "reference_id": "R117",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 902,
+              "first_inserted_page": 903,
+              "return_page": 906
+            }
+          ]
+        }
+      ],
+      "root_fragments": 7,
+      "inserted_fragments": 6,
+      "event_count": 2,
+      "reference_events": [
+        {
+          "reference_id": "R116",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 894,
+          "first_inserted_page": 895,
+          "return_page": 898
+        },
+        {
+          "reference_id": "R117",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 902,
+          "first_inserted_page": 903,
+          "return_page": 906
+        }
+      ],
+      "navigation_links": 8,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    },
+    {
+      "id": "08-12",
+      "chapter_id": "rear_door",
+      "chapter_title": "리어 도어",
+      "part": 8,
+      "item_number": 12,
+      "source_group": 67,
+      "label": "가니쉬",
+      "title": "리어 도어 가니쉬",
+      "original_start": 907,
+      "original_end": 935,
+      "body_pages": 29,
+      "files": [
+        "67-1.pdf",
+        "67-2.pdf",
+        "67-3.pdf"
+      ],
+      "inserted_files": [
+        "57-2.pdf",
+        "59-2.pdf",
+        "61-2.pdf"
+      ],
+      "sections": [
+        {
+          "ordinal": 1,
+          "file": "67-1.pdf",
+          "procedure": "1 Page Guide Manual",
+          "procedure_display": "작업요약표",
+          "source_title": "리어 도어 가니쉬 탈장착",
+          "original_start": 907,
+          "original_end": 920,
+          "body_pages": 14,
+          "root_fragments": 4,
+          "inserted_fragments": 10,
+          "events": [
+            {
+              "reference_id": "R118",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 908,
+              "first_inserted_page": 909,
+              "return_page": 919
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 909,
+              "first_inserted_page": 910,
+              "return_page": 915
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 910,
+              "first_inserted_page": 911,
+              "return_page": 914
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "file": "67-2.pdf",
+          "procedure": "탈거",
+          "procedure_display": "탈거",
+          "source_title": "탈거",
+          "original_start": 921,
+          "original_end": 934,
+          "body_pages": 14,
+          "root_fragments": 4,
+          "inserted_fragments": 10,
+          "events": [
+            {
+              "reference_id": "R119",
+              "status": "available",
+              "title": "리어 도어 윈도우 글라스 탈거",
+              "origin_page": 921,
+              "first_inserted_page": 922,
+              "return_page": 932
+            },
+            {
+              "reference_id": "R097",
+              "status": "available",
+              "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+              "origin_page": 922,
+              "first_inserted_page": 923,
+              "return_page": 928
+            },
+            {
+              "reference_id": "R103",
+              "status": "available",
+              "title": "리어 도어 트림 탈거",
+              "origin_page": 923,
+              "first_inserted_page": 924,
+              "return_page": 927
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "file": "67-3.pdf",
+          "procedure": "장착",
+          "procedure_display": "장착",
+          "source_title": "장착",
+          "original_start": 935,
+          "original_end": 935,
+          "body_pages": 1,
+          "root_fragments": 1,
+          "inserted_fragments": 0,
+          "events": []
+        }
+      ],
+      "root_fragments": 9,
+      "inserted_fragments": 20,
+      "event_count": 6,
+      "reference_events": [
+        {
+          "reference_id": "R118",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 908,
+          "first_inserted_page": 909,
+          "return_page": 919
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 909,
+          "first_inserted_page": 910,
+          "return_page": 915
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 910,
+          "first_inserted_page": 911,
+          "return_page": 914
+        },
+        {
+          "reference_id": "R119",
+          "status": "available",
+          "title": "리어 도어 윈도우 글라스 탈거",
+          "origin_page": 921,
+          "first_inserted_page": 922,
+          "return_page": 932
+        },
+        {
+          "reference_id": "R097",
+          "status": "available",
+          "title": "리어 도어 벨트 아웃사이드/인사이드 웨더 스트립 탈거",
+          "origin_page": 922,
+          "first_inserted_page": 923,
+          "return_page": 928
+        },
+        {
+          "reference_id": "R103",
+          "status": "available",
+          "title": "리어 도어 트림 탈거",
+          "origin_page": 923,
+          "first_inserted_page": 924,
+          "return_page": 927
+        }
+      ],
+      "navigation_links": 26,
+      "outside_links": [],
+      "outside_events": [],
+      "unresolved_links": []
+    }
+  ]
+}
