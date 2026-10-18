@@ -1,0 +1,3075 @@
+{
+  "schema_version": 1,
+  "purpose": "원문을 바꾸지 않는 정비 원칙 분류 보조",
+  "summary_policy": "시각 확인한 핵심 문장만 요약. 수치·토크·대기시간은 변경 없이 원문 참조. 고전압·사고차·진단 등 적용 범위는 해당 원문 절차에 한정.",
+  "signals_policy": "signals는 OCR 검색 신호다. 미검증 페이지의 지시 문장이나 강도를 확정하는 근거로 사용하지 않는다.",
+  "common": [
+    {
+      "label": "원문 원칙",
+      "text": "도장면과 내장 부품을 작업 커버와 테이프로 보호한다.",
+      "source_heading": "일반 주의사항",
+      "scope": "일반 정비",
+      "file": "13.pdf",
+      "page": 1,
+      "visual_verified": true
+    },
+    {
+      "label": "원문 원칙",
+      "text": "고장 원인과 탈거·분해 필요성을 판단한 뒤 정비 지침서 순서대로 작업한다.",
+      "source_heading": "일반 주의사항",
+      "scope": "일반 정비",
+      "file": "13.pdf",
+      "page": 1,
+      "visual_verified": true
+    },
+    {
+      "label": "필수",
+      "text": "볼트·너트를 교환할 때는 지정 규격품을 사용한다.",
+      "source_heading": "일반 주의사항",
+      "scope": "볼트·너트 교환",
+      "file": "13.pdf",
+      "page": 1,
+      "visual_verified": true
+    },
+    {
+      "label": "필수",
+      "text": "특수공구 사용을 지시한 작업에는 해당 특수공구를 사용한다.",
+      "source_heading": "일반 주의사항",
+      "scope": "특수공구 지정 작업",
+      "file": "13.pdf",
+      "page": 2,
+      "visual_verified": true
+    },
+    {
+      "label": "필수",
+      "text": "원문에서 지정한 재사용 금지 부품은 탈거 시 신품으로 교환한다.",
+      "source_heading": "일반 주의사항",
+      "scope": "원문 지정 부품 탈거",
+      "file": "13.pdf",
+      "page": 2,
+      "visual_verified": true
+    },
+    {
+      "label": "필수",
+      "text": "부품을 교환할 때는 현대 순정 부품을 사용한다.",
+      "source_heading": "부품",
+      "scope": "부품 교환",
+      "file": "13.pdf",
+      "page": 3,
+      "visual_verified": true
+    },
+    {
+      "label": "권고",
+      "text": "보수용 세트·키트 부품의 사용을 권한다.",
+      "source_heading": "부품",
+      "scope": "보수용 부품 선택",
+      "file": "13.pdf",
+      "page": 3,
+      "visual_verified": true
+    },
+    {
+      "label": "원문 원칙",
+      "text": "보수용 부품이 차량 장착품과 다를 수 있으므로 부품 카탈로그를 확인한다.",
+      "source_heading": "부품",
+      "scope": "부품 교환",
+      "file": "13.pdf",
+      "page": 3,
+      "visual_verified": true
+    }
+  ],
+  "pages": {
+    "10.pdf#1": {
+      "file": "10.pdf",
+      "page": 1,
+      "signals": [
+        "위험",
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "10.pdf#2": {
+      "file": "10.pdf",
+      "page": 2,
+      "signals": [
+        "필수",
+        "금지"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "12.pdf#1": {
+      "file": "12.pdf",
+      "page": 1,
+      "signals": [
+        "금지"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "13.pdf#1": {
+      "file": "13.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "필수",
+        "조건부",
+        "점검",
+        "원문 원칙",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "원문 원칙",
+          "text": "도장면과 내장 부품을 작업 커버와 테이프로 보호한다.",
+          "source_heading": "일반 주의사항",
+          "scope": "일반 정비"
+        },
+        {
+          "label": "원문 원칙",
+          "text": "고장 원인과 탈거·분해 필요성을 판단한 뒤 정비 지침서 순서대로 작업한다.",
+          "source_heading": "일반 주의사항",
+          "scope": "일반 정비"
+        },
+        {
+          "label": "필수",
+          "text": "볼트·너트를 교환할 때는 지정 규격품을 사용한다.",
+          "source_heading": "일반 주의사항",
+          "scope": "볼트·너트 교환"
+        }
+      ],
+      "completion": [
+        {
+          "text": "후드를 닫기 전에 엔진룸에 공구와 부품이 남아 있는지 확인한다.",
+          "source_heading": "주의",
+          "scope": "후드 닫기 전"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "13__01.png"
+    },
+    "13.pdf#2": {
+      "file": "13.pdf",
+      "page": 2,
+      "signals": [
+        "필수",
+        "조건부"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "특수공구 사용을 지시한 작업에는 해당 특수공구를 사용한다.",
+          "source_heading": "일반 주의사항",
+          "scope": "특수공구 지정 작업"
+        },
+        {
+          "label": "필수",
+          "text": "원문에서 지정한 재사용 금지 부품은 탈거 시 신품으로 교환한다.",
+          "source_heading": "일반 주의사항",
+          "scope": "원문 지정 부품 탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "13__02.png"
+    },
+    "13.pdf#3": {
+      "file": "13.pdf",
+      "page": 3,
+      "signals": [
+        "필수",
+        "권고",
+        "원문 원칙"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "부품을 교환할 때는 현대 순정 부품을 사용한다.",
+          "source_heading": "부품",
+          "scope": "부품 교환"
+        },
+        {
+          "label": "권고",
+          "text": "보수용 세트·키트 부품의 사용을 권한다.",
+          "source_heading": "부품",
+          "scope": "보수용 부품 선택"
+        },
+        {
+          "label": "원문 원칙",
+          "text": "보수용 부품이 차량 장착품과 다를 수 있으므로 부품 카탈로그를 확인한다.",
+          "source_heading": "부품",
+          "scope": "부품 교환"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "13__03.png"
+    },
+    "13.pdf#4": {
+      "file": "13.pdf",
+      "page": 4,
+      "signals": [
+        "주의",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "13.pdf#5": {
+      "file": "13.pdf",
+      "page": 5,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "13.pdf#6": {
+      "file": "13.pdf",
+      "page": 6,
+      "signals": [
+        "필수"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "13.pdf#8": {
+      "file": "13.pdf",
+      "page": 8,
+      "signals": [
+        "주의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "13.pdf#9": {
+      "file": "13.pdf",
+      "page": 9,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "13.pdf#10": {
+      "file": "13.pdf",
+      "page": 10,
+      "signals": [
+        "필수"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "13.pdf#11": {
+      "file": "13.pdf",
+      "page": 11,
+      "signals": [
+        "주의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "14.pdf#1": {
+      "file": "14.pdf",
+      "page": 1,
+      "signals": [
+        "위험",
+        "경고",
+        "주의",
+        "필수",
+        "금지",
+        "점검"
+      ],
+      "principles": [
+        {
+          "label": "위험",
+          "text": "고전압 시스템 작업 전에 원문의 안전 지시를 반드시 준수한다.",
+          "source_heading": "위험",
+          "scope": "고전압 시스템 작업"
+        },
+        {
+          "label": "경고",
+          "text": "보호 장비를 착용한 담당자 외에는 고전압 관련 부분을 만지지 못하도록 한다.",
+          "source_heading": "경고",
+          "scope": "고전압 시스템 작업"
+        },
+        {
+          "label": "필수",
+          "text": "고전압 커넥터 분리 후 화재 방지를 위해 주변 냉각수 등을 반드시 제거한다.",
+          "source_heading": "주의",
+          "scope": "고전압 커넥터 분리"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "14__01.png"
+    },
+    "14.pdf#2": {
+      "file": "14.pdf",
+      "page": 2,
+      "signals": [
+        "위험"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "14.pdf#3": {
+      "file": "14.pdf",
+      "page": 3,
+      "signals": [
+        "경고",
+        "주의",
+        "필수",
+        "원문 원칙"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "고전압 작업 전 시계·반지 등 금속성 물질을 몸에서 반드시 제거한다.",
+          "source_heading": "본문",
+          "scope": "고전압 시스템 작업"
+        },
+        {
+          "label": "원문 원칙",
+          "text": "고전압 관련 작업 전 개인 보호 장비를 착용한다.",
+          "source_heading": "본문",
+          "scope": "고전압 시스템 작업"
+        },
+        {
+          "label": "필수",
+          "text": "고전압 시스템 점검·정비 전 반드시 고전압 차단 절차를 수행한다.",
+          "source_heading": "본문",
+          "scope": "고전압 시스템 작업"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "14__03.png"
+    },
+    "15.pdf#1": {
+      "file": "15.pdf",
+      "page": 1,
+      "signals": [
+        "주의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "15.pdf#2": {
+      "file": "15.pdf",
+      "page": 2,
+      "signals": [
+        "경고"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "15.pdf#3": {
+      "file": "15.pdf",
+      "page": 3,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "16.pdf#1": {
+      "file": "16.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "금지"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "16.pdf#2": {
+      "file": "16.pdf",
+      "page": 2,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "16.pdf#3": {
+      "file": "16.pdf",
+      "page": 3,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "16.pdf#4": {
+      "file": "16.pdf",
+      "page": 4,
+      "signals": [
+        "금지",
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "17.pdf#1": {
+      "file": "17.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "필수",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "18.pdf#1": {
+      "file": "18.pdf",
+      "page": 1,
+      "signals": [
+        "경고",
+        "주의",
+        "필수"
+      ],
+      "principles": [
+        {
+          "label": "경고",
+          "text": "고전압 관련 작업 시 원문의 안전·주의·경고를 숙지하고 차단 절차에 따라 반드시 고전압을 먼저 차단한다.",
+          "source_heading": "경고",
+          "scope": "고전압 차단"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "18__01.png"
+    },
+    "18.pdf#4": {
+      "file": "18.pdf",
+      "page": 4,
+      "signals": [
+        "필수"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "고전압 차단 스위치 분리 후에는 원문에 지정된 방전 대기시간을 반드시 지킨다.",
+          "source_heading": "경고",
+          "scope": "고전압 차단 스위치 분리 후"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "18__04.png"
+    },
+    "18.pdf#6": {
+      "file": "18.pdf",
+      "page": 6,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "1.pdf#1": {
+      "file": "1.pdf",
+      "page": 1,
+      "signals": [
+        "위험",
+        "경고",
+        "주의",
+        "필수",
+        "금지",
+        "점검"
+      ],
+      "principles": [
+        {
+          "label": "위험",
+          "text": "고전압 시스템 작업 전에 원문의 안전 지시를 반드시 준수한다.",
+          "source_heading": "위험",
+          "scope": "고전압 시스템 작업"
+        },
+        {
+          "label": "경고",
+          "text": "보호 장비를 착용한 담당자 외에는 고전압 관련 부분을 만지지 못하도록 한다.",
+          "source_heading": "경고",
+          "scope": "고전압 시스템 작업"
+        },
+        {
+          "label": "필수",
+          "text": "고전압 커넥터 분리 후 화재 방지를 위해 주변 냉각수 등을 반드시 제거한다.",
+          "source_heading": "주의",
+          "scope": "고전압 커넥터 분리"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "1__01.png"
+    },
+    "1.pdf#2": {
+      "file": "1.pdf",
+      "page": 2,
+      "signals": [
+        "위험"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "1.pdf#3": {
+      "file": "1.pdf",
+      "page": 3,
+      "signals": [
+        "경고",
+        "주의",
+        "필수",
+        "원문 원칙"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "고전압 작업 전 시계·반지 등 금속성 물질을 몸에서 반드시 제거한다.",
+          "source_heading": "본문",
+          "scope": "고전압 시스템 작업"
+        },
+        {
+          "label": "원문 원칙",
+          "text": "고전압 관련 작업 전 개인 보호 장비를 착용한다.",
+          "source_heading": "본문",
+          "scope": "고전압 시스템 작업"
+        },
+        {
+          "label": "필수",
+          "text": "고전압 시스템 점검·정비 전 반드시 고전압 차단 절차를 수행한다.",
+          "source_heading": "본문",
+          "scope": "고전압 시스템 작업"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "1__03.png"
+    },
+    "24-2.pdf#1": {
+      "file": "24-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "24-2__01.png"
+    },
+    "25-2.pdf#1": {
+      "file": "25-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "25-2__01.png"
+    },
+    "26-2.pdf#1": {
+      "file": "26-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "26-2__01.png"
+    },
+    "28.pdf#1": {
+      "file": "28.pdf",
+      "page": 1,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "29-2.pdf#1": {
+      "file": "29-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "29-2__01.png"
+    },
+    "29-3.pdf#1": {
+      "file": "29-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "2.pdf#1": {
+      "file": "2.pdf",
+      "page": 1,
+      "signals": [
+        "주의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "2.pdf#2": {
+      "file": "2.pdf",
+      "page": 2,
+      "signals": [
+        "경고"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "2.pdf#3": {
+      "file": "2.pdf",
+      "page": 3,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "30-2.pdf#1": {
+      "file": "30-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "30-2__01.png"
+    },
+    "31-2.pdf#1": {
+      "file": "31-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "31-2__01.png"
+    },
+    "31-3.pdf#1": {
+      "file": "31-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "32-2.pdf#1": {
+      "file": "32-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "32-2__01.png"
+    },
+    "32-3.pdf#1": {
+      "file": "32-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "33-2.pdf#1": {
+      "file": "33-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "33-2__01.png"
+    },
+    "33-3.pdf#1": {
+      "file": "33-3.pdf",
+      "page": 1,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "34-2.pdf#1": {
+      "file": "34-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "34-2__01.png"
+    },
+    "35-3.pdf#1": {
+      "file": "35-3.pdf",
+      "page": 1,
+      "signals": [
+        "필수",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "35-3.pdf#2": {
+      "file": "35-3.pdf",
+      "page": 2,
+      "signals": [
+        "조건부",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "35-3.pdf#3": {
+      "file": "35-3.pdf",
+      "page": 3,
+      "signals": [
+        "조건부",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "35-3.pdf#4": {
+      "file": "35-3.pdf",
+      "page": 4,
+      "signals": [
+        "조건부",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "35-4.pdf#3": {
+      "file": "35-4.pdf",
+      "page": 3,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "35-4.pdf#4": {
+      "file": "35-4.pdf",
+      "page": 4,
+      "signals": [
+        "유의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "35-4.pdf#6": {
+      "file": "35-4.pdf",
+      "page": 6,
+      "signals": [
+        "주의",
+        "필수",
+        "원문 원칙"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "PTG의 초기화·설정은 진단 장비로 할 수 없으며 반드시 수동 조작한다.",
+          "source_heading": "주의",
+          "scope": "PTG 초기화 및 학습값 저장"
+        },
+        {
+          "label": "원문 원칙",
+          "text": "추가 절차는 진단 기기의 설명에 따라 진행한다.",
+          "source_heading": "참고",
+          "scope": "진단 기기 사용"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "35-4__06.png"
+    },
+    "35-4.pdf#7": {
+      "file": "35-4.pdf",
+      "page": 7,
+      "signals": [
+        "주의",
+        "필수"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "PTG 유닛 또는 PTG에 영향을 주는 부품 교환 시 초기화 순서에서 반드시 테일게이트를 수동으로 닫는다.",
+          "source_heading": "초기화 및 학습 값 저장",
+          "scope": "PTG 초기화"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "35-4__07.png"
+    },
+    "35-4.pdf#8": {
+      "file": "35-4.pdf",
+      "page": 8,
+      "signals": [
+        "필수",
+        "금지"
+      ],
+      "principles": [
+        {
+          "label": "금지",
+          "text": "파라미터 값 저장 과정 중 테일게이트를 잡거나 정지시키지 않는다.",
+          "source_heading": "주의 사항",
+          "scope": "PTG 학습값 저장"
+        },
+        {
+          "label": "필수",
+          "text": "테일게이트가 열린 상태에서 PTG 전원을 제거하거나 배터리를 탈·장착한 경우 모듈을 반드시 초기화한다.",
+          "source_heading": "주의",
+          "scope": "PTG 전원·배터리 탈장착"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "35-4__08.png"
+    },
+    "36.pdf#1": {
+      "file": "36.pdf",
+      "page": 1,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "36.pdf#2": {
+      "file": "36.pdf",
+      "page": 2,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "37-2.pdf#1": {
+      "file": "37-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "원문 원칙",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "원문 원칙",
+          "text": "테일게이트를 탈거할 때는 두 사람 이상이 함께 작업한다.",
+          "source_heading": "참고",
+          "scope": "테일게이트 어셈블리 탈거"
+        },
+        {
+          "label": "유의",
+          "text": "테일게이트와 바디면에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "테일게이트 어셈블리 탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "37-2__01.png"
+    },
+    "37-2.pdf#2": {
+      "file": "37-2.pdf",
+      "page": 2,
+      "signals": [
+        "주의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "37-3.pdf#1": {
+      "file": "37-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "38-2.pdf#1": {
+      "file": "38-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "스크류 드라이버 또는 리무버에 보호 테이프를 감아 부품 손상을 방지한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "38-2__01.png"
+    },
+    "39-2.pdf#1": {
+      "file": "39-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "39-2__01.png"
+    },
+    "3.pdf#1": {
+      "file": "3.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "금지"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "3.pdf#2": {
+      "file": "3.pdf",
+      "page": 2,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "3.pdf#3": {
+      "file": "3.pdf",
+      "page": 3,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "3.pdf#4": {
+      "file": "3.pdf",
+      "page": 4,
+      "signals": [
+        "금지",
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "40-2.pdf#1": {
+      "file": "40-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "테일게이트와 바디면에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "40-2__01.png"
+    },
+    "40-3.pdf#1": {
+      "file": "40-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "41-2.pdf#1": {
+      "file": "41-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "스크류 드라이버 또는 리무버에 보호 테이프를 감아 부품 손상을 방지한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "41-2__01.png"
+    },
+    "41-3.pdf#1": {
+      "file": "41-3.pdf",
+      "page": 1,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "42-2.pdf#1": {
+      "file": "42-2.pdf",
+      "page": 1,
+      "signals": [
+        "유의",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "42-3.pdf#1": {
+      "file": "42-3.pdf",
+      "page": 1,
+      "signals": [
+        "유의",
+        "필수",
+        "점검"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "신품 파워 테일게이트 유닛 교환 시 고장코드 유무를 반드시 확인한다. 잔존 코드별 조치는 원문을 따른다.",
+          "source_heading": "참고",
+          "scope": "PTG 유닛 교환 후 조정"
+        },
+        {
+          "label": "유의",
+          "text": "진단 기기 사용 시 원문의 차량 전원 상태를 유지하고 배터리 방전에 유의한다.",
+          "source_heading": "유의",
+          "scope": "진단 기기 사용"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "42-3__01.png"
+    },
+    "42-3.pdf#2": {
+      "file": "42-3.pdf",
+      "page": 2,
+      "signals": [
+        "주의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "42-4.pdf#1": {
+      "file": "42-4.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "42-4__01.png"
+    },
+    "42-5.pdf#1": {
+      "file": "42-5.pdf",
+      "page": 1,
+      "signals": [
+        "필수",
+        "조건부",
+        "점검",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "조건부",
+          "text": "신품 PTG 유닛 교환 시 고장코드 확인·베리언트 코딩·초기화를 원문의 참조 순서에 따라 수행한다.",
+          "source_heading": "주의",
+          "scope": "신품 PTG 유닛 교환"
+        },
+        {
+          "label": "조건부",
+          "text": "OTA 대상 제어기 교체 시 진단 기기로 소프트웨어를 업데이트한다.",
+          "source_heading": "주의",
+          "scope": "OTA 대상 제어기 교체"
+        }
+      ],
+      "completion": [
+        {
+          "text": "테일게이트의 열림과 닫힘이 정상적인지 점검한다.",
+          "source_heading": "참고",
+          "scope": "PTG 유닛 장착 후"
+        },
+        {
+          "text": "고객 인도 전 파워 테일게이트를 작동시켜 경보음이 표출되지 않는지 반드시 확인한다.",
+          "source_heading": "주의",
+          "scope": "PTG 유닛 장착 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "42-5__01.png"
+    },
+    "42-6.pdf#2": {
+      "file": "42-6.pdf",
+      "page": 2,
+      "signals": [
+        "주의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "베리언트 코딩 기능 수행 중 다른 기능이 동작하지 않도록 주의한다.",
+          "source_heading": "진단 기기 화면 안내",
+          "scope": "베리언트 코딩"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "42-6__02.png"
+    },
+    "43-2.pdf#1": {
+      "file": "43-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "43-2__01.png"
+    },
+    "43-2.pdf#3": {
+      "file": "43-2.pdf",
+      "page": 3,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "유의",
+          "text": "고정 클립이 손상될 수 있으므로 완전히 탈거하지 않는다.",
+          "source_heading": "유의",
+          "scope": "PTG 드라이브 유닛 고정 클립 분리"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "43-2__03.png"
+    },
+    "43-2.pdf#4": {
+      "file": "43-2.pdf",
+      "page": 4,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "유의",
+          "text": "드라이브 유닛 탈거 시 테일게이트가 닫힐 수 있으니 주의한다.",
+          "source_heading": "유의",
+          "scope": "PTG 드라이브 유닛 탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "43-2__04.png"
+    },
+    "43-3.pdf#1": {
+      "file": "43-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "44-2.pdf#1": {
+      "file": "44-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "44-2__01.png"
+    },
+    "45-3.pdf#1": {
+      "file": "45-3.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "45-3__01.png"
+    },
+    "45-5.pdf#1": {
+      "file": "45-5.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "45-5__01.png"
+    },
+    "45-7.pdf#1": {
+      "file": "45-7.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "45-7__01.png"
+    },
+    "45-8.pdf#1": {
+      "file": "45-8.pdf",
+      "page": 1,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "46-2.pdf#1": {
+      "file": "46-2.pdf",
+      "page": 1,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [
+        {
+          "label": "조건부",
+          "text": "글라스런 판넬의 손상을 확인하고 필요 시 교환한다.",
+          "source_heading": "참고",
+          "scope": "프런트 도어 글라스 조정"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "46-2__01.png"
+    },
+    "46-2.pdf#2": {
+      "file": "46-2.pdf",
+      "page": 2,
+      "signals": [
+        "주의",
+        "점검",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "글라스 면이 손상되지 않도록 주의한다.",
+          "source_heading": "주의",
+          "scope": "글라스 조정"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스가 정상적으로 작동하는지 확인한다.",
+          "source_heading": "본문",
+          "scope": "각 조정 완료 후"
+        },
+        {
+          "text": "스트라이커 조정 후 도어 개폐가 정상적인지 확인한다.",
+          "source_heading": "본문",
+          "scope": "각 조정 완료 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "46-2__02.png"
+    },
+    "46-2.pdf#3": {
+      "file": "46-2.pdf",
+      "page": 3,
+      "signals": [
+        "점검",
+        "완료 확인"
+      ],
+      "principles": [],
+      "completion": [
+        {
+          "text": "도어 조정 후 도어와 바디의 간격이 일정한지 확인한다.",
+          "source_heading": "본문",
+          "scope": "도어 조정 완료 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "46-2__03.png"
+    },
+    "46-4.pdf#1": {
+      "file": "46-4.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "46-4__01.png"
+    },
+    "46-5.pdf#1": {
+      "file": "46-5.pdf",
+      "page": 1,
+      "signals": [
+        "필수",
+        "점검",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "도어 트림 탈거 후 재장착 시 클립(파스너)은 반드시 교환한다.",
+          "source_heading": "참고",
+          "scope": "트림 재장착"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스가 정상적으로 작동하는지 확인한다.",
+          "source_heading": "참고",
+          "scope": "트림 장착 후"
+        },
+        {
+          "text": "도어의 열고 닫힘이 정상적인지 확인한다.",
+          "source_heading": "참고",
+          "scope": "트림 장착 후"
+        },
+        {
+          "text": "커넥터를 확실히 조립한다.",
+          "source_heading": "참고",
+          "scope": "트림 장착 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "46-5__01.png"
+    },
+    "46-7.pdf#1": {
+      "file": "46-7.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "46-7__01.png"
+    },
+    "46-8.pdf#1": {
+      "file": "46-8.pdf",
+      "page": 1,
+      "signals": [
+        "점검",
+        "원문 원칙",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "원문 원칙",
+          "text": "아웃사이드 핸들 장착 시 핸들 패드를 제 위치에 장착한다.",
+          "source_heading": "참고",
+          "scope": "아웃사이드 핸들 장착"
+        }
+      ],
+      "completion": [
+        {
+          "text": "조립 후 들뜸이 없게 장착한다.",
+          "source_heading": "참고",
+          "scope": "아웃사이드 핸들 장착 후"
+        },
+        {
+          "text": "도어의 열고 닫힘이 정상적인지 확인한다.",
+          "source_heading": "참고",
+          "scope": "아웃사이드 핸들 장착 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "46-8__01.png"
+    },
+    "47-2.pdf#1": {
+      "file": "47-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "47-2__01.png"
+    },
+    "47-2.pdf#2": {
+      "file": "47-2.pdf",
+      "page": 2,
+      "signals": [
+        "주의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "윈도우 글라스 탈거 시 글라스 면이 손상되지 않도록 주의한다.",
+          "source_heading": "주의",
+          "scope": "글라스 탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "47-2__02.png"
+    },
+    "47-3.pdf#1": {
+      "file": "47-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부",
+        "점검",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "조건부",
+          "text": "필요 시 글라스를 조정한다.",
+          "source_heading": "참고",
+          "scope": "글라스 장착 후"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스의 작동이 정상적인지 확인한다.",
+          "source_heading": "참고",
+          "scope": "글라스 장착 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "47-3__01.png"
+    },
+    "48-2.pdf#1": {
+      "file": "48-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "48-2__01.png"
+    },
+    "49-2.pdf#1": {
+      "file": "49-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "49-2__01.png"
+    },
+    "4.pdf#1": {
+      "file": "4.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "필수",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "50-2.pdf#1": {
+      "file": "50-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "50-2__01.png"
+    },
+    "51-2.pdf#1": {
+      "file": "51-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "51-2__01.png"
+    },
+    "52-3.pdf#1": {
+      "file": "52-3.pdf",
+      "page": 1,
+      "signals": [
+        "유의",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "52-4.pdf#1": {
+      "file": "52-4.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "52-4__01.png"
+    },
+    "53-2.pdf#1": {
+      "file": "53-2.pdf",
+      "page": 1,
+      "signals": [
+        "유의",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "53-3.pdf#1": {
+      "file": "53-3.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "53-3__01.png"
+    },
+    "54-2.pdf#1": {
+      "file": "54-2.pdf",
+      "page": 1,
+      "signals": [
+        "유의",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "54-3.pdf#1": {
+      "file": "54-3.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "54-3__01.png"
+    },
+    "55-2.pdf#1": {
+      "file": "55-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "55-2__01.png"
+    },
+    "55-3.pdf#1": {
+      "file": "55-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [
+        {
+          "label": "조건부",
+          "text": "프레임 가니쉬를 탈거한 뒤 부품 손상이 있을 경우 신품으로 교환한다.",
+          "source_heading": "참고",
+          "scope": "프레임 가니쉬 장착"
+        },
+        {
+          "label": "조건부",
+          "text": "프레임 몰딩을 탈거한 뒤 부품 손상이 있을 경우 신품으로 교환한다.",
+          "source_heading": "참고",
+          "scope": "프레임 몰딩 장착"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "55-3__01.png"
+    },
+    "56-2.pdf#1": {
+      "file": "56-2.pdf",
+      "page": 1,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "56-2.pdf#2": {
+      "file": "56-2.pdf",
+      "page": 2,
+      "signals": [
+        "주의",
+        "점검",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "글라스 면이 손상되지 않도록 주의한다.",
+          "source_heading": "주의",
+          "scope": "글라스 조정"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스가 정상적으로 작동하는지 확인한다.",
+          "source_heading": "본문",
+          "scope": "각 조정 완료 후"
+        },
+        {
+          "text": "스트라이커 조정 후 도어 개폐가 정상적인지 확인한다.",
+          "source_heading": "본문",
+          "scope": "각 조정 완료 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "56-2__02.png"
+    },
+    "56-2.pdf#3": {
+      "file": "56-2.pdf",
+      "page": 3,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "57-2.pdf#1": {
+      "file": "57-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "57-2__01.png"
+    },
+    "57-3.pdf#1": {
+      "file": "57-3.pdf",
+      "page": 1,
+      "signals": [
+        "필수",
+        "점검",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "도어 트림 탈거 후 재장착 시 클립(파스너)은 반드시 교환한다.",
+          "source_heading": "참고",
+          "scope": "트림 재장착"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스가 정상적으로 작동하는지 확인한다.",
+          "source_heading": "참고",
+          "scope": "트림 장착 후"
+        },
+        {
+          "text": "도어의 열고 닫힘이 정상적인지 확인한다.",
+          "source_heading": "참고",
+          "scope": "트림 장착 후"
+        },
+        {
+          "text": "커넥터를 확실히 조립한다.",
+          "source_heading": "참고",
+          "scope": "트림 장착 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "57-3__01.png"
+    },
+    "58-2.pdf#1": {
+      "file": "58-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "58-2__01.png"
+    },
+    "58-3.pdf#1": {
+      "file": "58-3.pdf",
+      "page": 1,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "59-2.pdf#1": {
+      "file": "59-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "59-2__01.png"
+    },
+    "59-2.pdf#4": {
+      "file": "59-2.pdf",
+      "page": 4,
+      "signals": [
+        "주의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "59-3.pdf#1": {
+      "file": "59-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부",
+        "점검",
+        "완료 확인"
+      ],
+      "principles": [
+        {
+          "label": "조건부",
+          "text": "필요 시 글라스를 조정한다.",
+          "source_heading": "참고",
+          "scope": "글라스 장착 후"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스의 작동이 정상적인지 확인한다.",
+          "source_heading": "참고",
+          "scope": "글라스 장착 후"
+        }
+      ],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "59-3__01.png"
+    },
+    "5.pdf#1": {
+      "file": "5.pdf",
+      "page": 1,
+      "signals": [
+        "경고",
+        "주의",
+        "필수"
+      ],
+      "principles": [
+        {
+          "label": "경고",
+          "text": "고전압 관련 작업 시 원문의 안전·주의·경고를 숙지하고 차단 절차에 따라 반드시 고전압을 먼저 차단한다.",
+          "source_heading": "경고",
+          "scope": "고전압 차단"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "5__01.png"
+    },
+    "5.pdf#4": {
+      "file": "5.pdf",
+      "page": 4,
+      "signals": [
+        "필수"
+      ],
+      "principles": [
+        {
+          "label": "필수",
+          "text": "고전압 차단 스위치 분리 후에는 원문에 지정된 방전 대기시간을 반드시 지킨다.",
+          "source_heading": "경고",
+          "scope": "고전압 차단 스위치 분리 후"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "5__04.png"
+    },
+    "5.pdf#6": {
+      "file": "5.pdf",
+      "page": 6,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "60-2.pdf#1": {
+      "file": "60-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "60-2__01.png"
+    },
+    "61-2.pdf#1": {
+      "file": "61-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "61-2__01.png"
+    },
+    "62-2.pdf#1": {
+      "file": "62-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "62-2__01.png"
+    },
+    "63-2.pdf#1": {
+      "file": "63-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "63-2__01.png"
+    },
+    "64-2.pdf#1": {
+      "file": "64-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "64-2__01.png"
+    },
+    "65-2.pdf#1": {
+      "file": "65-2.pdf",
+      "page": 1,
+      "signals": [
+        "유의",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "65-3.pdf#1": {
+      "file": "65-3.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "65-3__01.png"
+    },
+    "66-2.pdf#1": {
+      "file": "66-2.pdf",
+      "page": 1,
+      "signals": [
+        "유의",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "66-3.pdf#1": {
+      "file": "66-3.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "66-3__01.png"
+    },
+    "67-2.pdf#1": {
+      "file": "67-2.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "유의"
+      ],
+      "principles": [
+        {
+          "label": "주의",
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_heading": "주의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        },
+        {
+          "label": "유의",
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_heading": "유의",
+          "scope": "탈거"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "67-2__01.png"
+    },
+    "67-3.pdf#1": {
+      "file": "67-3.pdf",
+      "page": 1,
+      "signals": [
+        "조건부"
+      ],
+      "principles": [
+        {
+          "label": "조건부",
+          "text": "프레임 가니쉬를 탈거한 뒤 부품 손상이 있을 경우 신품으로 교환한다.",
+          "source_heading": "참고",
+          "scope": "프레임 가니쉬 장착"
+        },
+        {
+          "label": "조건부",
+          "text": "프레임 몰딩을 탈거한 뒤 부품 손상이 있을 경우 신품으로 교환한다.",
+          "source_heading": "참고",
+          "scope": "프레임 몰딩 장착"
+        }
+      ],
+      "completion": [],
+      "visual_verified": true,
+      "verification_scope": "이 페이지에서 수록한 요약 문장만 원본 이미지와 대조함. 페이지 전체의 정비 적합성 검증을 뜻하지 않음.",
+      "verified_image": "67-3__01.png"
+    },
+    "6.pdf#1": {
+      "file": "6.pdf",
+      "page": 1,
+      "signals": [
+        "위험",
+        "경고",
+        "주의",
+        "유의",
+        "필수"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "8.pdf#1": {
+      "file": "8.pdf",
+      "page": 1,
+      "signals": [
+        "경고",
+        "주의"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "8.pdf#2": {
+      "file": "8.pdf",
+      "page": 2,
+      "signals": [
+        "위험",
+        "주의",
+        "필수",
+        "금지"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "9.pdf#1": {
+      "file": "9.pdf",
+      "page": 1,
+      "signals": [
+        "주의",
+        "필수",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "9.pdf#2": {
+      "file": "9.pdf",
+      "page": 2,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "9.pdf#3": {
+      "file": "9.pdf",
+      "page": 3,
+      "signals": [
+        "필수",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "9.pdf#4": {
+      "file": "9.pdf",
+      "page": 4,
+      "signals": [
+        "주의",
+        "필수",
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    },
+    "9.pdf#5": {
+      "file": "9.pdf",
+      "page": 5,
+      "signals": [
+        "점검"
+      ],
+      "principles": [],
+      "completion": [],
+      "visual_verified": false,
+      "verification_scope": "OCR 신호만 수집. 요약문 미작성."
+    }
+  },
+  "statistics": {
+    "source_pages_scanned": 383,
+    "signal_pages": 141,
+    "summary_verified_pages": 73,
+    "signal_only_pages": 68,
+    "principle_count": 171,
+    "completion_count": 18,
+    "labels": {
+      "원문 원칙": 8,
+      "필수": 18,
+      "권고": 1,
+      "위험": 2,
+      "경고": 4,
+      "주의": 45,
+      "유의": 83,
+      "금지": 1,
+      "조건부": 9
+    }
+  },
+  "visual_review": {
+    "method": "원본 PNG 전체 또는 주의 상자 크롭을 직접 시각 대조",
+    "contact_sheets": [
+      "reports/service_principles_visual/top_01.png",
+      "reports/service_principles_visual/top_02.png",
+      "reports/service_principles_visual/top_03.png",
+      "reports/service_principles_visual/top_04.png",
+      "reports/service_principles_visual/top_05.png",
+      "reports/service_principles_visual/top_06.png",
+      "reports/service_principles_visual/top_07.png",
+      "reports/service_principles_visual/top_08.png",
+      "reports/service_principles_visual/top_09.png",
+      "reports/service_principles_visual/top_10.png",
+      "reports/service_principles_visual/top_11.png"
+    ]
+  }
+}

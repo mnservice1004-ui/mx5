@@ -1,7 +1,7 @@
 """Independent actual-render QA for the education booklet edition."""
 from pathlib import Path
 from collections import Counter
-import io, json, hashlib, math
+import argparse, io, json, hashlib, math
 import numpy as np
 import pypdfium2 as pdfium
 from PIL import Image, ImageDraw, ImageFont
@@ -116,12 +116,19 @@ def focus_selection(manifest):
 
 
 def main():
-    DIR.mkdir(exist_ok=True)
-    manifest=json.loads((ROOT/'education_booklets_manifest.json').read_text(encoding='utf8'))
+    global DIR
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--manifest',type=Path,default=ROOT/'education_booklets_manifest.json')
+    parser.add_argument('--output-dir',type=Path,default=ROOT/'education_final_visual_qa')
+    parser.add_argument('--report',type=Path,default=ROOT/'education_visual_qa.json')
+    args=parser.parse_args()
+    DIR=args.output_dir
+    DIR.mkdir(parents=True,exist_ok=True)
+    manifest=json.loads(args.manifest.read_text(encoding='utf8'))
     prior=json.loads((ROOT/'folio_booklets_manifest.json').read_text(encoding='utf8'))
     old={row['relative_path']:row for row in prior['items']+prior['indexes']}
     focus=focus_selection(manifest)
-    margins=[];folios=[];protected=[];cards=[];focused=[];sources=[];errors=[];files=[]
+    margins=[];folios=[];protected=[];cards=[];focused=[];sources=[];errors=[];files=[];opening_cards=[];service_cards=[]
     for item in manifest['items']+manifest['indexes']:
         path=Path(item['path']);code=item.get('id','master_'+path.stem[:2]);isbook='id'in item
         reader=PdfReader(path);doc=pdfium.PdfDocument(path)
@@ -137,6 +144,12 @@ def main():
             f=folio_check(page,number);folios.append(dict(id=code,page=number,**f))
             if not f['passed']:errors.append(dict(id=code,page=number,check='fixed_folio',detail=f))
             pm=pm_by.get(number);desc=desc_by.get(number,{})
+            if isbook and number<=2:
+                png=DIR/f'{code}_opening_{number}.png';image.save(png)
+                opening_cards.append(dict(id=code,page=number,png=str(png),label=f'{code} p{number} | opening'))
+            if not isbook and number>len(prior_reader.pages):
+                png=DIR/f'{code}_service_{number:03d}.png';image.save(png)
+                service_cards.append(dict(id=code,page=number,png=str(png),label=f'{code} p{number} | service index'))
             if pm:
                 png=DIR/f'{code}_page_{number:03d}.png';image.save(png)
                 depth=len(pm.get('active_reference_ids',[]))
@@ -159,6 +172,15 @@ def main():
         doc.close();prior_doc.close()
         print(f'{code}: {len(reader.pages)} pages rendered, total issues {len(errors)}',flush=True)
     sheets=contacts(cards)
+    # Separate names keep all three contact sets available for real inspection.
+    for i,path in enumerate(sheets):
+        dest=DIR/f'body_contact_{i+1:03d}.png';Path(path).replace(dest);sheets[i]=str(dest)
+    opening_sheets=contacts(opening_cards)
+    for i,path in enumerate(opening_sheets):
+        dest=DIR/f'opening_contact_{i+1:03d}.png';Path(path).replace(dest);opening_sheets[i]=str(dest)
+    service_sheets=contacts(service_cards)
+    for i,path in enumerate(service_sheets):
+        dest=DIR/f'service_contact_{i+1:03d}.png';Path(path).replace(dest);service_sheets[i]=str(dest)
     report=dict(status='rendered_pending_manual_review',files=files,total_pages=len(margins),body_pages=len(cards),
                 source_form_pages=len(sources),protected_source_pages=len(protected),
                 margin_failures=[e for e in errors if e['check'].startswith('margin')],
@@ -168,9 +190,11 @@ def main():
                 minimum_inner_mm=min(v['min_inner_mm']for v in margins if v['min_inner_mm']is not None),
                 minimum_outer_mm=min(v['min_outer_mm']for v in margins if v['min_outer_mm']is not None),
                 margins=margins,folios=folios,protected_source_checks=protected,
-                errors=errors,body_contacts=sheets,focused_pages=focused,
+                errors=errors,body_contacts=sheets,opening_contacts=opening_sheets,
+                service_contacts=service_sheets,opening_pages=opening_cards,service_pages=service_cards,focused_pages=focused,
                 manual_review=dict(agent_contact_sheets=[],root_contact_sheets=[],focused_pages=[]))
-    (ROOT/'education_visual_qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
+    args.report.parent.mkdir(parents=True,exist_ok=True)
+    args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
     print(f'Complete: {len(margins)} pages, {len(cards)} body cards, {len(sheets)} contacts, {len(errors)} issues',flush=True)
 
 

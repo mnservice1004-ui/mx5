@@ -93,7 +93,7 @@ def _root_title(item, section):
     return procedure
 
 
-def draw_body(c, item, pm, ctx, section, call_events, return_events, node):
+def draw_body(c, item, pm, ctx, section, call_events, return_events, node, service_signal=None):
     """Draw source-page navigation around an unchanged /Original form.
 
     ctx is the active GLOBAL reference event stack, outermost to innermost.
@@ -122,21 +122,27 @@ def draw_body(c, item, pm, ctx, section, call_events, return_events, node):
     unit_text = f"UNIT {item['id']}  /  {item.get('chapter_title', item['title'])}"
     if transition:
         unit_text += '  ·  '+transition
-    _tx(c, x0, 805, unit_text,
+    _tx(c, x0, 813, unit_text,
         8.1, True, BLUE, width=width-80, minimum=7.6)
-    guide_rect = [x1-66, 797.5, x1, 813]
+    guide_rect = [x1-66, 805.5, x1, 821]
     c.setFillColor(PALE)
     c.roundRect(guide_rect[0], guide_rect[1], 66, 15.5, 4, fill=1, stroke=0)
-    _tx(c, x1-58, 803, '작업 길잡이 2쪽', 7.4, True, NAVY)
+    _tx(c, x1-58, 811, '작업 길잡이 2쪽', 7.4, True, NAVY)
     links.append(dict(kind='guide', origin=p-1, rect=guide_rect, target=1))
-    book_title_size = _tx(c, x0, 785, item['title'], 15, True, NAVY,
+    book_title_size = _tx(c, x0, 793, item['title'], 15, True, NAVY,
                           width=width, minimum=14)
     badge = f'참조 {depth}차' if depth else '본절차'
     c.setFillColor(color)
-    c.roundRect(x0, 760, 53, 17, 3, fill=1, stroke=0)
-    _tx(c, x0+7, 765.2, badge, 8.5, True, '#FFFFFF')
-    current_size = _tx(c, x0+62, 765.2, title, 10.6, True, color,
+    c.roundRect(x0, 768, 53, 17, 3, fill=1, stroke=0)
+    _tx(c, x0+7, 773.2, badge, 8.5, True, '#FFFFFF')
+    current_size = _tx(c, x0+62, 773.2, title, 10.6, True, color,
                        width=width-62, minimum=9.8)
+    signal=service_signal or {'text':'원문 적용 조건·작업 순서 확인','labels':[],'specific':False}
+    signal_rect=[x0,755.5,x1,766.5]
+    c.setFillColor('#FFF5DB' if signal.get('specific') else '#F1F5F7')
+    c.roundRect(x0,755.5,width,11,2,fill=1,stroke=0)
+    _tx(c,x0+5,758,signal['text'],7.8,True,AMBER if signal.get('specific') else GRAY,
+        width=width-10,minimum=7.2)
     breadcrumbs = ['본절차'] + [f'{n}차 {_short(item, e["title"])}'
                                for n, e in enumerate(ctx, 1)]
     breadcrumb_text = ' > '.join(breadcrumbs)
@@ -283,8 +289,9 @@ def draw_body(c, item, pm, ctx, section, call_events, return_events, node):
                 depth=depth, phase=phase, breadcrumbs=breadcrumbs,
                 transition=transition, book_title_size=book_title_size,
                 current_title_size=current_size),
+                service_signal=dict(**signal,rect=signal_rect),
                 bottom_panel=dict(rect=panel, primary=primary, secondary=secondary),
                 call_strip=calls_meta, frames=frames, rails=rails, tabs=tabs,
                 source_provenance=source_text, safe_bounds=[x0, x1],
                 exact_bounds=[exact_x0, exact_x1], overlay_horizontal_inset_pt=.75,
-                overlay_bounds=dict(header=[x0, 760, x1, 813], footer=[x0, 31.5, x1, 82]))
+                overlay_bounds=dict(header=[x0, 755.5, x1, 821], footer=[x0, 31.5, x1, 82]))

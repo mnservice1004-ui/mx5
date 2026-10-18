@@ -52,10 +52,26 @@
       "problemMatcher": []
     },
     {
+      "label": "정비책자: 준비물·정비 원칙 근거 검증",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "verify-service"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "problemMatcher": []
+    },
+    {
+      "label": "정비책자: 통합판 전체 렌더 검증",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["tools/project.py", "render", "--edition", "draft"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
+      "problemMatcher": []
+    },
+    {
       "label": "정비책자: 작업 길잡이 미리보기",
       "type": "process",
       "command": "${workspaceFolder}/.venv/Scripts/python.exe",
-      "args": ["tools/project.py", "preview", "--book", "07-02", "--page", "2"],
+      "args": ["tools/project.py", "preview", "--book", "07-02", "--page", "2", "--edition", "draft"],
       "options": {"cwd": "${workspaceFolder}", "env": {"PYTHONIOENCODING": "utf-8"}},
       "problemMatcher": []
     }

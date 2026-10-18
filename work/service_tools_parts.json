@@ -1,0 +1,4249 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-18",
+  "pages": {
+    "1.pdf#1": {
+      "file": "1.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "절연 공구: 고전압 시스템 작업용",
+          "kind": "일반공구",
+          "purpose": "고전압 시스템 관련 작업",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 관련 작업에 적용. 일반 도어·트림 작업 전부의 필수 준비물로 일반화하지 않음.",
+          "source_top": 232.74,
+          "source_bottom": 247.94,
+          "evidence_text": [
+            "• 고전압 시스템 관련 작업 시, 절연 공구를 사용한다"
+          ]
+        },
+        {
+          "text": "절연 덮개: 고전압 부품 차단용",
+          "kind": "보호준비물",
+          "purpose": "작업과 연관되지 않은 고전압 시스템 차단",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 관련 작업에 적용. 일반 도어·트림 작업 전부의 필수 준비물로 일반화하지 않음.",
+          "source_top": 213.55,
+          "source_bottom": 227.95,
+          "evidence_text": [
+            "작업과 연관되지 않는 고전압 시스템은 절연 덮개로 덮어놓는다."
+          ]
+        },
+        {
+          "text": "절연 매트: 탈거 고전압 부품 보관용",
+          "kind": "보호준비물",
+          "purpose": "탈거 고전압 부품의 누전 예방",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 관련 작업에 적용. 일반 도어·트림 작업 전부의 필수 준비물로 일반화하지 않음.",
+          "source_top": 251.94,
+          "source_bottom": 266.34,
+          "evidence_text": [
+            "• 탈거한 고전압 부품은 누전을 예방하기 위해 절연 매트에 정리하여 보관하도록 한다"
+          ]
+        },
+        {
+          "text": "절연 테이프: 분리 고전압 케이블 절연용",
+          "kind": "보호준비물",
+          "purpose": "고전압 케이블 분리 직후 절연",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 관련 작업에 적용. 일반 도어·트림 작업 전부의 필수 준비물로 일반화하지 않음.",
+          "source_top": 309.93,
+          "source_bottom": 325.12,
+          "evidence_text": [
+            "• 고전압 케이블을 분리 할 경우, 분리 직후 절연 테이프 등을 사용하여 절연 조치한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "486a274ca7e8cc4a3a916e0ba20897dd353a67879ada9d24cf2b3a09c7145569",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "1__01.png"
+      }
+    },
+    "2.pdf#1": {
+      "file": "2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "절연 장갑: 고전압 부품 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 점검 및 관련 작업 시 착용",
+          "status": "원문 확인",
+          "specification": "절연 성능 1000 V 이상",
+          "tool_number": null,
+          "scope_note": "고전압 부품 점검 및 관련 작업에 한정. 원문에서 1000 V 이상 표기는 절연 장갑 행에만 있음.",
+          "source_top": 170.36,
+          "source_bottom": 184.76,
+          "evidence_text": [
+            "절연 장갑"
+          ]
+        },
+        {
+          "text": "절연화: 고전압 부품 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 점검 및 관련 작업 시 착용",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 부품 점검 및 관련 작업에 한정. 원문에서 1000 V 이상 표기는 절연 장갑 행에만 있음.",
+          "source_top": 308.73,
+          "source_bottom": 323.12,
+          "evidence_text": [
+            "절연화"
+          ]
+        },
+        {
+          "text": "절연복: 고전압 부품 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 점검 및 관련 작업 시 착용",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 부품 점검 및 관련 작업에 한정. 원문에서 1000 V 이상 표기는 절연 장갑 행에만 있음.",
+          "source_top": 446.29,
+          "source_bottom": 460.69,
+          "evidence_text": [
+            "절연복"
+          ]
+        },
+        {
+          "text": "절연 안전모: 고전압 부품 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 점검 및 관련 작업 시 착용",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 부품 점검 및 관련 작업에 한정. 원문에서 1000 V 이상 표기는 절연 장갑 행에만 있음.",
+          "source_top": 583.46,
+          "source_bottom": 597.46,
+          "evidence_text": [
+            "절연 안전모"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "10331081314c1ce9d1dc92e6e3e76eda1e3a48daf3cfa78d6d88c019c0510670",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "2__01.png"
+      }
+    },
+    "2.pdf#2": {
+      "file": "2.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "보호 안경: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "스파크 발생 가능 고전압 배터리 단자·와이어링 탈장착/점검 및 고전압 배터리 시스템 어셈블리 작업",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "원문의 두 적용 조건에 해당하는 경우 착용.",
+          "source_top": 89.98,
+          "source_bottom": 104.38,
+          "evidence_text": [
+            "보호 안경"
+          ]
+        },
+        {
+          "text": "안면 보호대: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "스파크 발생 가능 고전압 배터리 단자·와이어링 탈장착/점검 및 고전압 배터리 시스템 어셈블리 작업",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "원문의 두 적용 조건에 해당하는 경우 착용.",
+          "source_top": 226.75,
+          "source_bottom": 241.14,
+          "evidence_text": [
+            "안면 보호대"
+          ]
+        },
+        {
+          "text": "절연 매트: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "탈거 고전압 부품 정리·보관",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 부품 취급 시 감전 사고 예방용.",
+          "source_top": 363.51,
+          "source_bottom": 385.51,
+          "evidence_text": [
+            "절연 매트",
+            "해 절연 매트 위에 정리하여 보관"
+          ]
+        },
+        {
+          "text": "절연 덮개: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 차단",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "보호 장비 미착용자의 감전 사고 예방용.",
+          "source_top": 500.28,
+          "source_bottom": 522.28,
+          "evidence_text": [
+            "절연 덮개",
+            "전압 부품을 절연 덮개로 차단"
+          ]
+        },
+        {
+          "text": "경고 테이프: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "작업 차량 주변 접근 차단",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 작업 중 차량 주변에 설치.",
+          "source_top": 636.65,
+          "source_bottom": 651.05,
+          "evidence_text": [
+            "경고 테이프"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "10331081314c1ce9d1dc92e6e3e76eda1e3a48daf3cfa78d6d88c019c0510670",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "2__02.png"
+      }
+    },
+    "3.pdf#1": {
+      "file": "3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "개인 보호 장비(PPE): 사고 차량 작업용",
+          "kind": "보호준비물",
+          "purpose": "사고 차량 작업 및 취급",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 105.57,
+          "source_bottom": 274.73,
+          "evidence_text": [
+            "• 개인 보호 장비(PPE)",
+            "(하이브리드 컨트롴 시스템 - \"개인 보호 장비(끄)\"-참조)",
+            "• 개인 보호 장비(PPE)를 착용한다"
+          ]
+        },
+        {
+          "text": "붕소액: 사고 차량 준비물",
+          "kind": "보호준비물",
+          "purpose": "원문 사고 차량 작업 준비사항",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 139.97,
+          "source_bottom": 365.91,
+          "evidence_text": [
+            "• 붕소액(Boⅱc Acid Powder or SOIution)",
+            "• 누출된 액체가 피부에 접촉 시, 즉각 붕소액으로 중화시기고, 흐르는 물 또는 소금물로 환부를 세척한다"
+          ]
+        },
+        {
+          "text": "이산화탄소 소화기 또는 별도 소화기",
+          "kind": "보호준비물",
+          "purpose": "원문 사고 차량 작업 준비사항",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 159.16,
+          "source_bottom": 173.56,
+          "evidence_text": [
+            "• 이산화탄소 소화기 또는 그외 별도의 소화기"
+          ]
+        },
+        {
+          "text": "전해질용 수건",
+          "kind": "보호준비물",
+          "purpose": "원문 사고 차량 작업 준비사항",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 178.36,
+          "source_bottom": 193.15,
+          "evidence_text": [
+            "• 전해질용수건"
+          ]
+        },
+        {
+          "text": "비닐 테이프: 터미널 절연용",
+          "kind": "보호준비물",
+          "purpose": "터미널 절연",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 197.95,
+          "source_bottom": 213.55,
+          "evidence_text": [
+            "• 비닐 테이프(터미널 절연용)"
+          ]
+        },
+        {
+          "text": "메가옴 테스터: 고전압 절연저항 확인용",
+          "kind": "측정장비",
+          "purpose": "고전압 절연저항 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 217.15,
+          "source_bottom": 233.14,
+          "evidence_text": [
+            "• 메가옴 테스터(고전압 절연저항 확인용)"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "44e462ce50bf2525a202adaacfddd636edf5dcab0d93ccd26cba84a427ae2a56",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "3__01.png"
+      }
+    },
+    "4.pdf#1": {
+      "file": "4.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "전동식 컴프레서 전용 냉매 회수·충전기",
+          "kind": "전용장비",
+          "purpose": "하이브리드 차량 냉매 회수·충전",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 하이브리드 차량 냉매 회수·충전 시에만 적용. 일반 차량 PAG 오일 혼입 금지. 기기 모델·냉매량은 이 항목에서 추정하지 않음.",
+          "source_top": 238.34,
+          "source_bottom": 324.72,
+          "evidence_text": [
+            "• 냉매 회수/충전 시 일반 차량의 PAG 오일이 혼입되지 않도록 하이브리드 차량 정비를 위한 별도 전용 장비(냉매 회수/충전",
+            "• 반드시 전동식 컴프레서 전용의 냉매 회수 / 충전기를 사용하여 지정된 냉매와 냉동유(POE)를 주입한다. 일반 차량의 냉"
+          ]
+        },
+        {
+          "text": "지정 냉매·냉동유(POE): 냉매 회수·충전 시",
+          "kind": "작업자재",
+          "purpose": "전동식 컴프레서 냉매·냉동유 주입",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "지정 냉매의 종류·양은 이 원문에 구체적으로 기재되지 않아 보완하지 않음.",
+          "source_top": 219.15,
+          "source_bottom": 324.72,
+          "evidence_text": [
+            "• 고전압을 사용하는 차량의 전동식 컴프레서는 절연성능이 높은 POE 오일을 사용한다",
+            "• 반드시 전동식 컴프레서 전용의 냉매 회수 / 충전기를 사용하여 지정된 냉매와 냉동유(POE)를 주입한다. 일반 차량의 냉"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "5a7fa15af800998946f0fa8f8d9a7644fdb8ea75ddc80e767544167973d4ba82",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "4__01.png"
+      }
+    },
+    "13.pdf#1": {
+      "file": "13.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "작업 커버(시트 커버)·보호 테이프",
+          "kind": "보호준비물",
+          "purpose": "도장면·내장 부품의 오손·손상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 90.78,
+          "source_bottom": 106.77,
+          "evidence_text": [
+            "1 차량의 보호도장면 및 내장 부품들이 오손, 손상되지 않도록 작업 커버(시트 커버) 및 테이프(공구등에 의해 손상되는 경우)"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "8960a481ef962c0fdd079274ab075e43657b441322b05e6a1808d77d90d3a2ff",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "13__01.png"
+      }
+    },
+    "13.pdf#2": {
+      "file": "13.pdf",
+      "page": 2,
+      "tools": [],
+      "parts": [
+        {
+          "text": "오일 씰",
+          "condition": "해당 부품을 탈거했을 때 필히 신품 교환",
+          "kind": "필수 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "일반 정비 원칙. 실제로 해당 부품을 탈거하는 작업에만 적용하며 모든 도어 작업에 이 부품이 사용된다는 의미가 아님.",
+          "source_top": 333.52,
+          "source_bottom": 348.32,
+          "evidence_text": [
+            "4 다음 부품을 탈거했을 때에는 필히 신품으로 교환한다"
+          ]
+        },
+        {
+          "text": "가스켓트",
+          "condition": "해당 부품을 탈거했을 때 필히 신품 교환",
+          "kind": "필수 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "일반 정비 원칙. 실제로 해당 부품을 탈거하는 작업에만 적용하며 모든 도어 작업에 이 부품이 사용된다는 의미가 아님.",
+          "source_top": 333.52,
+          "source_bottom": 395.11,
+          "evidence_text": [
+            "4 다음 부품을 탈거했을 때에는 필히 신품으로 교환한다",
+            "2 가스켓트"
+          ]
+        },
+        {
+          "text": "패킹",
+          "condition": "해당 부품을 탈거했을 때 필히 신품 교환",
+          "kind": "필수 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "일반 정비 원칙. 실제로 해당 부품을 탈거하는 작업에만 적용하며 모든 도어 작업에 이 부품이 사용된다는 의미가 아님.",
+          "source_top": 333.52,
+          "source_bottom": 424.7,
+          "evidence_text": [
+            "4 다음 부품을 탈거했을 때에는 필히 신품으로 교환한다",
+            "3 패킹"
+          ]
+        },
+        {
+          "text": "O-링",
+          "condition": "해당 부품을 탈거했을 때 필히 신품 교환",
+          "kind": "필수 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "일반 정비 원칙. 실제로 해당 부품을 탈거하는 작업에만 적용하며 모든 도어 작업에 이 부품이 사용된다는 의미가 아님.",
+          "source_top": 333.52,
+          "source_bottom": 348.32,
+          "evidence_text": [
+            "4 다음 부품을 탈거했을 때에는 필히 신품으로 교환한다"
+          ]
+        },
+        {
+          "text": "록크 와셔",
+          "condition": "해당 부품을 탈거했을 때 필히 신품 교환",
+          "kind": "필수 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "일반 정비 원칙. 실제로 해당 부품을 탈거하는 작업에만 적용하며 모든 도어 작업에 이 부품이 사용된다는 의미가 아님.",
+          "source_top": 333.52,
+          "source_bottom": 348.32,
+          "evidence_text": [
+            "4 다음 부품을 탈거했을 때에는 필히 신품으로 교환한다"
+          ]
+        },
+        {
+          "text": "분할 핀",
+          "condition": "해당 부품을 탈거했을 때 필히 신품 교환",
+          "kind": "필수 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "일반 정비 원칙. 실제로 해당 부품을 탈거하는 작업에만 적용하며 모든 도어 작업에 이 부품이 사용된다는 의미가 아님.",
+          "source_top": 333.52,
+          "source_bottom": 513.88,
+          "evidence_text": [
+            "4 다음 부품을 탈거했을 때에는 필히 신품으로 교환한다",
+            "6 분할 핀"
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "8960a481ef962c0fdd079274ab075e43657b441322b05e6a1808d77d90d3a2ff",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "13__02.png"
+      }
+    },
+    "13.pdf#7": {
+      "file": "13.pdf",
+      "page": 7,
+      "tools": [
+        {
+          "text": "보호 테이프: 와이어링 간섭부 보호용",
+          "kind": "보호준비물",
+          "purpose": "부품 모서리·끝단과 간섭하는 와이어링 보호",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 334.72,
+          "source_bottom": 349.12,
+          "evidence_text": [
+            "3 와이어링이 부품의 모서리 또는 끝단부와 간섭이 되면 손상될 수 있으므로 간섭 부위에 테이프 등으로 감아 보호한다."
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "8960a481ef962c0fdd079274ab075e43657b441322b05e6a1808d77d90d3a2ff",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "13__07.png"
+      }
+    },
+    "13.pdf#11": {
+      "file": "13.pdf",
+      "page": 11,
+      "tools": [
+        {
+          "text": "회로 테스터: 커넥터 통전·전압 점검용",
+          "kind": "측정장비",
+          "purpose": "커넥터 단자 통전·전압 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "커넥터 점검 시에만 적용. 탐침 삽입 방향과 절연 손상 방지 원문을 함께 따름.",
+          "source_top": 319.52,
+          "source_bottom": 334.32,
+          "evidence_text": [
+            "1 회로 테스터로 커넥터 단자의 통전 또는 전압 점검을 할 때에는 탐침을 하니스쪽에서 밀어 넣는다. 만약 커넥터가 밀페형이"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "8960a481ef962c0fdd079274ab075e43657b441322b05e6a1808d77d90d3a2ff",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "13__11.png"
+      }
+    },
+    "14.pdf#1": {
+      "file": "14.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "절연 공구: 고전압 시스템 작업용",
+          "kind": "일반공구",
+          "purpose": "고전압 시스템 관련 작업",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 관련 작업에 적용. 일반 도어·트림 작업 전부의 필수 준비물로 일반화하지 않음.",
+          "source_top": 238.74,
+          "source_bottom": 253.54,
+          "evidence_text": [
+            "• 고전압 시스템 관련 작업 시, 절연 공구를 사용한다"
+          ]
+        },
+        {
+          "text": "절연 덮개: 고전압 부품 차단용",
+          "kind": "보호준비물",
+          "purpose": "작업과 연관되지 않은 고전압 시스템 차단",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 관련 작업에 적용. 일반 도어·트림 작업 전부의 필수 준비물로 일반화하지 않음.",
+          "source_top": 219.15,
+          "source_bottom": 233.94,
+          "evidence_text": [
+            "작업과 연관되지 않는 고전압 시스템은 절연 덮개로 덮어놓는다."
+          ]
+        },
+        {
+          "text": "절연 매트: 탈거 고전압 부품 보관용",
+          "kind": "보호준비물",
+          "purpose": "탈거 고전압 부품의 누전 예방",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 관련 작업에 적용. 일반 도어·트림 작업 전부의 필수 준비물로 일반화하지 않음.",
+          "source_top": 257.94,
+          "source_bottom": 272.34,
+          "evidence_text": [
+            "• 탈거한 고전압 부품은 누전을 예방하기 위해 절연 매트에 정리하여 보관하도록 한다"
+          ]
+        },
+        {
+          "text": "절연 테이프: 분리 고전압 케이블 절연용",
+          "kind": "보호준비물",
+          "purpose": "고전압 케이블 분리 직후 절연",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 관련 작업에 적용. 일반 도어·트림 작업 전부의 필수 준비물로 일반화하지 않음.",
+          "source_top": 315.92,
+          "source_bottom": 331.12,
+          "evidence_text": [
+            "• 고전압 케이블을 분리 할 경우, 분리 직후 절연 테이프 등을 사용하여 절연 조치한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "7e6991d5eed226d9570f475cb162841cff7667d50c88cb79ce1623b4b57db0bc",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "14__01.png"
+      }
+    },
+    "15.pdf#1": {
+      "file": "15.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "절연 장갑: 고전압 부품 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 점검 및 관련 작업 시 착용",
+          "status": "원문 확인",
+          "specification": "절연 성능 1000 V 이상",
+          "tool_number": null,
+          "scope_note": "고전압 부품 점검 및 관련 작업에 한정. 원문에서 1000 V 이상 표기는 절연 장갑 행에만 있음.",
+          "source_top": 170.36,
+          "source_bottom": 184.76,
+          "evidence_text": [
+            "절연 장갑"
+          ]
+        },
+        {
+          "text": "절연화: 고전압 부품 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 점검 및 관련 작업 시 착용",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 부품 점검 및 관련 작업에 한정. 원문에서 1000 V 이상 표기는 절연 장갑 행에만 있음.",
+          "source_top": 308.73,
+          "source_bottom": 323.12,
+          "evidence_text": [
+            "절연화"
+          ]
+        },
+        {
+          "text": "절연복: 고전압 부품 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 점검 및 관련 작업 시 착용",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 부품 점검 및 관련 작업에 한정. 원문에서 1000 V 이상 표기는 절연 장갑 행에만 있음.",
+          "source_top": 446.29,
+          "source_bottom": 460.69,
+          "evidence_text": [
+            "절연복"
+          ]
+        },
+        {
+          "text": "절연 안전모: 고전압 부품 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 점검 및 관련 작업 시 착용",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 부품 점검 및 관련 작업에 한정. 원문에서 1000 V 이상 표기는 절연 장갑 행에만 있음.",
+          "source_top": 583.46,
+          "source_bottom": 597.46,
+          "evidence_text": [
+            "절연 안전모"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "a2e7661d8693b8b8cac3e424b9730cd8f77c1b10ea6c8e6d00405b8d9698437c",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "15__01.png"
+      }
+    },
+    "15.pdf#2": {
+      "file": "15.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "보호 안경: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "스파크 발생 가능 고전압 배터리 단자·와이어링 탈장착/점검 및 고전압 배터리 시스템 어셈블리 작업",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "원문의 두 적용 조건에 해당하는 경우 착용.",
+          "source_top": 89.98,
+          "source_bottom": 104.38,
+          "evidence_text": [
+            "보호 안경"
+          ]
+        },
+        {
+          "text": "안면 보호대: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "스파크 발생 가능 고전압 배터리 단자·와이어링 탈장착/점검 및 고전압 배터리 시스템 어셈블리 작업",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "원문의 두 적용 조건에 해당하는 경우 착용.",
+          "source_top": 226.75,
+          "source_bottom": 241.14,
+          "evidence_text": [
+            "안면 보호대"
+          ]
+        },
+        {
+          "text": "절연 매트: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "탈거 고전압 부품 정리·보관",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 부품 취급 시 감전 사고 예방용.",
+          "source_top": 363.51,
+          "source_bottom": 385.51,
+          "evidence_text": [
+            "절연 매트",
+            "해 절연 매트 위에 정리하여 보관"
+          ]
+        },
+        {
+          "text": "절연 덮개: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "고전압 부품 차단",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "보호 장비 미착용자의 감전 사고 예방용.",
+          "source_top": 500.28,
+          "source_bottom": 522.28,
+          "evidence_text": [
+            "절연 덮개",
+            "전압 부품을 절연 덮개로 차단"
+          ]
+        },
+        {
+          "text": "경고 테이프: 고전압 작업용",
+          "kind": "보호준비물",
+          "purpose": "작업 차량 주변 접근 차단",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "고전압 작업 중 차량 주변에 설치.",
+          "source_top": 636.65,
+          "source_bottom": 651.05,
+          "evidence_text": [
+            "경고 테이프"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "a2e7661d8693b8b8cac3e424b9730cd8f77c1b10ea6c8e6d00405b8d9698437c",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "15__02.png"
+      }
+    },
+    "16.pdf#1": {
+      "file": "16.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "개인 보호 장비(PPE): 사고 차량 작업용",
+          "kind": "보호준비물",
+          "purpose": "사고 차량 작업 및 취급",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 105.57,
+          "source_bottom": 274.73,
+          "evidence_text": [
+            "• 개인 보호 장비(PPE)",
+            "(하이브리드 컨트롴 시스템 - \"개인 보호 장비(끄)\"-참조)",
+            "• 개인 보호 장비(PPE)를 착용한다"
+          ]
+        },
+        {
+          "text": "붕소액: 사고 차량 준비물",
+          "kind": "보호준비물",
+          "purpose": "원문 사고 차량 작업 준비사항",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 139.97,
+          "source_bottom": 365.91,
+          "evidence_text": [
+            "• 붕소액(Boⅱc Acid Powder or SOIution)",
+            "• 누출된 액체가 피부에 접촉 시, 즉각 붕소액으로 중화시기고, 흐르는 물 또는 소금물로 환부를 세척한다"
+          ]
+        },
+        {
+          "text": "이산화탄소 소화기 또는 별도 소화기",
+          "kind": "보호준비물",
+          "purpose": "원문 사고 차량 작업 준비사항",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 159.16,
+          "source_bottom": 173.56,
+          "evidence_text": [
+            "• 이산화탄소 소화기 또는 그외 별도의 소화기"
+          ]
+        },
+        {
+          "text": "전해질용 수건",
+          "kind": "보호준비물",
+          "purpose": "원문 사고 차량 작업 준비사항",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 178.36,
+          "source_bottom": 193.15,
+          "evidence_text": [
+            "• 전해질용수건"
+          ]
+        },
+        {
+          "text": "비닐 테이프: 터미널 절연용",
+          "kind": "보호준비물",
+          "purpose": "터미널 절연",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 197.95,
+          "source_bottom": 213.55,
+          "evidence_text": [
+            "• 비닐 테이프(터미널 절연용)"
+          ]
+        },
+        {
+          "text": "메가옴 테스터: 고전압 절연저항 확인용",
+          "kind": "측정장비",
+          "purpose": "고전압 절연저항 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "사고 차량 작업 준비사항에만 적용. 소화·고전압 취급 방법은 원문 전체 주의사항을 함께 따름.",
+          "source_top": 217.15,
+          "source_bottom": 233.14,
+          "evidence_text": [
+            "• 메가옴 테스터(고전압 절연저항 확인용)"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "b960683e865ded9f9570a40def53f5e121a440a23e039c6acf51dad1399934e7",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "16__01.png"
+      }
+    },
+    "17.pdf#1": {
+      "file": "17.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "전동식 컴프레서 전용 냉매 회수·충전기",
+          "kind": "전용장비",
+          "purpose": "하이브리드 차량 냉매 회수·충전",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 하이브리드 차량 냉매 회수·충전 시에만 적용. 일반 차량 PAG 오일 혼입 금지. 기기 모델·냉매량은 이 항목에서 추정하지 않음.",
+          "source_top": 238.34,
+          "source_bottom": 324.72,
+          "evidence_text": [
+            "• 냉매 회수/충전 시 일반 차량의 PAG 오일이 혼입되지 않도록 하이브리드 차량 정비를 위한 별도 전용 장비(냉매 회수/충전",
+            "• 반드시 전동식 컴프레서 전용의 냉매 회수 / 충전기를 사용하여 지정된 냉매와 냉동유(POE)를 주입한다. 일반 차량의 냉"
+          ]
+        },
+        {
+          "text": "지정 냉매·냉동유(POE): 냉매 회수·충전 시",
+          "kind": "작업자재",
+          "purpose": "전동식 컴프레서 냉매·냉동유 주입",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "지정 냉매의 종류·양은 이 원문에 구체적으로 기재되지 않아 보완하지 않음.",
+          "source_top": 219.15,
+          "source_bottom": 324.72,
+          "evidence_text": [
+            "• 고전압을 사용하는 차량의 전동식 컴프레서는 절연성능이 높은 POE 오일을 사용한다",
+            "• 반드시 전동식 컴프레서 전용의 냉매 회수 / 충전기를 사용하여 지정된 냉매와 냉동유(POE)를 주입한다. 일반 차량의 냉"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "78d41c7c3ac2b3e7cdb228c475b3486208a789f84d452ecbf69f4fe26ef11034",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "17__01.png"
+      }
+    },
+    "19.pdf#1": {
+      "file": "19.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "실리콘 오일",
+          "kind": "작업자재",
+          "purpose": "선루프 웨더 스트립 비빔 소음 시 도포",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "바디 고장진단표의 해당 현상·원인 조건에서만 적용. 제품 규격·품번·양은 미기재.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "그리스",
+          "kind": "작업자재",
+          "purpose": "선루프 메커니즘 레일 청소 후 도포 또는 도어 힌지·체커 그리스 부족 시 주유",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "바디 고장진단표의 해당 현상·원인 조건에서만 적용. 제품 규격·품번·양은 미기재.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "소음 발생부 패드",
+          "kind": "작업자재",
+          "purpose": "선루프 커버·트림 간섭 소음 부위 부착",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "바디 고장진단표의 해당 현상·원인 조건에서만 적용. 제품 규격·품번·양은 미기재.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        }
+      ],
+      "parts": [
+        {
+          "text": "도어 아웃벨트",
+          "condition": "도어 주위 풍절음의 원인이 아웃벨트 스킨립 들뜸일 때 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "선루프 웨더 스트립",
+          "condition": "선루프 누수의 원인이 웨더 스트립 오장착·변형일 때 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "선루프 디플렉터",
+          "condition": "선루프 바람소리의 원인이 디플렉터 변형·이탈일 때 교체 또는 재장착",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "선루프 모터",
+          "condition": "작동 케이블·피니언 맞물림 불량 시 위치 조정 또는 교체; 피니언 기어 마모·파손 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "선루프 롤러 블라인드",
+          "condition": "스프링 내부 소음·텐션 풀림 시 교체; 테프론 가이드 이탈 시 재조립 또는 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "선루프 메커니즘 레일",
+          "condition": "레일 이물질 퇴적으로 작동 부하 증가 시 원문 조치 순서에 따라 청소·그리스 도포와 모터 조정/교체 후 레일 교체 판단",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "선루프 프런트·무빙 글라스",
+          "condition": "외부 충격으로 파손된 해당 글라스를 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "도어 글라스 모터·레귤레이터",
+          "condition": "모터 고장 또는 레귤레이터 파손·변형이 확인되면 수정 또는 교환",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "도어 핸들·랫치·체커",
+          "condition": "도어 개폐 불량의 원인이 해당 부품의 파손·변형·장착 불량인 경우 수정 또는 교환",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "2d54bc29aaeb17599478d36ac394554e664cfb3895598beffd16f85fbdbc58d2",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "19__01.png"
+      }
+    },
+    "19.pdf#2": {
+      "file": "19.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "씰런트",
+          "kind": "작업자재",
+          "purpose": "윈드쉴드·리어 윈도우 누수 원인이 실 파손인 경우 도포",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "바디 고장진단표의 해당 현상·원인 조건에서만 적용. 제품 규격·품번·양은 미기재.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "깨끗한 물수건",
+          "kind": "작업자재",
+          "purpose": "오염된 글라스·와이퍼 블레이드 청소",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "바디 고장진단표의 해당 현상·원인 조건에서만 적용. 제품 규격·품번·양은 미기재.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "공구: 와이퍼 블레이드 유격 조치용",
+          "kind": "일반공구",
+          "purpose": "와이퍼 블레이드 유격 시 좌우측을 눌러 조치",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "바디 고장진단표의 해당 현상·원인 조건에서만 적용. 제품 규격·품번·양은 미기재.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        }
+      ],
+      "parts": [
+        {
+          "text": "와이퍼 고무",
+          "condition": "와이퍼 닦임·떨림·소음의 원인이 고무 마모인 경우 신품 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "2d54bc29aaeb17599478d36ac394554e664cfb3895598beffd16f85fbdbc58d2",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "19__02.png"
+      }
+    },
+    "22.pdf#1": {
+      "file": "22.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "호그 링 클립 인스톨러 (09880-4F000)",
+          "kind": "특수공구",
+          "purpose": "호그 링 클립 장착",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": "09880-4F000",
+          "scope_note": "특수공구 표의 명시 용도에만 적용. 차량 교환 부품번호가 아니며 모든 도어 작업의 필수 공구가 아님.",
+          "source_top": 112.37,
+          "source_bottom": 141.97,
+          "evidence_text": [
+            "09880-4F000",
+            "호그 링 클립 인스톨러",
+            "호그 링 클립 장착시 사용"
+          ]
+        },
+        {
+          "text": "수직 측정기 (09964-C1200)",
+          "kind": "특수공구",
+          "purpose": "빌트인 캠 전방 카메라 보정 시 타겟 각도 측정",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": "09964-C1200",
+          "scope_note": "특수공구 표의 명시 용도에만 적용. 차량 교환 부품번호가 아니며 모든 도어 작업의 필수 공구가 아님.",
+          "source_top": 261.94,
+          "source_bottom": 290.73,
+          "evidence_text": [
+            "09964-CI 200",
+            "수직 측정기"
+          ]
+        },
+        {
+          "text": "전방 카메라 보정용 지그 (09890-3V100)",
+          "kind": "특수공구",
+          "purpose": "빌트인 캠 전방 카메라 보정",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": "09890-3V100",
+          "scope_note": "특수공구 표의 명시 용도에만 적용. 차량 교환 부품번호가 아니며 모든 도어 작업의 필수 공구가 아님.",
+          "source_top": 403.9,
+          "source_bottom": 432.3,
+          "evidence_text": [
+            "09890-3V100",
+            "전방 카메라 보정용 지그"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "4ef9c80a9bd8e0393d60ed0947d18472de23692fc48e7048863b55bc73151984",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "22__01.png"
+      }
+    },
+    "24-2.pdf#1": {
+      "file": "24-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "f5789aa38c9ac7e51fdfd64a595eaa09f77825421b8750d588f0f1a1c3e070db",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "24-2__01.png"
+      }
+    },
+    "25-2.pdf#1": {
+      "file": "25-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "8f902f2dec3912910bcaf45f9726221478efc98d41277cd4ae6c93b7ee1f025c",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "25-2__01.png"
+      }
+    },
+    "26-2.pdf#1": {
+      "file": "26-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "a63beaa66627c6cdd07028f4c78b4dce91227993bae08b6da5f2a0cfe43a5020",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "26-2__01.png"
+      }
+    },
+    "29-2.pdf#1": {
+      "file": "29-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "215ec49108c0a7b0ca3cc51d142464bff60d38bd151591f94059f50745b9fc55",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "29-2__01.png"
+      }
+    },
+    "30-2.pdf#1": {
+      "file": "30-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "57304dee8db4673ec06698f152878d51db172fd6f821af07bc3ae6fa64fbfbf6",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "30-2__01.png"
+      }
+    },
+    "31-2.pdf#1": {
+      "file": "31-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "dc06820323a0e0f07fbf14b47f6e71bd310e98bf8e16bcb32ec4923f0af65af3",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "31-2__01.png"
+      }
+    },
+    "32-2.pdf#1": {
+      "file": "32-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "529b88dd6b0b0ceb4322a19c94083de5b549bdd0ab0fdae4b8011a76b2539e1a",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "32-2__01.png"
+      }
+    },
+    "33-2.pdf#1": {
+      "file": "33-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "fe95e12b351355300b5ed9cea99eb0ceb409598a8b6feed61093e4d5ad6c987c",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "33-2__01.png"
+      }
+    },
+    "34-2.pdf#1": {
+      "file": "34-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "4d956544003af99aab9babe2b68b87dc3d8d20ed830434c70528478d8208dad4",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "34-2__01.png"
+      }
+    },
+    "35-3.pdf#1": {
+      "file": "35-3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: 파워 테일게이트 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "파워 테일게이트 시스템 고장코드·스위치 상태 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 138.77,
+          "source_bottom": 764.62,
+          "evidence_text": [
+            "가장 신뢰할 수 있고, 효율적이며, 정확한 방법은 진단 기기를 사용하는 것이다.",
+            "진단 기기는 기술자가 사용할 수 없는 스위치를 진단할 때 도움을 주며, 파워 테일게이트 컨트롤 모듈의 현재 스위치의 상태 기",
+            "진단 기기를 사용하여 스위치 상태 점검",
+            "진단 기기를 사용하여 코드 상태 확인",
+            "진단 기기를 사용하여 문제 진단코드를 확인한다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "text": "테일게이트 랫치 어셈블리",
+          "condition": "갑작스러운 열림의 원인이 랫치 이상인 경우 배선·고장코드 확인 후 필요 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "간섭 부위의 해당 부품",
+          "condition": "고장진단표의 구성요소 간 간섭이 확인된 경우 간섭 위치 재설정 또는 필요한 부품 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "eb669f3c0deb3d86486a794dcb551ecead77d5d96791a33cc6c5b02affe4f514",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "35-3__01.png"
+      }
+    },
+    "35-3.pdf#2": {
+      "file": "35-3.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: 파워 테일게이트 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "파워 테일게이트 시스템 고장코드·스위치 상태 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 51.59,
+          "source_bottom": 637.05,
+          "evidence_text": [
+            "진단 기기를 이용하여 문제 진단코드를 확인한다",
+            "진단 기기를 사용하여 문제 진단코드를 확인한다",
+            "진단 기기를 사용하여 스위치 상태 점검",
+            "진단 기기를 사용하여 스위치 상태 점검",
+            "문제 코드 및 사이클을 진단 기기를 사용하여 점",
+            "문제 코드 및 사이클을 진단 기기를 사용하여 점",
+            "진단 기기를 사용하여 폴/라쳇 스위치를 점검한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "text": "테일게이트 랫치 어셈블리",
+          "condition": "Primary/Secondary 위치에서 파워래칭 불가·랫치 이상일 때 배선·코드·진단 확인 후 필요 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "간섭 부위의 해당 부품",
+          "condition": "고장진단표의 구성요소 간 간섭이 확인된 경우 간섭 위치 재설정 또는 필요한 부품 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "eb669f3c0deb3d86486a794dcb551ecead77d5d96791a33cc6c5b02affe4f514",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "35-3__02.png"
+      }
+    },
+    "35-3.pdf#3": {
+      "file": "35-3.pdf",
+      "page": 3,
+      "tools": [
+        {
+          "text": "진단 기기: 파워 테일게이트 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "파워 테일게이트 시스템 고장코드·스위치 상태 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 476.29,
+          "source_bottom": 571.86,
+          "evidence_text": [
+            "진단 기기를 사용하여 스위치를 점검한다.",
+            "진단 기기를 사용하여 고장 코드를 확인한다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "text": "바디 도메인 컨트롤 유닛(BDC)",
+          "condition": "전동 잠금해제 불가·BDC 이상일 때 차체 점검 매뉴얼에 따라 진단하고 필요 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "무선 리모트키",
+          "condition": "전동 잠금해제 불가·리모트키 이상일 때 프로그램 재작성 후 필요 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "테일게이트 모터 어셈블리",
+          "condition": "전동 잠금해제 불가·모터 이상일 때 이물질·배선 확인 후 클러치가 붙지 않으면 어셈블리 교체; 진단 후 필요 시 모터 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "테일게이트 완전 개방 스위치",
+          "condition": "전동 잠금해제 불가·모터 이상 진단에서 완전 개방 스위치가 작동하지 않으면 필요 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "테일게이트 가스 스트럿",
+          "condition": "열린 상태 유지 불가 또는 개폐 작동력 과다의 원인이 가스 스트럿 이상이면 교체하고 부착물 파손 확인",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "간섭 부위의 해당 부품",
+          "condition": "고장진단표의 구성요소 간 간섭이 확인된 경우 간섭 위치 재설정 또는 필요한 부품 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "테일게이트 드라이브 유닛 관련 부품",
+          "condition": "개폐 작동력 과다의 원인이 드라이브 유닛 고장·연결 해제 불가일 때 차체 점검 매뉴얼에 따라 진단 후 필요 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "eb669f3c0deb3d86486a794dcb551ecead77d5d96791a33cc6c5b02affe4f514",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "35-3__03.png"
+      }
+    },
+    "35-3.pdf#4": {
+      "file": "35-3.pdf",
+      "page": 4,
+      "tools": [],
+      "parts": [
+        {
+          "text": "테일게이트 가스 스트럿",
+          "condition": "테일게이트가 매우 느리게 열리고 가스 스트럿 이상이 확인되면 필요 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "테일게이트 모터 어셈블리",
+          "condition": "테일게이트가 매우 느리게 열리고 모터 어셈블리 이상이 확인되면 필요 시 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        },
+        {
+          "text": "간섭 부위의 해당 부품",
+          "condition": "고장진단표의 구성요소 간 간섭이 확인된 경우 간섭 위치 재설정 또는 필요한 부품 교체",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "고장진단표의 해당 현상·원인 확인 후 적용. 진단 전 일괄 교환 또는 무조건 교환 지시가 아님.",
+          "source_top": 0.0,
+          "source_bottom": 841.0
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "eb669f3c0deb3d86486a794dcb551ecead77d5d96791a33cc6c5b02affe4f514",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "35-3__04.png"
+      }
+    },
+    "35-4.pdf#4": {
+      "file": "35-4.pdf",
+      "page": 4,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 30.39,
+          "source_bottom": 361.91,
+          "evidence_text": [
+            "1 바디 전장 시스템은 자량용 진단 장비 (진단 기기)를 사용해서 신속하게 고장 부위를 진단할 수 있다",
+            "2 진단 기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진만을 선택한다.",
+            "• 진단 기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+            "• 진단 기기 사용시 배터리 방전에 유의한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "b55960243b870885f6eadba79726be99c66f1a3d2313745a43f8164d690df3b6",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "35-4__04.png"
+      }
+    },
+    "35-4.pdf#5": {
+      "file": "35-4.pdf",
+      "page": 5,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 30.39,
+          "source_bottom": 98.38,
+          "evidence_text": [
+            "3 진단 기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+            "• 추가적인 절차는 진단 기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "b55960243b870885f6eadba79726be99c66f1a3d2313745a43f8164d690df3b6",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "35-4__05.png"
+      }
+    },
+    "35-4.pdf#6": {
+      "file": "35-4.pdf",
+      "page": 6,
+      "tools": [
+        {
+          "text": "진단 기기: PTG 모드 변경 시",
+          "kind": "진단장비",
+          "purpose": "진단 기기를 사용하는 PTG 모드 변경 절차의 후속 작업",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "이 쪽 앞부분의 모드 변경에만 적용. 뒤의 PTG 초기화·셋팅은 진단장비로 할 수 없으며 반드시 수동 조작하도록 원문이 명시.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "evidence_text": [
+            "• 추가적인 절자는 진단 기기의 설명을 따라 진행한다",
+            "• PTG의 모든 초기화 및 셋팅은 진단 장비로 할 수 없으며, 반드시 수동 조작을 해야한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "b55960243b870885f6eadba79726be99c66f1a3d2313745a43f8164d690df3b6",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "35-4__06.png"
+      }
+    },
+    "38-2.pdf#1": {
+      "file": "38-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "스크류 드라이버 또는 리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "원문은 두 공구를 선택 관계로 제시. 팁 종류와 치수는 미기재.",
+          "source_top": 138.77,
+          "source_bottom": 153.16,
+          "evidence_text": [
+            "• 스크류 드라이버 또는 리무버를 사용하여 탈거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+          ]
+        },
+        {
+          "text": "보호 테이프: 탈거 공구에 감아 사용",
+          "kind": "보호준비물",
+          "purpose": "공구에 의한 부품 손상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 138.77,
+          "source_bottom": 153.16,
+          "evidence_text": [
+            "• 스크류 드라이버 또는 리무버를 사용하여 탈거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 157.96,
+          "source_bottom": 172.36,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "92209976760dfad81c43978a312c1fe063ae19214919ea81277283d2ea614241",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "38-2__01.png"
+      }
+    },
+    "39-2.pdf#1": {
+      "file": "39-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "2549bbfd0a23dbdac645b21a19d15e19652c428f967b37b254642908c4c6f69d",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "39-2__01.png"
+      }
+    },
+    "40-2.pdf#1": {
+      "file": "40-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 138.77,
+          "source_bottom": 153.16,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "e629b71b1fad09c2829b40255f4d3b1c2d919e8dcfdad5cd88661bb5d4e8ced6",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "40-2__01.png"
+      }
+    },
+    "41-2.pdf#1": {
+      "file": "41-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "스크류 드라이버 또는 리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "원문은 두 공구를 선택 관계로 제시. 팁 종류와 치수는 미기재.",
+          "source_top": 119.17,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 스크류 드라이버 또는 리무버를 사용하여 달거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+          ]
+        },
+        {
+          "text": "보호 테이프: 탈거 공구에 감아 사용",
+          "kind": "보호준비물",
+          "purpose": "공구에 의한 부품 손상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.17,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 스크류 드라이버 또는 리무버를 사용하여 달거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 138.77,
+          "source_bottom": 153.16,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "af7a0cf94b99a7a663e89f053a6e0a39d6e21fec9cc4d1c6a7c6b21974861fef",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "41-2__01.png"
+      }
+    },
+    "42-2.pdf#1": {
+      "file": "42-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 326.32,
+          "source_bottom": 675.84,
+          "evidence_text": [
+            "진단 기기를 이용한 고장진단 방법",
+            "1 바디 전장 시스템은 차량용 진단 장비(진단 기기)를 사용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 참",
+            "2 진단 기기를 사용해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다",
+            "• 진단 기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다 (시스템 오류 방지)",
+            "• 진단 기기 사용시 배터리 방전에 유의한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "ba1ad7db2b6a6e27cadb2c558995d5fc7aca6a053765abc237a5fdf7b91d9b0f",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-2__01.png"
+      }
+    },
+    "42-2.pdf#2": {
+      "file": "42-2.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 30.79,
+          "source_bottom": 98.78,
+          "evidence_text": [
+            "3 진단 기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+            "• 추가적인 절자는 진단 기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "ba1ad7db2b6a6e27cadb2c558995d5fc7aca6a053765abc237a5fdf7b91d9b0f",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-2__02.png"
+      }
+    },
+    "42-2.pdf#3": {
+      "file": "42-2.pdf",
+      "page": 3,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 103.58,
+          "source_bottom": 117.97,
+          "evidence_text": [
+            "• 추가적인 절자는 진단 기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "ba1ad7db2b6a6e27cadb2c558995d5fc7aca6a053765abc237a5fdf7b91d9b0f",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-2__03.png"
+      }
+    },
+    "42-3.pdf#1": {
+      "file": "42-3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: PTG 모드 변경 시",
+          "kind": "진단장비",
+          "purpose": "파워 테일게이트 모드 변경",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 161.56,
+          "source_bottom": 278.33,
+          "evidence_text": [
+            "1 차량과 진단 기기를 연결한다",
+            "• 진단 기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+            "• 진단 기기 사용시 배터리 방전에 유의한다",
+            "2 진단 기기의 \"부가기능\"을 선택한다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "text": "파워 테일게이트 유닛",
+          "condition": "신품 교환 후 고장코드를 확인하고 B24B0 잔존 시 파워 테일게이트 모드 변경",
+          "kind": "교환 후 절차",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "이 페이지는 교환 판정 기준이 아니며, 단순 탈거·재장착을 신품 교체로 해석하지 않음.",
+          "source_top": 119.17,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 신품의 파워 테일게이트 유닛을 교환한 경우 고장코드 유무를 반드시 확인한다"
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "bd79a4ccf7571647099c7c357117acf70c26870cbbd6e82524074a9f01510bda",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-3__01.png"
+      }
+    },
+    "42-3.pdf#2": {
+      "file": "42-3.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: PTG 모드 변경 시",
+          "kind": "진단장비",
+          "purpose": "파워 테일게이트 모드 변경",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 83.98,
+          "source_bottom": 98.38,
+          "evidence_text": [
+            "• 추가적인 절차는 진단 기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "bd79a4ccf7571647099c7c357117acf70c26870cbbd6e82524074a9f01510bda",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-3__02.png"
+      }
+    },
+    "42-4.pdf#1": {
+      "file": "42-4.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "08db6edc37528341eb62366a1047365b238b9e9298fb1a8bedb5e706c4b6c3b1",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-4__01.png"
+      }
+    },
+    "42-5.pdf#1": {
+      "file": "42-5.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: OTA 대상 제어기 교체 시",
+          "kind": "진단장비",
+          "purpose": "OTA 대상 제어기 교체 시 S/W 업데이트",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "OTA 대상 제어기 교체에만 적용. 원문은 미진행 시 OTA 자동 업데이트 불가를 명시.",
+          "source_top": 341.12,
+          "source_bottom": 357.12,
+          "evidence_text": [
+            "• OTA 대상 제어기 교체 시 진단 기기를 사용하여 S/W업데이트를 실시한다. (미진행 시 OTA자동 업데이트 불가)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "text": "파워 테일게이트 유닛",
+          "condition": "신품 교환 후 고장코드 확인(B24B0 잔존 시 모드 변경)·배리언트 코딩·초기화 진행",
+          "kind": "교환 후 절차",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "이 페이지는 교환 판정 기준이 아니며, 단순 탈거·재장착을 신품 교체로 해석하지 않음.",
+          "source_top": 204.35,
+          "source_bottom": 357.12,
+          "evidence_text": [
+            "• 신품의 파워 테일게이트 유닛을 교환한 경우 고장코드 유무를 반드시 확인한다",
+            "• 신품의 PTG 유닛을 교환한 경우 배리언트 코딩을 진행한다",
+            "• 신품의 PTG 유닛을 교환한 경우 초기화 과정을 진행한다",
+            "• OTA 대상 제어기 교체 시 진단 기기를 사용하여 S/W업데이트를 실시한다. (미진행 시 OTA자동 업데이트 불가)"
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "003f05078196aac2a458412b846637dd86338febf64ab846d812326de8145410",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-5__01.png"
+      }
+    },
+    "42-6.pdf#1": {
+      "file": "42-6.pdf",
+      "page": 1,
+      "tools": [],
+      "parts": [
+        {
+          "text": "파워 테일게이트 유닛",
+          "condition": "신품 교체 후 차량 사양에 맞는 배리언트 코딩 실시",
+          "kind": "교환 후 절차",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "이 페이지는 교환 판정 기준이 아니며, 단순 탈거·재장착을 신품 교체로 해석하지 않음.",
+          "source_top": 103.98,
+          "source_bottom": 118.37,
+          "evidence_text": [
+            "파워 테일게이트 유닛을 신품으로 교체한 경우 차량 사양에 맞는 배리언트 코딩을 실시한다."
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "933b8a9d20d72ad2b81544c058bf60856471f07f9916ff22769fe42bc647b8d3",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-6__01.png"
+      }
+    },
+    "42-6.pdf#2": {
+      "file": "42-6.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: PTG 유닛 교체 후 코딩 시",
+          "kind": "진단장비",
+          "purpose": "신품 파워 테일게이트 유닛의 차량 사양별 배리언트 코딩",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "파워 테일게이트 유닛을 신품 교체한 경우에 적용.",
+          "source_top": 30.79,
+          "source_bottom": 161.16,
+          "evidence_text": [
+            "1 파워 테일게이트 유닛 교제 시 진단 기기를 사용해 '배리언트 코딩을 실시한다.",
+            "( 자기 진단 커넥터에 진단 기기를 연결하여, IG ON 후 진단기를 켠다",
+            "( 진단기 차종 선택 화면에서 \"차종\"과 \"파워 테일게이트\"을 선택한다",
+            "( 배리언트 코딩을 선택하여 진단 기기 절차에 따라 실시한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "933b8a9d20d72ad2b81544c058bf60856471f07f9916ff22769fe42bc647b8d3",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "42-6__02.png"
+      }
+    },
+    "43-2.pdf#1": {
+      "file": "43-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "c20d6a63db9459d859ee9e84d652185093230296ed551004cdbb50088b2d9f05",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "43-2__01.png"
+      }
+    },
+    "44-2.pdf#1": {
+      "file": "44-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "62621d846cc0a09c7686d304ba14b46353dbac1a50b406e03d9ab894d867a976",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "44-2__01.png"
+      }
+    },
+    "45-3.pdf#1": {
+      "file": "45-3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        },
+        {
+          "text": "얇은 공구: 도어 커버 잠금핀 해제용",
+          "kind": "일반공구",
+          "purpose": "연료 주입 도어 커버 잠금핀 해제",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "2단계에 명시된 공구. 형태·치수·품번 미기재.",
+          "source_top": 259.94,
+          "source_bottom": 275.93,
+          "evidence_text": [
+            "2 얇은 공구(시를 이용하여 연료 주입 도어 커버의 잠금핀(B)을 해제 한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "f51eba120a5f48f2c4981e8c7799f81592e8706de469572c3ad8e01bd848aa58",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "45-3__01.png"
+      }
+    },
+    "45-5.pdf#1": {
+      "file": "45-5.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "4616cfd93419b656ee49698015a363348f32be4b95da65ccddcf95e89b39b1e8",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "45-5__01.png"
+      }
+    },
+    "45-7.pdf#1": {
+      "file": "45-7.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "36042853e63ef6cbd326ebb84a65b650bcadb48c283386f7c71b594dcae7bc18",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "45-7__01.png"
+      }
+    },
+    "46-2.pdf#1": {
+      "file": "46-2.pdf",
+      "page": 1,
+      "tools": [],
+      "parts": [
+        {
+          "text": "프런트 도어 글라스런 판넬",
+          "condition": "손상 여부를 확인하고 필요 시 교환",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "원문 글라스 조정의 사전 점검 조건. 일괄 필수 교환으로 해석하지 않음.",
+          "source_top": 141.57,
+          "source_bottom": 155.96,
+          "evidence_text": [
+            "• 글라스런 판넬의 손상여부를 확인하고 필요시 교환한다."
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "cde60bb364b73aaa9c0a636abe1209cc1159fd2f958a6b4b7d9438f2f9a53311",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "46-2__01.png"
+      }
+    },
+    "46-4.pdf#1": {
+      "file": "46-4.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "c093b7c9b26197f0efd35ab39f223be60cf79d575ce6268cf2cadc866992e629",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "46-4__01.png"
+      }
+    },
+    "46-5.pdf#1": {
+      "file": "46-5.pdf",
+      "page": 1,
+      "tools": [],
+      "parts": [
+        {
+          "text": "프런트 도어 트림 클립(파스너)",
+          "condition": "도어 트림 탈거 후 재장착 시 반드시 교환",
+          "kind": "필수 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "원문에 수밀·이탈 문제 예방 사유가 명시됨. 부품번호·수량은 미기재.",
+          "source_top": 144.37,
+          "source_bottom": 160.36,
+          "evidence_text": [
+            "• 도어트림 탈거 후 재 장작시 클립(파스너)은 반드시 교환한다."
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "874a4744680ea19dd6c6596f5b0ebcd1069faf40e9e9ee99ea0c27914525a755",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "46-5__01.png"
+      }
+    },
+    "46-7.pdf#1": {
+      "file": "46-7.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "d65f19524e95e0b6b3fe4a93a86fa5a4b74f6712dc7539415bcc845745961e07",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "46-7__01.png"
+      }
+    },
+    "47-2.pdf#1": {
+      "file": "47-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "0aeefa05398350c923b2ff6c477f29a773e8c71aeed775090fcbdefa342cbf7a",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "47-2__01.png"
+      }
+    },
+    "48-2.pdf#1": {
+      "file": "48-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "d33285a624a5de9a395d8a9a1b76c0d1fdea3c3ab3e42410af6bbfda0ce64ad2",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "48-2__01.png"
+      }
+    },
+    "49-2.pdf#1": {
+      "file": "49-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "ed53c11630b09823d5f047984b134e25007d480e73ffa3762dc7f771858a4f5d",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "49-2__01.png"
+      }
+    },
+    "50-2.pdf#1": {
+      "file": "50-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "4352e94fb22d17a9d0e692f863bb7b4c454930cb37a7e2178a753a9a922c5f3d",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "50-2__01.png"
+      }
+    },
+    "51-2.pdf#1": {
+      "file": "51-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "de058d43997488b9ca1b96f75da33b310ee2e20e80b93c6bcf6bf3fe21a54814",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "51-2__01.png"
+      }
+    },
+    "52-3.pdf#1": {
+      "file": "52-3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 326.32,
+          "source_bottom": 675.84,
+          "evidence_text": [
+            "진단기기를 이용한 고장진단 방법",
+            "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+            "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+            "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+            "• 진단기기 사용시 배터리 방전에 유의한다."
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "f4023893493f038c74888cd15c6c9d7e2c8308bccf1df05d035ceb6248331d91",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "52-3__01.png"
+      }
+    },
+    "52-3.pdf#2": {
+      "file": "52-3.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 30.79,
+          "source_bottom": 98.78,
+          "evidence_text": [
+            "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "f4023893493f038c74888cd15c6c9d7e2c8308bccf1df05d035ceb6248331d91",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "52-3__02.png"
+      }
+    },
+    "52-3.pdf#3": {
+      "file": "52-3.pdf",
+      "page": 3,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 103.58,
+          "source_bottom": 117.97,
+          "evidence_text": [
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "f4023893493f038c74888cd15c6c9d7e2c8308bccf1df05d035ceb6248331d91",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "52-3__03.png"
+      }
+    },
+    "52-4.pdf#1": {
+      "file": "52-4.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "0c48b8e13125562c821cc859928f8a235f390905a3f183137e3625c274a3e795",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "52-4__01.png"
+      }
+    },
+    "53-2.pdf#1": {
+      "file": "53-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 326.32,
+          "source_bottom": 675.84,
+          "evidence_text": [
+            "진단기기를 이용한 고장진단 방법",
+            "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+            "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+            "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+            "• 진단기기 사용시 배터리 방전에 유의한다."
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "114f25e19ac82fa55562a42207ea0e8da57309d51ed85259ab154efa5610389d",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "53-2__01.png"
+      }
+    },
+    "53-2.pdf#2": {
+      "file": "53-2.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 30.79,
+          "source_bottom": 98.78,
+          "evidence_text": [
+            "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "114f25e19ac82fa55562a42207ea0e8da57309d51ed85259ab154efa5610389d",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "53-2__02.png"
+      }
+    },
+    "53-2.pdf#3": {
+      "file": "53-2.pdf",
+      "page": 3,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 103.58,
+          "source_bottom": 117.97,
+          "evidence_text": [
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "114f25e19ac82fa55562a42207ea0e8da57309d51ed85259ab154efa5610389d",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "53-2__03.png"
+      }
+    },
+    "53-3.pdf#1": {
+      "file": "53-3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "a4a0b389598ef01a6dae137e7beba41794c28eff2e2b01d92708e626ab14b94f",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "53-3__01.png"
+      }
+    },
+    "54-2.pdf#1": {
+      "file": "54-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 326.32,
+          "source_bottom": 675.84,
+          "evidence_text": [
+            "진단기기를 이용한 고장진단 방법",
+            "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+            "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+            "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+            "• 진단기기 사용시 배터리 방전에 유의한다."
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "518fa4912ce13ff450aa667e7fc591264e63e085ef315c3b1139961b871feab6",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "54-2__01.png"
+      }
+    },
+    "54-2.pdf#2": {
+      "file": "54-2.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 30.79,
+          "source_bottom": 98.78,
+          "evidence_text": [
+            "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "518fa4912ce13ff450aa667e7fc591264e63e085ef315c3b1139961b871feab6",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "54-2__02.png"
+      }
+    },
+    "54-2.pdf#3": {
+      "file": "54-2.pdf",
+      "page": 3,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 103.58,
+          "source_bottom": 117.97,
+          "evidence_text": [
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "518fa4912ce13ff450aa667e7fc591264e63e085ef315c3b1139961b871feab6",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "54-2__03.png"
+      }
+    },
+    "54-3.pdf#1": {
+      "file": "54-3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "d83b6abe83200d0e45a993db0e56b17a4e44530ffefd9298159de7ccf72fdc5e",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "54-3__01.png"
+      }
+    },
+    "55-2.pdf#1": {
+      "file": "55-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "5935afdbc0e268d1498623a36ac5618f8cd01d963163927926476254bc08dcb1",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "55-2__01.png"
+      }
+    },
+    "55-3.pdf#1": {
+      "file": "55-3.pdf",
+      "page": 1,
+      "tools": [],
+      "parts": [
+        {
+          "text": "프런트 도어 프레임 가니쉬",
+          "condition": "탈거 후 부품 손상이 있을 경우 신품 교환",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "손상 조건에 해당하는 부품만 교환. 가니쉬와 몰딩의 품번을 동일하다고 추정하지 않음.",
+          "source_top": 88.78,
+          "source_bottom": 174.36,
+          "evidence_text": [
+            "프런트 도어 프레임 가니쉬",
+            "• 도어 프레임 가니쉬 탈거 후 부품 손상이 있을 경우, 신품으로 교환한다"
+          ]
+        },
+        {
+          "text": "프런트 도어 프레임 몰딩",
+          "condition": "탈거 후 부품 손상이 있을 경우 신품 교환",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "손상 조건에 해당하는 부품만 교환. 가니쉬와 몰딩의 품번을 동일하다고 추정하지 않음.",
+          "source_top": 194.35,
+          "source_bottom": 279.93,
+          "evidence_text": [
+            "프런트 도어 프레임 몰딩",
+            "• 도어 프레임 몰딩 탈거 후 부품 손상이 있을 경우, 신품으로 교환한다"
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "7e36ab89e91f71a71bdfbfbeaf448db0869cf3062364a5111ec96f2b62d1adb3",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "55-3__01.png"
+      }
+    },
+    "56-2.pdf#1": {
+      "file": "56-2.pdf",
+      "page": 1,
+      "tools": [],
+      "parts": [
+        {
+          "text": "리어 도어 글라스런 판넬",
+          "condition": "손상 여부를 확인하고 필요 시 교환",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "원문 글라스 조정의 사전 점검 조건. 일괄 필수 교환으로 해석하지 않음.",
+          "source_top": 141.57,
+          "source_bottom": 155.96,
+          "evidence_text": [
+            "• 글라스런 판넬의 손상여부를 확인하고 필요시 교환한다."
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "f1c4143b7e98eb63e7920ab70d516558a72d1e355793bffecb3c98d1eb1499e9",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "56-2__01.png"
+      }
+    },
+    "57-2.pdf#1": {
+      "file": "57-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "1c3a09c01af29066a563360f43530f950eacb4663324a1f8ce3e42809263b529",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "57-2__01.png"
+      }
+    },
+    "57-3.pdf#1": {
+      "file": "57-3.pdf",
+      "page": 1,
+      "tools": [],
+      "parts": [
+        {
+          "text": "리어 도어 트림 클립(파스너)",
+          "condition": "도어 트림 탈거 후 재장착 시 반드시 교환",
+          "kind": "필수 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "원문에 수밀·이탈 문제 예방 사유가 명시됨. 부품번호·수량은 미기재.",
+          "source_top": 144.37,
+          "source_bottom": 160.36,
+          "evidence_text": [
+            "• 도어트림 탈거 후 재 장작시 클립(파스너)은 반드시 교환한다."
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "8b875ce916ebd6f902ae507f6fa72784d711d2d6349306079049653e39701c25",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "57-3__01.png"
+      }
+    },
+    "58-2.pdf#1": {
+      "file": "58-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "6198f40c697eb1f083db41e86191c70dd8fa9d87d44d57890640fa356faedbbb",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "58-2__01.png"
+      }
+    },
+    "59-2.pdf#1": {
+      "file": "59-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "649f2c66353150de29a9c3397e54a9af099541d6b0fc29bf89614b5e64428747",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "59-2__01.png"
+      }
+    },
+    "60-2.pdf#1": {
+      "file": "60-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "33495fabe4c44b1355e7b6d64bec589d076a159c85033f6403921aeff7daa57a",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "60-2__01.png"
+      }
+    },
+    "61-2.pdf#1": {
+      "file": "61-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "97b7b02adb60f7c3c96eeb5cbb08bf7f738f33d389da780705b6b9f6dec93060",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "61-2__01.png"
+      }
+    },
+    "62-2.pdf#1": {
+      "file": "62-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "60831bd9df6cf290b79c8525ecb503c38790d78bb13fccbc4b8e228d8c6341b1",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "62-2__01.png"
+      }
+    },
+    "63-2.pdf#1": {
+      "file": "63-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "485e2c364cc48e75b9a527493dcb92994394cea5f0e0dd03aef4c680a9644a38",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "63-2__01.png"
+      }
+    },
+    "64-2.pdf#1": {
+      "file": "64-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "98bac644c55b61bf1e7c1dd2d144796cc71e66a45c94075ae950fd720aebf602",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "64-2__01.png"
+      }
+    },
+    "65-2.pdf#1": {
+      "file": "65-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 326.32,
+          "source_bottom": 675.84,
+          "evidence_text": [
+            "진단기기를 이용한 고장진단 방법",
+            "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+            "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+            "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+            "• 진단기기 사용시 배터리 방전에 유의한다."
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "ef82bdad98de7bdd105b743eff96fe8884657aecb991f7d4922b4d5f66f86483",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "65-2__01.png"
+      }
+    },
+    "65-2.pdf#2": {
+      "file": "65-2.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 30.79,
+          "source_bottom": 98.78,
+          "evidence_text": [
+            "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "ef82bdad98de7bdd105b743eff96fe8884657aecb991f7d4922b4d5f66f86483",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "65-2__02.png"
+      }
+    },
+    "65-2.pdf#3": {
+      "file": "65-2.pdf",
+      "page": 3,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 103.58,
+          "source_bottom": 117.97,
+          "evidence_text": [
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "ef82bdad98de7bdd105b743eff96fe8884657aecb991f7d4922b4d5f66f86483",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "65-2__03.png"
+      }
+    },
+    "65-3.pdf#1": {
+      "file": "65-3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "3dd474c0c78d88d82fe723992b58ebaa1a28f46fd8a7046c64dd3fbb2293edf7",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "65-3__01.png"
+      }
+    },
+    "66-2.pdf#1": {
+      "file": "66-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 326.32,
+          "source_bottom": 675.84,
+          "evidence_text": [
+            "진단기기를 이용한 고장진단 방법",
+            "1 바디 전장 시스템은 차량용 진단 장비(진단기기)를 이용해서 신속하게 고장 부위를 진단할 수 있다. (\"DTC 진단 가이드\" 침",
+            "2 진단기기를 통해 차량을 진단하려면 \"차종\" 및 \"고장코드 진단을 선택한다.",
+            "• 진단기기를 정상적으로 사용하기 위해서 차량 상태를 \"ACC ON\" 으로 유지한다. (시스템 오류 방지)",
+            "• 진단기기 사용시 배터리 방전에 유의한다."
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "dfeb4e90c9e46fdad6dafb028b6fd0eca11c28cae733d4fabbabf6d0390eb22f",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "66-2__01.png"
+      }
+    },
+    "66-2.pdf#2": {
+      "file": "66-2.pdf",
+      "page": 2,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 30.79,
+          "source_bottom": 98.78,
+          "evidence_text": [
+            "3 진단기기의 \"고장코드 진단을 항목에서 점검을 원하는 시스템을 선택한다",
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "dfeb4e90c9e46fdad6dafb028b6fd0eca11c28cae733d4fabbabf6d0390eb22f",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "66-2__02.png"
+      }
+    },
+    "66-2.pdf#3": {
+      "file": "66-2.pdf",
+      "page": 3,
+      "tools": [
+        {
+          "text": "진단 기기: 해당 고장진단 시",
+          "kind": "진단장비",
+          "purpose": "해당 고장진단 절차의 코드·데이터·작동 확인",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 점검 절차에 적용. 기기 모델·공구번호는 원문 미기재.",
+          "source_top": 103.58,
+          "source_bottom": 117.97,
+          "evidence_text": [
+            "• 추가적인 절자는 진단기기의 설명을 따라 진행한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "dfeb4e90c9e46fdad6dafb028b6fd0eca11c28cae733d4fabbabf6d0390eb22f",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "66-2__03.png"
+      }
+    },
+    "66-3.pdf#1": {
+      "file": "66-3.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "5fd9e4e53b65f62787d5d160372feddfbabdf2b506ad715d9ec9386aad92c59b",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "66-3__01.png"
+      }
+    },
+    "67-2.pdf#1": {
+      "file": "67-2.pdf",
+      "page": 1,
+      "tools": [
+        {
+          "text": "리무버",
+          "kind": "일반공구",
+          "purpose": "해당 부품 탈거",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "해당 탈거 절차의 원문 지시. 세부 규격은 미기재.",
+          "source_top": 179.16,
+          "source_bottom": 193.95,
+          "evidence_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ]
+        },
+        {
+          "text": "장갑",
+          "kind": "보호준비물",
+          "purpose": "손 부상 방지",
+          "status": "원문 확인",
+          "specification": null,
+          "tool_number": null,
+          "scope_note": "",
+          "source_top": 119.57,
+          "source_bottom": 133.97,
+          "evidence_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ]
+        }
+      ],
+      "parts": [],
+      "visual_verified": true,
+      "source_pdf_sha256": "c653295fe4f821399b6db1d79ec7a91406da23668c0ae86883855cbf2c666ccb",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "67-2__01.png"
+      }
+    },
+    "67-3.pdf#1": {
+      "file": "67-3.pdf",
+      "page": 1,
+      "tools": [],
+      "parts": [
+        {
+          "text": "리어 도어 프레임 가니쉬",
+          "condition": "탈거 후 부품 손상이 있을 경우 신품 교환",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "손상 조건에 해당하는 부품만 교환. 가니쉬와 몰딩의 품번을 동일하다고 추정하지 않음.",
+          "source_top": 88.78,
+          "source_bottom": 174.36,
+          "evidence_text": [
+            "리어 도어 프레임 가니쉬",
+            "• 도어 프레임 가니쉬 탈거 후 부품 손상이 있을 경우, 신품으로 교환한다"
+          ]
+        },
+        {
+          "text": "리어 도어 프레임 몰딩",
+          "condition": "탈거 후 부품 손상이 있을 경우 신품 교환",
+          "kind": "조건부 교환",
+          "status": "차대번호로 품번 확인 필요",
+          "part_number": null,
+          "quantity": null,
+          "scope_note": "손상 조건에 해당하는 부품만 교환. 가니쉬와 몰딩의 품번을 동일하다고 추정하지 않음.",
+          "source_top": 194.35,
+          "source_bottom": 279.93,
+          "evidence_text": [
+            "리어 도어 프레임 몰딩",
+            "• 도어 프레임 몰딩 탈거 후 부품 손상이 있을 경우, 신품으로 교환한다"
+          ]
+        }
+      ],
+      "visual_verified": true,
+      "source_pdf_sha256": "9b3fd30a63d74777f11d0c6944a80653bf45417cd87342364ca696462abff1b9",
+      "verification": {
+        "method": "original source image region visually inspected",
+        "reviewed_on": "2026-10-18",
+        "source_image": "67-3__01.png"
+      }
+    }
+  },
+  "summary": {
+    "ocr_pages_searched": 383,
+    "source_files": 149,
+    "pages_with_verified_entries": 94,
+    "tool_entries": 166,
+    "tool_kinds": {
+      "일반공구": 44,
+      "보호준비물": 79,
+      "측정장비": 3,
+      "전용장비": 2,
+      "작업자재": 7,
+      "특수공구": 3,
+      "진단장비": 28
+    },
+    "part_entries": 41,
+    "confirmed_vehicle_part_numbers": 0,
+    "confirmed_special_tool_numbers": 3
+  },
+  "notes": [
+    "Only actually viewed original source image regions are marked visual_verified. OCR was used to search all 383 pages; a search miss does not establish global absence.",
+    "Source coordinates are PDF points from the top of the original page, derived from OCR bounding boxes; source_top/source_bottom bound the evidence, not an equipment dimension.",
+    "Source region contact sheets used for this review are in work/tools_parts_audit/service_review. Full source images were read from the preserved previous workspace; the evidence remains linked by source file, page and PDF SHA-256.",
+    "No orderable vehicle replacement part number, replacement quantity or unspecified driver/socket size was inferred. part_number and quantity remain null. VIN-based WPC/catalogue confirmation has not been performed.",
+    "09880-4F000, 09964-C1200 and 09890-3V100 are SST tool numbers only. Their presence in the common tool table does not require them for every door procedure.",
+    "A dash in an SST/equipment guide column is not evidence that no tools are required. Hardware names and drawing callouts A/B are not tool sizes or orderable part numbers.",
+    "Weatherstrip/glass-run clip diagrams in 49-2.pdf#1, 61-2.pdf#1 and 62-2.pdf#3 were inspected. The small red location dots are different from the no-reuse prohibition symbol in 12.pdf#1; no mandatory replacement instruction was inferred from those dots.",
+    "The explicit mandatory clip replacement statements are 46-5.pdf#1 and 57-3.pdf#1. Garnish/moulding and glass-run-panel replacement retain their damage/need conditions.",
+    "General replacement principles in 13.pdf#2 apply only when the listed part is actually removed. HV PPE, accident preparations and refrigerant equipment retain their special application scopes.",
+    "Fault-table parts are diagnostic possibilities, not mandatory preparation quantities. Retain the symptom, verified cause, alternative adjustment/repair and source procedure when presenting them.",
+    "PTG initialization/settings on 35-4.pdf#6 are manual per source; its diagnostic tool entry is restricted to the preceding mode-change segment.",
+    "Original text, figures, numeric values and application conditions remain the governing instructions; this file provides a concise navigation/preparation layer only."
+  ]
+}

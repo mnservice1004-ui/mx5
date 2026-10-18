@@ -19,6 +19,13 @@ work/cover_assets/
 work/book_headers/
 work/education_pilot/
 work/education_final_visual_qa/
+work/service_visual_qa/
+work/tools_parts_audit/service_review/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
 work/*pilot*manifest.json
 work/draft_education_manifest.json
 work/*qa_report.json

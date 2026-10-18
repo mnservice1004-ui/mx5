@@ -139,16 +139,26 @@ def check_frame(page, reader, pm, old_page, old_reader):
     return {"depth": depth, "frame_count": 1, "ancestor_rails": len(ancestors)}
 
 
-def check_navigation(item, reader, old_reader, baseline, page_text, counts, is_book):
+def check_navigation(item, reader, old_reader, baseline, page_text, counts, is_book, route_catalog):
     descriptors = item.get("navigation_links", []) if is_book else []
     declared = Counter(link_key(v) for v in descriptors)
     actual = Counter()
     actual_rectangles = []
     rows = []
-    for p,(old_page,page) in enumerate(zip(old_reader.pages,reader.pages),1):
-        old = annotation_rows(old_reader, old_page)
+    extras = item.get('service_navigation_links', [])
+    for p,page in enumerate(reader.pages,1):
+        old = annotation_rows(old_reader, old_reader.pages[p-1]) if p <= len(old_reader.pages) else []
         new = annotation_rows(reader, page)
-        assert Counter(map(annotation_key, old)) == Counter(map(annotation_key, new)), ("Actual per-page destination multiset changed", p)
+        previous=Counter(map(annotation_key,old));remaining=previous.copy();added=[]
+        for row in new:
+            key=annotation_key(row)
+            if remaining[key]:remaining[key]-=1
+            else:added.append(row)
+        assert not +remaining,("Original destination lost or altered",p,+remaining)
+        expected_added=Counter((v['target'],v.get('file','')) for v in extras if v['origin']==p-1)
+        assert Counter((v['target'],v['file'] or '') for v in added)==expected_added,("Unexpected added destination",p,added,expected_added)
+        counts['old_links_preserved']+=len(old)
+        counts['service_links_validated']+=len(added)
         width = float(page.mediabox.width)
         physical = (25*MM,width) if p%2 else (0,width-25*MM)
         for a in new:
@@ -157,7 +167,7 @@ def check_navigation(item, reader, old_reader, baseline, page_text, counts, is_b
             assert physical[0]-.02 <= rect[0] and rect[2] <= physical[1]+.02 and 0 <= rect[1] < rect[3] <= float(page.mediabox.height), ("Link enters binding strip or lies outside page", p,a)
             if a["file"]:
                 assert not Path(a["file"]).is_absolute(), ("External link not relative",p,a)
-                old_target = next((e for e in baseline["items"]+baseline["indexes"] if Path(e["path"]).name == Path(a["file"]).name), None)
+                old_target = route_catalog.get(Path(a['file']).name)
                 assert old_target is not None and 0 <= a["target"] < old_target["total_pages"], ("External destination invalid",p,a)
                 counts["remote_links"] += 1
             else:
@@ -171,6 +181,10 @@ def check_navigation(item, reader, old_reader, baseline, page_text, counts, is_b
             counts["links_with_visible_labels"] += 1
         counts["actual_links_preserved"] += len(new)
         rows.append(new)
+    if not is_book:
+        for link in extras:
+            found=[(key,rect) for key,rect in actual_rectangles if key==link_key(link) and close(rect,link['rect'],.0002)]
+            assert found,("Index service evidence link absent",link)
     if is_book:
         assert actual == declared, ("Actual link targets differ from declared navigation", actual-declared,declared-actual)
         unmatched = list(actual_rectangles)
@@ -208,13 +222,19 @@ def check_navigation(item, reader, old_reader, baseline, page_text, counts, is_b
     return rows
 
 
-def check_entry(item, old, baseline, global_manifest, is_book):
+def check_entry(item, old, baseline, global_manifest, is_book, route_catalog):
     assert Path(item["path"]).resolve() != Path(old["path"]).resolve(), "New edition overwrote old PDF"
     assert filehash(old["path"]) == old["sha256"] == item["source_sha256"], "Approved source PDF changed"
     assert Path(item["source_path"]).resolve() == Path(old["path"]).resolve(), "Wrong source PDF"
     assert filehash(item["path"]) == item["sha256"], "Final hash differs from manifest"
     before,after = PdfReader(old["path"]),PdfReader(item["path"])
-    assert len(before.pages) == len(after.pages) == item["total_pages"] and len(after.pages)%2 == 0, "Page count/parity changed"
+    assert len(after.pages) == item['total_pages'] and len(after.pages)%2 == 0,'Page count/parity differs'
+    if is_book:assert len(before.pages)==len(after.pages),'Booklet page count changed'
+    else:
+        assert len(after.pages)>=len(before.pages),'Existing index pages removed'
+        if item.get('service_index_pages'):
+            assert item['service_original_pages']==len(before.pages),'Wrong index prefix'
+            assert len(after.pages)-len(before.pages)==len(item['service_index_pages']),'Service index appendix count differs'
     assert outlines(before) == outlines(after), "Bookmark titles/order/destinations changed"
     prefs = after.trailer["/Root"]["/ViewerPreferences"]
     assert prefs.get("/PrintScaling") == "/None" and prefs.get("/Duplex") == "/DuplexFlipLongEdge" and prefs.get("/Direction") == "/L2R", "Wrong print preferences"
@@ -242,15 +262,21 @@ def check_entry(item, old, baseline, global_manifest, is_book):
     try:
         for n in range(len(pdf)):
             page=pdf[n];rendered.append(page);texts.append(page.get_textpage())
-        links=check_navigation(item,after,before,baseline,texts,counts,is_book)
-        for p,(left,right) in enumerate(zip(before.pages,after.pages),1):
+        links=check_navigation(item,after,before,baseline,texts,counts,is_book,route_catalog)
+        for p,right in enumerate(after.pages,1):
+            left=before.pages[p-1] if p<=len(before.pages) else None
             assert close(list(map(float,right.mediabox)),[0,0,595.2755905511812,841.8897637795277],.001),"Non-A4 page"
             row={"page":p,"folio":check_folio(right,after,p,texts[p-1]),"links":len(links[p-1])}
             counts["fixed_folios"]+=1
             if not is_book:
-                assert right.extract_text().startswith(left.extract_text()),("Detailed index text changed",p)
-                assert len(left.get("/Annots",[]))==len(right.get("/Annots",[])),("Index annotations lost",p)
-                counts["index_text_prefix_preserved"]+=1
+                if left is not None:
+                    assert right.extract_text().startswith(left.extract_text()),("Detailed index text changed",p)
+                    assert len(left.get("/Annots",[]))==len(right.get("/Annots",[])),("Index annotations lost",p)
+                    counts["index_text_prefix_preserved"]+=1
+                else:
+                    text=normal(right.extract_text())
+                    assert normal('준비물·정비 원칙 상세') in text,('Service index heading missing',p)
+                    counts['service_index_pages']+=1
             if is_book and p in pm_by_page:
                 pm=pm_by_page[p]
                 if pm["kind"]=="source":
@@ -325,11 +351,13 @@ def main():
     manifest,baseline,global_manifest=read(args.manifest),read(ROOT/"folio_booklets_manifest.json"),read(ROOT/"booklet_manifest.json")
     report={"status":"running","manifest":args.manifest,"pilot":args.pilot,"records":[],"bundles":[],"failures":[]};totals=Counter()
     by_name={v["relative_path"]:v for v in baseline["items"]+baseline["indexes"]}
+    route_catalog={Path(v['path']).name:v for v in baseline['items']+baseline['indexes']}
+    route_catalog.update({Path(v['path']).name:v for v in manifest['items']+manifest['indexes']})
     for is_book,entries in [(True,manifest["items"]),(False,manifest["indexes"])]:
         for entry in entries:
             name=entry["relative_path"]
             try:
-                record,counts=check_entry(entry,by_name[name],baseline,global_manifest,is_book)
+                record,counts=check_entry(entry,by_name[name],baseline,global_manifest,is_book,route_catalog)
                 report["records"].append(record);totals.update(counts);print("PASS",name,counts["pages"],"pages",flush=True)
             except Exception as e:
                 report["failures"].append({"file":name,"message":str(e),"traceback":traceback.format_exc()});print("FAIL",name,str(e),flush=True)
@@ -349,7 +377,13 @@ def main():
             report["original_archive"]=source_archive_check(global_manifest,args.source_archive)
         except Exception as e:
             report["failures"].append({"deliverables":str(e),"traceback":traceback.format_exc()})
-        for key,expected in {"pdfs":33,"pages":1092,"booklet_pdfs":30,"booklet_pages":1006,"index_pdfs":3,"index_pages":86,"bookmarks":638,"original_forms":921,"source_transforms_and_clips":921,"notices_preserved":9,"component_images_preserved":30,"complete_introductions":30,"one_page_guides":30,"guide_procedures":149,"reference_entries":150,"reference_pages":484,"parent_resumes":484,"ancestor_resumes":798,"fixed_folios":1092,"actual_links_preserved":4255,"links_with_visible_labels":4255,"index_text_prefix_preserved":86,"reference_frames":484,"ancestor_rails":212,"link_kind_guide":930,"link_kind_enter_reference":150,"link_kind_parent_return":484,"link_kind_ancestor_return":798,"link_kind_missing_master":28,"link_kind_notice_continue":9}.items():
+        extra_links=sum(len(v.get('service_navigation_links',[])) for v in manifest['items']+manifest['indexes'])
+        total_pages=sum(v['total_pages'] for v in manifest['items']+manifest['indexes'])
+        index_pages=sum(v['total_pages'] for v in manifest['indexes'])
+        assert manifest['total_numbered_pages']==total_pages,'Manifest total page count is stale'
+        for index in manifest['indexes']:
+            assert index['page_count']==index['pages']==index['total_pages'],'Index page count aliases are stale'
+        for key,expected in {"pdfs":33,"pages":total_pages,"booklet_pdfs":30,"booklet_pages":1006,"index_pdfs":3,"index_pages":index_pages,"bookmarks":638,"original_forms":921,"source_transforms_and_clips":921,"notices_preserved":9,"component_images_preserved":30,"complete_introductions":30,"one_page_guides":30,"guide_procedures":149,"reference_entries":150,"reference_pages":484,"parent_resumes":484,"ancestor_resumes":798,"fixed_folios":total_pages,"actual_links_preserved":4255+extra_links,"links_with_visible_labels":4255+extra_links,"old_links_preserved":4255,"service_links_validated":extra_links,"index_text_prefix_preserved":86,"reference_frames":484,"ancestor_rails":212,"link_kind_guide":930,"link_kind_enter_reference":150,"link_kind_parent_return":484,"link_kind_ancestor_return":798,"link_kind_missing_master":28,"link_kind_notice_continue":9}.items():
             if totals[key]!=expected:report["failures"].append({"aggregate":key,"expected":expected,"actual":totals[key]})
     report["totals"]=dict(totals);report["status"]="failed" if report["failures"] else "passed"
     Path(args.report).parent.mkdir(parents=True,exist_ok=True)

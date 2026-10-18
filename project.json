@@ -5,7 +5,7 @@
   "edition_manifest": "work/education_booklets_manifest.json",
   "pilot_manifest": "work/education_pilot_manifest.json",
   "draft_manifest": "work/draft_education_manifest.json",
-  "draft_output": "outputs/작업중_교육교재",
+  "draft_output": "outputs/정비매뉴얼_준비물_정비원칙_통합본",
   "design_reference": "D:/다운로드/1a112fd9eda7e3ffbec1.pdf",
   "note": "폴더명은 사용자 프로젝트명이며 차종·세부사양의 검증 근거를 대신하지 않습니다."
 }

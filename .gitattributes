@@ -6,3 +6,8 @@
 *.code-workspace text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf
+
+# Preserve exact evidence bytes: these files carry cross-file SHA-256 provenance.
+work/service_tools_parts.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+work/service_principles.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+work/service_principle_regions.json -text whitespace=trailing-space,space-before-tab,cr-at-eol

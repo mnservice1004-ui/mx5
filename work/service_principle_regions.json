@@ -1,0 +1,2162 @@
+{
+  "schema_version": 1,
+  "principles_sha256": "ec9607dde2fe51a309a00a50b3216560bfd8cb26703c64fd45a676c46a34f985",
+  "pages": {
+    "10.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "10.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "12.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "13.pdf#1": {
+      "principles": [
+        {
+          "text": "도장면과 내장 부품을 작업 커버와 테이프로 보호한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "고장 원인과 탈거·분해 필요성을 판단한 뒤 정비 지침서 순서대로 작업한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "볼트·너트를 교환할 때는 지정 규격품을 사용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": [
+        {
+          "text": "후드를 닫기 전에 엔진룸에 공구와 부품이 남아 있는지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "13.pdf#2": {
+      "principles": [
+        {
+          "text": "특수공구 사용을 지시한 작업에는 해당 특수공구를 사용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "원문에서 지정한 재사용 금지 부품은 탈거 시 신품으로 교환한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "13.pdf#3": {
+      "principles": [
+        {
+          "text": "부품을 교환할 때는 현대 순정 부품을 사용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "보수용 세트·키트 부품의 사용을 권한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "보수용 부품이 차량 장착품과 다를 수 있으므로 부품 카탈로그를 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "13.pdf#4": {
+      "principles": [],
+      "completion": []
+    },
+    "13.pdf#5": {
+      "principles": [],
+      "completion": []
+    },
+    "13.pdf#6": {
+      "principles": [],
+      "completion": []
+    },
+    "13.pdf#8": {
+      "principles": [],
+      "completion": []
+    },
+    "13.pdf#9": {
+      "principles": [],
+      "completion": []
+    },
+    "13.pdf#10": {
+      "principles": [],
+      "completion": []
+    },
+    "13.pdf#11": {
+      "principles": [],
+      "completion": []
+    },
+    "14.pdf#1": {
+      "principles": [
+        {
+          "text": "고전압 시스템 작업 전에 원문의 안전 지시를 반드시 준수한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "보호 장비를 착용한 담당자 외에는 고전압 관련 부분을 만지지 못하도록 한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "고전압 커넥터 분리 후 화재 방지를 위해 주변 냉각수 등을 반드시 제거한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "14.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "14.pdf#3": {
+      "principles": [
+        {
+          "text": "고전압 작업 전 시계·반지 등 금속성 물질을 몸에서 반드시 제거한다.",
+          "source_top": 551.469,
+          "source_bottom": 576.263,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "2 금속성 물질(시계, 반지, 기타 금속성 제품 등)은 고전압 단락을 유발하여 심각한 신체 상해를 입을 수 있고, 차량이 손상될",
+            "수 있으므로 작업 전에 반드시 몸에서 제거한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "고전압 관련 작업 전 개인 보호 장비를 착용한다.",
+          "source_top": 585.861,
+          "source_bottom": 595.458,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "3 고전압 시스템 관련 작업 전에는 안전 사고 예방을 위해 개인 보호 장비를 작용하도록 한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "고전압 시스템 점검·정비 전 반드시 고전압 차단 절차를 수행한다.",
+          "source_top": 619.853,
+          "source_bottom": 629.85,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "4 고전압 시스템을 점검하거나 정비하기 전에는 반드시 고전압 차단 절차를 수행해야 한다"
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "15.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "15.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "15.pdf#3": {
+      "principles": [],
+      "completion": []
+    },
+    "16.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "16.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "16.pdf#3": {
+      "principles": [],
+      "completion": []
+    },
+    "16.pdf#4": {
+      "principles": [],
+      "completion": []
+    },
+    "17.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "18.pdf#1": {
+      "principles": [
+        {
+          "text": "고전압 관련 작업 시 원문의 안전·주의·경고를 숙지하고 차단 절차에 따라 반드시 고전압을 먼저 차단한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "18.pdf#4": {
+      "principles": [
+        {
+          "text": "고전압 차단 스위치 분리 후에는 원문에 지정된 방전 대기시간을 반드시 지킨다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "18.pdf#6": {
+      "principles": [],
+      "completion": []
+    },
+    "1.pdf#1": {
+      "principles": [
+        {
+          "text": "고전압 시스템 작업 전에 원문의 안전 지시를 반드시 준수한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "보호 장비를 착용한 담당자 외에는 고전압 관련 부분을 만지지 못하도록 한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "고전압 커넥터 분리 후 화재 방지를 위해 주변 냉각수 등을 반드시 제거한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "1.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "1.pdf#3": {
+      "principles": [
+        {
+          "text": "고전압 작업 전 시계·반지 등 금속성 물질을 몸에서 반드시 제거한다.",
+          "source_top": 551.469,
+          "source_bottom": 576.263,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "2 금속성 물질(시계, 반지, 기타 금속성 제품 등)은 고전압 단락을 유발하여 심각한 신체 상해를 입을 수 있고, 차량이 손상될",
+            "수 있으므로 작업 전에 반드시 몸에서 제거한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "고전압 관련 작업 전 개인 보호 장비를 착용한다.",
+          "source_top": 585.861,
+          "source_bottom": 595.458,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "3 고전압 시스템 관련 작업 전에는 안전 사고 예방을 위해 개인 보호 장비를 작용하도록 한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "고전압 시스템 점검·정비 전 반드시 고전압 차단 절차를 수행한다.",
+          "source_top": 619.853,
+          "source_bottom": 629.85,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "4 고전압 시스템을 점검하거나 정비하기 전에는 반드시 고전압 차단 절차를 수행해야 한다"
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "24-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "25-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "26-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "28.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "29-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "29-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "2.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "2.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "2.pdf#3": {
+      "principles": [],
+      "completion": []
+    },
+    "30-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "31-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "31-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "32-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "32-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "33-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "33-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "34-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "35-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "35-3.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "35-3.pdf#3": {
+      "principles": [],
+      "completion": []
+    },
+    "35-3.pdf#4": {
+      "principles": [],
+      "completion": []
+    },
+    "35-4.pdf#3": {
+      "principles": [],
+      "completion": []
+    },
+    "35-4.pdf#4": {
+      "principles": [],
+      "completion": []
+    },
+    "35-4.pdf#6": {
+      "principles": [
+        {
+          "text": "PTG의 초기화·설정은 진단 장비로 할 수 없으며 반드시 수동 조작한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "추가 절차는 진단 기기의 설명에 따라 진행한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "35-4.pdf#7": {
+      "principles": [
+        {
+          "text": "PTG 유닛 또는 PTG에 영향을 주는 부품 교환 시 초기화 순서에서 반드시 테일게이트를 수동으로 닫는다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "35-4.pdf#8": {
+      "principles": [
+        {
+          "text": "파라미터 값 저장 과정 중 테일게이트를 잡거나 정지시키지 않는다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "테일게이트가 열린 상태에서 PTG 전원을 제거하거나 배터리를 탈·장착한 경우 모듈을 반드시 초기화한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "36.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "36.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "37-2.pdf#1": {
+      "principles": [
+        {
+          "text": "테일게이트를 탈거할 때는 두 사람 이상이 함께 작업한다.",
+          "source_top": 121.571,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 테일게이트를 달거할 때는 두 사람 이상이 함께 작업한다."
+          ],
+          "score": 0.9565
+        },
+        {
+          "text": "테일게이트와 바디면에 손상을 주지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 테일게이트와 바디 면에 손상을 주지 않도록 주의한다"
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "37-2.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "37-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "38-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 160.362,
+          "source_bottom": 169.96,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "스크류 드라이버 또는 리무버에 보호 테이프를 감아 부품 손상을 방지한다.",
+          "source_top": 141.166,
+          "source_bottom": 150.764,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "• 스크류 드라이버 또는 리무버를 사용하여 탈거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "39-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "3.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "3.pdf#3": {
+      "principles": [],
+      "completion": []
+    },
+    "3.pdf#4": {
+      "principles": [],
+      "completion": []
+    },
+    "40-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 141.166,
+          "source_bottom": 150.764,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "테일게이트와 바디면에 손상을 주지 않도록 주의한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 테일게이트와 바디 면에 손상을 주지 않도록 주의한다"
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "40-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "41-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 141.166,
+          "source_bottom": 150.764,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "스크류 드라이버 또는 리무버에 보호 테이프를 감아 부품 손상을 방지한다.",
+          "source_top": 121.571,
+          "source_bottom": 131.569,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "• 스크류 드라이버 또는 리무버를 사용하여 달거할때 부품이 손상되지 않도록 보호 테이프를 감아서 사용한다"
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "41-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "42-2.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "42-3.pdf#1": {
+      "principles": [
+        {
+          "text": "신품 파워 테일게이트 유닛 교환 시 고장코드 유무를 반드시 확인한다. 잔존 코드별 조치는 원문을 따른다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "진단 기기 사용 시 원문의 차량 전원 상태를 유지하고 배터리 방전에 유의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "42-3.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "42-4.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "42-5.pdf#1": {
+      "principles": [
+        {
+          "text": "신품 PTG 유닛 교환 시 고장코드 확인·베리언트 코딩·초기화를 원문의 참조 순서에 따라 수행한다.",
+          "source_top": 206.751,
+          "source_bottom": 299.929,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "• 신품의 파워 테일게이트 유닛을 교환한 경우 고장코드 유무를 반드시 확인한다",
+            "• 신품의 PTG 유닛을 교환한 경우 배리언트 코딩을 진행한다",
+            "• 신품의 PTG 유닛을 교환한 경우 초기화 과정을 진행한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "OTA 대상 제어기 교체 시 진단 기기로 소프트웨어를 업데이트한다.",
+          "source_top": 343.518,
+          "source_bottom": 354.716,
+          "method": "unambiguous OCR instruction anchors",
+          "matched_text": [
+            "• OTA 대상 제어기 교체 시 진단 기기를 사용하여 S/W업데이트를 실시한다. (미진행 시 OTA자동 업데이트 불가)"
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": [
+        {
+          "text": "테일게이트의 열림과 닫힘이 정상적인지 점검한다.",
+          "source_top": 146.765,
+          "source_bottom": 156.363,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 테일게이트의 열림과 닫힘이 정상적인지 점검한다."
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "고객 인도 전 파워 테일게이트를 작동시켜 경보음이 표출되지 않는지 반드시 확인한다.",
+          "source_top": 324.323,
+          "source_bottom": 333.921,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "고객인도전 반드시 파워 테일게이트를 작동시켜서 경보음이 표출되지 않는지 확인하고 고객에 인도한다"
+          ],
+          "score": 0.8205
+        }
+      ]
+    },
+    "42-6.pdf#2": {
+      "principles": [
+        {
+          "text": "베리언트 코딩 기능 수행 중 다른 기능이 동작하지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "43-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "43-2.pdf#3": {
+      "principles": [
+        {
+          "text": "고정 클립이 손상될 수 있으므로 완전히 탈거하지 않는다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "43-2.pdf#4": {
+      "principles": [
+        {
+          "text": "드라이브 유닛 탈거 시 테일게이트가 닫힐 수 있으니 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "43-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "44-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "45-3.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "45-5.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "45-7.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 사용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "45-8.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "46-2.pdf#1": {
+      "principles": [
+        {
+          "text": "글라스런 판넬의 손상을 확인하고 필요 시 교환한다.",
+          "source_top": 143.966,
+          "source_bottom": 153.563,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 글라스런 판넬의 손상여부를 확인하고 필요시 교환한다."
+          ],
+          "score": 0.9091
+        }
+      ],
+      "completion": []
+    },
+    "46-2.pdf#2": {
+      "principles": [
+        {
+          "text": "글라스 면이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스가 정상적으로 작동하는지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "스트라이커 조정 후 도어 개폐가 정상적인지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "46-2.pdf#3": {
+      "principles": [],
+      "completion": [
+        {
+          "text": "도어 조정 후 도어와 바디의 간격이 일정한지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "46-4.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "46-5.pdf#1": {
+      "principles": [
+        {
+          "text": "도어 트림 탈거 후 재장착 시 클립(파스너)은 반드시 교환한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스가 정상적으로 작동하는지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "도어의 열고 닫힘이 정상적인지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "커넥터를 확실히 조립한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "46-7.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "46-8.pdf#1": {
+      "principles": [
+        {
+          "text": "아웃사이드 핸들 장착 시 핸들 패드를 제 위치에 장착한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": [
+        {
+          "text": "조립 후 들뜸이 없게 장착한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "도어의 열고 닫힘이 정상적인지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "47-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "47-2.pdf#2": {
+      "principles": [
+        {
+          "text": "윈도우 글라스 탈거 시 글라스 면이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "47-3.pdf#1": {
+      "principles": [
+        {
+          "text": "필요 시 글라스를 조정한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스의 작동이 정상적인지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "48-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "49-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "4.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "50-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "51-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "52-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "52-4.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "53-2.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "53-3.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "54-2.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "54-3.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "55-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "55-3.pdf#1": {
+      "principles": [
+        {
+          "text": "프레임 가니쉬를 탈거한 뒤 부품 손상이 있을 경우 신품으로 교환한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "프레임 몰딩을 탈거한 뒤 부품 손상이 있을 경우 신품으로 교환한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "56-2.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "56-2.pdf#2": {
+      "principles": [
+        {
+          "text": "글라스 면이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스가 정상적으로 작동하는지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "스트라이커 조정 후 도어 개폐가 정상적인지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "56-2.pdf#3": {
+      "principles": [],
+      "completion": []
+    },
+    "57-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "57-3.pdf#1": {
+      "principles": [
+        {
+          "text": "도어 트림 탈거 후 재장착 시 클립(파스너)은 반드시 교환한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스가 정상적으로 작동하는지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "도어의 열고 닫힘이 정상적인지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "커넥터를 확실히 조립한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "58-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "58-3.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "59-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "59-2.pdf#4": {
+      "principles": [],
+      "completion": []
+    },
+    "59-3.pdf#1": {
+      "principles": [
+        {
+          "text": "필요 시 글라스를 조정한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": [
+        {
+          "text": "글라스의 작동이 정상적인지 확인한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ]
+    },
+    "5.pdf#1": {
+      "principles": [
+        {
+          "text": "고전압 관련 작업 시 원문의 안전·주의·경고를 숙지하고 차단 절차에 따라 반드시 고전압을 먼저 차단한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "5.pdf#4": {
+      "principles": [
+        {
+          "text": "고전압 차단 스위치 분리 후에는 원문에 지정된 방전 대기시간을 반드시 지킨다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "5.pdf#6": {
+      "principles": [],
+      "completion": []
+    },
+    "60-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "61-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "62-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "63-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "64-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "65-2.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "65-3.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "66-2.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "66-3.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 작용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다"
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "67-2.pdf#1": {
+      "principles": [
+        {
+          "text": "손을 다치지 않도록 장갑을 착용한다.",
+          "source_top": 121.971,
+          "source_bottom": 131.569,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 손을 다치지 않도록 장갑을 착용한다"
+          ],
+          "score": 1.0
+        },
+        {
+          "text": "리무버로 탈거할 때 부품이 손상되지 않도록 주의한다.",
+          "source_top": 181.557,
+          "source_bottom": 191.554,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 리무버를 이용하여 탈거할 때 부품이 손상되지 않도록 주의한다."
+          ],
+          "score": 0.875
+        },
+        {
+          "text": "트림과 패널에 손상을 주지 않도록 주의한다.",
+          "source_top": 201.152,
+          "source_bottom": 210.75,
+          "method": "unique normalized OCR phrase match",
+          "matched_text": [
+            "• 트림과 패널에 손상을 주지 않도록 주의한다."
+          ],
+          "score": 1.0
+        }
+      ],
+      "completion": []
+    },
+    "67-3.pdf#1": {
+      "principles": [
+        {
+          "text": "프레임 가니쉬를 탈거한 뒤 부품 손상이 있을 경우 신품으로 교환한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        },
+        {
+          "text": "프레임 몰딩을 탈거한 뒤 부품 손상이 있을 경우 신품으로 교환한다.",
+          "source_top": 0.0,
+          "source_bottom": 841.0,
+          "method": "full-page-only source; no partial evidence destination"
+        }
+      ],
+      "completion": []
+    },
+    "6.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "8.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "8.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "9.pdf#1": {
+      "principles": [],
+      "completion": []
+    },
+    "9.pdf#2": {
+      "principles": [],
+      "completion": []
+    },
+    "9.pdf#3": {
+      "principles": [],
+      "completion": []
+    },
+    "9.pdf#4": {
+      "principles": [],
+      "completion": []
+    },
+    "9.pdf#5": {
+      "principles": [],
+      "completion": []
+    }
+  },
+  "unresolved": [],
+  "coordinate_system": "original PDF points, top origin, source height 841",
+  "partial_source_pages": 91,
+  "totals": {
+    "partial_rows": 91,
+    "located_partial_rows": 91,
+    "fullpage_rows": 98
+  }
+}

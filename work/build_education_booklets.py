@@ -11,6 +11,8 @@ from pypdf.generic import (NameObject, DictionaryObject, DecodedStreamObject,
 import education_frontmatter as front
 import education_body_layout as body
 import education_index_style as index_style
+import service_content as service
+import service_index
 
 ROOT = Path(__file__).resolve().parent
 PRIOR = ROOT/'folio_booklets_manifest.json'
@@ -99,7 +101,7 @@ def fix_remote_paths(item,links):
             row['relative_path']=row['file']
     return links
 
-def build_book(original,out):
+def build_book(original,out,catalog):
     item=copy.deepcopy(original);source=Path(original['path']);before=digest(source)
     reader=PdfReader(source);writer=PdfWriter();writer.clone_document_from_reader(reader)
     page_metas={m['local_page']:m for m in item['page_meta']}
@@ -120,7 +122,8 @@ def build_book(original,out):
                 g=pm['old_page'];ctx=contexts(item,g)
                 desc=body.draw_body(c,item,pm,ctx,section(item,g),
                     [e for e in item['reference_events'] if e['origin_page']==g],
-                    [e for e in item['reference_events'] if e['return_page']==g],node(g))
+                    [e for e in item['reference_events'] if e['return_page']==g],node(g),
+                    service.signal_for_page(pm,catalog))
                 desc['kind']='source';links.extend(desc['links'])
             else:
                 desc=notice(c,item,pm);links.extend(desc['links'])
@@ -149,31 +152,39 @@ def build_book(original,out):
             assert 0<=link['target']<len(writer.pages)
             writer.add_annotation(link['origin'],Link(rect=link['rect'],target_page_index=link['target']))
     destination=out/item['relative_path'];destination.parent.mkdir(parents=True,exist_ok=True)
-    writer.add_metadata({'/Title':item['title']+' / 정비교육 교재 개선본',
-        '/Subject':'부품·학습 범위·작업 길잡이 / 본문 큰 제목·현재 작업·참조 및 복귀 패널 / 원문 절차 보존 / 좌측 양면 제본·고정 바깥 쪽번호'})
+    writer.add_metadata({'/Title':item['title']+' / 준비물·정비 원칙 통합 교육판',
+        '/Subject':'준비 공구·교환 부품·필수/조건부/권고·완료 확인 / 참조 및 복귀 / 원문 보존 / 좌측 양면 제본·바깥 쪽번호'})
     with destination.open('wb') as target:writer.write(target)
     assert digest(source)==before
     item.update(path=str(destination),source_path=str(source),source_sha256=before,
                 sha256=digest(destination),education_pages=descriptions,
                 navigation_links=links,prior_navigation_links=copy.deepcopy(original['navigation_links']))
     item['added_navigation_links']=[r for r in links if r['kind']=='parent_return']
+    item['service_navigation_links']=[r for r in links if r['kind'].startswith('service_')]
     item['guide_descriptor']=descriptions[1]
-    item['education_layout']=dict(source_clip_transform_unchanged=True,header=[760,813],
+    item['education_layout']=dict(source_clip_transform_unchanged=True,header=[755.5,821],
         footer=[43,82],body_source_forms=sum(m['kind']=='source' for m in item['page_meta']))
     print(f"{item['id']}: {len(writer.pages)} pages / {len(links)} links",flush=True)
     return item
 
-def build_index(original,out):
+def build_index(original,out,layout):
     item=copy.deepcopy(original);source=Path(item['path']);before=digest(source)
     reader=PdfReader(source);writer=PdfWriter();writer.clone_document_from_reader(reader)
     audits=[index_style.restyle_index_page(page,p,item,writer) for p,page in enumerate(writer.pages,1)]
+    extra,extra_links=service_index.render(item,layout,folio)
+    for page in extra.pages:writer.add_page(page)
+    for row in extra_links:remote_annotation(writer,row)
     destination=out/item['relative_path'];destination.parent.mkdir(parents=True,exist_ok=True)
     writer.add_metadata({'/Title':item['title']+' / 정비교육 교재 종합색인'})
     with destination.open('wb') as target:writer.write(target)
     assert digest(source)==before
     item.update(path=str(destination),source_path=str(source),source_sha256=before,
-                sha256=digest(destination),education_index_pages=audits)
-    print(f"{item['relative_path']}: {len(writer.pages)} pages unchanged index routes",flush=True)
+                sha256=digest(destination),education_index_pages=audits,
+                service_original_pages=original['total_pages'],
+                total_pages=len(writer.pages),page_count=len(writer.pages),pages=len(writer.pages),
+                service_index_pages=layout['pages'],
+                service_navigation_links=extra_links,service_item_starts=layout['starts'])
+    print(f"{item['relative_path']}: {len(writer.pages)} pages / original routes preserved + service details",flush=True)
     return item
 
 def main():
@@ -183,6 +194,14 @@ def main():
     parser.add_argument('--manifest',type=Path,help='Manifest for this working edition')
     args=parser.parse_args()
     prior=json.loads(PRIOR.read_text(encoding='utf-8'))
+    catalog=service.load_catalog()
+    for item in prior['items']:service.compile_book(item,catalog)
+    index_layouts=[service_index.plan(index,prior['items']) for index in prior['indexes']]
+    for item in prior['items']:
+        which=1 if item['part']==7 else 2 if item['part']==8 else 0
+        item['service_summary']['detail_index']={
+            'file':'../'+prior['indexes'][which]['relative_path'],
+            'page':index_layouts[which]['starts'][item['id']]}
     is_pilot=args.pilot is not None
     out=args.output_dir or (ROOT/'education_pilot' if is_pilot else OUT)
     protected=[ROOT.parent/'outputs'/'정비매뉴얼_교육교재_개선본',
@@ -202,8 +221,8 @@ def main():
                          ROOT/'booklet_manifest.json',ROOT/'education_structure_recommendation.json']
     if manifest_path.resolve() in [v.resolve() for v in protected_manifests]:
         parser.error('The source and preserved-edition manifests cannot be overwritten.')
-    items=[build_book(item,out) for item in prior['items'] if selected is None or item['id'] in selected]
-    indexes=[build_index(item,out) for item in prior['indexes']]
+    items=[build_book(item,out,catalog) for item in prior['items'] if selected is None or item['id'] in selected]
+    indexes=[build_index(item,out,layout) for item,layout in zip(prior['indexes'],index_layouts)]
     bundles=[]
     if not is_pilot:
         for label,part in [('전체_30책자',None),('프런트_도어_12책자',7),('리어_도어_12책자',8)]:
@@ -218,8 +237,12 @@ def main():
         design_reference=json.loads((ROOT.parent/'project.json').read_text(encoding='utf-8'))['design_reference'],
         design_reference_analysis=str(ROOT/'textbook_reference_design.json'),
         education_data=str(ROOT/'education_structure_recommendation.json'),
-        edition='정비교육 교재 개선본',booklet_page_count=sum(i['total_pages'] for i in items),
-        master_page_count=sum(i['total_pages'] for i in indexes))
+        edition='준비물·정비 원칙 통합 교육판',service_evidence_files=catalog['source_files'],
+        service_evidence_sha256=catalog['source_sha256'],
+        service_evidence_source_pages=len(catalog['pages']),
+        booklet_page_count=sum(i['total_pages'] for i in items),
+        master_page_count=sum(i['total_pages'] for i in indexes),
+        total_numbered_pages=sum(i['total_pages'] for i in items+indexes))
     manifest_path.parent.mkdir(parents=True,exist_ok=True)
     manifest_path.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f"Completed {len(items)} booklets and {len(indexes)} master indexes.",flush=True)

@@ -173,7 +173,10 @@ def main():
     sub.add_parser('build', help='Build 30 booklets, three indexes and three ZIPs in the draft location')
     verify = sub.add_parser('verify', help='Verify the imported edition or a generated draft')
     verify.add_argument('--edition', choices=('current', 'pilot', 'draft'), default='current')
-    sub.add_parser('render', help='Run full existing visual QA of the imported education edition')
+    render=sub.add_parser('render', help='Run full visual QA of an education edition')
+    render.add_argument('--edition', choices=('current','pilot','draft'),default='draft')
+    service_check=sub.add_parser('verify-service',help='Verify service evidence, guide summaries, and index details')
+    service_check.add_argument('--edition',choices=('pilot','draft'),default='draft')
     page = sub.add_parser('preview', help='Render one booklet page as a PNG')
     page.add_argument('--book', default='07-02')
     page.add_argument('--page', type=int, default=2)
@@ -199,7 +202,15 @@ def main():
                         '--source-archive', ROOT / CONFIG['source_archive'],
                         '--report', ROOT / f'reports/{args.edition}_edition_qa.json', *extra)
     if args.command == 'render':
-        return run_work('render_education_qa.py')
+        return run_work('render_education_qa.py','--manifest',manifest_path(args.edition),
+                        '--output-dir',ROOT/f'work/service_visual_qa/{args.edition}',
+                        '--report',ROOT/f'reports/{args.edition}_visual_qa.json')
+    if args.command == 'verify-service':
+        return subprocess.call([sys.executable,str(ROOT/'tools/verify_service_additions.py'),
+            '--manifest',str(manifest_path(args.edition)),
+            '--report',str(ROOT/('reports/service_content_qa.json' if args.edition=='draft'
+                                else 'reports/service_pilot_content_qa.json'))],cwd=ROOT,
+            env=dict(os.environ,PYTHONIOENCODING='utf-8'))
     if args.command in ('preview', 'preview-source'):
         return preview(args, original=args.command == 'preview-source')
     return 2
