@@ -87,17 +87,37 @@ def main():
             'body':args.notes_file.read_text(encoding='utf-8'),'draft':True,
             'prerelease':False,'generate_release_notes':False})
     assert release['draft'] is True,'Refusing to modify a published release'
+    if release['target_commitish']!=head:
+        release=api('PATCH',f'/repos/{repo}/releases/{release["id"]}',{
+            'target_commitish':head,'body':args.notes_file.read_text(encoding='utf-8'),'draft':True})
     assets={a['name']:a for a in release.get('assets',[])}
     uploaded=[]
     for bundle in manifest['bundles']:
         path=Path(bundle['path'])
         digest=sha(path)
         assert digest==bundle['sha256'],'Local archive changed after verification'
-        if path.name in assets:
-            asset=assets[path.name]
+        # GitHub normalizes non-ASCII asset names; front/rear names can collide.
+        suffixes={'_전체_30책자.zip':'mx5-service-all-30.zip',
+                  '_프런트_도어_12책자.zip':'mx5-service-front-door-12.zip',
+                  '_리어_도어_12책자.zip':'mx5-service-rear-door-12.zip'}
+        names=[name for suffix,name in suffixes.items() if path.name.endswith(suffix)]
+        assert len(names)==1,'Unknown bundle naming convention'
+        remote_name=names[0]
+        if remote_name not in assets:
+            matching=[a for a in assets.values() if a['state']=='uploaded' and
+                      a['size']==path.stat().st_size and remote_digest(a)=='sha256:'+digest]
+            assert len(matching)<=1,'Multiple matching assets; refusing ambiguous rename'
+            if matching:
+                old_name=matching[0]['name']
+                asset=api('PATCH',f'/repos/{repo}/releases/assets/{matching[0]["id"]}',
+                          {'name':remote_name,'label':path.name})
+                del assets[old_name]
+                assets[remote_name]=asset
+        if remote_name in assets:
+            asset=assets[remote_name]
             assert remote_digest(asset)=='sha256:'+digest,'Existing draft asset differs; no overwrite performed'
         else:
-            query=urllib.parse.urlencode({'name':path.name})
+            query=urllib.parse.urlencode({'name':remote_name,'label':path.name})
             url=urllib.parse.urlsplit(release['upload_url'].split('{',1)[0])
             connection=http.client.HTTPSConnection(url.hostname,timeout=180)
             try:
@@ -105,16 +125,19 @@ def main():
                     connection.request('POST',url.path+'?'+query,body=stream,
                         headers={**headers,'Content-Type':'application/zip','Content-Length':str(path.stat().st_size)})
                     response=connection.getresponse()
-                    if response.status!=201:raise RuntimeError(f'Asset upload HTTP {response.status}')
+                    if response.status!=201:
+                        detail=response.read(4096).decode('utf-8',errors='replace')
+                        raise RuntimeError(f'Asset upload HTTP {response.status}: {detail}')
                     asset=json.load(response)
             finally:connection.close()
         assert asset['state']=='uploaded' and asset['size']==path.stat().st_size,'Uploaded asset size/state differs'
         assert remote_digest(asset)=='sha256:'+digest,'Remote SHA256 differs'
-        uploaded.append({'name':path.name,'bytes':asset['size'],'sha256':digest,'asset_id':asset['id']})
+        uploaded.append({'name':asset['name'],'local_name':path.name,
+                         'bytes':asset['size'],'sha256':digest,'asset_id':asset['id']})
         print(json.dumps({'uploaded':path.name,'bytes':asset['size'],'sha256_verified':True},ensure_ascii=False),flush=True)
     latest=api('GET',f'/repos/{repo}/releases/{release["id"]}')
-    assert latest['draft'] is True,'Release was unexpectedly published'
-    result={'repository':repo,'release_url':latest['html_url'],'release_id':latest['id'],
+    assert latest['draft'] is True and latest['target_commitish']==head,'Draft/commit state differs'
+    result={'status':'passed','repository':repo,'release_url':latest['html_url'],'release_id':latest['id'],
             'tag':args.tag,'draft':True,'source_commit':head,'assets':uploaded}
     (ROOT/'reports/release_upload.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(result,ensure_ascii=False,indent=2))
