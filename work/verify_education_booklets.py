@@ -33,6 +33,20 @@ def read(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def portable_value(value):
+    """Compare approved content after removing only this checkout's path prefix."""
+    if isinstance(value, dict):
+        return {key: portable_value(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [portable_value(item) for item in value]
+    if isinstance(value, str):
+        normalized = value.replace('/', '\\')
+        prefix = str(ROOT.parent).replace('/', '\\') + '\\'
+        if normalized.lower().startswith(prefix.lower()):
+            return normalized[len(prefix):].replace('\\', '/')
+    return value
+
+
 def normal(text):
     return normalized_text(str(text).replace("—", "/").replace("–", "-").replace("‑", "-"))
 
@@ -244,7 +258,8 @@ def check_entry(item, old, baseline, global_manifest, is_book, route_catalog):
     pm_by_page={v["local_page"]:v for v in item.get("page_meta",[])}
     if is_book:
         for key in ("sections","page_map","page_meta","reference_events","local_reference_events","asset","master_hint"):
-            assert item.get(key) == old.get(key), ("Source coverage, source asset, or route metadata changed",key)
+            assert portable_value(item.get(key)) == portable_value(old.get(key)), \
+                ("Source coverage, source asset, or route metadata changed",key)
         assert item["front_pages"] == 2 and item["education_pages"][0]["kind"] == "cover" and item["education_pages"][1]["kind"] == "work_guide", "Opening structure changed"
         cover=normal(after.pages[0].extract_text());asset=item["asset"]
         for text in [item["title"],asset["intro"],asset["caption"]]+[value for row in asset["workflow"] for value in (row["title"],row["description"])]:

@@ -13,6 +13,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
 W, H = A4
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 NAVY = '#18374D'
 BLUE = '#087F9C'
 TEAL = '#008476'
@@ -154,7 +155,7 @@ def draw_cover(c, item, education=None):
     c.setStrokeColor(LINE)
     c.roundRect(left, image_bottom, width, image_height, 7, fill=1, stroke=1)
     tx(c, left+13, image_top-18, '부품과 위치를 먼저 확인하세요', 8.7, True, BLUE)
-    img = ImageReader(a['image_path'])
+    img = ImageReader(str(PROJECT_ROOT / a['image_path']))
     iw, ih = img.getSize()
     maxw, maxh = width-28, image_height-37
     scale = min(maxw/iw, maxh/ih)

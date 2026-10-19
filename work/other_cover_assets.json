@@ -36,8 +36,8 @@
       "주요 절차: 1~6.pdf 안전·준비, 7~8.pdf 차량 표시, 9~10.pdf 취급, 11~13.pdf 정비 기준"
     ],
     "workflow_kind": "확인 항목",
-    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\01_representative.png",
-    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\9__02.png",
+    "image_path": "work/cover_assets/other/01_representative.png",
+    "source_image_path": "work/ocr_images/9__02.png",
     "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
     "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
     "source_attribution": "원문 9.pdf · 2쪽"
@@ -79,8 +79,8 @@
       "주요 절차: 14~18.pdf 안전, 19.pdf 고장진단, 20.pdf 서비스 정보, 21.pdf 체결토크, 22.pdf 특수 공구"
     ],
     "workflow_kind": "확인 항목",
-    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\02_representative.png",
-    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\22__01.png",
+    "image_path": "work/cover_assets/other/02_representative.png",
+    "source_image_path": "work/ocr_images/22__01.png",
     "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
     "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
     "source_attribution": "원문 22.pdf · 1쪽"
@@ -122,8 +122,8 @@
       "24-1~24-2.pdf 인슐레이터, 25-1~25-2.pdf 어셈블리, 26-1~26-2.pdf 커버"
     ],
     "workflow_kind": "수록 흐름",
-    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\03_representative.png",
-    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\23__01.png",
+    "image_path": "work/cover_assets/other/03_representative.png",
+    "source_image_path": "work/ocr_images/23__01.png",
     "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
     "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
     "source_attribution": "원문 23.pdf · 1쪽"
@@ -165,8 +165,8 @@
       "28.pdf 조정, 29그룹 어셈블리, 30그룹 패드, 31그룹 리프터, 32그룹 랫치, 33그룹 핸들, 34그룹 웨더 스트립"
     ],
     "workflow_kind": "수록 흐름",
-    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\04_representative.png",
-    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\27__01.png",
+    "image_path": "work/cover_assets/other/04_representative.png",
+    "source_image_path": "work/ocr_images/27__01.png",
     "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
     "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
     "source_attribution": "원문 27.pdf · 1쪽"
@@ -212,8 +212,8 @@
       "35그룹 작동·진단·점검, 36.pdf 조정, 37~41그룹 어셈블리·주변 부품, 42그룹 파워 유닛, 43그룹 드라이브 유닛, 44그룹 스위치"
     ],
     "workflow_kind": "수록 흐름",
-    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\05_representative.png",
-    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\35-2__01.png",
+    "image_path": "work/cover_assets/other/05_representative.png",
+    "source_image_path": "work/ocr_images/35-2__01.png",
     "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
     "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
     "source_attribution": "원문 35-2.pdf · 1쪽"
@@ -255,8 +255,8 @@
       "45-2~45-3.pdf 커버, 45-4~45-5.pdf 어셈블리, 45-6~45-8.pdf 해제 액추에이터"
     ],
     "workflow_kind": "수록 흐름",
-    "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\06_representative.png",
-    "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\45-1__01.png",
+    "image_path": "work/cover_assets/other/06_representative.png",
+    "source_image_path": "work/ocr_images/45-1__01.png",
     "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
     "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
     "source_attribution": "원문 45-1.pdf · 1쪽"

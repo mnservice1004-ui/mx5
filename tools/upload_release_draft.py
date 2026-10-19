@@ -13,6 +13,7 @@ import subprocess
 import sys
 import urllib.parse
 import urllib.request
+import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -31,6 +32,8 @@ def main():
     parser.add_argument('--manifest',type=Path,default=ROOT/'work/draft_education_manifest.json')
     parser.add_argument('--tag',required=True)
     parser.add_argument('--notes-file',type=Path,required=True)
+    parser.add_argument('--handoff',type=Path,
+                        help='Also back up a verified portable workspace bundle')
     args=parser.parse_args()
     manifest=json.loads(args.manifest.read_text(encoding='utf-8'))
     for name in ('draft_edition_qa.json','service_content_qa.json','draft_visual_qa.json'):
@@ -135,6 +138,41 @@ def main():
         uploaded.append({'name':asset['name'],'local_name':path.name,
                          'bytes':asset['size'],'sha256':digest,'asset_id':asset['id']})
         print(json.dumps({'uploaded':path.name,'bytes':asset['size'],'sha256_verified':True},ensure_ascii=False),flush=True)
+    if args.handoff:
+        path=args.handoff.resolve()
+        receipt=json.loads((ROOT/'reports/handoff_bundle.json').read_text(encoding='utf-8'))
+        assert receipt['status']=='passed' and Path(receipt['archive']).resolve()==path
+        assert receipt['source_commit']==head and receipt['bytes']==path.stat().st_size
+        digest=sha(path)
+        assert digest==receipt['sha256'],'Handoff archive changed after verification'
+        with zipfile.ZipFile(path) as package:
+            handoff=json.loads(package.read('handoff_manifest.json'))
+        assert handoff['source_commit']==head,'Handoff was built from another commit'
+        remote_name='mx5-handoff-state-2026-10-19.zip'
+        if remote_name in assets:
+            asset=assets[remote_name]
+            assert remote_digest(asset)=='sha256:'+digest,'Existing handoff asset differs'
+        else:
+            url=urllib.parse.urlsplit(release['upload_url'].split('{',1)[0])
+            query=urllib.parse.urlencode({'name':remote_name,'label':'다른 PC 작업 인수인계 자료'})
+            connection=http.client.HTTPSConnection(url.hostname,timeout=300)
+            try:
+                with path.open('rb') as stream:
+                    connection.request('POST',url.path+'?'+query,body=stream,
+                        headers={**headers,'Content-Type':'application/zip',
+                                 'Content-Length':str(path.stat().st_size)})
+                    response=connection.getresponse()
+                    if response.status!=201:
+                        detail=response.read(4096).decode('utf-8',errors='replace')
+                        raise RuntimeError(f'Handoff upload HTTP {response.status}: {detail}')
+                    asset=json.load(response)
+            finally:connection.close()
+        assert asset['state']=='uploaded' and asset['size']==path.stat().st_size
+        assert remote_digest(asset)=='sha256:'+digest,'Remote handoff SHA-256 differs'
+        uploaded.append({'name':asset['name'],'local_name':path.name,
+                         'bytes':asset['size'],'sha256':digest,'asset_id':asset['id']})
+        print(json.dumps({'uploaded':remote_name,'bytes':asset['size'],
+                          'sha256_verified':True},ensure_ascii=False),flush=True)
     latest=api('GET',f'/repos/{repo}/releases/{release["id"]}')
     assert latest['draft'] is True and latest['target_commitish']==head,'Draft/commit state differs'
     result={'status':'passed','repository':repo,'release_url':latest['html_url'],'release_id':latest['id'],

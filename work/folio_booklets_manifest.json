@@ -262,7 +262,7 @@
       },
       "total_pages": 72,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\01-06_기존파트\\01_일반사항.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/01-06_기존파트/01_일반사항.pdf",
       "relative_path": "01-06_기존파트/01_일반사항.pdf",
       "local_reference_events": [
         {
@@ -5193,7 +5193,7 @@
         }
       ],
       "sha256": "77dde0dd26cfaf31a5e2f7d3581cafbae50557c69be54476ff06bf13bf40fa26",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\01-06_기존파트\\01_일반사항.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/01-06_기존파트/01_일반사항.pdf",
       "source_sha256": "3e927ab3f437b6c26782e2c4ff0c3bc63cb6ab03cb3a60092edb6fbcdba895b1",
       "asset": {
         "id": "01",
@@ -5232,8 +5232,8 @@
           "주요 절차: 1~6.pdf 안전·준비, 7~8.pdf 차량 표시, 9~10.pdf 취급, 11~13.pdf 정비 기준"
         ],
         "workflow_kind": "확인 항목",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\01_representative.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\9__02.png",
+        "image_path": "work/cover_assets/other/01_representative.png",
+        "source_image_path": "work/ocr_images/9__02.png",
         "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
         "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
         "source_attribution": "원문 9.pdf · 2쪽"
@@ -16893,7 +16893,7 @@
       },
       "total_pages": 48,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\01-06_기존파트\\02_바디_공통사항.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/01-06_기존파트/02_바디_공통사항.pdf",
       "relative_path": "01-06_기존파트/02_바디_공통사항.pdf",
       "local_reference_events": [
         {
@@ -20672,7 +20672,7 @@
         }
       ],
       "sha256": "68a2b8dc69e3eb59ea6d5fbe027c72a06c3495b56e0ceabe36e4eea2b969f2e7",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\01-06_기존파트\\02_바디_공통사항.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/01-06_기존파트/02_바디_공통사항.pdf",
       "source_sha256": "c1132b5ca4d858037d04384a555c9f7e18857b515abb97a765de6f01070a39b3",
       "asset": {
         "id": "02",
@@ -20711,8 +20711,8 @@
           "주요 절차: 14~18.pdf 안전, 19.pdf 고장진단, 20.pdf 서비스 정보, 21.pdf 체결토크, 22.pdf 특수 공구"
         ],
         "workflow_kind": "확인 항목",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\02_representative.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\22__01.png",
+        "image_path": "work/cover_assets/other/02_representative.png",
+        "source_image_path": "work/ocr_images/22__01.png",
         "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
         "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
         "source_attribution": "원문 22.pdf · 1쪽"
@@ -28887,7 +28887,7 @@
       },
       "total_pages": 26,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\01-06_기존파트\\03_펜더.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/01-06_기존파트/03_펜더.pdf",
       "relative_path": "01-06_기존파트/03_펜더.pdf",
       "local_reference_events": [
         {
@@ -30753,7 +30753,7 @@
         }
       ],
       "sha256": "08fbe39bee29ccf0ae490fdcbeff78e3ed3b96317c93ecbca1453075c6d54647",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\01-06_기존파트\\03_펜더.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/01-06_기존파트/03_펜더.pdf",
       "source_sha256": "f9b423a9a33c601f1d19b47399d4fb73f36bea0600db019bb34c11f4269d86c3",
       "asset": {
         "id": "03",
@@ -30792,8 +30792,8 @@
           "24-1~24-2.pdf 인슐레이터, 25-1~25-2.pdf 어셈블리, 26-1~26-2.pdf 커버"
         ],
         "workflow_kind": "수록 흐름",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\03_representative.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\23__01.png",
+        "image_path": "work/cover_assets/other/03_representative.png",
+        "source_image_path": "work/ocr_images/23__01.png",
         "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
         "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
         "source_attribution": "원문 23.pdf · 1쪽"
@@ -35567,7 +35567,7 @@
       },
       "total_pages": 32,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\01-06_기존파트\\04_후드.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/01-06_기존파트/04_후드.pdf",
       "relative_path": "01-06_기존파트/04_후드.pdf",
       "local_reference_events": [
         {
@@ -37729,7 +37729,7 @@
         }
       ],
       "sha256": "abdeacf948c83206410fc670545254dc96536ef287bdb083eeb4fd09edb82fdd",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\01-06_기존파트\\04_후드.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/01-06_기존파트/04_후드.pdf",
       "source_sha256": "be186e63a38a8d3e635a03873414d160d84e21321b11adf30a02c0cfb7808332",
       "asset": {
         "id": "04",
@@ -37768,8 +37768,8 @@
           "28.pdf 조정, 29그룹 어셈블리, 30그룹 패드, 31그룹 리프터, 32그룹 랫치, 33그룹 핸들, 34그룹 웨더 스트립"
         ],
         "workflow_kind": "수록 흐름",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\04_representative.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\27__01.png",
+        "image_path": "work/cover_assets/other/04_representative.png",
+        "source_image_path": "work/ocr_images/27__01.png",
         "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
         "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
         "source_attribution": "원문 27.pdf · 1쪽"
@@ -44063,7 +44063,7 @@
       },
       "total_pages": 182,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\01-06_기존파트\\05_테일게이트.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/01-06_기존파트/05_테일게이트.pdf",
       "relative_path": "01-06_기존파트/05_테일게이트.pdf",
       "local_reference_events": [
         {
@@ -59875,7 +59875,7 @@
         }
       ],
       "sha256": "8b37345a3c5a8bd8dbb1b0a577c7699a30c032ef87e9f228c088fb091cb746c2",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\01-06_기존파트\\05_테일게이트.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/01-06_기존파트/05_테일게이트.pdf",
       "source_sha256": "d1f73544cc6654c07478710d0d4d0f8aa4128851fb5f0cab990dfbd34a18cef0",
       "asset": {
         "id": "05",
@@ -59918,8 +59918,8 @@
           "35그룹 작동·진단·점검, 36.pdf 조정, 37~41그룹 어셈블리·주변 부품, 42그룹 파워 유닛, 43그룹 드라이브 유닛, 44그룹 스위치"
         ],
         "workflow_kind": "수록 흐름",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\05_representative.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\35-2__01.png",
+        "image_path": "work/cover_assets/other/05_representative.png",
+        "source_image_path": "work/ocr_images/35-2__01.png",
         "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
         "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
         "source_attribution": "원문 35-2.pdf · 1쪽"
@@ -91059,7 +91059,7 @@
       },
       "total_pages": 24,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\01-06_기존파트\\06_연료_주입_도어.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/01-06_기존파트/06_연료_주입_도어.pdf",
       "relative_path": "01-06_기존파트/06_연료_주입_도어.pdf",
       "local_reference_events": [
         {
@@ -92695,7 +92695,7 @@
         }
       ],
       "sha256": "d582df02e107666596bbf1f9c6515a00230c88c3e495d0942762cc5aa949a6f0",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\01-06_기존파트\\06_연료_주입_도어.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/01-06_기존파트/06_연료_주입_도어.pdf",
       "source_sha256": "df8d62b9ac6b80786000d68febdc1d56bac6bc6375d7c00b9dfdf12213e0a81f",
       "asset": {
         "id": "06",
@@ -92734,8 +92734,8 @@
           "45-2~45-3.pdf 커버, 45-4~45-5.pdf 어셈블리, 45-6~45-8.pdf 해제 액추에이터"
         ],
         "workflow_kind": "수록 흐름",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\06_representative.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\45-1__01.png",
+        "image_path": "work/cover_assets/other/06_representative.png",
+        "source_image_path": "work/ocr_images/45-1__01.png",
         "crop_coordinate_system": "원문 OCR 렌더 1488x2103 픽셀, 왼쪽 위 기준 [left, top, right, bottom]",
         "visual_review": "원문 전체 렌더를 view_image로 확인 후 대표 그림 영역 선정",
         "source_attribution": "원문 45-1.pdf · 1쪽"
@@ -97101,7 +97101,7 @@
       },
       "total_pages": 12,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-01_프런트_도어_기본_조정.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-01_프런트_도어_기본_조정.pdf",
       "relative_path": "07_프런트_도어/07-01_프런트_도어_기본_조정.pdf",
       "local_reference_events": [
         {
@@ -97640,7 +97640,7 @@
         }
       ],
       "sha256": "67fdb08a9f54406d912c22060f64b04c98298f982502c968284c9b31400e180a",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-01_프런트_도어_기본_조정.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-01_프런트_도어_기본_조정.pdf",
       "source_sha256": "af57e2576ddf15b2f4f3c07c4d68af7a427ac2f9f610cfbbb165edc0798f74af",
       "asset": {
         "id": "07-01",
@@ -97696,8 +97696,8 @@
           }
         ],
         "title": "프런트 도어 기본·조정",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-01.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\46-1__01.png",
+        "image_path": "work/cover_assets/front/07-01.png",
+        "source_image_path": "work/ocr_images/46-1__01.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -99949,7 +99949,7 @@
       },
       "total_pages": 8,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-02_프런트_도어_트림.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-02_프런트_도어_트림.pdf",
       "relative_path": "07_프런트_도어/07-02_프런트_도어_트림.pdf",
       "local_reference_events": [],
       "page_meta": [
@@ -100166,7 +100166,7 @@
       ],
       "reference_page_meta": [],
       "sha256": "50cf1548ee55b1f03605dc5de3143c6a18f8826fa459e61760abbd80c5c18190",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-02_프런트_도어_트림.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-02_프런트_도어_트림.pdf",
       "source_sha256": "1323e5e8dc45e8953c401475b5bb956795d17b66ee336d818e028e841deac996",
       "asset": {
         "id": "07-02",
@@ -100218,8 +100218,8 @@
           }
         ],
         "title": "프런트 도어 트림",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-02.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\46-4__01.png",
+        "image_path": "work/cover_assets/front/07-02.png",
+        "source_image_path": "work/ocr_images/46-4__01.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -102086,7 +102086,7 @@
       },
       "total_pages": 18,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-03_프런트_도어_핸들.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-03_프런트_도어_핸들.pdf",
       "relative_path": "07_프런트_도어/07-03_프런트_도어_핸들.pdf",
       "local_reference_events": [
         {
@@ -103015,7 +103015,7 @@
         }
       ],
       "sha256": "c3d09b195103f545bdb65d4a11b4aaa7e1779cb0893ddd7b5ae75a07039ae4b8",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-03_프런트_도어_핸들.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-03_프런트_도어_핸들.pdf",
       "source_sha256": "69ab7b4bf9d1f5721c0598c93843af11c04f23eb04ed927b279cb91ade322b46",
       "asset": {
         "id": "07-03",
@@ -103072,8 +103072,8 @@
           }
         ],
         "title": "프런트 도어 핸들",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-03.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\46-7__05.png",
+        "image_path": "work/cover_assets/front/07-03.png",
+        "source_image_path": "work/ocr_images/46-7__05.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -106946,7 +106946,7 @@
       },
       "total_pages": 20,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-04_프런트_도어_윈도우_글라스.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-04_프런트_도어_윈도우_글라스.pdf",
       "relative_path": "07_프런트_도어/07-04_프런트_도어_윈도우_글라스.pdf",
       "local_reference_events": [
         {
@@ -108339,7 +108339,7 @@
         }
       ],
       "sha256": "9b3b5c3426d829998bd8a1b839cd1a7f1f185d1ce66c543688c8e7d2dbab5215",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-04_프런트_도어_윈도우_글라스.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-04_프런트_도어_윈도우_글라스.pdf",
       "source_sha256": "77e2e4619c526a1cbf399a9038ec329fe1eeac6acc7a4b2ce62a6cd712107e38",
       "asset": {
         "id": "07-04",
@@ -108386,8 +108386,8 @@
           }
         ],
         "title": "프런트 도어 윈도우 글라스",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-04.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\47-2__02.png",
+        "image_path": "work/cover_assets/front/07-04.png",
+        "source_image_path": "work/ocr_images/47-2__02.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -113733,7 +113733,7 @@
       },
       "total_pages": 40,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-05_프런트_도어_모듈.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-05_프런트_도어_모듈.pdf",
       "relative_path": "07_프런트_도어/07-05_프런트_도어_모듈.pdf",
       "local_reference_events": [
         {
@@ -116876,7 +116876,7 @@
         }
       ],
       "sha256": "6afb7212d5b3faa41ef075f48f428e07cca6c4f339d4ff520a6a76d0b316a2ac",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-05_프런트_도어_모듈.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-05_프런트_도어_모듈.pdf",
       "source_sha256": "ebcd5c827080881f1619bf5da5eacab75d1e8dc896e476edf2026c13d5569644",
       "asset": {
         "id": "07-05",
@@ -116937,8 +116937,8 @@
           }
         ],
         "title": "프런트 도어 모듈",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-05.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\48-2__05.png",
+        "image_path": "work/cover_assets/front/07-05.png",
+        "source_image_path": "work/ocr_images/48-2__05.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -124999,7 +124999,7 @@
       },
       "total_pages": 18,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-06_프런트_도어_웨더_스트립.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-06_프런트_도어_웨더_스트립.pdf",
       "relative_path": "07_프런트_도어/07-06_프런트_도어_웨더_스트립.pdf",
       "local_reference_events": [
         {
@@ -125893,7 +125893,7 @@
         }
       ],
       "sha256": "69d7a67068cc766cfbbc6814c262a249747daaed7a7d47a674a9fc8ca5073790",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-06_프런트_도어_웨더_스트립.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-06_프런트_도어_웨더_스트립.pdf",
       "source_sha256": "89accc37a355d3c07af75dc1b71d122de00ae90e7d09d2b96c922fa00332abe2",
       "asset": {
         "id": "07-06",
@@ -125945,8 +125945,8 @@
           }
         ],
         "title": "프런트 도어 웨더 스트립",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-06.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\49-2__01.png",
+        "image_path": "work/cover_assets/front/07-06.png",
+        "source_image_path": "work/ocr_images/49-2__01.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -130588,7 +130588,7 @@
       },
       "total_pages": 30,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-07_프런트_도어_글라스_런.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-07_프런트_도어_글라스_런.pdf",
       "relative_path": "07_프런트_도어/07-07_프런트_도어_글라스_런.pdf",
       "local_reference_events": [
         {
@@ -133279,7 +133279,7 @@
         }
       ],
       "sha256": "acbf058e0455a437f9e0c26e3e6a115f0a945b0538d8b3956ad3636579b2e72a",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-07_프런트_도어_글라스_런.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-07_프런트_도어_글라스_런.pdf",
       "source_sha256": "c3246fa9e8cdd44d394cf80fb1689f0ca6acf493feed669f370f00825044e0e6",
       "asset": {
         "id": "07-07",
@@ -133326,8 +133326,8 @@
           }
         ],
         "title": "프런트 도어 글라스 런",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-07.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\50-2__03.png",
+        "image_path": "work/cover_assets/front/07-07.png",
+        "source_image_path": "work/ocr_images/50-2__03.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -141971,7 +141971,7 @@
       },
       "total_pages": 52,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-08_프런트_도어_랫치.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-08_프런트_도어_랫치.pdf",
       "relative_path": "07_프런트_도어/07-08_프런트_도어_랫치.pdf",
       "local_reference_events": [
         {
@@ -146495,7 +146495,7 @@
         }
       ],
       "sha256": "5fbbea077f19621170e120efe31a45f69e3c65b02965a85fb8ce8ffae8d83fa8",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-08_프런트_도어_랫치.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-08_프런트_도어_랫치.pdf",
       "source_sha256": "0b68a2773626869e429b7c50615181f3246f99c069c717d7ed4d6f4745015d42",
       "asset": {
         "id": "07-08",
@@ -146557,8 +146557,8 @@
           }
         ],
         "title": "프런트 도어 랫치",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-08.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\51-2__06.png",
+        "image_path": "work/cover_assets/front/07-08.png",
+        "source_image_path": "work/ocr_images/51-2__06.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -157386,7 +157386,7 @@
       },
       "total_pages": 20,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-09_프런트_도어_파워_윈도우_모터.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-09_프런트_도어_파워_윈도우_모터.pdf",
       "relative_path": "07_프런트_도어/07-09_프런트_도어_파워_윈도우_모터.pdf",
       "local_reference_events": [
         {
@@ -158385,7 +158385,7 @@
         }
       ],
       "sha256": "4191e54ef8c901faec278073f5a7407aa20edd0134783a314a38c79ccae91ec7",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-09_프런트_도어_파워_윈도우_모터.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-09_프런트_도어_파워_윈도우_모터.pdf",
       "source_sha256": "4bd24153edabbfd6104806ffda8ab10c4c17cbaa68e7000873e623218279dc37",
       "asset": {
         "id": "07-09",
@@ -158446,8 +158446,8 @@
           }
         ],
         "title": "프런트 도어 파워 윈도우 모터",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-09.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\52-4__02.png",
+        "image_path": "work/cover_assets/front/07-09.png",
+        "source_image_path": "work/ocr_images/52-4__02.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -162352,7 +162352,7 @@
       },
       "total_pages": 16,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-10_프런트_도어_파워_윈도우_스위치.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-10_프런트_도어_파워_윈도우_스위치.pdf",
       "relative_path": "07_프런트_도어/07-10_프런트_도어_파워_윈도우_스위치.pdf",
       "local_reference_events": [
         {
@@ -163176,7 +163176,7 @@
         }
       ],
       "sha256": "cb8c1dc8e5ca1743a1cc07a31a5f945bce6d571cb8c71620a3b2abf62a761be8",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-10_프런트_도어_파워_윈도우_스위치.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-10_프런트_도어_파워_윈도우_스위치.pdf",
       "source_sha256": "2572aefc23b97570b415bdfe16e4ae0c2a4defa0381bd7de6999960638dd953d",
       "asset": {
         "id": "07-10",
@@ -163222,8 +163222,8 @@
           }
         ],
         "title": "프런트 도어 파워 윈도우 스위치",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-10.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\53-3__01.png",
+        "image_path": "work/cover_assets/front/07-10.png",
+        "source_image_path": "work/ocr_images/53-3__01.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -166499,7 +166499,7 @@
       },
       "total_pages": 16,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-11_프런트_도어_파워_도어_잠금_스위치.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-11_프런트_도어_파워_도어_잠금_스위치.pdf",
       "relative_path": "07_프런트_도어/07-11_프런트_도어_파워_도어_잠금_스위치.pdf",
       "local_reference_events": [
         {
@@ -167323,7 +167323,7 @@
         }
       ],
       "sha256": "037843d1d9ef79c574a2da23c086a0dfc60d0d0b370d9b2da7fd6be4d27fd952",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-11_프런트_도어_파워_도어_잠금_스위치.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-11_프런트_도어_파워_도어_잠금_스위치.pdf",
       "source_sha256": "c979af654d938744aceeb80866e911eb6b4dfcde51252c9bf79b02f18de7ca06",
       "asset": {
         "id": "07-11",
@@ -167369,8 +167369,8 @@
           }
         ],
         "title": "프런트 도어 파워 도어 잠금 스위치",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-11.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\54-3__01.png",
+        "image_path": "work/cover_assets/front/07-11.png",
+        "source_image_path": "work/ocr_images/54-3__01.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -173398,7 +173398,7 @@
       },
       "total_pages": 62,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어\\07-12_프런트_도어_가니쉬.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어/07-12_프런트_도어_가니쉬.pdf",
       "relative_path": "07_프런트_도어/07-12_프런트_도어_가니쉬.pdf",
       "local_reference_events": [
         {
@@ -179230,7 +179230,7 @@
         }
       ],
       "sha256": "72ca9cdd0795f03cdc5a73b3ad42f6194a217319d2e2c32a560e8de25584f3bb",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어\\07-12_프런트_도어_가니쉬.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어/07-12_프런트_도어_가니쉬.pdf",
       "source_sha256": "864fac1c379ada7ca05f3579b39eaa17e5eef060a9cfdf6b6ea5242d4a0f95db",
       "asset": {
         "id": "07-12",
@@ -179282,8 +179282,8 @@
           }
         ],
         "title": "프런트 도어 가니쉬",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-12.png",
-        "source_image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\ocr_images\\55-2__02.png",
+        "image_path": "work/cover_assets/front/07-12.png",
+        "source_image_path": "work/ocr_images/55-2__02.png",
         "source_image_dimensions": [
           1488,
           2103
@@ -192477,7 +192477,7 @@
       },
       "total_pages": 12,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-01_리어_도어_기본_조정.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-01_리어_도어_기본_조정.pdf",
       "relative_path": "08_리어_도어/08-01_리어_도어_기본_조정.pdf",
       "local_reference_events": [
         {
@@ -193016,12 +193016,12 @@
         }
       ],
       "sha256": "100c4d36dcb5af59b1b00817f0c9bda3a322a0b72b5a0c4208e101025a73b0ee",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-01_리어_도어_기본_조정.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-01_리어_도어_기본_조정.pdf",
       "source_sha256": "68541dcb4353e9b7347d45257e08c886b6f3547bdec8e5ba96695a5941f4cd8f",
       "asset": {
         "id": "08-01",
         "title": "리어 도어 기본·조정",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-01_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-01_대표부품.png",
         "source_file": "56-2.pdf",
         "source_page": 3,
         "crop_bbox": [
@@ -195310,7 +195310,7 @@
       },
       "total_pages": 8,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-02_리어_도어_트림.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-02_리어_도어_트림.pdf",
       "relative_path": "08_리어_도어/08-02_리어_도어_트림.pdf",
       "local_reference_events": [],
       "page_meta": [
@@ -195527,12 +195527,12 @@
       ],
       "reference_page_meta": [],
       "sha256": "32790831263fc52a228fa9f0cd54f8a0fdc8bc43435eefa779d1e995edbee3bc",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-02_리어_도어_트림.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-02_리어_도어_트림.pdf",
       "source_sha256": "8d26f78f4f4dd18c03f1f472cb0ff413dad555f4ced36ffda992a9bbf77d658d",
       "asset": {
         "id": "08-02",
         "title": "리어 도어 트림",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-02_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-02_대표부품.png",
         "source_file": "57-2.pdf",
         "source_page": 2,
         "crop_bbox": [
@@ -197677,7 +197677,7 @@
       },
       "total_pages": 20,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-03_리어_도어_핸들.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-03_리어_도어_핸들.pdf",
       "relative_path": "08_리어_도어/08-03_리어_도어_핸들.pdf",
       "local_reference_events": [
         {
@@ -199070,12 +199070,12 @@
         }
       ],
       "sha256": "8b2b205eb31eb6d7217101936b774351772df574713b5c53f7de1be8be2364a8",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-03_리어_도어_핸들.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-03_리어_도어_핸들.pdf",
       "source_sha256": "312f65c43a395d6a7b0bd22ef77d723a9fab7ba1762db4d5c12cd929ca056345",
       "asset": {
         "id": "08-03",
         "title": "리어 도어 핸들",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-03_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-03_대표부품.png",
         "source_file": "58-2.pdf",
         "source_page": 4,
         "crop_bbox": [
@@ -203699,7 +203699,7 @@
       },
       "total_pages": 22,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-04_리어_도어_윈도우_글라스.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-04_리어_도어_윈도우_글라스.pdf",
       "relative_path": "08_리어_도어/08-04_리어_도어_윈도우_글라스.pdf",
       "local_reference_events": [
         {
@@ -205162,12 +205162,12 @@
         }
       ],
       "sha256": "33850622915908c6f0f67c97c4ad2f3ecf37639dec73ab1921512ac4a93f0c7a",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-04_리어_도어_윈도우_글라스.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-04_리어_도어_윈도우_글라스.pdf",
       "source_sha256": "63b8f4861f925d63499513f3f1a70520e94ceda2d1962992f05eebc5c1eab6df",
       "asset": {
         "id": "08-04",
         "title": "리어 도어 윈도우 글라스",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-04_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-04_대표부품.png",
         "source_file": "59-2.pdf",
         "source_page": 4,
         "crop_bbox": [
@@ -210860,7 +210860,7 @@
       },
       "total_pages": 40,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-05_리어_도어_모듈.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-05_리어_도어_모듈.pdf",
       "relative_path": "08_리어_도어/08-05_리어_도어_모듈.pdf",
       "local_reference_events": [
         {
@@ -214078,12 +214078,12 @@
         }
       ],
       "sha256": "c136966d091e322622e4b4a8b554950110ecb57a1aa9e7eef783b2ece6c87526",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-05_리어_도어_모듈.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-05_리어_도어_모듈.pdf",
       "source_sha256": "f77ed060b1194a1b06f3b88bbef9a18aa7e2af428a50f53da75e240287b639b1",
       "asset": {
         "id": "08-05",
         "title": "리어 도어 모듈",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-05_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-05_대표부품.png",
         "source_file": "60-2.pdf",
         "source_page": 3,
         "crop_bbox": [
@@ -222224,7 +222224,7 @@
       },
       "total_pages": 18,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-06_리어_도어_웨더_스트립.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-06_리어_도어_웨더_스트립.pdf",
       "relative_path": "08_리어_도어/08-06_리어_도어_웨더_스트립.pdf",
       "local_reference_events": [
         {
@@ -223118,12 +223118,12 @@
         }
       ],
       "sha256": "40097d2bc6a2483131f566fd5e0bc3bdadd41c0ad7fa7b7812f6b07fa22cc64c",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-06_리어_도어_웨더_스트립.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-06_리어_도어_웨더_스트립.pdf",
       "source_sha256": "adebc3ac229327dcedbe815b3bfd737b2b8899ed0005153a3ad0f051025a64e6",
       "asset": {
         "id": "08-06",
         "title": "리어 도어 웨더 스트립",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-06_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-06_대표부품.png",
         "source_file": "61-2.pdf",
         "source_page": 2,
         "crop_bbox": [
@@ -229330,7 +229330,7 @@
       },
       "total_pages": 64,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-07_리어_도어_글라스_런.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-07_리어_도어_글라스_런.pdf",
       "relative_path": "08_리어_도어/08-07_리어_도어_글라스_런.pdf",
       "local_reference_events": [
         {
@@ -235288,12 +235288,12 @@
         }
       ],
       "sha256": "4486686a070e8b2f6336b7a0be959ce7b6f4f80ca83e69d46329aceea04d047c",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-07_리어_도어_글라스_런.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-07_리어_도어_글라스_런.pdf",
       "source_sha256": "00ed502d44ab2b2399def5f789029460fd6bdb987d38e98d134ddbef8d74c2d2",
       "asset": {
         "id": "08-07",
         "title": "리어 도어 글라스 런",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-07_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-07_대표부품.png",
         "source_file": "62-2.pdf",
         "source_page": 3,
         "crop_bbox": [
@@ -250699,7 +250699,7 @@
       },
       "total_pages": 50,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-08_리어_도어_랫치.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-08_리어_도어_랫치.pdf",
       "relative_path": "08_리어_도어/08-08_리어_도어_랫치.pdf",
       "local_reference_events": [
         {
@@ -255232,12 +255232,12 @@
         }
       ],
       "sha256": "d0b922722ce79f961c0e12cbcbc93d8ef1456d816efd2569df76b6233e3058d6",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-08_리어_도어_랫치.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-08_리어_도어_랫치.pdf",
       "source_sha256": "f4d87b8328a3416ce78cb86376cb7cb5bc023b2c32169dcbec1be6a2044d7c92",
       "asset": {
         "id": "08-08",
         "title": "리어 도어 랫치",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-08_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-08_대표부품.png",
         "source_file": "63-2.pdf",
         "source_page": 5,
         "crop_bbox": [
@@ -265761,7 +265761,7 @@
       },
       "total_pages": 12,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-09_리어_도어_커튼_어셈블리.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-09_리어_도어_커튼_어셈블리.pdf",
       "relative_path": "08_리어_도어/08-09_리어_도어_커튼_어셈블리.pdf",
       "local_reference_events": [
         {
@@ -266480,12 +266480,12 @@
         }
       ],
       "sha256": "4f4b079cf91d9ff2cb40f3db9d7030d1e2a3732cac406f21e67b7f035e45e5ce",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-09_리어_도어_커튼_어셈블리.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-09_리어_도어_커튼_어셈블리.pdf",
       "source_sha256": "7995abf6a3e1c4d2820181f42217269e80217783d3d4a34dbb4138c02ff0fe82",
       "asset": {
         "id": "08-09",
         "title": "리어 도어 커튼 어셈블리",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-09_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-09_대표부품.png",
         "source_file": "64-2.pdf",
         "source_page": 2,
         "crop_bbox": [
@@ -269248,7 +269248,7 @@
       },
       "total_pages": 16,
       "end_blank": false,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-10_리어_도어_파워_윈도우_모터.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-10_리어_도어_파워_윈도우_모터.pdf",
       "relative_path": "08_리어_도어/08-10_리어_도어_파워_윈도우_모터.pdf",
       "local_reference_events": [
         {
@@ -270107,12 +270107,12 @@
         }
       ],
       "sha256": "b5502dac46db0b0ca7f13945cebf8ec9df89261521d85d014e6c3c22025b9198",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-10_리어_도어_파워_윈도우_모터.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-10_리어_도어_파워_윈도우_모터.pdf",
       "source_sha256": "7dc82913361795d099e66be9c6aa4c3ac1e2511ec11911392661b52705448c23",
       "asset": {
         "id": "08-10",
         "title": "리어 도어 파워 윈도우 모터",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-10_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-10_대표부품.png",
         "source_file": "65-3.pdf",
         "source_page": 2,
         "crop_bbox": [
@@ -273459,7 +273459,7 @@
       },
       "total_pages": 16,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-11_리어_도어_파워_윈도우_스위치.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-11_리어_도어_파워_윈도우_스위치.pdf",
       "relative_path": "08_리어_도어/08-11_리어_도어_파워_윈도우_스위치.pdf",
       "local_reference_events": [
         {
@@ -274283,12 +274283,12 @@
         }
       ],
       "sha256": "053ab38084e739ac6b0a7d2bc9e870191a7f4acd0da53124e56a38db0e4e9045",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-11_리어_도어_파워_윈도우_스위치.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-11_리어_도어_파워_윈도우_스위치.pdf",
       "source_sha256": "79289740ad68b766d09adb799f73b6eb7b30dc01477cf8323ab018cded72bf36",
       "asset": {
         "id": "08-11",
         "title": "리어 도어 파워 윈도우 스위치",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-11_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-11_대표부품.png",
         "source_file": "66-3.pdf",
         "source_page": 1,
         "crop_bbox": [
@@ -278431,7 +278431,7 @@
       },
       "total_pages": 32,
       "end_blank": true,
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어\\08-12_리어_도어_가니쉬.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어/08-12_리어_도어_가니쉬.pdf",
       "relative_path": "08_리어_도어/08-12_리어_도어_가니쉬.pdf",
       "local_reference_events": [
         {
@@ -281009,12 +281009,12 @@
         }
       ],
       "sha256": "997cff664ec299dddfb9b727734219dac6e5aa087f168f14c5486ca3c56f9191",
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어\\08-12_리어_도어_가니쉬.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어/08-12_리어_도어_가니쉬.pdf",
       "source_sha256": "8a9c9717d35d2272eab68c0ea7cb7cc2e9651f3f2bd8316d77a2853ce62e3b6a",
       "asset": {
         "id": "08-12",
         "title": "리어 도어 가니쉬",
-        "image_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-12_대표부품.png",
+        "image_path": "work/cover_assets/rear/08-12_대표부품.png",
         "source_file": "67-2.pdf",
         "source_page": 2,
         "crop_bbox": [
@@ -287193,7 +287193,7 @@
   ],
   "indexes": [
     {
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\00_전체_정비항목_파일색인.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/00_전체_정비항목_파일색인.pdf",
       "filename": "00_전체_정비항목_파일색인.pdf",
       "page_count": 50,
       "pages": 50,
@@ -310959,7 +310959,7 @@
       "part": null,
       "title": "전체 정비 항목 종합색인",
       "total_pages": 50,
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\00_전체_정비항목_파일색인.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/00_전체_정비항목_파일색인.pdf",
       "source_sha256": "5129c43c7c998a39e7e6c4a5e63b5073aaa91e66d31fdbf9c718b8d04129db99",
       "binding_pages": [
         {
@@ -331071,7 +331071,7 @@
       ]
     },
     {
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\07_프런트_도어_종합색인.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/07_프런트_도어_종합색인.pdf",
       "filename": "07_프런트_도어_종합색인.pdf",
       "page_count": 18,
       "pages": 18,
@@ -338851,7 +338851,7 @@
       "part": 7,
       "title": "프런트 도어 종합색인",
       "total_pages": 18,
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\07_프런트_도어_종합색인.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/07_프런트_도어_종합색인.pdf",
       "source_sha256": "39d0583b9e23b3276824b92cb1ee575bf0336d62a925dd41c51bdc8af49ab0e6",
       "binding_pages": [
         {
@@ -345689,7 +345689,7 @@
       ]
     },
     {
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_쪽번호정렬본\\08_리어_도어_종합색인.pdf",
+      "path": "outputs/정비매뉴얼_좌측제본_쪽번호정렬본/08_리어_도어_종합색인.pdf",
       "filename": "08_리어_도어_종합색인.pdf",
       "page_count": 18,
       "pages": 18,
@@ -353407,7 +353407,7 @@
       "part": 8,
       "title": "리어 도어 종합색인",
       "total_pages": 18,
-      "source_path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_좌측제본_최종본\\08_리어_도어_종합색인.pdf",
+      "source_path": "outputs/정비매뉴얼_좌측제본_최종본/08_리어_도어_종합색인.pdf",
       "source_sha256": "370827c9bc5dd0d006f6c5ac53d477d4c3a921ff20d0e5a86bf79319eacf5c62",
       "binding_pages": [
         {
@@ -360217,25 +360217,25 @@
   ],
   "bundles": [
     {
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_전체_30책자_좌측제본_쪽번호정렬본.zip",
+      "path": "outputs/정비매뉴얼_전체_30책자_좌측제본_쪽번호정렬본.zip",
       "files": 33,
       "bytes": 63475005,
       "sha256": "11d5ac8bbe8af07ee5bdad61cc9f7f5483e7afa88e9c1616bb705fc505b2e149"
     },
     {
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_프런트_도어_12책자_좌측제본_쪽번호정렬본.zip",
+      "path": "outputs/정비매뉴얼_프런트_도어_12책자_좌측제본_쪽번호정렬본.zip",
       "files": 13,
       "bytes": 20126499,
       "sha256": "8fbb744452b9b87a48969d6dbe225089c67c7c8da897fb46a85ef913790ef69a"
     },
     {
-      "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\outputs\\정비매뉴얼_리어_도어_12책자_좌측제본_쪽번호정렬본.zip",
+      "path": "outputs/정비매뉴얼_리어_도어_12책자_좌측제본_쪽번호정렬본.zip",
       "files": 13,
       "bytes": 18679855,
       "sha256": "73a3b3820c2db8661b2b50f6acaf3660360c5dd1848e4a3a1cbc1b50db077fb4"
     }
   ],
-  "prior_manifest": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\binding_booklets_manifest.json",
+  "prior_manifest": "work/binding_booklets_manifest.json",
   "binding": {
     "spine": "left",
     "turn_direction": "right-to-left",

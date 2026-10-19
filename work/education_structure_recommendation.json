@@ -99,7 +99,7 @@
       "total_pages": 72,
       "intro": "작업 전 안전·차량 식별과 표시를 확인하고, 리프트·견인·기본 정비 기준을 찾는 일반 안내입니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\01_representative.png",
+        "path": "work/cover_assets/other/01_representative.png",
         "caption": "일반 정비 준비의 예시  /  리프트 지지점 안내",
         "source_file": "9.pdf",
         "source_page": 2
@@ -329,7 +329,7 @@
       "total_pages": 48,
       "intro": "바디 정비의 공통 안전사항, 증상별 고장진단, 서비스 정보와 체결토크·특수 공구를 확인하는 안내입니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\02_representative.png",
+        "path": "work/cover_assets/other/02_representative.png",
         "caption": "바디 공통 정비의 공구 예시  /  호그 링 클립 인스톨러",
         "source_file": "22.pdf",
         "source_page": 1
@@ -508,7 +508,7 @@
       "total_pages": 26,
       "intro": "펜더 주변의 부품 위치를 확인하고, 인슐레이터·어셈블리·에이프런 어퍼 커버의 탈거와 장착을 다룹니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\03_representative.png",
+        "path": "work/cover_assets/other/03_representative.png",
         "caption": "펜더 어셈블리·인슐레이터 패드·에이프런 어퍼 커버 위치",
         "source_file": "23.pdf",
         "source_page": 1
@@ -670,7 +670,7 @@
       "total_pages": 32,
       "intro": "후드와 관련 부품의 위치·조정 방법을 확인하고, 어셈블리·패드·리프터·랫치 등의 탈거와 장착을 다룹니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\04_representative.png",
+        "path": "work/cover_assets/other/04_representative.png",
         "caption": "후드 어셈블리·랫치·리프터·웨더 스트립 위치",
         "source_file": "27.pdf",
         "source_page": 1
@@ -929,7 +929,7 @@
       "total_pages": 182,
       "intro": "테일게이트의 작동·진단·조정과 각 부품의 탈거·장착을 다루며, 파워 유닛 점검·조정·코딩을 포함합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\05_representative.png",
+        "path": "work/cover_assets/other/05_representative.png",
         "caption": "테일게이트와 인너 스위치·드라이브 유닛·파워 유닛·랫치 위치",
         "source_file": "35-2.pdf",
         "source_page": 1
@@ -1445,7 +1445,7 @@
       "total_pages": 24,
       "intro": "연료 주입 도어의 부품 위치를 확인하고, 커버·어셈블리와 도어 해제 액추에이터의 탈거·장착을 다룹니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\other\\06_representative.png",
+        "path": "work/cover_assets/other/06_representative.png",
         "caption": "연료 주입 도어 어셈블리와 해제 액추에이터 위치",
         "source_file": "45-1.pdf",
         "source_page": 1
@@ -1595,7 +1595,7 @@
       "total_pages": 12,
       "intro": "프런트 도어의 구성부품과 위치를 확인하고, 글라스·스트라이커·도어의 조정 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-01.png",
+        "path": "work/cover_assets/front/07-01.png",
         "caption": "프런트 도어의 구성부품과 위치를 보여주는 원문 도해",
         "source_file": "46-1.pdf",
         "source_page": 1
@@ -1706,7 +1706,7 @@
       "total_pages": 8,
       "intro": "프런트 도어 트림을 분리하고 다시 장착하며, 클립 교환과 글라스·도어 작동 확인 사항을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-02.png",
+        "path": "work/cover_assets/front/07-02.png",
         "caption": "원문에서 A로 표시한 프런트 도어 트림",
         "source_file": "46-4.pdf",
         "source_page": 1
@@ -1821,7 +1821,7 @@
       "total_pages": 18,
       "intro": "인사이드·아웃사이드 핸들의 탈거와 역순 장착, 조립 상태 및 도어 개폐 확인 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-03.png",
+        "path": "work/cover_assets/front/07-03.png",
         "caption": "아웃사이드 핸들(A) 대표 이미지 · 인사이드 핸들 절차도 수록",
         "source_file": "46-7.pdf",
         "source_page": 5
@@ -1950,7 +1950,7 @@
       "total_pages": 20,
       "intro": "벨트 웨더 스트립 분리부터 윈도우 글라스의 탈거·장착, 작동 확인과 필요 시 조정까지 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-04.png",
+        "path": "work/cover_assets/front/07-04.png",
         "caption": "원문에서 A로 표시한 프런트 도어 윈도우 글라스",
         "source_file": "47-2.pdf",
         "source_page": 2
@@ -2087,7 +2087,7 @@
       "total_pages": 40,
       "intro": "글라스와 핸들 등 선행 부품을 분리하고, 도어 모듈의 탈거·장착 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-05.png",
+        "path": "work/cover_assets/front/07-05.png",
         "caption": "원문에서 A로 표시한 프런트 도어 모듈과 고정부",
         "source_file": "48-2.pdf",
         "source_page": 5
@@ -2267,7 +2267,7 @@
       "total_pages": 18,
       "intro": "벨트 안팎·도어 사이드·바디 사이드 웨더 스트립의 위치별 탈거와 장착 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-06.png",
+        "path": "work/cover_assets/front/07-06.png",
         "caption": "벨트 아웃사이드 웨더 스트립 대표 이미지 · 다른 위치 절차도 수록",
         "source_file": "49-2.pdf",
         "source_page": 1
@@ -2391,7 +2391,7 @@
       "total_pages": 30,
       "intro": "프레임 가니쉬 분리를 참조한 뒤 클립과 볼트를 해제해 글라스 런을 탈거·장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-07.png",
+        "path": "work/cover_assets/front/07-07.png",
         "caption": "원문에서 A로 표시한 프런트 도어 글라스 런",
         "source_file": "50-2.pdf",
         "source_page": 3
@@ -2557,7 +2557,7 @@
       "total_pages": 52,
       "intro": "도어 모듈 분리를 참조한 뒤 연결 로드·배선·고정부를 분리하여 랫치를 탈거·장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-08.png",
+        "path": "work/cover_assets/front/07-08.png",
         "caption": "모듈에서 분리하는 프런트 도어 랫치(A)의 원문 표시",
         "source_file": "51-2.pdf",
         "source_page": 6
@@ -2756,7 +2756,7 @@
       "total_pages": 20,
       "intro": "세이프티 윈도우의 작동원리와 초기화, 기본점검·진단, 모터 탈거와 장착 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-09.png",
+        "path": "work/cover_assets/front/07-09.png",
         "caption": "원문에서 A로 표시한 프런트 도어 파워 윈도우 모터",
         "source_file": "52-4.pdf",
         "source_page": 2
@@ -2897,7 +2897,7 @@
       "total_pages": 16,
       "intro": "파워 윈도우 스위치의 기본점검과 진단, 트림 분리 후 스위치의 탈거·장착 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-10.png",
+        "path": "work/cover_assets/front/07-10.png",
         "caption": "트림 뒷면에서 본 메인 파워 윈도우 스위치(A)",
         "source_file": "53-3.pdf",
         "source_page": 1
@@ -3015,7 +3015,7 @@
       "total_pages": 16,
       "intro": "파워 도어 잠금 스위치의 기본점검과 진단, 트림 분리 후 스위치의 탈거·장착 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-11.png",
+        "path": "work/cover_assets/front/07-11.png",
         "caption": "트림 뒷면에서 본 파워 도어 잠금 스위치(A)",
         "source_file": "54-3.pdf",
         "source_page": 1
@@ -3133,7 +3133,7 @@
       "total_pages": 62,
       "intro": "글라스·글라스 런 분리를 참조하여 프레임 가니쉬와 몰딩을 탈거하고 다시 장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\front\\07-12.png",
+        "path": "work/cover_assets/front/07-12.png",
         "caption": "프런트 도어 프레임 가니쉬(A) 대표 이미지 · 프레임 몰딩 절차도 수록",
         "source_file": "55-2.pdf",
         "source_page": 2
@@ -3425,7 +3425,7 @@
       "total_pages": 12,
       "intro": "리어 도어의 구성과 부품 위치를 확인하고, 글라스·스트라이커·도어 간격을 조정하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-01_대표부품.png",
+        "path": "work/cover_assets/rear/08-01_대표부품.png",
         "caption": "리어 도어와 바디의 간격 확인 위치 / 원문 표시 보존",
         "source_file": "56-2.pdf",
         "source_page": 3
@@ -3518,7 +3518,7 @@
       "total_pages": 8,
       "intro": "리어 도어 트림과 연결부의 탈거·장착, 글라스 작동과 도어 개폐 확인 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-02_대표부품.png",
+        "path": "work/cover_assets/rear/08-02_대표부품.png",
         "caption": "청색 표시: 리어 도어 트림 / 원문 A 표기와 체결 위치 보존",
         "source_file": "57-2.pdf",
         "source_page": 2
@@ -3605,7 +3605,7 @@
       "total_pages": 20,
       "intro": "인사이드·아웃사이드 핸들을 각각 탈거하고, 다시 장착하여 도어 개폐를 확인하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-03_대표부품.png",
+        "path": "work/cover_assets/rear/08-03_대표부품.png",
         "caption": "청색 표시: 리어 도어 아웃사이드 핸들(대표 도해)",
         "source_file": "58-2.pdf",
         "source_page": 4
@@ -3733,7 +3733,7 @@
       "total_pages": 22,
       "intro": "선행 부품을 분리한 뒤 윈도우 글라스를 탈거·장착하고, 정상 작동을 확인하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-04_대표부품.png",
+        "path": "work/cover_assets/rear/08-04_대표부품.png",
         "caption": "청색 표시: 리어 도어 윈도우 글라스 / 원문 A·방향 표기 보존",
         "source_file": "59-2.pdf",
         "source_page": 4
@@ -3861,7 +3861,7 @@
       "total_pages": 40,
       "intro": "윈도우 글라스와 핸들 등의 선행 절차를 거쳐 리어 도어 모듈과 연결부를 탈거·장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-05_대표부품.png",
+        "path": "work/cover_assets/rear/08-05_대표부품.png",
         "caption": "청색 표시: 리어 도어 모듈 / 원문 A·체결 위치 표기 보존",
         "source_file": "60-2.pdf",
         "source_page": 3
@@ -4017,7 +4017,7 @@
       "total_pages": 18,
       "intro": "벨트 안팎과 도어·바디 사이드의 웨더 스트립을 위치별로 구분하여 탈거·장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-06_대표부품.png",
+        "path": "work/cover_assets/rear/08-06_대표부품.png",
         "caption": "청색 표시: 리어 도어 사이드 웨더 스트립(대표 도해)",
         "source_file": "61-2.pdf",
         "source_page": 2
@@ -4127,7 +4127,7 @@
       "total_pages": 64,
       "intro": "윈도우 글라스와 가니쉬 등의 참조 절차를 거친 뒤 글라스 런을 탈거하고 다시 장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-07_대표부품.png",
+        "path": "work/cover_assets/rear/08-07_대표부품.png",
         "caption": "리어 도어 글라스 런의 형상을 보여주는 원문 도해",
         "source_file": "62-2.pdf",
         "source_page": 3
@@ -4355,7 +4355,7 @@
       "total_pages": 50,
       "intro": "도어 모듈의 참조 절차를 거쳐 연결 로드·커넥터·후크를 분리하고, 랫치를 탈거·장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-08_대표부품.png",
+        "path": "work/cover_assets/rear/08-08_대표부품.png",
         "caption": "리어 도어 랫치와 연결 케이블을 보여주는 원문 도해",
         "source_file": "63-2.pdf",
         "source_page": 5
@@ -4529,7 +4529,7 @@
       "total_pages": 12,
       "intro": "리어 도어 트림의 참조 절차를 거쳐 커튼 어셈블리의 고정 스크류를 풀고 탈거·장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-09_대표부품.png",
+        "path": "work/cover_assets/rear/08-09_대표부품.png",
         "caption": "리어 도어 커튼 어셈블리 / 원문 A 표기 보존",
         "source_file": "64-2.pdf",
         "source_page": 2
@@ -4626,7 +4626,7 @@
       "total_pages": 16,
       "intro": "파워 윈도우 모터의 기본·진단기 점검과 트림 참조 절차 후 모터를 탈거·장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-10_대표부품.png",
+        "path": "work/cover_assets/rear/08-10_대표부품.png",
         "caption": "청색 표시: 리어 도어 파워 윈도우 모터 / 원문 A 표기 보존",
         "source_file": "65-3.pdf",
         "source_page": 2
@@ -4736,7 +4736,7 @@
       "total_pages": 16,
       "intro": "파워 윈도우 스위치의 기본·진단기 점검과 트림 참조 후 스위치를 탈거·장착하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-11_대표부품.png",
+        "path": "work/cover_assets/rear/08-11_대표부품.png",
         "caption": "청색 표시: 리어 도어 파워 윈도우 스위치 / 원문 A·후크 방향 보존",
         "source_file": "66-3.pdf",
         "source_page": 1
@@ -4846,7 +4846,7 @@
       "total_pages": 32,
       "intro": "프레임 가니쉬와 몰딩을 구분하여 탈거·장착하고, 손상 시 교환 사항을 확인하는 과정을 소개합니다.",
       "image": {
-        "path": "C:\\Users\\corle\\OneDrive\\文档\\ChatGPT\\싼타페mx5 정비메뉴얼\\work\\cover_assets\\rear\\08-12_대표부품.png",
+        "path": "work/cover_assets/rear/08-12_대표부품.png",
         "caption": "청색 표시: 리어 도어 프레임 가니쉬(대표 도해)",
         "source_file": "67-2.pdf",
         "source_page": 2
