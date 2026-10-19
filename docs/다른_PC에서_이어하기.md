@@ -6,7 +6,7 @@
 
 1. Windows에 Git, VS Code, Python 3.12를 설치한다. 맑은 고딕 일반·굵은 글꼴이 있어야 PDF 제작 환경 검사가 통과한다.
 2. GitHub의 `mnservice1004-ui/mx5` 저장소를 새 PC의 **로컬 작업 폴더**에 복제한다. 현재 작업 브랜치는 `master`다. OneDrive 동기화 폴더 안에 Git 작업 폴더를 두면 두 PC의 Git 제어 파일이 충돌할 수 있으므로 별도 로컬 폴더를 권한다.
-3. 같은 GitHub 계정으로 로그인하여 [게시되지 않은 인수인계 릴리스 초안](https://github.com/mnservice1004-ui/mx5/releases/tag/untagged-35c689f6fdc31d7fb9df)에서 `mx5-handoff-state-2026-10-19.zip`을 내려받는다. 초안은 저장소 쓰기 권한이 있는 계정에서 확인할 수 있다. 로컬 인수인계 파일이 OneDrive를 통해 이미 동기화되었다면 그 복사본을 사용해도 된다.
+3. 같은 GitHub 계정으로 로그인하여 [게시되지 않은 인수인계 릴리스 초안](https://github.com/mnservice1004-ui/mx5/releases/tag/untagged-494cbc9cfed9e7802958)에서 `mx5-handoff-state-2026-10-19.zip`을 내려받는다. 초안은 저장소 쓰기 권한이 있는 계정에서 확인할 수 있다. 로컬 인수인계 파일이 OneDrive를 통해 이미 동기화되었다면 그 복사본을 사용해도 된다.
 4. 아래 명령으로 ZIP의 파일별 SHA-256을 검사하고, Git에서 제외한 파일을 복원한다. 복원기는 기존 파일이 다르면 덮어쓰지 않고 멈춘다.
 
 ```powershell
@@ -25,7 +25,7 @@ git status --short --branch
 code .\정비매뉴얼.code-workspace
 ```
 
-예시의 `C:\AIProjects\mx5`는 새 PC에서 원하는 로컬 경로로 바꿀 수 있다. 인수인계 ZIP은 만들 당시의 Git 커밋을 기록하므로, 복제한 저장소의 HEAD가 다른 경우 복원기가 멈춘다. 이 경우 ZIP을 만든 커밋으로 이동하거나, 최신 커밋에서 새 인수인계 ZIP을 만든다. `relocate`는 ZIP 안의 작업본 목록 등 **Git에서 제외된** JSON에 남아 있는 이전 PC의 경로를 새 경로로 바꾼다. Git으로 관리하는 기준 목록은 이미 상대 경로이므로 이 단계 뒤 `git status`가 깨끗해야 한다.
+예시의 `C:\AIProjects\mx5`는 새 PC에서 원하는 로컬 경로로 바꿀 수 있다. 인수인계 ZIP은 만들 당시의 Git 커밋을 기록한다. 복원기는 그 커밋 또는 **안내 문서와 복원기만 바뀐 후속 커밋**에서 작동하며, 제작 코드·근거 데이터가 달라졌다면 새 인수인계 ZIP을 요구한다. `relocate`는 ZIP 안의 작업본 목록 등 **Git에서 제외된** JSON에 남아 있는 이전 PC의 경로를 새 경로로 바꾼다. Git으로 관리하는 기준 목록은 이미 상대 경로이므로 이 단계 뒤 `git status`가 깨끗해야 한다.
 
 `doctor`는 원본과 보존 교육판·기준판의 파일 해시와 제작 환경을 확인한다. `verify --edition draft`는 통합판의 원문·참조·복귀·색인·양면 쪽번호와 압축파일을 검사한다. `verify-service`는 새 준비물·정비 원칙 근거와 표시를 확인한다. 인수인계 ZIP의 기존 `reports/`는 이전 PC에서 수행한 검토 기록이다. 새 PC에서 책자를 변경한 뒤에는 해당 검증과 `tools/project.py render --edition draft`를 다시 실행하고 변경 페이지를 실제 이미지로 확인한다.
 

@@ -121,7 +121,19 @@ def restore(archive, destination):
     destination = destination.resolve()
     assert (destination / '.git').exists(), 'Restore into a Git clone, not an empty folder'
     head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=destination, text=True).strip()
-    assert head == manifest['source_commit'], 'Clone the exact source commit recorded in the bundle'
+    compatible_successor = False
+    if head != manifest['source_commit']:
+        ancestor = subprocess.run(['git', 'merge-base', '--is-ancestor',
+                                   manifest['source_commit'], head], cwd=destination)
+        assert ancestor.returncode == 0, 'Clone the source commit recorded in the bundle'
+        changed = subprocess.check_output(
+            ['git', 'diff', '--name-only', '-z', manifest['source_commit'], head],
+            cwd=destination).decode('utf-8').split('\0')
+        changed = set(filter(None, changed))
+        allowed = {'docs/다른_PC에서_이어하기.md', 'tools/handoff_bundle.py'}
+        assert changed and changed.issubset(allowed), \
+            f'Newer checkout changes project contents; make a new bundle: {sorted(changed-allowed)}'
+        compatible_successor = True
     copied = skipped = 0
     with zipfile.ZipFile(archive) as bundle:
         for row in manifest['files']:
@@ -149,6 +161,7 @@ def restore(archive, destination):
                     temporary.unlink()
             copied += 1
     print(json.dumps({'status': 'passed', 'copied': copied, 'identical_existing': skipped,
+                      'compatible_documentation_update': compatible_successor,
                       'destination': str(destination), 'next': 'python tools/project.py relocate'},
                      ensure_ascii=False, indent=2))
 
